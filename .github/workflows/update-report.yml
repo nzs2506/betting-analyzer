@@ -41,4 +41,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update betting report"
-          file_pattern: "docs/index.html api_football_leagues_cache.json"
+          file_pattern: "docs/index.html"
