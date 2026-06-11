@@ -1,0 +1,305 @@
+{
+  "generated_at": "2026-06-11T18:53:08.433375",
+  "settings": {
+    "days_ahead": 3,
+    "min_position_diff": 4
+  },
+  "stats": {
+    "leagues_checked": 6,
+    "fixtures_found": 53,
+    "with_odds": 14,
+    "leagues_detail": [
+      [
+        "bra.1",
+        "Бразилия Серия А",
+        "no_matches"
+      ],
+      [
+        "bra.2",
+        "Бразилия Серия Б",
+        "ok"
+      ],
+      [
+        "bra.3",
+        "Бразилия Серия С",
+        "ok"
+      ],
+      [
+        "arg.1",
+        "Аргентина Примера",
+        "no_matches"
+      ],
+      [
+        "arg.2",
+        "Аргентина Насьональ Б",
+        "ok"
+      ],
+      [
+        "chi.1",
+        "Чили Примера",
+        "ok"
+      ],
+      [
+        "col.1",
+        "Колумбия Примера А",
+        "no_matches"
+      ],
+      [
+        "uru.1",
+        "Уругвай Лига",
+        "no_matches"
+      ],
+      [
+        "ecu.1",
+        "Эквадор ЛигаПро",
+        "no_matches"
+      ],
+      [
+        "bol.1",
+        "Боливия Лига",
+        "ok"
+      ],
+      [
+        "par.1",
+        "Парагвай Примера",
+        "no_matches"
+      ],
+      [
+        "per.1",
+        "Перу Лига 1",
+        "no_data"
+      ],
+      [
+        "ven.1",
+        "Венесуэла Примера",
+        "no_matches"
+      ],
+      [
+        "mex.1",
+        "Мексика Лига MX",
+        "no_matches"
+      ],
+      [
+        "mex.2",
+        "Мексика Лига Экспансьон",
+        "no_matches"
+      ],
+      [
+        "usa.1",
+        "США MLS",
+        "no_matches"
+      ],
+      [
+        "usa.2",
+        "США USL Championship",
+        "no_data"
+      ],
+      [
+        "jpn.1",
+        "Япония J-League",
+        "no_matches"
+      ],
+      [
+        "jpn.2",
+        "Япония J2 League",
+        "no_data"
+      ],
+      [
+        "chn.1",
+        "Китай Суперлига",
+        "no_matches"
+      ],
+      [
+        "ind.1",
+        "Индия Суперлига",
+        "no_matches"
+      ],
+      [
+        "idn.1",
+        "Индонезия Суперлига",
+        "no_matches"
+      ],
+      [
+        "tha.1",
+        "Таиланд Лига 1",
+        "no_matches"
+      ],
+      [
+        "mys.1",
+        "Малайзия Суперлига",
+        "no_matches"
+      ],
+      [
+        "aus.1",
+        "Австралия А-Лига",
+        "no_matches"
+      ],
+      [
+        "nga.1",
+        "Нигерия Профлига",
+        "no_matches"
+      ],
+      [
+        "gha.1",
+        "Гана Премьер-лига",
+        "no_matches"
+      ],
+      [
+        "ken.1",
+        "Кения Премьер-лига",
+        "no_matches"
+      ],
+      [
+        "uga.1",
+        "Уганда Премьер-лига",
+        "no_matches"
+      ],
+      [
+        "zam.1",
+        "Замбия Суперлига",
+        "no_matches"
+      ],
+      [
+        "nor.1",
+        "Норвегия Элитесерен",
+        "no_matches"
+      ],
+      [
+        "nor.2",
+        "Норвегия 1-й дивизион",
+        "no_data"
+      ],
+      [
+        "swe.1",
+        "Швеция Алльсвенскан",
+        "no_matches"
+      ],
+      [
+        "swe.2",
+        "Швеция СуперЭттан",
+        "no_data"
+      ],
+      [
+        "den.1",
+        "Дания Суперлига",
+        "no_matches"
+      ],
+      [
+        "den.2",
+        "Дания 1-й дивизион",
+        "no_data"
+      ],
+      [
+        "fin.1",
+        "Финляндия Вейккаусл.",
+        "no_data"
+      ],
+      [
+        "sco.1",
+        "Шотландия Премьершип",
+        "no_matches"
+      ],
+      [
+        "sco.2",
+        "Шотландия Чемпионшип",
+        "no_matches"
+      ],
+      [
+        "irl.1",
+        "Ирландия Лига",
+        "ok"
+      ],
+      [
+        "wal.1",
+        "Уэльс Премьер",
+        "no_matches"
+      ],
+      [
+        "tur.1",
+        "Турция Суперлига",
+        "no_matches"
+      ],
+      [
+        "tur.2",
+        "Турция 1-й лига",
+        "no_data"
+      ],
+      [
+        "gre.1",
+        "Греция Суперлига",
+        "no_matches"
+      ],
+      [
+        "rou.1",
+        "Румыния Лига 1",
+        "no_data"
+      ],
+      [
+        "aut.1",
+        "Австрия Бундеслига",
+        "no_matches"
+      ],
+      [
+        "bel.1",
+        "Бельгия Про Лига",
+        "no_matches"
+      ],
+      [
+        "api-football",
+        "Morocco: Botola 2",
+        "no_data"
+      ],
+      [
+        "api-football",
+        "Estonia: U19",
+        "no_data"
+      ]
+    ]
+  },
+  "results": [
+    {
+      "league": "Бразилия Серия Б",
+      "match": {
+        "home": "Cuiabá",
+        "away": "Vila Nova",
+        "home_pos": 14,
+        "away_pos": 1,
+        "home_pts": 16,
+        "away_pts": 25,
+        "home_form": "WWLDD",
+        "away_form": "WWWWL",
+        "home_odds": 2.25,
+        "draw_odds": 2.95,
+        "away_odds": 3.4,
+        "bookmaker": "Unibet (SE)",
+        "time": "2026-06-14T20:00Z",
+        "value_team": "Vila Nova",
+        "value_odds": 3.4,
+        "value_pos": 1,
+        "pos_diff": 13
+      }
+    },
+    {
+      "league": "Бразилия Серия Б",
+      "match": {
+        "home": "Botafogo-SP",
+        "away": "Operário PR",
+        "home_pos": 16,
+        "away_pos": 8,
+        "home_pts": 10,
+        "away_pts": 19,
+        "home_form": "LDLLL",
+        "away_form": "WWDLL",
+        "home_odds": 2.18,
+        "draw_odds": 2.8,
+        "away_odds": 3.85,
+        "bookmaker": "Unibet (SE)",
+        "time": "2026-06-14T22:00Z",
+        "value_team": "Operário PR",
+        "value_odds": 3.85,
+        "value_pos": 8,
+        "pos_diff": 8
+      }
+    }
+  ]
+}
