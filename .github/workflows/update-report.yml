@@ -42,3 +42,10 @@ jobs:
         with:
           commit_message: "Update betting report"
           file_pattern: "docs/index.html docs/results.json"
+
+      - name: Send Telegram notification
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          RESULTS_JSON: docs/results.json
+        run: python -X utf8 telegram_notify.py
