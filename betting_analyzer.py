@@ -843,6 +843,19 @@ def run():
         f.write(html)
     print(f"\n  Latest: {latest_html}")
 
+    latest_json = os.path.join(RESULTS_DIR, "results.json")
+    with open(latest_json, "w", encoding="utf-8") as f:
+        json.dump({
+            "generated_at": now.isoformat(),
+            "settings": {
+                "days_ahead": DAYS_AHEAD,
+                "min_position_diff": MIN_POSITION_DIFF,
+            },
+            "stats": stats,
+            "results": [{"league": l, "match": m} for l, m in results],
+        }, f, ensure_ascii=False, indent=2)
+    print(f"  Latest JSON: {latest_json}")
+
     if WRITE_ARCHIVE:
         json_fname = os.path.join(RESULTS_DIR, f"results_{stamp}.json")
         with open(json_fname, "w", encoding="utf-8") as f:
