@@ -1,0 +1,54 @@
+{
+  "chats": {
+    "336212243": {
+      "initialized": true,
+      "sent_signals": [
+        "espn:401873963",
+        "espn:401873976"
+      ],
+      "sent_results": {
+        "espn:401873963": "pending||",
+        "espn:401873976": "pending||"
+      },
+      "last_seen_report": "2026-06-12T10:07:04.262484"
+    },
+    "1339552963": {
+      "initialized": true,
+      "sent_signals": [
+        "espn:401873963",
+        "espn:401873976"
+      ],
+      "sent_results": {
+        "espn:401873963": "pending||",
+        "espn:401873976": "pending||"
+      },
+      "last_seen_report": "2026-06-12T10:07:04.262484"
+    },
+    "639946934": {
+      "initialized": true,
+      "sent_signals": [
+        "espn:401873963",
+        "espn:401873976"
+      ],
+      "sent_results": {
+        "espn:401873963": "pending||",
+        "espn:401873976": "pending||"
+      },
+      "last_seen_report": "2026-06-12T10:07:04.262484",
+      "send_error": "403"
+    },
+    "351131518": {
+      "initialized": true,
+      "sent_signals": [
+        "espn:401873963",
+        "espn:401873976"
+      ],
+      "sent_results": {
+        "espn:401873963": "pending||",
+        "espn:401873976": "pending||"
+      },
+      "last_seen_report": "2026-06-12T10:07:04.262484"
+    }
+  },
+  "last_report": "2026-06-12T10:07:04.262484"
+}
