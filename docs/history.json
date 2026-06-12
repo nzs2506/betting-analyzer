@@ -4,7 +4,7 @@
       "id": "espn:401873963",
       "league": "Бразилия Серия Б",
       "first_seen": "2026-06-12T10:56:57.182642",
-      "last_seen": "2026-06-12T08:00:33.422631",
+      "last_seen": "2026-06-12T09:57:54.228945",
       "match": {
         "source": "espn",
         "event_id": "401873963",
@@ -20,14 +20,14 @@
         "away_pts": 25,
         "home_form": "WWLDD",
         "away_form": "WWWWL",
-        "home_odds": 2.25,
-        "draw_odds": 3.0,
-        "away_odds": 3.4,
+        "home_odds": 2.28,
+        "draw_odds": 2.95,
+        "away_odds": 3.35,
         "bookmaker": "Unibet (SE)",
         "time": "2026-06-14T20:00Z",
         "value_team": "Vila Nova",
         "value_side": "away",
-        "value_odds": 3.4,
+        "value_odds": 3.35,
         "value_pos": 1,
         "pos_diff": 13,
         "settlement": {
@@ -41,7 +41,7 @@
       "id": "espn:401873976",
       "league": "Бразилия Серия Б",
       "first_seen": "2026-06-12T10:56:57.182642",
-      "last_seen": "2026-06-12T08:00:33.422631",
+      "last_seen": "2026-06-12T09:57:54.228945",
       "match": {
         "source": "espn",
         "event_id": "401873976",
@@ -75,5 +75,5 @@
       }
     }
   ],
-  "generated_at": "2026-06-12T08:00:33.422631"
+  "generated_at": "2026-06-12T09:57:54.228945"
 }
