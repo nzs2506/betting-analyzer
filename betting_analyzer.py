@@ -22,7 +22,7 @@ API_FOOTBALL_KEY = os.getenv("API_FOOTBALL_KEY", "")
 
 # ─── НАСТРОЙКИ ────────────────────────────────────────────────────────────────
 MIN_POSITION_DIFF = 4
-DAYS_AHEAD        = 3   # смотрим на 3 дня вперёд (можно увеличить до 7)
+DAYS_AHEAD        = 2   # 48 часов: сегодня + два календарных дня
 
 ESPN_HDR  = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
 ESPN_S    = "https://site.api.espn.com/apis/site/v2/sports/soccer"
@@ -32,6 +32,7 @@ API_FOOTBALL_BASE = "https://v3.football.api-sports.io"
 API_FOOTBALL_CACHE = "api_football_leagues_cache.json"
 RESULTS_DIR = os.getenv("RESULTS_DIR", ".")
 WRITE_ARCHIVE = os.getenv("WRITE_ARCHIVE", "0") == "1"
+HISTORY_FILE = os.getenv("HISTORY_FILE", os.path.join(RESULTS_DIR, "history.json"))
 
 # ─── ЛИГИ: (espn_slug, название, odds_sport_key или None) ─────────────────────
 # Фокус: низшие дивизионы + экзотика (Африка, Азия, Ю.Америка, Скандинавия)
@@ -152,6 +153,9 @@ def get_fixtures(slug):
             if not home or not away:
                 continue
             matches.append({
+                "source":    "espn",
+                "event_id":  eid,
+                "league_slug": slug,
                 "home_id":   home["team"]["id"],
                 "away_id":   away["team"]["id"],
                 "home_name": home["team"]["displayName"],
@@ -290,6 +294,9 @@ def get_api_football_fixtures(league_id, season):
         home = teams.get("home", {})
         away = teams.get("away", {})
         matches.append({
+            "source": "api_football",
+            "league_id": league_id,
+            "season": season,
             "fixture_id": item.get("fixture", {}).get("id"),
             "home_id": str(home.get("id")),
             "away_id": str(away.get("id")),
@@ -411,6 +418,12 @@ def analyze(fix, hs, aws, odds):
         vt, vo, vp = fix["away_name"], ao, aws["pos"]
 
     return {
+        "source":      fix.get("source", "espn"),
+        "event_id":    fix.get("event_id"),
+        "fixture_id":  fix.get("fixture_id"),
+        "league_slug": fix.get("league_slug"),
+        "league_id":   fix.get("league_id"),
+        "season":      fix.get("season"),
         "home":       fix["home_name"],
         "away":       fix["away_name"],
         "home_pos":   hs["pos"],
@@ -425,10 +438,170 @@ def analyze(fix, hs, aws, odds):
         "bookmaker":  odds["bm"],
         "time":       fix["date"],
         "value_team": vt,
+        "value_side": table_fav,
         "value_odds": vo,
         "value_pos":  vp,
         "pos_diff":   diff,
+        "settlement": {"status": "pending", "icon": "⚪", "label": "матч не завершен"},
     }
+
+
+def signal_id(league, match):
+    source = match.get("source", "espn")
+    external_id = match.get("fixture_id") or match.get("event_id")
+    if external_id:
+        return f"{source}:{external_id}"
+    return "|".join([
+        source,
+        league,
+        match.get("time", ""),
+        _norm_name(match.get("home", "")),
+        _norm_name(match.get("away", "")),
+    ])
+
+
+def load_history():
+    try:
+        with open(HISTORY_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        if isinstance(data, dict) and isinstance(data.get("signals"), list):
+            return data
+    except Exception:
+        pass
+    return {"signals": []}
+
+
+def save_history(history):
+    os.makedirs(os.path.dirname(HISTORY_FILE) or ".", exist_ok=True)
+    with open(HISTORY_FILE, "w", encoding="utf-8") as f:
+        json.dump(history, f, ensure_ascii=False, indent=2)
+
+
+def settle_from_score(match, home_score, away_score, status="completed"):
+    value_side = match.get("value_side")
+    value_won = (
+        (value_side == "home" and home_score > away_score) or
+        (value_side == "away" and away_score > home_score)
+    )
+    return {
+        "status": status,
+        "home_score": home_score,
+        "away_score": away_score,
+        "score": f"{home_score}:{away_score}",
+        "outcome": "win" if value_won else "lose",
+        "icon": "🟢" if value_won else "🔴",
+        "label": "прогноз сработал" if value_won else "прогноз не сработал",
+        "roi": round(float(match.get("value_odds") or 0) - 1, 2) if value_won else -1,
+    }
+
+
+def get_espn_result(match):
+    slug = match.get("league_slug")
+    event_id = str(match.get("event_id") or "")
+    if not slug or not match.get("time"):
+        return None
+    try:
+        dt = datetime.fromisoformat(match["time"].replace("Z", "+00:00"))
+    except Exception:
+        return None
+
+    for offset in (-1, 0, 1):
+        date_key = (dt + timedelta(days=offset)).strftime("%Y%m%d")
+        r = requests.get(f"{ESPN_S}/{slug}/scoreboard?dates={date_key}", headers=ESPN_HDR, timeout=10)
+        if r.status_code != 200:
+            continue
+        for event in r.json().get("events", []):
+            teams_match = False
+            if event_id and str(event.get("id")) == event_id:
+                teams_match = True
+            comp = (event.get("competitions") or [{}])[0]
+            competitors = comp.get("competitors", [])
+            home = next((c for c in competitors if c.get("homeAway") == "home"), None)
+            away = next((c for c in competitors if c.get("homeAway") == "away"), None)
+            if home and away:
+                home_name = home.get("team", {}).get("displayName", "")
+                away_name = away.get("team", {}).get("displayName", "")
+                teams_match = teams_match or (
+                    _name_score(match.get("home", ""), home_name) >= 85 and
+                    _name_score(match.get("away", ""), away_name) >= 85
+                )
+            if not teams_match:
+                continue
+            status_type = comp.get("status", {}).get("type", {})
+            if not status_type.get("completed"):
+                return {"status": "pending", "icon": "⚪", "label": "матч не завершен"}
+            try:
+                return settle_from_score(match, int(home.get("score")), int(away.get("score")))
+            except Exception:
+                return None
+    return None
+
+
+def get_api_football_result(match):
+    fixture_id = match.get("fixture_id")
+    if not fixture_id or not API_FOOTBALL_KEY:
+        return None
+    data = api_football_get("fixtures", {"id": fixture_id})
+    response = data.get("response", []) if data else []
+    if not response:
+        return None
+    item = response[0]
+    status = item.get("fixture", {}).get("status", {}).get("short")
+    if status not in {"FT", "AET", "PEN"}:
+        return {"status": "pending", "icon": "⚪", "label": "матч не завершен"}
+    goals = item.get("goals", {})
+    if goals.get("home") is None or goals.get("away") is None:
+        return None
+    return settle_from_score(match, int(goals["home"]), int(goals["away"]))
+
+
+def refresh_settlement(match):
+    if match.get("source") == "api_football":
+        return get_api_football_result(match)
+    return get_espn_result(match)
+
+
+def update_history(results, generated_at):
+    history = load_history()
+    by_id = {item.get("id"): item for item in history.get("signals", []) if item.get("id")}
+
+    for league, match in results:
+        sid = signal_id(league, match)
+        existing = by_id.get(sid, {})
+        record = {
+            **existing,
+            "id": sid,
+            "league": league,
+            "first_seen": existing.get("first_seen") or generated_at.isoformat(),
+            "last_seen": generated_at.isoformat(),
+            "match": {**match, "settlement": existing.get("match", {}).get("settlement", match.get("settlement"))},
+        }
+        by_id[sid] = record
+
+    for record in by_id.values():
+        match = record.get("match", {})
+        settlement = match.get("settlement", {})
+        if settlement.get("status") == "completed":
+            continue
+        updated = refresh_settlement(match)
+        if updated:
+            match["settlement"] = updated
+
+    history["generated_at"] = generated_at.isoformat()
+    history["signals"] = sorted(by_id.values(), key=lambda item: item.get("first_seen", ""), reverse=True)
+    save_history(history)
+
+    settlements = {
+        item["id"]: item.get("match", {}).get("settlement")
+        for item in history["signals"]
+        if item.get("id")
+    }
+    enriched = []
+    for league, match in results:
+        sid = signal_id(league, match)
+        match = {**match, "signal_id": sid, "settlement": settlements.get(sid, match.get("settlement"))}
+        enriched.append((league, match))
+    return history, enriched
 
 
 # ─── КОНСОЛЬНЫЙ ВЫВОД ─────────────────────────────────────────────────────────
@@ -815,12 +988,13 @@ def run():
 
     # 4. Результат
     results.sort(key=lambda x: x[1]["pos_diff"], reverse=True)
+    now = datetime.now()
+    history, results = update_history(results, now)
 
     print(f"\n\n  Найдено аномалий: {len(results)}")
     for lg, m in results:
         print_match(m, lg)
 
-    now   = datetime.now()
     stamp = now.strftime("%Y%m%d_%H%M")
 
     stats = {
@@ -853,8 +1027,10 @@ def run():
             },
             "stats": stats,
             "results": [{"league": l, "match": m} for l, m in results],
+            "history_count": len(history.get("signals", [])),
         }, f, ensure_ascii=False, indent=2)
     print(f"  Latest JSON: {latest_json}")
+    print(f"  History: {HISTORY_FILE}")
 
     if WRITE_ARCHIVE:
         json_fname = os.path.join(RESULTS_DIR, f"results_{stamp}.json")

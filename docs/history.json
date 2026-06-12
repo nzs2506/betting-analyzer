@@ -1,0 +1,79 @@
+{
+  "signals": [
+    {
+      "id": "espn:401873963",
+      "league": "Бразилия Серия Б",
+      "first_seen": "2026-06-12T10:56:57.182642",
+      "last_seen": "2026-06-12T10:59:16.566991",
+      "match": {
+        "source": "espn",
+        "event_id": "401873963",
+        "fixture_id": null,
+        "league_slug": "bra.2",
+        "league_id": null,
+        "season": null,
+        "home": "Cuiabá",
+        "away": "Vila Nova",
+        "home_pos": 14,
+        "away_pos": 1,
+        "home_pts": 16,
+        "away_pts": 25,
+        "home_form": "WWLDD",
+        "away_form": "WWWWL",
+        "home_odds": 2.25,
+        "draw_odds": 3.0,
+        "away_odds": 3.4,
+        "bookmaker": "Unibet (SE)",
+        "time": "2026-06-14T20:00Z",
+        "value_team": "Vila Nova",
+        "value_side": "away",
+        "value_odds": 3.4,
+        "value_pos": 1,
+        "pos_diff": 13,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
+      "id": "espn:401873976",
+      "league": "Бразилия Серия Б",
+      "first_seen": "2026-06-12T10:56:57.182642",
+      "last_seen": "2026-06-12T10:59:16.566991",
+      "match": {
+        "source": "espn",
+        "event_id": "401873976",
+        "fixture_id": null,
+        "league_slug": "bra.2",
+        "league_id": null,
+        "season": null,
+        "home": "Botafogo-SP",
+        "away": "Operário PR",
+        "home_pos": 16,
+        "away_pos": 8,
+        "home_pts": 10,
+        "away_pts": 19,
+        "home_form": "LDLLL",
+        "away_form": "WWDLL",
+        "home_odds": 2.18,
+        "draw_odds": 2.8,
+        "away_odds": 3.85,
+        "bookmaker": "Unibet (SE)",
+        "time": "2026-06-14T22:00Z",
+        "value_team": "Operário PR",
+        "value_side": "away",
+        "value_odds": 3.85,
+        "value_pos": 8,
+        "pos_diff": 8,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    }
+  ],
+  "generated_at": "2026-06-12T10:59:16.566991"
+}

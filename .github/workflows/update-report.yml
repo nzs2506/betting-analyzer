@@ -3,7 +3,7 @@ name: Update Betting Report
 on:
   workflow_dispatch:
   schedule:
-    - cron: "7 * * * *"
+    - cron: "0 6,17 * * *"
 
 permissions:
   contents: write
@@ -34,6 +34,7 @@ jobs:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
           RESULTS_DIR: docs
+          HISTORY_FILE: docs/history.json
           WRITE_ARCHIVE: "0"
         run: python -X utf8 betting_analyzer.py
 
@@ -41,7 +42,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update betting report"
-          file_pattern: "docs/index.html docs/results.json"
+          file_pattern: "docs/index.html docs/results.json docs/history.json"
 
       - name: Send Telegram notification
         env:

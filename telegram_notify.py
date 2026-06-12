@@ -11,6 +11,36 @@ BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
 MAX_RECIPIENTS = 4
 
 
+def split_chat_ids(raw):
+    return [chat_id for chat_id in re.split(r"[\s,;]+", raw.strip()) if chat_id]
+
+
+def get_update_chat_ids():
+    if not BOT_TOKEN:
+        return []
+    try:
+        response = requests.get(
+            f"https://api.telegram.org/bot{BOT_TOKEN}/getUpdates",
+            params={"offset": -20},
+            timeout=20,
+        )
+        response.raise_for_status()
+        updates = response.json().get("result", [])
+    except Exception as exc:
+        print(f"Could not read Telegram updates: {exc}")
+        return []
+
+    chat_ids = []
+    for update in updates:
+        message = update.get("message") or update.get("edited_message") or {}
+        chat = message.get("chat") or {}
+        text = message.get("text") or ""
+        chat_id = chat.get("id")
+        if chat_id and text.startswith("/start"):
+            chat_ids.append(str(chat_id))
+    return chat_ids
+
+
 def get_chat_ids():
     raw_values = [
         os.getenv("TELEGRAM_CHAT_IDS", ""),
@@ -23,16 +53,20 @@ def get_chat_ids():
     chat_ids = []
     seen = set()
     for raw in raw_values:
-        for chat_id in re.split(r"[\s,;]+", raw.strip()):
-            if chat_id and chat_id not in seen:
+        for chat_id in split_chat_ids(raw):
+            if chat_id not in seen:
                 chat_ids.append(chat_id)
                 seen.add(chat_id)
-            if len(chat_ids) >= MAX_RECIPIENTS:
-                return chat_ids
-    return chat_ids
+
+    for chat_id in get_update_chat_ids():
+        if chat_id not in seen:
+            chat_ids.append(chat_id)
+            seen.add(chat_id)
+
+    return chat_ids[:MAX_RECIPIENTS]
 
 
-def fmt_match(item):
+def fmt_anomaly(item):
     league = item["league"]
     match = item["match"]
     return (
@@ -43,6 +77,24 @@ def fmt_match(item):
         f"<b>{match['value_team']}</b> выше в таблице, но кэф {match['value_odds']}\n"
         f"Время: {match['time']}"
     )
+
+
+def fmt_result(item):
+    match = item["match"]
+    settlement = match.get("settlement") or {}
+    icon = settlement.get("icon", "⚪")
+    label = settlement.get("label", "матч не завершен")
+    score = settlement.get("score")
+    roi = settlement.get("roi")
+
+    lines = [f"{icon} <b>Результат:</b> {label}"]
+    if score:
+        lines.append(f"Счет: {match['home']} {score} {match['away']}")
+    else:
+        lines.append("Счет: пока нет")
+    if roi is not None:
+        lines.append(f"ROI по сигналу: {roi:+}")
+    return "\n".join(lines)
 
 
 def send_message(chat_id, text):
@@ -64,25 +116,20 @@ def build_messages(data):
     results = data.get("results", [])
     if not results:
         return [
-            f"Betting Analyzer: аномалий нет.\n"
-            f"Обновлено: {data.get('generated_at', '-')}"
+            (
+                f"Betting Analyzer: аномалий нет.\n"
+                f"Обновлено: {data.get('generated_at', '-')}"
+            )
         ]
 
-    header = (
+    messages = [
         f"Betting Analyzer: найдено {len(results)} аномалий\n"
-        f"Обновлено: {data.get('generated_at', '-')}\n\n"
-    )
-    chunks = []
-    current = header
+        f"Обновлено: {data.get('generated_at', '-')}"
+    ]
     for item in results:
-        block = fmt_match(item) + "\n\n"
-        if len(current) + len(block) > 3500:
-            chunks.append(current.strip())
-            current = ""
-        current += block
-    if current.strip():
-        chunks.append(current.strip())
-    return chunks
+        messages.append(fmt_anomaly(item))
+        messages.append(fmt_result(item))
+    return messages
 
 
 def main():

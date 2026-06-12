@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-12T07:01:50.576667",
+  "generated_at": "2026-06-12T10:59:16.566991",
   "settings": {
-    "days_ahead": 3,
+    "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
     "leagues_checked": 6,
-    "fixtures_found": 58,
-    "with_odds": 16,
+    "fixtures_found": 53,
+    "with_odds": 14,
     "leagues_detail": [
       [
         "bra.1",
@@ -260,6 +260,12 @@
     {
       "league": "Бразилия Серия Б",
       "match": {
+        "source": "espn",
+        "event_id": "401873963",
+        "fixture_id": null,
+        "league_slug": "bra.2",
+        "league_id": null,
+        "season": null,
         "home": "Cuiabá",
         "away": "Vila Nova",
         "home_pos": 14,
@@ -274,14 +280,27 @@
         "bookmaker": "Unibet (SE)",
         "time": "2026-06-14T20:00Z",
         "value_team": "Vila Nova",
+        "value_side": "away",
         "value_odds": 3.4,
         "value_pos": 1,
-        "pos_diff": 13
+        "pos_diff": 13,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401873963"
       }
     },
     {
       "league": "Бразилия Серия Б",
       "match": {
+        "source": "espn",
+        "event_id": "401873976",
+        "fixture_id": null,
+        "league_slug": "bra.2",
+        "league_id": null,
+        "season": null,
         "home": "Botafogo-SP",
         "away": "Operário PR",
         "home_pos": 16,
@@ -296,10 +315,18 @@
         "bookmaker": "Unibet (SE)",
         "time": "2026-06-14T22:00Z",
         "value_team": "Operário PR",
+        "value_side": "away",
         "value_odds": 3.85,
         "value_pos": 8,
-        "pos_diff": 8
+        "pos_diff": 8,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401873976"
       }
     }
-  ]
+  ],
+  "history_count": 2
 }
