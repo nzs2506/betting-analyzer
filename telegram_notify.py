@@ -162,7 +162,7 @@ def build_messages_for_chat(data, chat_state):
         chat_state["last_empty_report"] = data.get("generated_at")
         return build_messages(data)
 
-    is_new_chat = not chat_state.get("initialized")
+    is_new_chat = not chat_state.get("initialized") or bool(chat_state.get("send_error"))
     sent_signals = set(chat_state.get("sent_signals", []))
     sent_results = chat_state.get("sent_results", {})
 
@@ -227,6 +227,7 @@ def main():
                     break
                 raise
         if sent_count:
+            chat_state.pop("send_error", None)
             print(f"Sent {sent_count} Telegram messages to chat_id={chat_id}")
 
     state["last_report"] = data.get("generated_at")
