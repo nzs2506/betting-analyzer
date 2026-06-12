@@ -7,6 +7,7 @@ import requests
 
 
 RESULTS_JSON = Path(os.getenv("RESULTS_JSON", "docs/results.json"))
+TELEGRAM_STATE_JSON = Path(os.getenv("TELEGRAM_STATE_JSON", "docs/telegram_state.json"))
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
 MAX_RECIPIENTS = 4
 
@@ -112,6 +113,18 @@ def send_message(chat_id, text):
     response.raise_for_status()
 
 
+def load_state():
+    try:
+        return json.loads(TELEGRAM_STATE_JSON.read_text(encoding="utf-8"))
+    except Exception:
+        return {"chats": {}}
+
+
+def save_state(state):
+    TELEGRAM_STATE_JSON.parent.mkdir(parents=True, exist_ok=True)
+    TELEGRAM_STATE_JSON.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
 def build_messages(data):
     results = data.get("results", [])
     if not results:
@@ -132,6 +145,59 @@ def build_messages(data):
     return messages
 
 
+def result_key(item):
+    settlement = item["match"].get("settlement") or {}
+    return "|".join([
+        settlement.get("status") or "pending",
+        settlement.get("outcome") or "",
+        settlement.get("score") or "",
+    ])
+
+
+def build_messages_for_chat(data, chat_state):
+    results = data.get("results", [])
+    if not results:
+        if chat_state.get("last_empty_report") == data.get("generated_at"):
+            return []
+        chat_state["last_empty_report"] = data.get("generated_at")
+        return build_messages(data)
+
+    is_new_chat = not chat_state.get("initialized")
+    sent_signals = set(chat_state.get("sent_signals", []))
+    sent_results = chat_state.get("sent_results", {})
+
+    messages = []
+    if is_new_chat:
+        messages.append(
+            "Подключил тебя к Betting Analyzer.\n"
+            "Ниже последний расчет; дальше будут приходить только новые сигналы и обновления результатов."
+        )
+
+    for item in results:
+        signal_id = item["match"].get("signal_id")
+        if not signal_id:
+            continue
+
+        if is_new_chat or signal_id not in sent_signals:
+            messages.append(fmt_anomaly(item))
+            messages.append(fmt_result(item))
+            sent_signals.add(signal_id)
+            sent_results[signal_id] = result_key(item)
+            continue
+
+        current_result_key = result_key(item)
+        settlement = item["match"].get("settlement") or {}
+        if settlement.get("status") == "completed" and sent_results.get(signal_id) != current_result_key:
+            messages.append(fmt_result(item))
+            sent_results[signal_id] = current_result_key
+
+    chat_state["initialized"] = True
+    chat_state["sent_signals"] = sorted(sent_signals)
+    chat_state["sent_results"] = sent_results
+    chat_state["last_seen_report"] = data.get("generated_at")
+    return messages
+
+
 def main():
     chat_ids = get_chat_ids()
     if not BOT_TOKEN or not chat_ids:
@@ -139,12 +205,21 @@ def main():
         return
 
     data = json.loads(RESULTS_JSON.read_text(encoding="utf-8"))
-    messages = build_messages(data)
+    state = load_state()
+    chats = state.setdefault("chats", {})
 
     for chat_id in chat_ids:
+        chat_state = chats.setdefault(chat_id, {})
+        messages = build_messages_for_chat(data, chat_state)
+        if not messages:
+            print(f"No new Telegram messages for chat_id={chat_id}")
+            continue
         for message in messages:
             send_message(chat_id, message)
         print(f"Sent Telegram notification to chat_id={chat_id}")
+
+    state["last_report"] = data.get("generated_at")
+    save_state(state)
 
 
 if __name__ == "__main__":
