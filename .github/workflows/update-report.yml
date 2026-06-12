@@ -46,6 +46,11 @@ jobs:
       - name: Send Telegram notification
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_IDS: ${{ secrets.TELEGRAM_CHAT_IDS }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_CHAT_ID_1: ${{ secrets.TELEGRAM_CHAT_ID_1 }}
+          TELEGRAM_CHAT_ID_2: ${{ secrets.TELEGRAM_CHAT_ID_2 }}
+          TELEGRAM_CHAT_ID_3: ${{ secrets.TELEGRAM_CHAT_ID_3 }}
+          TELEGRAM_CHAT_ID_4: ${{ secrets.TELEGRAM_CHAT_ID_4 }}
           RESULTS_JSON: docs/results.json
         run: python -X utf8 telegram_notify.py

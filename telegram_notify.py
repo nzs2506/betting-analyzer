@@ -1,5 +1,6 @@
 import json
 import os
+import re
 from pathlib import Path
 
 import requests
@@ -7,7 +8,28 @@ import requests
 
 RESULTS_JSON = Path(os.getenv("RESULTS_JSON", "docs/results.json"))
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
-CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "")
+MAX_RECIPIENTS = 4
+
+
+def get_chat_ids():
+    raw_values = [
+        os.getenv("TELEGRAM_CHAT_IDS", ""),
+        os.getenv("TELEGRAM_CHAT_ID", ""),
+        os.getenv("TELEGRAM_CHAT_ID_1", ""),
+        os.getenv("TELEGRAM_CHAT_ID_2", ""),
+        os.getenv("TELEGRAM_CHAT_ID_3", ""),
+        os.getenv("TELEGRAM_CHAT_ID_4", ""),
+    ]
+    chat_ids = []
+    seen = set()
+    for raw in raw_values:
+        for chat_id in re.split(r"[\s,;]+", raw.strip()):
+            if chat_id and chat_id not in seen:
+                chat_ids.append(chat_id)
+                seen.add(chat_id)
+            if len(chat_ids) >= MAX_RECIPIENTS:
+                return chat_ids
+    return chat_ids
 
 
 def fmt_match(item):
@@ -23,12 +45,12 @@ def fmt_match(item):
     )
 
 
-def send_message(text):
+def send_message(chat_id, text):
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
     response = requests.post(
         url,
         json={
-            "chat_id": CHAT_ID,
+            "chat_id": chat_id,
             "text": text,
             "parse_mode": "HTML",
             "disable_web_page_preview": True,
@@ -38,20 +60,13 @@ def send_message(text):
     response.raise_for_status()
 
 
-def main():
-    if not BOT_TOKEN or not CHAT_ID:
-        print("Telegram secrets are not set; skipping notification.")
-        return
-
-    data = json.loads(RESULTS_JSON.read_text(encoding="utf-8"))
+def build_messages(data):
     results = data.get("results", [])
-
     if not results:
-        send_message(
+        return [
             f"Betting Analyzer: аномалий нет.\n"
             f"Обновлено: {data.get('generated_at', '-')}"
-        )
-        return
+        ]
 
     header = (
         f"Betting Analyzer: найдено {len(results)} аномалий\n"
@@ -67,9 +82,22 @@ def main():
         current += block
     if current.strip():
         chunks.append(current.strip())
+    return chunks
 
-    for chunk in chunks:
-        send_message(chunk)
+
+def main():
+    chat_ids = get_chat_ids()
+    if not BOT_TOKEN or not chat_ids:
+        print("Telegram secrets are not set; skipping notification.")
+        return
+
+    data = json.loads(RESULTS_JSON.read_text(encoding="utf-8"))
+    messages = build_messages(data)
+
+    for chat_id in chat_ids:
+        for message in messages:
+            send_message(chat_id, message)
+        print(f"Sent Telegram notification to chat_id={chat_id}")
 
 
 if __name__ == "__main__":
