@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-12T10:07:04.262484",
+  "generated_at": "2026-06-12T22:17:31.881775",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 6,
-    "fixtures_found": 53,
-    "with_odds": 14,
+    "leagues_checked": 5,
+    "fixtures_found": 46,
+    "with_odds": 10,
     "leagues_detail": [
       [
         "bra.1",
@@ -207,7 +207,7 @@
       [
         "irl.1",
         "Ирландия Лига",
-        "ok"
+        "no_matches"
       ],
       [
         "wal.1",
