@@ -214,9 +214,20 @@ def main():
         if not messages:
             print(f"No new Telegram messages for chat_id={chat_id}")
             continue
+        sent_count = 0
         for message in messages:
-            send_message(chat_id, message)
-        print(f"Sent Telegram notification to chat_id={chat_id}")
+            try:
+                send_message(chat_id, message)
+                sent_count += 1
+            except requests.HTTPError as exc:
+                status_code = exc.response.status_code if exc.response is not None else "unknown"
+                print(f"Could not send Telegram message to chat_id={chat_id}: HTTP {status_code}")
+                if status_code in {400, 403}:
+                    chat_state["send_error"] = str(status_code)
+                    break
+                raise
+        if sent_count:
+            print(f"Sent {sent_count} Telegram messages to chat_id={chat_id}")
 
     state["last_report"] = data.get("generated_at")
     save_state(state)
