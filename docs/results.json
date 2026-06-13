@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-12T22:17:31.881775",
+  "generated_at": "2026-06-13T12:09:50.582759",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
     "leagues_checked": 5,
-    "fixtures_found": 46,
-    "with_odds": 10,
+    "fixtures_found": 49,
+    "with_odds": 11,
     "leagues_detail": [
       [
         "bra.1",
@@ -274,14 +274,14 @@
         "away_pts": 25,
         "home_form": "WWLDD",
         "away_form": "WWWWL",
-        "home_odds": 2.28,
-        "draw_odds": 2.95,
-        "away_odds": 3.35,
+        "home_odds": 2.25,
+        "draw_odds": 3.0,
+        "away_odds": 3.4,
         "bookmaker": "Unibet (SE)",
         "time": "2026-06-14T20:00Z",
         "value_team": "Vila Nova",
         "value_side": "away",
-        "value_odds": 3.35,
+        "value_odds": 3.4,
         "value_pos": 1,
         "pos_diff": 13,
         "settlement": {
