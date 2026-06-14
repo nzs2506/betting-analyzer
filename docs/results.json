@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-13T20:56:08.802207",
+  "generated_at": "2026-06-14T20:55:32.695644",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 5,
-    "fixtures_found": 37,
-    "with_odds": 10,
+    "leagues_checked": 4,
+    "fixtures_found": 14,
+    "with_odds": 5,
     "leagues_detail": [
       [
         "bra.1",
@@ -32,7 +32,7 @@
       [
         "arg.2",
         "Аргентина Насьональ Б",
-        "ok"
+        "no_matches"
       ],
       [
         "chi.1",
@@ -87,7 +87,7 @@
       [
         "usa.1",
         "США MLS",
-        "no_matches"
+        "no_data"
       ],
       [
         "usa.2",
@@ -261,41 +261,6 @@
       "league": "Бразилия Серия Б",
       "match": {
         "source": "espn",
-        "event_id": "401873963",
-        "fixture_id": null,
-        "league_slug": "bra.2",
-        "league_id": null,
-        "season": null,
-        "home": "Cuiabá",
-        "away": "Vila Nova",
-        "home_pos": 14,
-        "away_pos": 1,
-        "home_pts": 16,
-        "away_pts": 25,
-        "home_form": "WWLDD",
-        "away_form": "WWWWL",
-        "home_odds": 2.25,
-        "draw_odds": 3.0,
-        "away_odds": 3.4,
-        "bookmaker": "Unibet (SE)",
-        "time": "2026-06-14T20:00Z",
-        "value_team": "Vila Nova",
-        "value_side": "away",
-        "value_odds": 3.4,
-        "value_pos": 1,
-        "pos_diff": 13,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401873963"
-      }
-    },
-    {
-      "league": "Бразилия Серия Б",
-      "match": {
-        "source": "espn",
         "event_id": "401873976",
         "fixture_id": null,
         "league_slug": "bra.2",
@@ -304,21 +269,21 @@
         "home": "Botafogo-SP",
         "away": "Operário PR",
         "home_pos": 16,
-        "away_pos": 8,
+        "away_pos": 9,
         "home_pts": 10,
         "away_pts": 19,
         "home_form": "LDLLL",
         "away_form": "WWDLL",
-        "home_odds": 2.18,
-        "draw_odds": 2.8,
-        "away_odds": 3.85,
+        "home_odds": 2.23,
+        "draw_odds": 2.85,
+        "away_odds": 3.75,
         "bookmaker": "Unibet (SE)",
         "time": "2026-06-14T22:00Z",
         "value_team": "Operário PR",
         "value_side": "away",
-        "value_odds": 3.85,
-        "value_pos": 8,
-        "pos_diff": 8,
+        "value_odds": 3.75,
+        "value_pos": 9,
+        "pos_diff": 7,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
