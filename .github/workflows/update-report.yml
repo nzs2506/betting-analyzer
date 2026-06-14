@@ -3,7 +3,7 @@ name: Update Betting Report
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 6,17 * * *"
+    - cron: "7,27 6,17 * * *"
 
 permissions:
   contents: write
