@@ -2,6 +2,8 @@ import json
 import os
 import re
 from pathlib import Path
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 import requests
 
@@ -145,6 +147,28 @@ def build_messages(data):
     return messages
 
 
+def get_schedule_slot():
+    now = datetime.now(ZoneInfo("Europe/Moscow"))
+    slot_name = "morning" if now.hour < 15 else "evening"
+    return f"{now.date().isoformat()}:{slot_name}"
+
+
+def build_heartbeat_message(data):
+    results = data.get("results", [])
+    generated_at = data.get("generated_at", "-")
+    if results:
+        return (
+            f"Betting Analyzer: обновление по расписанию.\n"
+            f"Новых сигналов или результатов нет. В актуальном отчете: {len(results)} аномалий.\n"
+            f"Обновлено: {generated_at}"
+        )
+    return (
+        "Betting Analyzer: обновление по расписанию.\n"
+        f"Аномалий сейчас нет.\n"
+        f"Обновлено: {generated_at}"
+    )
+
+
 def result_key(item):
     settlement = item["match"].get("settlement") or {}
     return "|".join([
@@ -211,6 +235,11 @@ def main():
     for chat_id in chat_ids:
         chat_state = chats.setdefault(chat_id, {})
         messages = build_messages_for_chat(data, chat_state)
+        if not messages:
+            schedule_slot = get_schedule_slot()
+            if chat_state.get("last_heartbeat_slot") != schedule_slot:
+                messages = [build_heartbeat_message(data)]
+                chat_state["last_heartbeat_slot"] = schedule_slot
         if not messages:
             print(f"No new Telegram messages for chat_id={chat_id}")
             continue
