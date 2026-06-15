@@ -3,7 +3,7 @@ name: Update Betting Report
 on:
   workflow_dispatch:
   schedule:
-    - cron: "7,27 6,17 * * *"
+    - cron: "7,27,47 5,6,7,17,18,19 * * *"
 
 permissions:
   contents: write
@@ -54,6 +54,7 @@ jobs:
           TELEGRAM_CHAT_ID_3: ${{ secrets.TELEGRAM_CHAT_ID_3 }}
           TELEGRAM_CHAT_ID_4: ${{ secrets.TELEGRAM_CHAT_ID_4 }}
           RESULTS_JSON: docs/results.json
+          HISTORY_JSON: docs/history.json
           TELEGRAM_STATE_JSON: docs/telegram_state.json
         run: python -X utf8 telegram_notify.py
 
