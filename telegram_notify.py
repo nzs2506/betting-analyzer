@@ -254,7 +254,7 @@ def build_messages_for_chat(data, chat_state):
         if not signal_id:
             continue
         current_result_key = result_key(item)
-        if sent_results.get(signal_id) != current_result_key:
+        if is_new_chat or sent_results.get(signal_id) != current_result_key:
             messages.append(fmt_result(item))
             sent_results[signal_id] = current_result_key
 
