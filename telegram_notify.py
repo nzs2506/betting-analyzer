@@ -9,6 +9,7 @@ import requests
 
 
 RESULTS_JSON = Path(os.getenv("RESULTS_JSON", "docs/results.json"))
+HISTORY_JSON = Path(os.getenv("HISTORY_JSON", str(RESULTS_JSON.parent / "history.json")))
 TELEGRAM_STATE_JSON = Path(os.getenv("TELEGRAM_STATE_JSON", "docs/telegram_state.json"))
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
 MAX_RECIPIENTS = 4
@@ -169,6 +170,31 @@ def build_heartbeat_message(data):
     )
 
 
+def load_completed_history_items(current_results):
+    current_ids = {item.get("match", {}).get("signal_id") for item in current_results}
+    current_ids.discard(None)
+    try:
+        history = json.loads(HISTORY_JSON.read_text(encoding="utf-8"))
+    except Exception as exc:
+        print(f"Could not read history JSON: {exc}")
+        return []
+
+    items = []
+    for record in history.get("signals", []):
+        match = record.get("match") or {}
+        signal_id = record.get("id") or match.get("signal_id")
+        settlement = match.get("settlement") or {}
+        if not signal_id or signal_id in current_ids:
+            continue
+        if settlement.get("status") != "completed":
+            continue
+        items.append({
+            "league": record.get("league", "-"),
+            "match": {**match, "signal_id": signal_id},
+        })
+    return items
+
+
 def result_key(item):
     settlement = item["match"].get("settlement") or {}
     return "|".join([
@@ -180,12 +206,6 @@ def result_key(item):
 
 def build_messages_for_chat(data, chat_state):
     results = data.get("results", [])
-    if not results:
-        if chat_state.get("last_empty_report") == data.get("generated_at"):
-            return []
-        chat_state["last_empty_report"] = data.get("generated_at")
-        return build_messages(data)
-
     is_new_chat = not chat_state.get("initialized") or bool(chat_state.get("send_error"))
     sent_signals = set(chat_state.get("sent_signals", []))
     sent_results = chat_state.get("sent_results", {})
@@ -214,6 +234,20 @@ def build_messages_for_chat(data, chat_state):
         if settlement.get("status") == "completed" and sent_results.get(signal_id) != current_result_key:
             messages.append(fmt_result(item))
             sent_results[signal_id] = current_result_key
+
+    for item in load_completed_history_items(results):
+        signal_id = item["match"].get("signal_id")
+        if not signal_id:
+            continue
+        current_result_key = result_key(item)
+        if sent_results.get(signal_id) != current_result_key:
+            messages.append(fmt_result(item))
+            sent_results[signal_id] = current_result_key
+
+    if not results and not messages:
+        if chat_state.get("last_empty_report") != data.get("generated_at"):
+            messages = build_messages(data)
+            chat_state["last_empty_report"] = data.get("generated_at")
 
     chat_state["initialized"] = True
     chat_state["sent_signals"] = sorted(sent_signals)
