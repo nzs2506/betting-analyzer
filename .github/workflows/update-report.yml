@@ -2,6 +2,14 @@ name: Update Betting Report
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "betting_analyzer.py"
+      - "telegram_notify.py"
+      - "requirements.txt"
+      - ".github/workflows/update-report.yml"
   schedule:
     - cron: "7,27,47 5,6,7,17,18,19 * * *"
 
