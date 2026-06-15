@@ -70,6 +70,15 @@ def get_chat_ids():
     return chat_ids[:MAX_RECIPIENTS]
 
 
+def merge_state_chat_ids(chat_ids, state):
+    seen = set(chat_ids)
+    for chat_id in state.get("chats", {}):
+        if chat_id not in seen:
+            chat_ids.append(chat_id)
+            seen.add(chat_id)
+    return chat_ids[:MAX_RECIPIENTS]
+
+
 def fmt_anomaly(item):
     league = item["league"]
     match = item["match"]
@@ -258,13 +267,17 @@ def build_messages_for_chat(data, chat_state):
 
 def main():
     chat_ids = get_chat_ids()
-    if not BOT_TOKEN or not chat_ids:
+    if not BOT_TOKEN:
         print("Telegram secrets are not set; skipping notification.")
         return
 
     data = json.loads(RESULTS_JSON.read_text(encoding="utf-8"))
     state = load_state()
     chats = state.setdefault("chats", {})
+    chat_ids = merge_state_chat_ids(chat_ids, state)
+    if not chat_ids:
+        print("Telegram chat ids are not set; skipping notification.")
+        return
 
     for chat_id in chat_ids:
         chat_state = chats.setdefault(chat_id, {})
