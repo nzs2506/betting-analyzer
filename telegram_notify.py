@@ -71,12 +71,17 @@ def get_chat_ids():
 
 
 def merge_state_chat_ids(chat_ids, state):
-    seen = set(chat_ids)
+    merged = []
+    seen = set()
     for chat_id in state.get("chats", {}):
         if chat_id not in seen:
-            chat_ids.append(chat_id)
+            merged.append(chat_id)
             seen.add(chat_id)
-    return chat_ids[:MAX_RECIPIENTS]
+    for chat_id in chat_ids:
+        if chat_id not in seen:
+            merged.append(chat_id)
+            seen.add(chat_id)
+    return merged[:MAX_RECIPIENTS]
 
 
 def fmt_anomaly(item):
