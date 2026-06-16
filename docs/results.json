@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-15T16:50:26.712569",
+  "generated_at": "2026-06-16T00:15:37.390088",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
     "leagues_checked": 3,
-    "fixtures_found": 7,
-    "with_odds": 3,
+    "fixtures_found": 4,
+    "with_odds": 2,
     "leagues_detail": [
       [
         "bra.1",
@@ -22,7 +22,7 @@
       [
         "bra.3",
         "Бразилия Серия С",
-        "ok"
+        "no_matches"
       ],
       [
         "arg.1",
@@ -37,7 +37,7 @@
       [
         "chi.1",
         "Чили Примера",
-        "no_matches"
+        "ok"
       ],
       [
         "col.1",
