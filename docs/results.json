@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-16T19:51:52.299736",
+  "generated_at": "2026-06-17T17:33:48.512690",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 3,
-    "fixtures_found": 4,
-    "with_odds": 2,
+    "leagues_checked": 5,
+    "fixtures_found": 10,
+    "with_odds": 5,
     "leagues_detail": [
       [
         "bra.1",
@@ -57,7 +57,7 @@
       [
         "bol.1",
         "Боливия Лига",
-        "no_matches"
+        "ok"
       ],
       [
         "par.1",
@@ -207,7 +207,7 @@
       [
         "irl.1",
         "Ирландия Лига",
-        "no_matches"
+        "ok"
       ],
       [
         "wal.1",
