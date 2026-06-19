@@ -4,13 +4,15 @@
       "initialized": true,
       "sent_signals": [
         "espn:401873963",
-        "espn:401873976"
+        "espn:401873976",
+        "espn:401873983"
       ],
       "sent_results": {
         "espn:401873963": "completed|lose|1:0",
-        "espn:401873976": "completed|lose|2:1"
+        "espn:401873976": "completed|lose|2:1",
+        "espn:401873983": "pending||"
       },
-      "last_seen_report": "2026-06-18T17:49:26.260924",
+      "last_seen_report": "2026-06-19T00:13:05.675838",
       "last_heartbeat_slot": "2026-06-14:evening",
       "last_empty_report": "2026-06-18T17:49:26.260924"
     },
@@ -18,13 +20,15 @@
       "initialized": true,
       "sent_signals": [
         "espn:401873963",
-        "espn:401873976"
+        "espn:401873976",
+        "espn:401873983"
       ],
       "sent_results": {
         "espn:401873963": "completed|lose|1:0",
-        "espn:401873976": "completed|lose|2:1"
+        "espn:401873976": "completed|lose|2:1",
+        "espn:401873983": "pending||"
       },
-      "last_seen_report": "2026-06-18T17:49:26.260924",
+      "last_seen_report": "2026-06-19T00:13:05.675838",
       "last_heartbeat_slot": "2026-06-14:evening",
       "last_empty_report": "2026-06-18T17:49:26.260924"
     },
@@ -32,28 +36,32 @@
       "initialized": true,
       "sent_signals": [
         "espn:401873963",
-        "espn:401873976"
+        "espn:401873976",
+        "espn:401873983"
       ],
       "sent_results": {
         "espn:401873963": "completed|lose|1:0",
-        "espn:401873976": "completed|lose|2:1"
+        "espn:401873976": "completed|lose|2:1",
+        "espn:401873983": "pending||"
       },
-      "last_seen_report": "2026-06-18T17:49:26.260924",
+      "last_seen_report": "2026-06-19T00:13:05.675838",
       "send_error": "403"
     },
     "351131518": {
       "initialized": true,
       "sent_signals": [
         "espn:401873963",
-        "espn:401873976"
+        "espn:401873976",
+        "espn:401873983"
       ],
       "sent_results": {
         "espn:401873963": "completed|lose|1:0",
-        "espn:401873976": "completed|lose|2:1"
+        "espn:401873976": "completed|lose|2:1",
+        "espn:401873983": "pending||"
       },
-      "last_seen_report": "2026-06-18T17:49:26.260924",
+      "last_seen_report": "2026-06-19T00:13:05.675838",
       "send_error": "403"
     }
   },
-  "last_report": "2026-06-18T17:49:26.260924"
+  "last_report": "2026-06-19T00:13:05.675838"
 }
