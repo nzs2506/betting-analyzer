@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-18T17:49:26.260924",
+  "generated_at": "2026-06-19T00:13:05.675838",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 6,
-    "fixtures_found": 28,
-    "with_odds": 6,
+    "leagues_checked": 5,
+    "fixtures_found": 46,
+    "with_odds": 8,
     "leagues_detail": [
       [
         "bra.1",
@@ -37,7 +37,7 @@
       [
         "chi.1",
         "Чили Примера",
-        "ok"
+        "no_matches"
       ],
       [
         "col.1",
@@ -256,6 +256,42 @@
       ]
     ]
   },
-  "results": [],
-  "history_count": 2
+  "results": [
+    {
+      "league": "Бразилия Серия Б",
+      "match": {
+        "source": "espn",
+        "event_id": "401873983",
+        "fixture_id": null,
+        "league_slug": "bra.2",
+        "league_id": null,
+        "season": null,
+        "home": "Avaí",
+        "away": "Cuiabá",
+        "home_pos": 18,
+        "away_pos": 10,
+        "home_pts": 10,
+        "away_pts": 19,
+        "home_form": "LLLLL",
+        "away_form": "WWWLD",
+        "home_odds": 2.35,
+        "draw_odds": 3.05,
+        "away_odds": 3.15,
+        "bookmaker": "Unibet (NL)",
+        "time": "2026-06-21T14:00Z",
+        "value_team": "Cuiabá",
+        "value_side": "away",
+        "value_odds": 3.15,
+        "value_pos": 10,
+        "pos_diff": 8,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401873983"
+      }
+    }
+  ],
+  "history_count": 3
 }
