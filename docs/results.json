@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-20T12:16:24.413925",
+  "generated_at": "2026-06-20T21:57:02.905671",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
     "leagues_checked": 5,
-    "fixtures_found": 43,
+    "fixtures_found": 29,
     "with_odds": 6,
     "leagues_detail": [
       [
@@ -276,12 +276,12 @@
         "away_form": "WWWLD",
         "home_odds": 2.38,
         "draw_odds": 3.0,
-        "away_odds": 3.1,
+        "away_odds": 3.15,
         "bookmaker": "Unibet (NL)",
         "time": "2026-06-21T14:00Z",
         "value_team": "Cuiabá",
         "value_side": "away",
-        "value_odds": 3.1,
+        "value_odds": 3.15,
         "value_pos": 10,
         "pos_diff": 8,
         "settlement": {
