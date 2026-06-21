@@ -4,7 +4,7 @@
       "id": "espn:401873983",
       "league": "Бразилия Серия Б",
       "first_seen": "2026-06-19T00:13:05.675838",
-      "last_seen": "2026-06-20T21:57:02.905671",
+      "last_seen": "2026-06-21T12:31:26.313358",
       "match": {
         "source": "espn",
         "event_id": "401873983",
@@ -20,14 +20,14 @@
         "away_pts": 19,
         "home_form": "LLLLL",
         "away_form": "WWWLD",
-        "home_odds": 2.38,
+        "home_odds": 2.43,
         "draw_odds": 3.0,
-        "away_odds": 3.15,
+        "away_odds": 3.0,
         "bookmaker": "Unibet (NL)",
         "time": "2026-06-21T14:00Z",
         "value_team": "Cuiabá",
         "value_side": "away",
-        "value_odds": 3.15,
+        "value_odds": 3.0,
         "value_pos": 10,
         "pos_diff": 8,
         "settlement": {
@@ -122,5 +122,5 @@
       }
     }
   ],
-  "generated_at": "2026-06-20T21:57:02.905671"
+  "generated_at": "2026-06-21T12:31:26.313358"
 }
