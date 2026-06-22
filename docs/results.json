@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-21T22:38:24.237365",
+  "generated_at": "2026-06-22T18:58:38.572929",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 5,
-    "fixtures_found": 7,
+    "leagues_checked": 4,
+    "fixtures_found": 5,
     "with_odds": 3,
     "leagues_detail": [
       [
@@ -57,7 +57,7 @@
       [
         "bol.1",
         "Боливия Лига",
-        "ok"
+        "no_matches"
       ],
       [
         "par.1",
