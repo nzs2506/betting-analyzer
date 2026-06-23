@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-23T16:12:12.516257",
+  "generated_at": "2026-06-23T22:46:54.756552",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 2,
-    "fixtures_found": 3,
+    "leagues_checked": 1,
+    "fixtures_found": 2,
     "with_odds": 2,
     "leagues_detail": [
       [
@@ -32,7 +32,7 @@
       [
         "arg.2",
         "Аргентина Насьональ Б",
-        "ok"
+        "no_matches"
       ],
       [
         "chi.1",
