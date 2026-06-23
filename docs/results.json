@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-22T18:58:38.572929",
+  "generated_at": "2026-06-23T16:12:12.516257",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 4,
-    "fixtures_found": 5,
-    "with_odds": 3,
+    "leagues_checked": 2,
+    "fixtures_found": 3,
+    "with_odds": 2,
     "leagues_detail": [
       [
         "bra.1",
@@ -22,7 +22,7 @@
       [
         "bra.3",
         "Бразилия Серия С",
-        "ok"
+        "no_matches"
       ],
       [
         "arg.1",
@@ -207,7 +207,7 @@
       [
         "irl.1",
         "Ирландия Лига",
-        "ok"
+        "no_matches"
       ],
       [
         "wal.1",
