@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-23T22:46:54.756552",
+  "generated_at": "2026-06-24T13:56:18.882122",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 1,
-    "fixtures_found": 2,
-    "with_odds": 2,
+    "leagues_checked": 3,
+    "fixtures_found": 7,
+    "with_odds": 7,
     "leagues_detail": [
       [
         "bra.1",
@@ -107,7 +107,7 @@
       [
         "chn.1",
         "Китай Суперлига",
-        "no_matches"
+        "ok"
       ],
       [
         "ind.1",
@@ -207,7 +207,7 @@
       [
         "irl.1",
         "Ирландия Лига",
-        "no_matches"
+        "ok"
       ],
       [
         "wal.1",
