@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-28T12:00:22.528885",
+  "generated_at": "2026-06-28T21:45:17.455505",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
     "leagues_checked": 2,
-    "fixtures_found": 12,
-    "with_odds": 2,
+    "fixtures_found": 6,
+    "with_odds": 0,
     "leagues_detail": [
       [
         "bra.1",
