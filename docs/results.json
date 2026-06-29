@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-28T21:45:17.455505",
+  "generated_at": "2026-06-29T17:14:13.508684",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 2,
-    "fixtures_found": 6,
+    "leagues_checked": 3,
+    "fixtures_found": 5,
     "with_odds": 0,
     "leagues_detail": [
       [
@@ -52,7 +52,7 @@
       [
         "ecu.1",
         "Эквадор ЛигаПро",
-        "no_matches"
+        "ok"
       ],
       [
         "bol.1",
