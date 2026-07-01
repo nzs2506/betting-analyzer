@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-30T22:53:33.756610",
+  "generated_at": "2026-07-01T13:57:37.614126",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 3,
-    "fixtures_found": 7,
-    "with_odds": 2,
+    "leagues_checked": 5,
+    "fixtures_found": 11,
+    "with_odds": 7,
     "leagues_detail": [
       [
         "bra.1",
@@ -22,7 +22,7 @@
       [
         "bra.3",
         "Бразилия Серия С",
-        "ok"
+        "no_matches"
       ],
       [
         "arg.1",
@@ -72,7 +72,7 @@
       [
         "ven.1",
         "Венесуэла Примера",
-        "no_matches"
+        "no_data"
       ],
       [
         "mex.1",
@@ -107,7 +107,7 @@
       [
         "chn.1",
         "Китай Суперлига",
-        "no_matches"
+        "ok"
       ],
       [
         "ind.1",
@@ -172,7 +172,7 @@
       [
         "swe.1",
         "Швеция Алльсвенскан",
-        "no_matches"
+        "ok"
       ],
       [
         "swe.2",
@@ -182,7 +182,7 @@
       [
         "den.1",
         "Дания Суперлига",
-        "no_matches"
+        "no_data"
       ],
       [
         "den.2",
@@ -207,7 +207,7 @@
       [
         "irl.1",
         "Ирландия Лига",
-        "no_matches"
+        "ok"
       ],
       [
         "wal.1",
