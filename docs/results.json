@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-01T13:57:37.614126",
+  "generated_at": "2026-07-01T22:47:07.703613",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
     "leagues_checked": 5,
-    "fixtures_found": 11,
+    "fixtures_found": 10,
     "with_odds": 7,
     "leagues_detail": [
       [
@@ -182,7 +182,7 @@
       [
         "den.1",
         "Дания Суперлига",
-        "no_data"
+        "no_matches"
       ],
       [
         "den.2",
