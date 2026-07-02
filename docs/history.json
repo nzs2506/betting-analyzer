@@ -1,6 +1,43 @@
 {
   "signals": [
     {
+      "id": "espn:401861547",
+      "league": "Китай Суперлига",
+      "first_seen": "2026-07-02T12:32:38.007921",
+      "last_seen": "2026-07-02T12:32:38.007921",
+      "match": {
+        "source": "espn",
+        "event_id": "401861547",
+        "fixture_id": null,
+        "league_slug": "chn.1",
+        "league_id": null,
+        "season": null,
+        "home": "Liaoning Tieren",
+        "away": "Chongqing Tonglianglong",
+        "home_pos": 10,
+        "away_pos": 2,
+        "home_pts": 17,
+        "away_pts": 27,
+        "home_form": "LWWWD",
+        "away_form": "WLWDL",
+        "home_odds": 2.05,
+        "draw_odds": 3.25,
+        "away_odds": 3.45,
+        "bookmaker": "Nordic Bet",
+        "time": "2026-07-04T11:00Z",
+        "value_team": "Chongqing Tonglianglong",
+        "value_side": "away",
+        "value_odds": 3.45,
+        "value_pos": 2,
+        "pos_diff": 8,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
       "id": "espn:401873983",
       "league": "Бразилия Серия Б",
       "first_seen": "2026-06-19T00:13:05.675838",
@@ -127,5 +164,5 @@
       }
     }
   ],
-  "generated_at": "2026-07-01T22:47:07.703613"
+  "generated_at": "2026-07-02T12:32:38.007921"
 }

@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-01T22:47:07.703613",
+  "generated_at": "2026-07-02T12:32:38.007921",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 5,
-    "fixtures_found": 10,
-    "with_odds": 7,
+    "leagues_checked": 7,
+    "fixtures_found": 37,
+    "with_odds": 13,
     "leagues_detail": [
       [
         "bra.1",
@@ -22,7 +22,7 @@
       [
         "bra.3",
         "Бразилия Серия С",
-        "no_matches"
+        "ok"
       ],
       [
         "arg.1",
@@ -32,7 +32,7 @@
       [
         "arg.2",
         "Аргентина Насьональ Б",
-        "no_matches"
+        "ok"
       ],
       [
         "chi.1",
@@ -256,6 +256,42 @@
       ]
     ]
   },
-  "results": [],
-  "history_count": 3
+  "results": [
+    {
+      "league": "Китай Суперлига",
+      "match": {
+        "source": "espn",
+        "event_id": "401861547",
+        "fixture_id": null,
+        "league_slug": "chn.1",
+        "league_id": null,
+        "season": null,
+        "home": "Liaoning Tieren",
+        "away": "Chongqing Tonglianglong",
+        "home_pos": 10,
+        "away_pos": 2,
+        "home_pts": 17,
+        "away_pts": 27,
+        "home_form": "LWWWD",
+        "away_form": "WLWDL",
+        "home_odds": 2.05,
+        "draw_odds": 3.25,
+        "away_odds": 3.45,
+        "bookmaker": "Nordic Bet",
+        "time": "2026-07-04T11:00Z",
+        "value_team": "Chongqing Tonglianglong",
+        "value_side": "away",
+        "value_odds": 3.45,
+        "value_pos": 2,
+        "pos_diff": 8,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401861547"
+      }
+    }
+  ],
+  "history_count": 4
 }
