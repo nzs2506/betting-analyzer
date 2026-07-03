@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-02T21:53:33.307066",
+  "generated_at": "2026-07-03T12:30:36.033477",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 7,
-    "fixtures_found": 37,
-    "with_odds": 13,
+    "leagues_checked": 8,
+    "fixtures_found": 56,
+    "with_odds": 15,
     "leagues_detail": [
       [
         "bra.1",
@@ -47,7 +47,7 @@
       [
         "uru.1",
         "Уругвай Лига",
-        "no_matches"
+        "ok"
       ],
       [
         "ecu.1",
@@ -291,7 +291,42 @@
         },
         "signal_id": "espn:401861547"
       }
+    },
+    {
+      "league": "Швеция Алльсвенскан",
+      "match": {
+        "source": "espn",
+        "event_id": "401842739",
+        "fixture_id": null,
+        "league_slug": "swe.1",
+        "league_id": null,
+        "season": null,
+        "home": "IFK Göteborg",
+        "away": "AIK",
+        "home_pos": 14,
+        "away_pos": 10,
+        "home_pts": 10,
+        "away_pts": 12,
+        "home_form": "WDWLL",
+        "away_form": "LWDLD",
+        "home_odds": 2.25,
+        "draw_odds": 3.52,
+        "away_odds": 2.95,
+        "bookmaker": "1xBet",
+        "time": "2026-07-05T12:00Z",
+        "value_team": "AIK",
+        "value_side": "away",
+        "value_odds": 2.95,
+        "value_pos": 10,
+        "pos_diff": 4,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401842739"
+      }
     }
   ],
-  "history_count": 4
+  "history_count": 5
 }
