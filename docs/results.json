@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-03T21:44:42.861790",
+  "generated_at": "2026-07-04T11:12:29.773814",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 8,
-    "fixtures_found": 55,
-    "with_odds": 10,
+    "leagues_checked": 6,
+    "fixtures_found": 44,
+    "with_odds": 12,
     "leagues_detail": [
       [
         "bra.1",
@@ -22,7 +22,7 @@
       [
         "bra.3",
         "Бразилия Серия С",
-        "ok"
+        "no_matches"
       ],
       [
         "arg.1",
@@ -207,7 +207,7 @@
       [
         "irl.1",
         "Ирландия Лига",
-        "ok"
+        "no_matches"
       ],
       [
         "wal.1",
@@ -258,41 +258,6 @@
   },
   "results": [
     {
-      "league": "Китай Суперлига",
-      "match": {
-        "source": "espn",
-        "event_id": "401861547",
-        "fixture_id": null,
-        "league_slug": "chn.1",
-        "league_id": null,
-        "season": null,
-        "home": "Liaoning Tieren",
-        "away": "Chongqing Tonglianglong",
-        "home_pos": 10,
-        "away_pos": 2,
-        "home_pts": 17,
-        "away_pts": 27,
-        "home_form": "LWWWD",
-        "away_form": "WLWDL",
-        "home_odds": 2.05,
-        "draw_odds": 3.25,
-        "away_odds": 3.45,
-        "bookmaker": "Nordic Bet",
-        "time": "2026-07-04T11:00Z",
-        "value_team": "Chongqing Tonglianglong",
-        "value_side": "away",
-        "value_odds": 3.45,
-        "value_pos": 2,
-        "pos_diff": 8,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401861547"
-      }
-    },
-    {
       "league": "Швеция Алльсвенскан",
       "match": {
         "source": "espn",
@@ -309,14 +274,14 @@
         "away_pts": 12,
         "home_form": "WDWLL",
         "away_form": "LWDLD",
-        "home_odds": 2.24,
-        "draw_odds": 3.5,
-        "away_odds": 2.99,
+        "home_odds": 2.16,
+        "draw_odds": 3.52,
+        "away_odds": 3.12,
         "bookmaker": "1xBet",
         "time": "2026-07-05T12:00Z",
         "value_team": "AIK",
         "value_side": "away",
-        "value_odds": 2.99,
+        "value_odds": 3.12,
         "value_pos": 10,
         "pos_diff": 4,
         "settlement": {

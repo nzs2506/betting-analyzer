@@ -4,7 +4,7 @@
       "id": "espn:401842739",
       "league": "Швеция Алльсвенскан",
       "first_seen": "2026-07-03T12:30:36.033477",
-      "last_seen": "2026-07-03T21:44:42.861790",
+      "last_seen": "2026-07-04T11:12:29.773814",
       "match": {
         "source": "espn",
         "event_id": "401842739",
@@ -20,14 +20,14 @@
         "away_pts": 12,
         "home_form": "WDWLL",
         "away_form": "LWDLD",
-        "home_odds": 2.24,
-        "draw_odds": 3.5,
-        "away_odds": 2.99,
+        "home_odds": 2.16,
+        "draw_odds": 3.52,
+        "away_odds": 3.12,
         "bookmaker": "1xBet",
         "time": "2026-07-05T12:00Z",
         "value_team": "AIK",
         "value_side": "away",
-        "value_odds": 2.99,
+        "value_odds": 3.12,
         "value_pos": 10,
         "pos_diff": 4,
         "settlement": {
@@ -201,5 +201,5 @@
       }
     }
   ],
-  "generated_at": "2026-07-03T21:44:42.861790"
+  "generated_at": "2026-07-04T11:12:29.773814"
 }
