@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-04T21:16:16.467508",
+  "generated_at": "2026-07-05T11:48:40.681841",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
     "leagues_checked": 6,
-    "fixtures_found": 27,
-    "with_odds": 8,
+    "fixtures_found": 26,
+    "with_odds": 6,
     "leagues_detail": [
       [
         "bra.1",
@@ -57,7 +57,7 @@
       [
         "bol.1",
         "Боливия Лига",
-        "no_matches"
+        "ok"
       ],
       [
         "par.1",
@@ -107,7 +107,7 @@
       [
         "chn.1",
         "Китай Суперлига",
-        "ok"
+        "no_matches"
       ],
       [
         "ind.1",
