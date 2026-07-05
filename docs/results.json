@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-05T11:48:40.681841",
+  "generated_at": "2026-07-05T21:37:49.984656",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 6,
-    "fixtures_found": 26,
-    "with_odds": 6,
+    "leagues_checked": 4,
+    "fixtures_found": 11,
+    "with_odds": 3,
     "leagues_detail": [
       [
         "bra.1",
@@ -32,7 +32,7 @@
       [
         "arg.2",
         "Аргентина Насьональ Б",
-        "ok"
+        "no_matches"
       ],
       [
         "chi.1",
@@ -47,7 +47,7 @@
       [
         "uru.1",
         "Уругвай Лига",
-        "ok"
+        "no_matches"
       ],
       [
         "ecu.1",
