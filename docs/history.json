@@ -4,7 +4,7 @@
       "id": "espn:401860231",
       "league": "Бразилия Серия Б",
       "first_seen": "2026-07-08T08:20:34.962279",
-      "last_seen": "2026-07-08T08:20:34.962279",
+      "last_seen": "2026-07-08T19:18:24.072779",
       "match": {
         "source": "espn",
         "event_id": "401860231",
@@ -20,14 +20,14 @@
         "away_pts": 31,
         "home_form": "DWWWL",
         "away_form": "WLWLW",
-        "home_odds": 1.77,
-        "draw_odds": 3.15,
-        "away_odds": 4.2,
+        "home_odds": 1.76,
+        "draw_odds": 3.2,
+        "away_odds": 4.1,
         "bookmaker": "LeoVegas (SE)",
         "time": "2026-07-10T22:00Z",
         "value_team": "Vila Nova",
         "value_side": "away",
-        "value_odds": 4.2,
+        "value_odds": 4.1,
         "value_pos": 1,
         "pos_diff": 5,
         "settlement": {
@@ -248,5 +248,5 @@
       }
     }
   ],
-  "generated_at": "2026-07-08T08:20:34.962279"
+  "generated_at": "2026-07-08T19:18:24.072779"
 }
