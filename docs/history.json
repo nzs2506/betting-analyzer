@@ -1,6 +1,43 @@
 {
   "signals": [
     {
+      "id": "espn:401860231",
+      "league": "Бразилия Серия Б",
+      "first_seen": "2026-07-08T08:20:34.962279",
+      "last_seen": "2026-07-08T08:20:34.962279",
+      "match": {
+        "source": "espn",
+        "event_id": "401860231",
+        "fixture_id": null,
+        "league_slug": "bra.2",
+        "league_id": null,
+        "season": null,
+        "home": "Juventude",
+        "away": "Vila Nova",
+        "home_pos": 6,
+        "away_pos": 1,
+        "home_pts": 26,
+        "away_pts": 31,
+        "home_form": "DWWWL",
+        "away_form": "WLWLW",
+        "home_odds": 1.77,
+        "draw_odds": 3.15,
+        "away_odds": 4.2,
+        "bookmaker": "LeoVegas (SE)",
+        "time": "2026-07-10T22:00Z",
+        "value_team": "Vila Nova",
+        "value_side": "away",
+        "value_odds": 4.2,
+        "value_pos": 1,
+        "pos_diff": 5,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
       "id": "espn:401842739",
       "league": "Швеция Алльсвенскан",
       "first_seen": "2026-07-03T12:30:36.033477",
@@ -211,5 +248,5 @@
       }
     }
   ],
-  "generated_at": "2026-07-07T19:49:07.546484"
+  "generated_at": "2026-07-08T08:20:34.962279"
 }

@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-07T19:49:07.546484",
+  "generated_at": "2026-07-08T08:20:34.962279",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 3,
-    "fixtures_found": 7,
-    "with_odds": 1,
+    "leagues_checked": 6,
+    "fixtures_found": 12,
+    "with_odds": 4,
     "leagues_detail": [
       [
         "bra.1",
@@ -47,7 +47,7 @@
       [
         "uru.1",
         "Уругвай Лига",
-        "no_matches"
+        "ok"
       ],
       [
         "ecu.1",
@@ -107,7 +107,7 @@
       [
         "chn.1",
         "Китай Суперлига",
-        "no_matches"
+        "ok"
       ],
       [
         "ind.1",
@@ -207,7 +207,7 @@
       [
         "irl.1",
         "Ирландия Лига",
-        "no_matches"
+        "ok"
       ],
       [
         "wal.1",
@@ -256,6 +256,42 @@
       ]
     ]
   },
-  "results": [],
-  "history_count": 5
+  "results": [
+    {
+      "league": "Бразилия Серия Б",
+      "match": {
+        "source": "espn",
+        "event_id": "401860231",
+        "fixture_id": null,
+        "league_slug": "bra.2",
+        "league_id": null,
+        "season": null,
+        "home": "Juventude",
+        "away": "Vila Nova",
+        "home_pos": 6,
+        "away_pos": 1,
+        "home_pts": 26,
+        "away_pts": 31,
+        "home_form": "DWWWL",
+        "away_form": "WLWLW",
+        "home_odds": 1.77,
+        "draw_odds": 3.15,
+        "away_odds": 4.2,
+        "bookmaker": "LeoVegas (SE)",
+        "time": "2026-07-10T22:00Z",
+        "value_team": "Vila Nova",
+        "value_side": "away",
+        "value_odds": 4.2,
+        "value_pos": 1,
+        "pos_diff": 5,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401860231"
+      }
+    }
+  ],
+  "history_count": 6
 }
