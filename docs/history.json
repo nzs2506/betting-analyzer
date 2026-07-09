@@ -4,7 +4,7 @@
       "id": "espn:401860231",
       "league": "Бразилия Серия Б",
       "first_seen": "2026-07-08T08:20:34.962279",
-      "last_seen": "2026-07-08T19:18:24.072779",
+      "last_seen": "2026-07-09T09:31:08.048458",
       "match": {
         "source": "espn",
         "event_id": "401860231",
@@ -15,7 +15,7 @@
         "home": "Juventude",
         "away": "Vila Nova",
         "home_pos": 6,
-        "away_pos": 1,
+        "away_pos": 2,
         "home_pts": 26,
         "away_pts": 31,
         "home_form": "DWWWL",
@@ -28,8 +28,8 @@
         "value_team": "Vila Nova",
         "value_side": "away",
         "value_odds": 4.1,
-        "value_pos": 1,
-        "pos_diff": 5,
+        "value_pos": 2,
+        "pos_diff": 4,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
@@ -248,5 +248,5 @@
       }
     }
   ],
-  "generated_at": "2026-07-08T19:18:24.072779"
+  "generated_at": "2026-07-09T09:31:08.048458"
 }
