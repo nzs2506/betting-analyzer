@@ -4,7 +4,7 @@
       "id": "espn:401873998",
       "league": "Бразилия Серия Б",
       "first_seen": "2026-07-10T09:26:54.320855",
-      "last_seen": "2026-07-10T09:26:54.320855",
+      "last_seen": "2026-07-10T19:21:32.206531",
       "match": {
         "source": "espn",
         "event_id": "401873998",
@@ -20,14 +20,14 @@
         "away_pts": 28,
         "home_form": "LWDDW",
         "away_form": "WWDLW",
-        "home_odds": 2.38,
-        "draw_odds": 3.1,
-        "away_odds": 3.0,
+        "home_odds": 2.35,
+        "draw_odds": 3.15,
+        "away_odds": 3.05,
         "bookmaker": "Unibet (SE)",
         "time": "2026-07-12T21:00Z",
         "value_team": "Fortaleza",
         "value_side": "away",
-        "value_odds": 3.0,
+        "value_odds": 3.05,
         "value_pos": 4,
         "pos_diff": 9,
         "settlement": {
@@ -78,7 +78,7 @@
       "id": "espn:401860231",
       "league": "Бразилия Серия Б",
       "first_seen": "2026-07-08T08:20:34.962279",
-      "last_seen": "2026-07-10T09:26:54.320855",
+      "last_seen": "2026-07-10T19:21:32.206531",
       "match": {
         "source": "espn",
         "event_id": "401860231",
@@ -94,14 +94,14 @@
         "away_pts": 31,
         "home_form": "DWWWL",
         "away_form": "WLWLW",
-        "home_odds": 1.73,
-        "draw_odds": 3.1,
-        "away_odds": 4.5,
+        "home_odds": 1.74,
+        "draw_odds": 3.05,
+        "away_odds": 4.6,
         "bookmaker": "LeoVegas (SE)",
         "time": "2026-07-10T22:00Z",
         "value_team": "Vila Nova",
         "value_side": "away",
-        "value_odds": 4.5,
+        "value_odds": 4.6,
         "value_pos": 2,
         "pos_diff": 4,
         "settlement": {
@@ -322,5 +322,5 @@
       }
     }
   ],
-  "generated_at": "2026-07-10T09:26:54.320855"
+  "generated_at": "2026-07-10T19:21:32.206531"
 }
