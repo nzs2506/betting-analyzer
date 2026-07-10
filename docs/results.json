@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-09T19:38:00.735227",
+  "generated_at": "2026-07-10T09:26:54.320855",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
     "leagues_checked": 10,
-    "fixtures_found": 36,
-    "with_odds": 10,
+    "fixtures_found": 76,
+    "with_odds": 22,
     "leagues_detail": [
       [
         "bra.1",
@@ -261,6 +261,76 @@
       "league": "Бразилия Серия Б",
       "match": {
         "source": "espn",
+        "event_id": "401873998",
+        "fixture_id": null,
+        "league_slug": "bra.2",
+        "league_id": null,
+        "season": null,
+        "home": "Atlético Goianiense",
+        "away": "Fortaleza",
+        "home_pos": 13,
+        "away_pos": 4,
+        "home_pts": 21,
+        "away_pts": 28,
+        "home_form": "LWDDW",
+        "away_form": "WWDLW",
+        "home_odds": 2.38,
+        "draw_odds": 3.1,
+        "away_odds": 3.0,
+        "bookmaker": "Unibet (SE)",
+        "time": "2026-07-12T21:00Z",
+        "value_team": "Fortaleza",
+        "value_side": "away",
+        "value_odds": 3.0,
+        "value_pos": 4,
+        "pos_diff": 9,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401873998"
+      }
+    },
+    {
+      "league": "Китай Суперлига",
+      "match": {
+        "source": "espn",
+        "event_id": "401861291",
+        "fixture_id": null,
+        "league_slug": "chn.1",
+        "league_id": null,
+        "season": null,
+        "home": "Tianjin Jinmen Tiger",
+        "away": "Liaoning Tieren",
+        "home_pos": 15,
+        "away_pos": 8,
+        "home_pts": 8,
+        "away_pts": 20,
+        "home_form": "WLWDL",
+        "away_form": "WLWWW",
+        "home_odds": 2.2,
+        "draw_odds": 3.25,
+        "away_odds": 2.7,
+        "bookmaker": "Winamax (DE)",
+        "time": "2026-07-12T11:00Z",
+        "value_team": "Liaoning Tieren",
+        "value_side": "away",
+        "value_odds": 2.7,
+        "value_pos": 8,
+        "pos_diff": 7,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401861291"
+      }
+    },
+    {
+      "league": "Бразилия Серия Б",
+      "match": {
+        "source": "espn",
         "event_id": "401860231",
         "fixture_id": null,
         "league_slug": "bra.2",
@@ -274,8 +344,8 @@
         "away_pts": 31,
         "home_form": "DWWWL",
         "away_form": "WLWLW",
-        "home_odds": 1.72,
-        "draw_odds": 3.15,
+        "home_odds": 1.73,
+        "draw_odds": 3.1,
         "away_odds": 4.5,
         "bookmaker": "LeoVegas (SE)",
         "time": "2026-07-10T22:00Z",
@@ -293,5 +363,5 @@
       }
     }
   ],
-  "history_count": 6
+  "history_count": 8
 }
