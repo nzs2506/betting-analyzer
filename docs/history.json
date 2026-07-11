@@ -1,10 +1,47 @@
 {
   "signals": [
     {
+      "id": "espn:401873999",
+      "league": "Бразилия Серия Б",
+      "first_seen": "2026-07-11T07:48:01.181003",
+      "last_seen": "2026-07-11T07:48:01.181003",
+      "match": {
+        "source": "espn",
+        "event_id": "401873999",
+        "fixture_id": null,
+        "league_slug": "bra.2",
+        "league_id": null,
+        "season": null,
+        "home": "América Mineiro",
+        "away": "Londrina",
+        "home_pos": 20,
+        "away_pos": 16,
+        "home_pts": 6,
+        "away_pts": 18,
+        "home_form": "LLLWL",
+        "away_form": "WDWWL",
+        "home_odds": 1.95,
+        "draw_odds": 3.25,
+        "away_odds": 3.8,
+        "bookmaker": "Betsson",
+        "time": "2026-07-13T22:00Z",
+        "value_team": "Londrina",
+        "value_side": "away",
+        "value_odds": 3.8,
+        "value_pos": 16,
+        "pos_diff": 4,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
       "id": "espn:401873998",
       "league": "Бразилия Серия Б",
       "first_seen": "2026-07-10T09:26:54.320855",
-      "last_seen": "2026-07-10T19:21:32.206531",
+      "last_seen": "2026-07-11T07:48:01.181003",
       "match": {
         "source": "espn",
         "event_id": "401873998",
@@ -15,7 +52,7 @@
         "home": "Atlético Goianiense",
         "away": "Fortaleza",
         "home_pos": 13,
-        "away_pos": 4,
+        "away_pos": 5,
         "home_pts": 21,
         "away_pts": 28,
         "home_form": "LWDDW",
@@ -28,8 +65,8 @@
         "value_team": "Fortaleza",
         "value_side": "away",
         "value_odds": 3.05,
-        "value_pos": 4,
-        "pos_diff": 9,
+        "value_pos": 5,
+        "pos_diff": 8,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
@@ -105,9 +142,14 @@
         "value_pos": 2,
         "pos_diff": 4,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 1,
+          "away_score": 0,
+          "score": "1:0",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -322,5 +364,5 @@
       }
     }
   ],
-  "generated_at": "2026-07-10T19:21:32.206531"
+  "generated_at": "2026-07-11T07:48:01.181003"
 }
