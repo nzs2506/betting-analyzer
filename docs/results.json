@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-11T18:55:22.713938",
+  "generated_at": "2026-07-12T08:09:19.192796",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 7,
-    "fixtures_found": 42,
+    "leagues_checked": 8,
+    "fixtures_found": 43,
     "with_odds": 12,
     "leagues_detail": [
       [
@@ -107,7 +107,7 @@
       [
         "chn.1",
         "Китай Суперлига",
-        "no_matches"
+        "ok"
       ],
       [
         "ind.1",
