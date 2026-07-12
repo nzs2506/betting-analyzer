@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-12T08:09:19.192796",
+  "generated_at": "2026-07-12T18:59:09.008940",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 8,
-    "fixtures_found": 43,
-    "with_odds": 12,
+    "leagues_checked": 7,
+    "fixtures_found": 27,
+    "with_odds": 3,
     "leagues_detail": [
       [
         "bra.1",
@@ -162,7 +162,7 @@
       [
         "nor.1",
         "Норвегия Элитесерен",
-        "ok"
+        "no_matches"
       ],
       [
         "nor.2",
@@ -269,21 +269,21 @@
         "home": "Atlético Goianiense",
         "away": "Fortaleza",
         "home_pos": 13,
-        "away_pos": 5,
+        "away_pos": 6,
         "home_pts": 21,
         "away_pts": 28,
         "home_form": "LWDDW",
         "away_form": "WWDLW",
-        "home_odds": 2.35,
+        "home_odds": 2.4,
         "draw_odds": 3.15,
-        "away_odds": 3.05,
+        "away_odds": 2.95,
         "bookmaker": "Unibet (SE)",
         "time": "2026-07-12T21:00Z",
         "value_team": "Fortaleza",
         "value_side": "away",
-        "value_odds": 3.05,
-        "value_pos": 5,
-        "pos_diff": 8,
+        "value_odds": 2.95,
+        "value_pos": 6,
+        "pos_diff": 7,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
@@ -309,14 +309,14 @@
         "away_pts": 18,
         "home_form": "LLLWL",
         "away_form": "WDWWL",
-        "home_odds": 1.95,
+        "home_odds": 1.92,
         "draw_odds": 3.25,
-        "away_odds": 3.8,
+        "away_odds": 3.9,
         "bookmaker": "Betsson",
         "time": "2026-07-13T22:00Z",
         "value_team": "Londrina",
         "value_side": "away",
-        "value_odds": 3.8,
+        "value_odds": 3.9,
         "value_pos": 16,
         "pos_diff": 4,
         "settlement": {
