@@ -4,7 +4,7 @@
       "id": "espn:401873999",
       "league": "Бразилия Серия Б",
       "first_seen": "2026-07-11T07:48:01.181003",
-      "last_seen": "2026-07-13T09:17:27.777276",
+      "last_seen": "2026-07-13T19:18:44.013469",
       "match": {
         "source": "espn",
         "event_id": "401873999",
@@ -20,14 +20,14 @@
         "away_pts": 18,
         "home_form": "LLLWL",
         "away_form": "WDWWL",
-        "home_odds": 1.92,
-        "draw_odds": 3.25,
-        "away_odds": 3.9,
+        "home_odds": 2.15,
+        "draw_odds": 3.05,
+        "away_odds": 3.45,
         "bookmaker": "Betsson",
         "time": "2026-07-13T22:00Z",
         "value_team": "Londrina",
         "value_side": "away",
-        "value_odds": 3.9,
+        "value_odds": 3.45,
         "value_pos": 16,
         "pos_diff": 4,
         "settlement": {
@@ -369,5 +369,5 @@
       }
     }
   ],
-  "generated_at": "2026-07-13T09:17:27.777276"
+  "generated_at": "2026-07-13T19:18:44.013469"
 }
