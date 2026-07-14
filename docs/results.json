@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-13T19:18:44.013469",
+  "generated_at": "2026-07-14T07:55:15.225259",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 6,
-    "fixtures_found": 15,
-    "with_odds": 1,
+    "leagues_checked": 8,
+    "fixtures_found": 24,
+    "with_odds": 8,
     "leagues_detail": [
       [
         "bra.1",
         "Бразилия Серия А",
-        "no_matches"
+        "ok"
       ],
       [
         "bra.2",
@@ -32,7 +32,7 @@
       [
         "arg.2",
         "Аргентина Насьональ Б",
-        "ok"
+        "no_matches"
       ],
       [
         "chi.1",
@@ -47,7 +47,7 @@
       [
         "uru.1",
         "Уругвай Лига",
-        "ok"
+        "no_matches"
       ],
       [
         "ecu.1",
@@ -77,7 +77,7 @@
       [
         "mex.1",
         "Мексика Лига MX",
-        "no_matches"
+        "ok"
       ],
       [
         "mex.2",
@@ -87,7 +87,7 @@
       [
         "usa.1",
         "США MLS",
-        "no_matches"
+        "ok"
       ],
       [
         "usa.2",
@@ -162,7 +162,7 @@
       [
         "nor.1",
         "Норвегия Элитесерен",
-        "no_matches"
+        "ok"
       ],
       [
         "nor.2",
@@ -258,40 +258,40 @@
   },
   "results": [
     {
-      "league": "Бразилия Серия Б",
+      "league": "Мексика Лига MX",
       "match": {
         "source": "espn",
-        "event_id": "401873999",
+        "event_id": "401877045",
         "fixture_id": null,
-        "league_slug": "bra.2",
+        "league_slug": "mex.1",
         "league_id": null,
         "season": null,
-        "home": "América Mineiro",
-        "away": "Londrina",
-        "home_pos": 20,
-        "away_pos": 16,
-        "home_pts": 6,
-        "away_pts": 18,
-        "home_form": "LLLWL",
-        "away_form": "WDWWL",
-        "home_odds": 2.15,
-        "draw_odds": 3.05,
-        "away_odds": 3.45,
-        "bookmaker": "Betsson",
-        "time": "2026-07-13T22:00Z",
-        "value_team": "Londrina",
+        "home": "Necaxa",
+        "away": "Atlante",
+        "home_pos": 10,
+        "away_pos": 1,
+        "home_pts": 0,
+        "away_pts": 0,
+        "home_form": "LDDLW",
+        "away_form": "LWDLW",
+        "home_odds": 1.87,
+        "draw_odds": 3.62,
+        "away_odds": 3.81,
+        "bookmaker": "1xBet",
+        "time": "2026-07-17T01:00Z",
+        "value_team": "Atlante",
         "value_side": "away",
-        "value_odds": 3.45,
-        "value_pos": 16,
-        "pos_diff": 4,
+        "value_odds": 3.81,
+        "value_pos": 1,
+        "pos_diff": 9,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
           "label": "матч не завершен"
         },
-        "signal_id": "espn:401873999"
+        "signal_id": "espn:401877045"
       }
     }
   ],
-  "history_count": 9
+  "history_count": 10
 }

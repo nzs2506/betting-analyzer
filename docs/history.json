@@ -1,6 +1,43 @@
 {
   "signals": [
     {
+      "id": "espn:401877045",
+      "league": "Мексика Лига MX",
+      "first_seen": "2026-07-14T07:55:15.225259",
+      "last_seen": "2026-07-14T07:55:15.225259",
+      "match": {
+        "source": "espn",
+        "event_id": "401877045",
+        "fixture_id": null,
+        "league_slug": "mex.1",
+        "league_id": null,
+        "season": null,
+        "home": "Necaxa",
+        "away": "Atlante",
+        "home_pos": 10,
+        "away_pos": 1,
+        "home_pts": 0,
+        "away_pts": 0,
+        "home_form": "LDDLW",
+        "away_form": "LWDLW",
+        "home_odds": 1.87,
+        "draw_odds": 3.62,
+        "away_odds": 3.81,
+        "bookmaker": "1xBet",
+        "time": "2026-07-17T01:00Z",
+        "value_team": "Atlante",
+        "value_side": "away",
+        "value_odds": 3.81,
+        "value_pos": 1,
+        "pos_diff": 9,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
       "id": "espn:401873999",
       "league": "Бразилия Серия Б",
       "first_seen": "2026-07-11T07:48:01.181003",
@@ -31,9 +68,14 @@
         "value_pos": 16,
         "pos_diff": 4,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 1,
+          "away_score": 1,
+          "score": "1:1",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -369,5 +411,5 @@
       }
     }
   ],
-  "generated_at": "2026-07-13T19:18:44.013469"
+  "generated_at": "2026-07-14T07:55:15.225259"
 }
