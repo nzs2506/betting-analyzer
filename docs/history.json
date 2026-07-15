@@ -1,10 +1,84 @@
 {
   "signals": [
     {
+      "id": "espn:401877042",
+      "league": "Мексика Лига MX",
+      "first_seen": "2026-07-15T07:59:56.401994",
+      "last_seen": "2026-07-15T07:59:56.401994",
+      "match": {
+        "source": "espn",
+        "event_id": "401877042",
+        "fixture_id": null,
+        "league_slug": "mex.1",
+        "league_id": null,
+        "season": null,
+        "home": "León",
+        "away": "Atlas",
+        "home_pos": 8,
+        "away_pos": 2,
+        "home_pts": 0,
+        "away_pts": 0,
+        "home_form": "LLWWW",
+        "away_form": "LLWDW",
+        "home_odds": 2.0,
+        "draw_odds": 3.38,
+        "away_odds": 3.6,
+        "bookmaker": "1xBet",
+        "time": "2026-07-18T01:00Z",
+        "value_team": "Atlas",
+        "value_side": "away",
+        "value_odds": 3.6,
+        "value_pos": 2,
+        "pos_diff": 6,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
+      "id": "espn:401842759",
+      "league": "Швеция Алльсвенскан",
+      "first_seen": "2026-07-15T07:59:56.401994",
+      "last_seen": "2026-07-15T07:59:56.401994",
+      "match": {
+        "source": "espn",
+        "event_id": "401842759",
+        "fixture_id": null,
+        "league_slug": "swe.1",
+        "league_id": null,
+        "season": null,
+        "home": "IFK Göteborg",
+        "away": "IF Brommapojkarna",
+        "home_pos": 14,
+        "away_pos": 10,
+        "home_pts": 10,
+        "away_pts": 16,
+        "home_form": "LLWDW",
+        "away_form": "LDDWW",
+        "home_odds": 1.97,
+        "draw_odds": 3.65,
+        "away_odds": 3.4,
+        "bookmaker": "LeoVegas (SE)",
+        "time": "2026-07-17T17:00Z",
+        "value_team": "IF Brommapojkarna",
+        "value_side": "away",
+        "value_odds": 3.4,
+        "value_pos": 10,
+        "pos_diff": 4,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
       "id": "espn:401877045",
       "league": "Мексика Лига MX",
       "first_seen": "2026-07-14T07:55:15.225259",
-      "last_seen": "2026-07-14T19:12:22.247566",
+      "last_seen": "2026-07-15T07:59:56.401994",
       "match": {
         "source": "espn",
         "event_id": "401877045",
@@ -411,5 +485,5 @@
       }
     }
   ],
-  "generated_at": "2026-07-14T19:12:22.247566"
+  "generated_at": "2026-07-15T07:59:56.401994"
 }
