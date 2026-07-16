@@ -4,7 +4,7 @@
       "id": "espn:401877042",
       "league": "Мексика Лига MX",
       "first_seen": "2026-07-15T07:59:56.401994",
-      "last_seen": "2026-07-16T08:04:52.991617",
+      "last_seen": "2026-07-16T19:03:31.884069",
       "match": {
         "source": "espn",
         "event_id": "401877042",
@@ -41,7 +41,7 @@
       "id": "espn:401842759",
       "league": "Швеция Алльсвенскан",
       "first_seen": "2026-07-15T07:59:56.401994",
-      "last_seen": "2026-07-16T08:04:52.991617",
+      "last_seen": "2026-07-16T19:03:31.884069",
       "match": {
         "source": "espn",
         "event_id": "401842759",
@@ -57,14 +57,14 @@
         "away_pts": 16,
         "home_form": "LLWDW",
         "away_form": "LDDWW",
-        "home_odds": 1.79,
-        "draw_odds": 3.8,
-        "away_odds": 4.0,
+        "home_odds": 1.73,
+        "draw_odds": 3.9,
+        "away_odds": 4.25,
         "bookmaker": "LeoVegas (SE)",
         "time": "2026-07-17T17:00Z",
         "value_team": "IF Brommapojkarna",
         "value_side": "away",
-        "value_odds": 4.0,
+        "value_odds": 4.25,
         "value_pos": 10,
         "pos_diff": 4,
         "settlement": {
@@ -78,7 +78,7 @@
       "id": "espn:401877045",
       "league": "Мексика Лига MX",
       "first_seen": "2026-07-14T07:55:15.225259",
-      "last_seen": "2026-07-16T08:04:52.991617",
+      "last_seen": "2026-07-16T19:03:31.884069",
       "match": {
         "source": "espn",
         "event_id": "401877045",
@@ -485,5 +485,5 @@
       }
     }
   ],
-  "generated_at": "2026-07-16T08:04:52.991617"
+  "generated_at": "2026-07-16T19:03:31.884069"
 }

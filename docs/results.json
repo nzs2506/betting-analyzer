@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-16T08:04:52.991617",
+  "generated_at": "2026-07-16T19:03:31.884069",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 11,
-    "fixtures_found": 67,
-    "with_odds": 26,
+    "leagues_checked": 12,
+    "fixtures_found": 75,
+    "with_odds": 32,
     "leagues_detail": [
       [
         "bra.1",
@@ -17,7 +17,7 @@
       [
         "bra.2",
         "Бразилия Серия Б",
-        "no_data"
+        "ok"
       ],
       [
         "bra.3",
@@ -344,14 +344,14 @@
         "away_pts": 16,
         "home_form": "LLWDW",
         "away_form": "LDDWW",
-        "home_odds": 1.79,
-        "draw_odds": 3.8,
-        "away_odds": 4.0,
+        "home_odds": 1.73,
+        "draw_odds": 3.9,
+        "away_odds": 4.25,
         "bookmaker": "LeoVegas (SE)",
         "time": "2026-07-17T17:00Z",
         "value_team": "IF Brommapojkarna",
         "value_side": "away",
-        "value_odds": 4.0,
+        "value_odds": 4.25,
         "value_pos": 10,
         "pos_diff": 4,
         "settlement": {
