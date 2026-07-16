@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-15T19:04:17.938374",
+  "generated_at": "2026-07-16T08:04:52.991617",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 12,
-    "fixtures_found": 52,
-    "with_odds": 23,
+    "leagues_checked": 11,
+    "fixtures_found": 67,
+    "with_odds": 26,
     "leagues_detail": [
       [
         "bra.1",
@@ -17,7 +17,7 @@
       [
         "bra.2",
         "Бразилия Серия Б",
-        "ok"
+        "no_data"
       ],
       [
         "bra.3",
@@ -274,14 +274,14 @@
         "away_pts": 0,
         "home_form": "LDDLW",
         "away_form": "LWDLW",
-        "home_odds": 1.83,
-        "draw_odds": 3.6,
-        "away_odds": 3.8,
-        "bookmaker": "Tipico",
+        "home_odds": 1.87,
+        "draw_odds": 3.58,
+        "away_odds": 3.85,
+        "bookmaker": "1xBet",
         "time": "2026-07-17T01:00Z",
         "value_team": "Atlante",
         "value_side": "away",
-        "value_odds": 3.8,
+        "value_odds": 3.85,
         "value_pos": 1,
         "pos_diff": 9,
         "settlement": {
@@ -309,14 +309,14 @@
         "away_pts": 0,
         "home_form": "LLWWW",
         "away_form": "LLWDW",
-        "home_odds": 1.91,
-        "draw_odds": 3.2,
-        "away_odds": 3.4,
-        "bookmaker": "William Hill",
+        "home_odds": 2.03,
+        "draw_odds": 3.44,
+        "away_odds": 3.45,
+        "bookmaker": "1xBet",
         "time": "2026-07-18T01:00Z",
         "value_team": "Atlas",
         "value_side": "away",
-        "value_odds": 3.4,
+        "value_odds": 3.45,
         "value_pos": 2,
         "pos_diff": 6,
         "settlement": {
@@ -344,14 +344,14 @@
         "away_pts": 16,
         "home_form": "LLWDW",
         "away_form": "LDDWW",
-        "home_odds": 1.83,
-        "draw_odds": 3.5,
-        "away_odds": 3.6,
-        "bookmaker": "Betclic (FR)",
+        "home_odds": 1.79,
+        "draw_odds": 3.8,
+        "away_odds": 4.0,
+        "bookmaker": "LeoVegas (SE)",
         "time": "2026-07-17T17:00Z",
         "value_team": "IF Brommapojkarna",
         "value_side": "away",
-        "value_odds": 3.6,
+        "value_odds": 4.0,
         "value_pos": 10,
         "pos_diff": 4,
         "settlement": {
