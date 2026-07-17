@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-17T08:02:10.595212",
+  "generated_at": "2026-07-17T19:00:25.518550",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
     "leagues_checked": 12,
-    "fixtures_found": 76,
-    "with_odds": 28,
+    "fixtures_found": 65,
+    "with_odds": 24,
     "leagues_detail": [
       [
         "bra.1",
@@ -274,14 +274,14 @@
         "away_pts": 0,
         "home_form": "LLWWW",
         "away_form": "LLWDW",
-        "home_odds": 2.02,
-        "draw_odds": 3.44,
-        "away_odds": 3.47,
+        "home_odds": 2.11,
+        "draw_odds": 3.36,
+        "away_odds": 3.31,
         "bookmaker": "1xBet",
         "time": "2026-07-18T01:00Z",
         "value_team": "Atlas",
         "value_side": "away",
-        "value_odds": 3.47,
+        "value_odds": 3.31,
         "value_pos": 3,
         "pos_diff": 6,
         "settlement": {
@@ -309,14 +309,14 @@
         "away_pts": 21,
         "home_form": "LLWWL",
         "away_form": "LDWWD",
-        "home_odds": 1.89,
-        "draw_odds": 3.22,
-        "away_odds": 3.7,
+        "home_odds": 1.85,
+        "draw_odds": 3.38,
+        "away_odds": 4.1,
         "bookmaker": "Betclic (FR)",
         "time": "2026-07-17T23:00Z",
         "value_team": "Grêmio",
         "value_side": "away",
-        "value_odds": 3.7,
+        "value_odds": 4.1,
         "value_pos": 15,
         "pos_diff": 4,
         "settlement": {
@@ -325,41 +325,6 @@
           "label": "матч не завершен"
         },
         "signal_id": "espn:401841155"
-      }
-    },
-    {
-      "league": "Швеция Алльсвенскан",
-      "match": {
-        "source": "espn",
-        "event_id": "401842759",
-        "fixture_id": null,
-        "league_slug": "swe.1",
-        "league_id": null,
-        "season": null,
-        "home": "IFK Göteborg",
-        "away": "IF Brommapojkarna",
-        "home_pos": 14,
-        "away_pos": 10,
-        "home_pts": 10,
-        "away_pts": 16,
-        "home_form": "LLWDW",
-        "away_form": "LDDWW",
-        "home_odds": 1.94,
-        "draw_odds": 3.6,
-        "away_odds": 3.55,
-        "bookmaker": "LeoVegas (SE)",
-        "time": "2026-07-17T17:00Z",
-        "value_team": "IF Brommapojkarna",
-        "value_side": "away",
-        "value_odds": 3.55,
-        "value_pos": 10,
-        "pos_diff": 4,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401842759"
       }
     }
   ],
