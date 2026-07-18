@@ -31,9 +31,14 @@
         "value_pos": 15,
         "pos_diff": 4,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 2,
+          "away_score": 1,
+          "score": "2:1",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -68,9 +73,14 @@
         "value_pos": 3,
         "pos_diff": 6,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 2,
+          "away_score": 3,
+          "score": "2:3",
+          "outcome": "win",
+          "icon": "🟢",
+          "label": "прогноз сработал",
+          "roi": 2.31
         }
       }
     },
@@ -532,5 +542,5 @@
       }
     }
   ],
-  "generated_at": "2026-07-17T19:00:25.518550"
+  "generated_at": "2026-07-18T07:41:43.037581"
 }

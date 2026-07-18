@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-17T19:00:25.518550",
+  "generated_at": "2026-07-18T07:41:43.037581",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 12,
-    "fixtures_found": 65,
-    "with_odds": 24,
+    "leagues_checked": 10,
+    "fixtures_found": 58,
+    "with_odds": 14,
     "leagues_detail": [
       [
         "bra.1",
         "Бразилия Серия А",
-        "ok"
+        "no_matches"
       ],
       [
         "bra.2",
@@ -87,7 +87,7 @@
       [
         "usa.1",
         "США MLS",
-        "ok"
+        "no_matches"
       ],
       [
         "usa.2",
@@ -256,77 +256,6 @@
       ]
     ]
   },
-  "results": [
-    {
-      "league": "Мексика Лига MX",
-      "match": {
-        "source": "espn",
-        "event_id": "401877042",
-        "fixture_id": null,
-        "league_slug": "mex.1",
-        "league_id": null,
-        "season": null,
-        "home": "León",
-        "away": "Atlas",
-        "home_pos": 9,
-        "away_pos": 3,
-        "home_pts": 0,
-        "away_pts": 0,
-        "home_form": "LLWWW",
-        "away_form": "LLWDW",
-        "home_odds": 2.11,
-        "draw_odds": 3.36,
-        "away_odds": 3.31,
-        "bookmaker": "1xBet",
-        "time": "2026-07-18T01:00Z",
-        "value_team": "Atlas",
-        "value_side": "away",
-        "value_odds": 3.31,
-        "value_pos": 3,
-        "pos_diff": 6,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401877042"
-      }
-    },
-    {
-      "league": "Бразилия Серия А",
-      "match": {
-        "source": "espn",
-        "event_id": "401841155",
-        "fixture_id": null,
-        "league_slug": "bra.1",
-        "league_id": null,
-        "season": null,
-        "home": "Mirassol",
-        "away": "Grêmio",
-        "home_pos": 19,
-        "away_pos": 15,
-        "home_pts": 16,
-        "away_pts": 21,
-        "home_form": "LLWWL",
-        "away_form": "LDWWD",
-        "home_odds": 1.85,
-        "draw_odds": 3.38,
-        "away_odds": 4.1,
-        "bookmaker": "Betclic (FR)",
-        "time": "2026-07-17T23:00Z",
-        "value_team": "Grêmio",
-        "value_side": "away",
-        "value_odds": 4.1,
-        "value_pos": 15,
-        "pos_diff": 4,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401841155"
-      }
-    }
-  ],
+  "results": [],
   "history_count": 13
 }
