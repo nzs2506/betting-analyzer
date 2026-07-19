@@ -1,6 +1,43 @@
 {
   "signals": [
     {
+      "id": "espn:401860247",
+      "league": "Бразилия Серия Б",
+      "first_seen": "2026-07-19T08:08:48.874265",
+      "last_seen": "2026-07-19T08:08:48.874265",
+      "match": {
+        "source": "espn",
+        "event_id": "401860247",
+        "fixture_id": null,
+        "league_slug": "bra.2",
+        "league_id": null,
+        "season": null,
+        "home": "Novorizontino",
+        "away": "Criciúma",
+        "home_pos": 6,
+        "away_pos": 1,
+        "home_pts": 30,
+        "away_pts": 36,
+        "home_form": "LLWWW",
+        "away_form": "WWWWW",
+        "home_odds": 2.2,
+        "draw_odds": 3.15,
+        "away_odds": 3.35,
+        "bookmaker": "Unibet (SE)",
+        "time": "2026-07-21T22:30Z",
+        "value_team": "Criciúma",
+        "value_side": "away",
+        "value_odds": 3.35,
+        "value_pos": 1,
+        "pos_diff": 5,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
       "id": "espn:401841155",
       "league": "Бразилия Серия А",
       "first_seen": "2026-07-17T08:02:10.595212",
@@ -542,5 +579,5 @@
       }
     }
   ],
-  "generated_at": "2026-07-18T18:56:39.854756"
+  "generated_at": "2026-07-19T08:08:48.874265"
 }
