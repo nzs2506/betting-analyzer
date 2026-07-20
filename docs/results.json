@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-20T08:50:13.164622",
+  "generated_at": "2026-07-20T19:39:13.139892",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 8,
-    "fixtures_found": 42,
-    "with_odds": 23,
+    "leagues_checked": 7,
+    "fixtures_found": 38,
+    "with_odds": 22,
     "leagues_detail": [
       [
         "bra.1",
@@ -172,7 +172,7 @@
       [
         "swe.1",
         "Швеция Алльсвенскан",
-        "ok"
+        "no_matches"
       ],
       [
         "swe.2",
@@ -275,13 +275,13 @@
         "home_form": "WLLDW",
         "away_form": "WWLWW",
         "home_odds": 2.15,
-        "draw_odds": 3.4,
-        "away_odds": 2.4,
+        "draw_odds": 3.5,
+        "away_odds": 2.45,
         "bookmaker": "Winamax (FR)",
         "time": "2026-07-23T02:30Z",
         "value_team": "FC Dallas",
         "value_side": "away",
-        "value_odds": 2.4,
+        "value_odds": 2.45,
         "value_pos": 4,
         "pos_diff": 9,
         "settlement": {

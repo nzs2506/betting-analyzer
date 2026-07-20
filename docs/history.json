@@ -4,7 +4,7 @@
       "id": "espn:761677",
       "league": "США MLS",
       "first_seen": "2026-07-20T08:50:13.164622",
-      "last_seen": "2026-07-20T08:50:13.164622",
+      "last_seen": "2026-07-20T19:39:13.139892",
       "match": {
         "source": "espn",
         "event_id": "761677",
@@ -21,13 +21,13 @@
         "home_form": "WLLDW",
         "away_form": "WWLWW",
         "home_odds": 2.15,
-        "draw_odds": 3.4,
-        "away_odds": 2.4,
+        "draw_odds": 3.5,
+        "away_odds": 2.45,
         "bookmaker": "Winamax (FR)",
         "time": "2026-07-23T02:30Z",
         "value_team": "FC Dallas",
         "value_side": "away",
-        "value_odds": 2.4,
+        "value_odds": 2.45,
         "value_pos": 4,
         "pos_diff": 9,
         "settlement": {
@@ -41,7 +41,7 @@
       "id": "espn:401860247",
       "league": "Бразилия Серия Б",
       "first_seen": "2026-07-19T08:08:48.874265",
-      "last_seen": "2026-07-20T08:50:13.164622",
+      "last_seen": "2026-07-20T19:39:13.139892",
       "match": {
         "source": "espn",
         "event_id": "401860247",
@@ -616,5 +616,5 @@
       }
     }
   ],
-  "generated_at": "2026-07-20T08:50:13.164622"
+  "generated_at": "2026-07-20T19:39:13.139892"
 }
