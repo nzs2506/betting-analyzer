@@ -1,10 +1,47 @@
 {
   "signals": [
     {
+      "id": "espn:761677",
+      "league": "США MLS",
+      "first_seen": "2026-07-20T08:50:13.164622",
+      "last_seen": "2026-07-20T08:50:13.164622",
+      "match": {
+        "source": "espn",
+        "event_id": "761677",
+        "fixture_id": null,
+        "league_slug": "usa.1",
+        "league_id": null,
+        "season": null,
+        "home": "Portland Timbers",
+        "away": "FC Dallas",
+        "home_pos": 13,
+        "away_pos": 4,
+        "home_pts": 14,
+        "away_pts": 25,
+        "home_form": "WLLDW",
+        "away_form": "WWLWW",
+        "home_odds": 2.15,
+        "draw_odds": 3.4,
+        "away_odds": 2.4,
+        "bookmaker": "Winamax (FR)",
+        "time": "2026-07-23T02:30Z",
+        "value_team": "FC Dallas",
+        "value_side": "away",
+        "value_odds": 2.4,
+        "value_pos": 4,
+        "pos_diff": 9,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
       "id": "espn:401860247",
       "league": "Бразилия Серия Б",
       "first_seen": "2026-07-19T08:08:48.874265",
-      "last_seen": "2026-07-19T18:59:37.733903",
+      "last_seen": "2026-07-20T08:50:13.164622",
       "match": {
         "source": "espn",
         "event_id": "401860247",
@@ -579,5 +616,5 @@
       }
     }
   ],
-  "generated_at": "2026-07-19T18:59:37.733903"
+  "generated_at": "2026-07-20T08:50:13.164622"
 }

@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-19T18:59:37.733903",
+  "generated_at": "2026-07-20T08:50:13.164622",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
     "leagues_checked": 8,
-    "fixtures_found": 20,
-    "with_odds": 5,
+    "fixtures_found": 42,
+    "with_odds": 23,
     "leagues_detail": [
       [
         "bra.1",
@@ -47,7 +47,7 @@
       [
         "uru.1",
         "Уругвай Лига",
-        "ok"
+        "no_matches"
       ],
       [
         "ecu.1",
@@ -67,7 +67,7 @@
       [
         "per.1",
         "Перу Лига 1",
-        "ok"
+        "no_matches"
       ],
       [
         "ven.1",
@@ -87,7 +87,7 @@
       [
         "usa.1",
         "США MLS",
-        "no_matches"
+        "ok"
       ],
       [
         "usa.2",
@@ -162,7 +162,7 @@
       [
         "nor.1",
         "Норвегия Элитесерен",
-        "no_matches"
+        "ok"
       ],
       [
         "nor.2",
@@ -258,6 +258,41 @@
   },
   "results": [
     {
+      "league": "США MLS",
+      "match": {
+        "source": "espn",
+        "event_id": "761677",
+        "fixture_id": null,
+        "league_slug": "usa.1",
+        "league_id": null,
+        "season": null,
+        "home": "Portland Timbers",
+        "away": "FC Dallas",
+        "home_pos": 13,
+        "away_pos": 4,
+        "home_pts": 14,
+        "away_pts": 25,
+        "home_form": "WLLDW",
+        "away_form": "WWLWW",
+        "home_odds": 2.15,
+        "draw_odds": 3.4,
+        "away_odds": 2.4,
+        "bookmaker": "Winamax (FR)",
+        "time": "2026-07-23T02:30Z",
+        "value_team": "FC Dallas",
+        "value_side": "away",
+        "value_odds": 2.4,
+        "value_pos": 4,
+        "pos_diff": 9,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:761677"
+      }
+    },
+    {
       "league": "Бразилия Серия Б",
       "match": {
         "source": "espn",
@@ -293,5 +328,5 @@
       }
     }
   ],
-  "history_count": 14
+  "history_count": 15
 }
