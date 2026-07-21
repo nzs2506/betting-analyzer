@@ -4,7 +4,7 @@
       "id": "espn:401860251",
       "league": "Бразилия Серия Б",
       "first_seen": "2026-07-21T08:19:58.343956",
-      "last_seen": "2026-07-21T08:19:58.343956",
+      "last_seen": "2026-07-21T19:13:21.500310",
       "match": {
         "source": "espn",
         "event_id": "401860251",
@@ -20,14 +20,14 @@
         "away_pts": 32,
         "home_form": "DDWLW",
         "away_form": "WWDWW",
-        "home_odds": 2.45,
-        "draw_odds": 2.88,
-        "away_odds": 2.75,
+        "home_odds": 2.48,
+        "draw_odds": 2.85,
+        "away_odds": 2.7,
         "bookmaker": "LeoVegas (SE)",
         "time": "2026-07-24T00:30Z",
         "value_team": "Juventude",
         "value_side": "away",
-        "value_odds": 2.75,
+        "value_odds": 2.7,
         "value_pos": 2,
         "pos_diff": 13,
         "settlement": {
@@ -41,7 +41,7 @@
       "id": "espn:761677",
       "league": "США MLS",
       "first_seen": "2026-07-20T08:50:13.164622",
-      "last_seen": "2026-07-21T08:19:58.343956",
+      "last_seen": "2026-07-21T19:13:21.500310",
       "match": {
         "source": "espn",
         "event_id": "761677",
@@ -58,13 +58,13 @@
         "home_form": "WLLDW",
         "away_form": "WWLWW",
         "home_odds": 2.15,
-        "draw_odds": 3.5,
-        "away_odds": 2.45,
+        "draw_odds": 3.45,
+        "away_odds": 2.5,
         "bookmaker": "Winamax (FR)",
         "time": "2026-07-23T02:30Z",
         "value_team": "FC Dallas",
         "value_side": "away",
-        "value_odds": 2.45,
+        "value_odds": 2.5,
         "value_pos": 4,
         "pos_diff": 9,
         "settlement": {
@@ -78,7 +78,7 @@
       "id": "espn:401860247",
       "league": "Бразилия Серия Б",
       "first_seen": "2026-07-19T08:08:48.874265",
-      "last_seen": "2026-07-21T08:19:58.343956",
+      "last_seen": "2026-07-21T19:13:21.500310",
       "match": {
         "source": "espn",
         "event_id": "401860247",
@@ -94,7 +94,7 @@
         "away_pts": 36,
         "home_form": "LLWWW",
         "away_form": "WWWWW",
-        "home_odds": 2.23,
+        "home_odds": 2.25,
         "draw_odds": 3.1,
         "away_odds": 3.3,
         "bookmaker": "Unibet (SE)",
@@ -653,5 +653,5 @@
       }
     }
   ],
-  "generated_at": "2026-07-21T08:19:58.343956"
+  "generated_at": "2026-07-21T19:13:21.500310"
 }
