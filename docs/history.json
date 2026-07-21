@@ -1,10 +1,47 @@
 {
   "signals": [
     {
+      "id": "espn:401860251",
+      "league": "Бразилия Серия Б",
+      "first_seen": "2026-07-21T08:19:58.343956",
+      "last_seen": "2026-07-21T08:19:58.343956",
+      "match": {
+        "source": "espn",
+        "event_id": "401860251",
+        "fixture_id": null,
+        "league_slug": "bra.2",
+        "league_id": null,
+        "season": null,
+        "home": "Botafogo-SP",
+        "away": "Juventude",
+        "home_pos": 15,
+        "away_pos": 2,
+        "home_pts": 21,
+        "away_pts": 32,
+        "home_form": "DDWLW",
+        "away_form": "WWDWW",
+        "home_odds": 2.45,
+        "draw_odds": 2.88,
+        "away_odds": 2.75,
+        "bookmaker": "LeoVegas (SE)",
+        "time": "2026-07-24T00:30Z",
+        "value_team": "Juventude",
+        "value_side": "away",
+        "value_odds": 2.75,
+        "value_pos": 2,
+        "pos_diff": 13,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
       "id": "espn:761677",
       "league": "США MLS",
       "first_seen": "2026-07-20T08:50:13.164622",
-      "last_seen": "2026-07-20T19:39:13.139892",
+      "last_seen": "2026-07-21T08:19:58.343956",
       "match": {
         "source": "espn",
         "event_id": "761677",
@@ -41,7 +78,7 @@
       "id": "espn:401860247",
       "league": "Бразилия Серия Б",
       "first_seen": "2026-07-19T08:08:48.874265",
-      "last_seen": "2026-07-20T19:39:13.139892",
+      "last_seen": "2026-07-21T08:19:58.343956",
       "match": {
         "source": "espn",
         "event_id": "401860247",
@@ -57,14 +94,14 @@
         "away_pts": 36,
         "home_form": "LLWWW",
         "away_form": "WWWWW",
-        "home_odds": 2.2,
-        "draw_odds": 3.15,
-        "away_odds": 3.35,
+        "home_odds": 2.23,
+        "draw_odds": 3.1,
+        "away_odds": 3.3,
         "bookmaker": "Unibet (SE)",
         "time": "2026-07-21T22:30Z",
         "value_team": "Criciúma",
         "value_side": "away",
-        "value_odds": 3.35,
+        "value_odds": 3.3,
         "value_pos": 1,
         "pos_diff": 5,
         "settlement": {
@@ -616,5 +653,5 @@
       }
     }
   ],
-  "generated_at": "2026-07-20T19:39:13.139892"
+  "generated_at": "2026-07-21T08:19:58.343956"
 }

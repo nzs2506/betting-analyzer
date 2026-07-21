@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-20T19:39:13.139892",
+  "generated_at": "2026-07-21T08:19:58.343956",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 7,
-    "fixtures_found": 38,
-    "with_odds": 22,
+    "leagues_checked": 8,
+    "fixtures_found": 48,
+    "with_odds": 28,
     "leagues_detail": [
       [
         "bra.1",
@@ -27,7 +27,7 @@
       [
         "arg.1",
         "Аргентина Примера",
-        "no_matches"
+        "ok"
       ],
       [
         "arg.2",
@@ -258,6 +258,41 @@
   },
   "results": [
     {
+      "league": "Бразилия Серия Б",
+      "match": {
+        "source": "espn",
+        "event_id": "401860251",
+        "fixture_id": null,
+        "league_slug": "bra.2",
+        "league_id": null,
+        "season": null,
+        "home": "Botafogo-SP",
+        "away": "Juventude",
+        "home_pos": 15,
+        "away_pos": 2,
+        "home_pts": 21,
+        "away_pts": 32,
+        "home_form": "DDWLW",
+        "away_form": "WWDWW",
+        "home_odds": 2.45,
+        "draw_odds": 2.88,
+        "away_odds": 2.75,
+        "bookmaker": "LeoVegas (SE)",
+        "time": "2026-07-24T00:30Z",
+        "value_team": "Juventude",
+        "value_side": "away",
+        "value_odds": 2.75,
+        "value_pos": 2,
+        "pos_diff": 13,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401860251"
+      }
+    },
+    {
       "league": "США MLS",
       "match": {
         "source": "espn",
@@ -309,14 +344,14 @@
         "away_pts": 36,
         "home_form": "LLWWW",
         "away_form": "WWWWW",
-        "home_odds": 2.2,
-        "draw_odds": 3.15,
-        "away_odds": 3.35,
+        "home_odds": 2.23,
+        "draw_odds": 3.1,
+        "away_odds": 3.3,
         "bookmaker": "Unibet (SE)",
         "time": "2026-07-21T22:30Z",
         "value_team": "Criciúma",
         "value_side": "away",
-        "value_odds": 3.35,
+        "value_odds": 3.3,
         "value_pos": 1,
         "pos_diff": 5,
         "settlement": {
@@ -328,5 +363,5 @@
       }
     }
   ],
-  "history_count": 15
+  "history_count": 16
 }
