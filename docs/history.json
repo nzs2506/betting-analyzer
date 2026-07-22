@@ -1,6 +1,43 @@
 {
   "signals": [
     {
+      "id": "espn:401841436",
+      "league": "Аргентина Примера",
+      "first_seen": "2026-07-22T08:20:54.176215",
+      "last_seen": "2026-07-22T08:20:54.176215",
+      "match": {
+        "source": "espn",
+        "event_id": "401841436",
+        "fixture_id": null,
+        "league_slug": "arg.1",
+        "league_id": null,
+        "season": null,
+        "home": "Vélez Sarsfield",
+        "away": "Instituto (Córdoba)",
+        "home_pos": 15,
+        "away_pos": 8,
+        "home_pts": 0,
+        "away_pts": 0,
+        "home_form": "LDWDD",
+        "away_form": "WWDLW",
+        "home_odds": 2.15,
+        "draw_odds": 3.0,
+        "away_odds": 3.92,
+        "bookmaker": "1xBet",
+        "time": "2026-07-24T22:00Z",
+        "value_team": "Instituto (Córdoba)",
+        "value_side": "away",
+        "value_odds": 3.92,
+        "value_pos": 8,
+        "pos_diff": 7,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
       "id": "espn:401860251",
       "league": "Бразилия Серия Б",
       "first_seen": "2026-07-21T08:19:58.343956",
@@ -41,7 +78,7 @@
       "id": "espn:761677",
       "league": "США MLS",
       "first_seen": "2026-07-20T08:50:13.164622",
-      "last_seen": "2026-07-21T19:13:21.500310",
+      "last_seen": "2026-07-22T08:20:54.176215",
       "match": {
         "source": "espn",
         "event_id": "761677",
@@ -58,13 +95,13 @@
         "home_form": "WLLDW",
         "away_form": "WWLWW",
         "home_odds": 2.15,
-        "draw_odds": 3.45,
-        "away_odds": 2.5,
+        "draw_odds": 3.5,
+        "away_odds": 2.55,
         "bookmaker": "Winamax (FR)",
         "time": "2026-07-23T02:30Z",
         "value_team": "FC Dallas",
         "value_side": "away",
-        "value_odds": 2.5,
+        "value_odds": 2.55,
         "value_pos": 4,
         "pos_diff": 9,
         "settlement": {
@@ -105,9 +142,14 @@
         "value_pos": 1,
         "pos_diff": 5,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 0,
+          "away_score": 1,
+          "score": "0:1",
+          "outcome": "win",
+          "icon": "🟢",
+          "label": "прогноз сработал",
+          "roi": 2.3
         }
       }
     },
@@ -653,5 +695,5 @@
       }
     }
   ],
-  "generated_at": "2026-07-21T19:13:21.500310"
+  "generated_at": "2026-07-22T08:20:54.176215"
 }

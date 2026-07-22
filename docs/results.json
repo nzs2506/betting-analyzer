@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-21T19:13:21.500310",
+  "generated_at": "2026-07-22T08:20:54.176215",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 8,
-    "fixtures_found": 48,
+    "leagues_checked": 15,
+    "fixtures_found": 53,
     "with_odds": 28,
     "leagues_detail": [
       [
@@ -17,7 +17,7 @@
       [
         "bra.2",
         "Бразилия Серия Б",
-        "ok"
+        "no_data"
       ],
       [
         "bra.3",
@@ -37,17 +37,17 @@
       [
         "chi.1",
         "Чили Примера",
-        "no_matches"
+        "ok"
       ],
       [
         "col.1",
         "Колумбия Примера А",
-        "no_matches"
+        "ok"
       ],
       [
         "uru.1",
         "Уругвай Лига",
-        "no_matches"
+        "ok"
       ],
       [
         "ecu.1",
@@ -62,12 +62,12 @@
       [
         "par.1",
         "Парагвай Примера",
-        "no_matches"
+        "ok"
       ],
       [
         "per.1",
         "Перу Лига 1",
-        "no_matches"
+        "ok"
       ],
       [
         "ven.1",
@@ -82,7 +82,7 @@
       [
         "mex.2",
         "Мексика Лига Экспансьон",
-        "no_matches"
+        "ok"
       ],
       [
         "usa.1",
@@ -172,7 +172,7 @@
       [
         "swe.1",
         "Швеция Алльсвенскан",
-        "no_matches"
+        "ok"
       ],
       [
         "swe.2",
@@ -182,7 +182,7 @@
       [
         "den.1",
         "Дания Суперлига",
-        "no_matches"
+        "ok"
       ],
       [
         "den.2",
@@ -258,41 +258,6 @@
   },
   "results": [
     {
-      "league": "Бразилия Серия Б",
-      "match": {
-        "source": "espn",
-        "event_id": "401860251",
-        "fixture_id": null,
-        "league_slug": "bra.2",
-        "league_id": null,
-        "season": null,
-        "home": "Botafogo-SP",
-        "away": "Juventude",
-        "home_pos": 15,
-        "away_pos": 2,
-        "home_pts": 21,
-        "away_pts": 32,
-        "home_form": "DDWLW",
-        "away_form": "WWDWW",
-        "home_odds": 2.48,
-        "draw_odds": 2.85,
-        "away_odds": 2.7,
-        "bookmaker": "LeoVegas (SE)",
-        "time": "2026-07-24T00:30Z",
-        "value_team": "Juventude",
-        "value_side": "away",
-        "value_odds": 2.7,
-        "value_pos": 2,
-        "pos_diff": 13,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401860251"
-      }
-    },
-    {
       "league": "США MLS",
       "match": {
         "source": "espn",
@@ -310,13 +275,13 @@
         "home_form": "WLLDW",
         "away_form": "WWLWW",
         "home_odds": 2.15,
-        "draw_odds": 3.45,
-        "away_odds": 2.5,
+        "draw_odds": 3.5,
+        "away_odds": 2.55,
         "bookmaker": "Winamax (FR)",
         "time": "2026-07-23T02:30Z",
         "value_team": "FC Dallas",
         "value_side": "away",
-        "value_odds": 2.5,
+        "value_odds": 2.55,
         "value_pos": 4,
         "pos_diff": 9,
         "settlement": {
@@ -328,40 +293,40 @@
       }
     },
     {
-      "league": "Бразилия Серия Б",
+      "league": "Аргентина Примера",
       "match": {
         "source": "espn",
-        "event_id": "401860247",
+        "event_id": "401841436",
         "fixture_id": null,
-        "league_slug": "bra.2",
+        "league_slug": "arg.1",
         "league_id": null,
         "season": null,
-        "home": "Novorizontino",
-        "away": "Criciúma",
-        "home_pos": 6,
-        "away_pos": 1,
-        "home_pts": 30,
-        "away_pts": 36,
-        "home_form": "LLWWW",
-        "away_form": "WWWWW",
-        "home_odds": 2.25,
-        "draw_odds": 3.1,
-        "away_odds": 3.3,
-        "bookmaker": "Unibet (SE)",
-        "time": "2026-07-21T22:30Z",
-        "value_team": "Criciúma",
+        "home": "Vélez Sarsfield",
+        "away": "Instituto (Córdoba)",
+        "home_pos": 15,
+        "away_pos": 8,
+        "home_pts": 0,
+        "away_pts": 0,
+        "home_form": "LDWDD",
+        "away_form": "WWDLW",
+        "home_odds": 2.15,
+        "draw_odds": 3.0,
+        "away_odds": 3.92,
+        "bookmaker": "1xBet",
+        "time": "2026-07-24T22:00Z",
+        "value_team": "Instituto (Córdoba)",
         "value_side": "away",
-        "value_odds": 3.3,
-        "value_pos": 1,
-        "pos_diff": 5,
+        "value_odds": 3.92,
+        "value_pos": 8,
+        "pos_diff": 7,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
           "label": "матч не завершен"
         },
-        "signal_id": "espn:401860247"
+        "signal_id": "espn:401841436"
       }
     }
   ],
-  "history_count": 16
+  "history_count": 17
 }
