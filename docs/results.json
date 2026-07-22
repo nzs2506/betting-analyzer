@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-22T08:20:54.176215",
+  "generated_at": "2026-07-22T19:07:09.458222",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 15,
-    "fixtures_found": 53,
-    "with_odds": 28,
+    "leagues_checked": 14,
+    "fixtures_found": 56,
+    "with_odds": 30,
     "leagues_detail": [
       [
         "bra.1",
@@ -17,7 +17,7 @@
       [
         "bra.2",
         "Бразилия Серия Б",
-        "no_data"
+        "ok"
       ],
       [
         "bra.3",
@@ -47,7 +47,7 @@
       [
         "uru.1",
         "Уругвай Лига",
-        "ok"
+        "no_matches"
       ],
       [
         "ecu.1",
@@ -162,7 +162,7 @@
       [
         "nor.1",
         "Норвегия Элитесерен",
-        "ok"
+        "no_matches"
       ],
       [
         "nor.2",
@@ -257,6 +257,41 @@
     ]
   },
   "results": [
+    {
+      "league": "Бразилия Серия Б",
+      "match": {
+        "source": "espn",
+        "event_id": "401860251",
+        "fixture_id": null,
+        "league_slug": "bra.2",
+        "league_id": null,
+        "season": null,
+        "home": "Botafogo-SP",
+        "away": "Juventude",
+        "home_pos": 15,
+        "away_pos": 3,
+        "home_pts": 21,
+        "away_pts": 32,
+        "home_form": "DDWLW",
+        "away_form": "WWDWW",
+        "home_odds": 2.45,
+        "draw_odds": 2.88,
+        "away_odds": 2.75,
+        "bookmaker": "LeoVegas (SE)",
+        "time": "2026-07-24T00:30Z",
+        "value_team": "Juventude",
+        "value_side": "away",
+        "value_odds": 2.75,
+        "value_pos": 3,
+        "pos_diff": 12,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401860251"
+      }
+    },
     {
       "league": "США MLS",
       "match": {
