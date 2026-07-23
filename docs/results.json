@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-23T08:23:02.534686",
+  "generated_at": "2026-07-23T19:08:02.111103",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
     "leagues_checked": 18,
-    "fixtures_found": 92,
-    "with_odds": 39,
+    "fixtures_found": 89,
+    "with_odds": 38,
     "leagues_detail": [
       [
         "bra.1",
@@ -309,14 +309,14 @@
         "away_pts": 32,
         "home_form": "DDWLW",
         "away_form": "WWDWW",
-        "home_odds": 2.45,
-        "draw_odds": 2.88,
-        "away_odds": 2.75,
+        "home_odds": 2.4,
+        "draw_odds": 2.85,
+        "away_odds": 2.8,
         "bookmaker": "LeoVegas (SE)",
         "time": "2026-07-24T00:30Z",
         "value_team": "Juventude",
         "value_side": "away",
-        "value_odds": 2.75,
+        "value_odds": 2.8,
         "value_pos": 4,
         "pos_diff": 11,
         "settlement": {
@@ -325,41 +325,6 @@
           "label": "матч не завершен"
         },
         "signal_id": "espn:401860251"
-      }
-    },
-    {
-      "league": "США MLS",
-      "match": {
-        "source": "espn",
-        "event_id": "761692",
-        "fixture_id": null,
-        "league_slug": "usa.1",
-        "league_id": null,
-        "season": null,
-        "home": "Portland Timbers",
-        "away": "Real Salt Lake",
-        "home_pos": 13,
-        "away_pos": 3,
-        "home_pts": 14,
-        "away_pts": 26,
-        "home_form": "DWLLD",
-        "away_form": "LDWWL",
-        "home_odds": 2.25,
-        "draw_odds": 3.7,
-        "away_odds": 2.45,
-        "bookmaker": "Winamax (DE)",
-        "time": "2026-07-26T02:30Z",
-        "value_team": "Real Salt Lake",
-        "value_side": "away",
-        "value_odds": 2.45,
-        "value_pos": 3,
-        "pos_diff": 10,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:761692"
       }
     },
     {
@@ -379,14 +344,14 @@
         "away_pts": 24,
         "home_form": "WLDLL",
         "away_form": "LLLLW",
-        "home_odds": 1.98,
-        "draw_odds": 3.35,
-        "away_odds": 2.8,
+        "home_odds": 1.94,
+        "draw_odds": 3.4,
+        "away_odds": 2.9,
         "bookmaker": "Winamax (FR)",
         "time": "2026-07-25T23:30Z",
         "value_team": "Seattle Sounders FC",
         "value_side": "away",
-        "value_odds": 2.8,
+        "value_odds": 2.9,
         "value_pos": 6,
         "pos_diff": 9,
         "settlement": {
@@ -395,6 +360,76 @@
           "label": "матч не завершен"
         },
         "signal_id": "espn:761686"
+      }
+    },
+    {
+      "league": "США MLS",
+      "match": {
+        "source": "espn",
+        "event_id": "761691",
+        "fixture_id": null,
+        "league_slug": "usa.1",
+        "league_id": null,
+        "season": null,
+        "home": "San Diego FC",
+        "away": "FC Dallas",
+        "home_pos": 13,
+        "away_pos": 5,
+        "home_pts": 17,
+        "away_pts": 26,
+        "home_form": "LLDWD",
+        "away_form": "DWWLW",
+        "home_odds": 1.92,
+        "draw_odds": 3.65,
+        "away_odds": 2.75,
+        "bookmaker": "Winamax (FR)",
+        "time": "2026-07-26T01:30Z",
+        "value_team": "FC Dallas",
+        "value_side": "away",
+        "value_odds": 2.75,
+        "value_pos": 5,
+        "pos_diff": 8,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:761691"
+      }
+    },
+    {
+      "league": "США MLS",
+      "match": {
+        "source": "espn",
+        "event_id": "761692",
+        "fixture_id": null,
+        "league_slug": "usa.1",
+        "league_id": null,
+        "season": null,
+        "home": "Portland Timbers",
+        "away": "Real Salt Lake",
+        "home_pos": 12,
+        "away_pos": 4,
+        "home_pts": 18,
+        "away_pts": 26,
+        "home_form": "DWLLD",
+        "away_form": "LDWWL",
+        "home_odds": 2.25,
+        "draw_odds": 3.7,
+        "away_odds": 2.45,
+        "bookmaker": "Winamax (DE)",
+        "time": "2026-07-26T02:30Z",
+        "value_team": "Real Salt Lake",
+        "value_side": "away",
+        "value_odds": 2.45,
+        "value_pos": 4,
+        "pos_diff": 8,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:761692"
       }
     },
     {
@@ -414,8 +449,8 @@
         "away_pts": 0,
         "home_form": "LDWDD",
         "away_form": "WWDLW",
-        "home_odds": 2.15,
-        "draw_odds": 3.0,
+        "home_odds": 2.14,
+        "draw_odds": 3.02,
         "away_odds": 3.92,
         "bookmaker": "1xBet",
         "time": "2026-07-24T22:00Z",
@@ -449,14 +484,14 @@
         "away_pts": 0,
         "home_form": "LWLDW",
         "away_form": "WLLLL",
-        "home_odds": 1.41,
-        "draw_odds": 4.28,
-        "away_odds": 9.25,
+        "home_odds": 1.39,
+        "draw_odds": 4.43,
+        "away_odds": 9.45,
         "bookmaker": "1xBet",
         "time": "2026-07-25T22:15Z",
         "value_team": "Barracas Central",
         "value_side": "away",
-        "value_odds": 9.25,
+        "value_odds": 9.45,
         "value_pos": 5,
         "pos_diff": 7,
         "settlement": {
@@ -500,41 +535,6 @@
           "label": "матч не завершен"
         },
         "signal_id": "espn:761680"
-      }
-    },
-    {
-      "league": "США MLS",
-      "match": {
-        "source": "espn",
-        "event_id": "761691",
-        "fixture_id": null,
-        "league_slug": "usa.1",
-        "league_id": null,
-        "season": null,
-        "home": "San Diego FC",
-        "away": "FC Dallas",
-        "home_pos": 10,
-        "away_pos": 4,
-        "home_pts": 17,
-        "away_pts": 25,
-        "home_form": "LLDWD",
-        "away_form": "DWWLW",
-        "home_odds": 1.92,
-        "draw_odds": 3.65,
-        "away_odds": 2.75,
-        "bookmaker": "Winamax (FR)",
-        "time": "2026-07-26T01:30Z",
-        "value_team": "FC Dallas",
-        "value_side": "away",
-        "value_odds": 2.75,
-        "value_pos": 4,
-        "pos_diff": 6,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:761691"
       }
     },
     {
