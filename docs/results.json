@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-23T19:08:02.111103",
+  "generated_at": "2026-07-24T08:18:55.337907",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
     "leagues_checked": 18,
-    "fixtures_found": 89,
-    "with_odds": 38,
+    "fixtures_found": 144,
+    "with_odds": 55,
     "leagues_detail": [
       [
         "bra.1",
@@ -274,14 +274,14 @@
         "away_pts": 29,
         "home_form": "WLLDD",
         "away_form": "DDLWL",
-        "home_odds": 2.25,
+        "home_odds": 2.2,
         "draw_odds": 3.5,
-        "away_odds": 3.0,
+        "away_odds": 3.15,
         "bookmaker": "Coolbet",
         "time": "2026-07-25T12:00Z",
         "value_team": "Chongqing Tonglianglong",
         "value_side": "away",
-        "value_odds": 3.0,
+        "value_odds": 3.15,
         "value_pos": 2,
         "pos_diff": 14,
         "settlement": {
@@ -293,38 +293,38 @@
       }
     },
     {
-      "league": "Бразилия Серия Б",
+      "league": "Бразилия Серия А",
       "match": {
         "source": "espn",
-        "event_id": "401860251",
+        "event_id": "401841165",
         "fixture_id": null,
-        "league_slug": "bra.2",
+        "league_slug": "bra.1",
         "league_id": null,
         "season": null,
-        "home": "Botafogo-SP",
-        "away": "Juventude",
-        "home_pos": 15,
+        "home": "Grêmio",
+        "away": "Fluminense",
+        "home_pos": 16,
         "away_pos": 4,
         "home_pts": 21,
         "away_pts": 32,
-        "home_form": "DDWLW",
-        "away_form": "WWDWW",
-        "home_odds": 2.4,
-        "draw_odds": 2.85,
-        "away_odds": 2.8,
-        "bookmaker": "LeoVegas (SE)",
-        "time": "2026-07-24T00:30Z",
-        "value_team": "Juventude",
+        "home_form": "LLLDW",
+        "away_form": "DDWLW",
+        "home_odds": 2.38,
+        "draw_odds": 3.05,
+        "away_odds": 2.55,
+        "bookmaker": "Betclic (FR)",
+        "time": "2026-07-26T21:30Z",
+        "value_team": "Fluminense",
         "value_side": "away",
-        "value_odds": 2.8,
+        "value_odds": 2.55,
         "value_pos": 4,
-        "pos_diff": 11,
+        "pos_diff": 12,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
           "label": "матч не завершен"
         },
-        "signal_id": "espn:401860251"
+        "signal_id": "espn:401841165"
       }
     },
     {
@@ -360,6 +360,41 @@
           "label": "матч не завершен"
         },
         "signal_id": "espn:761686"
+      }
+    },
+    {
+      "league": "Бразилия Серия А",
+      "match": {
+        "source": "espn",
+        "event_id": "401841162",
+        "fixture_id": null,
+        "league_slug": "bra.1",
+        "league_id": null,
+        "season": null,
+        "home": "Remo",
+        "away": "Vitória",
+        "home_pos": 19,
+        "away_pos": 11,
+        "home_pts": 18,
+        "away_pts": 26,
+        "home_form": "LWLWW",
+        "away_form": "DWWWL",
+        "home_odds": 2.22,
+        "draw_odds": 3.25,
+        "away_odds": 3.15,
+        "bookmaker": "Nordic Bet",
+        "time": "2026-07-26T22:30Z",
+        "value_team": "Vitória",
+        "value_side": "away",
+        "value_odds": 3.15,
+        "value_pos": 11,
+        "pos_diff": 8,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401841162"
       }
     },
     {
@@ -415,7 +450,7 @@
         "home_form": "DWLLD",
         "away_form": "LDWWL",
         "home_odds": 2.25,
-        "draw_odds": 3.7,
+        "draw_odds": 3.65,
         "away_odds": 2.45,
         "bookmaker": "Winamax (DE)",
         "time": "2026-07-26T02:30Z",
@@ -449,14 +484,14 @@
         "away_pts": 0,
         "home_form": "LDWDD",
         "away_form": "WWDLW",
-        "home_odds": 2.14,
-        "draw_odds": 3.02,
-        "away_odds": 3.92,
+        "home_odds": 2.19,
+        "draw_odds": 2.91,
+        "away_odds": 3.95,
         "bookmaker": "1xBet",
         "time": "2026-07-24T22:00Z",
         "value_team": "Instituto (Córdoba)",
         "value_side": "away",
-        "value_odds": 3.92,
+        "value_odds": 3.95,
         "value_pos": 8,
         "pos_diff": 7,
         "settlement": {
@@ -479,21 +514,21 @@
         "home": "River Plate",
         "away": "Barracas Central",
         "home_pos": 12,
-        "away_pos": 5,
+        "away_pos": 6,
         "home_pts": 0,
         "away_pts": 0,
         "home_form": "LWLDW",
         "away_form": "WLLLL",
         "home_odds": 1.39,
-        "draw_odds": 4.43,
-        "away_odds": 9.45,
+        "draw_odds": 4.48,
+        "away_odds": 9.25,
         "bookmaker": "1xBet",
         "time": "2026-07-25T22:15Z",
         "value_team": "Barracas Central",
         "value_side": "away",
-        "value_odds": 9.45,
-        "value_pos": 5,
-        "pos_diff": 7,
+        "value_odds": 9.25,
+        "value_pos": 6,
+        "pos_diff": 6,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
@@ -520,7 +555,7 @@
         "home_form": "LWWDL",
         "away_form": "WWDLD",
         "home_odds": 1.78,
-        "draw_odds": 4.15,
+        "draw_odds": 4.3,
         "away_odds": 3.95,
         "bookmaker": "Betsson",
         "time": "2026-07-25T23:15Z",
@@ -535,6 +570,41 @@
           "label": "матч не завершен"
         },
         "signal_id": "espn:761680"
+      }
+    },
+    {
+      "league": "Чили Примера",
+      "match": {
+        "source": "espn",
+        "event_id": "401850420",
+        "fixture_id": null,
+        "league_slug": "chi.1",
+        "league_id": null,
+        "season": null,
+        "home": "Deportes Concepcion",
+        "away": "O'Higgins",
+        "home_pos": 14,
+        "away_pos": 10,
+        "home_pts": 14,
+        "away_pts": 20,
+        "home_form": "WWWLW",
+        "away_form": "LWWDL",
+        "home_odds": 2.25,
+        "draw_odds": 3.25,
+        "away_odds": 3.0,
+        "bookmaker": "LeoVegas (SE)",
+        "time": "2026-07-27T00:30Z",
+        "value_team": "O'Higgins",
+        "value_side": "away",
+        "value_odds": 3.0,
+        "value_pos": 10,
+        "pos_diff": 4,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401850420"
       }
     },
     {
@@ -573,5 +643,5 @@
       }
     }
   ],
-  "history_count": 24
+  "history_count": 27
 }
