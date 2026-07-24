@@ -4,10 +4,13 @@
       "initialized": true,
       "sent_signals": [
         "espn:401841155",
+        "espn:401841162",
+        "espn:401841165",
         "espn:401841436",
         "espn:401841438",
         "espn:401842739",
         "espn:401842759",
+        "espn:401850420",
         "espn:401860231",
         "espn:401860247",
         "espn:401860251",
@@ -44,7 +47,7 @@
         "espn:401841155": "completed|lose|2:1",
         "espn:401860247": "completed|win|0:1",
         "espn:761677": "completed|lose|2:2",
-        "espn:401860251": "pending||",
+        "espn:401860251": "completed|lose|4:2",
         "espn:401841436": "pending||",
         "espn:401861295": "pending||",
         "espn:761692": "pending||",
@@ -52,9 +55,12 @@
         "espn:401841438": "pending||",
         "espn:761680": "pending||",
         "espn:761691": "pending||",
-        "espn:401861294": "pending||"
+        "espn:401861294": "pending||",
+        "espn:401841165": "pending||",
+        "espn:401841162": "pending||",
+        "espn:401850420": "pending||"
       },
-      "last_seen_report": "2026-07-23T19:08:02.111103",
+      "last_seen_report": "2026-07-24T08:18:55.337907",
       "last_heartbeat_slot": "2026-07-23:evening",
       "last_empty_report": "2026-07-18T18:56:39.854756"
     },
@@ -62,10 +68,13 @@
       "initialized": true,
       "sent_signals": [
         "espn:401841155",
+        "espn:401841162",
+        "espn:401841165",
         "espn:401841436",
         "espn:401841438",
         "espn:401842739",
         "espn:401842759",
+        "espn:401850420",
         "espn:401860231",
         "espn:401860247",
         "espn:401860251",
@@ -102,7 +111,7 @@
         "espn:401841155": "completed|lose|2:1",
         "espn:401860247": "completed|win|0:1",
         "espn:761677": "completed|lose|2:2",
-        "espn:401860251": "pending||",
+        "espn:401860251": "completed|lose|4:2",
         "espn:401841436": "pending||",
         "espn:401861295": "pending||",
         "espn:761692": "pending||",
@@ -110,9 +119,12 @@
         "espn:401841438": "pending||",
         "espn:761680": "pending||",
         "espn:761691": "pending||",
-        "espn:401861294": "pending||"
+        "espn:401861294": "pending||",
+        "espn:401841165": "pending||",
+        "espn:401841162": "pending||",
+        "espn:401850420": "pending||"
       },
-      "last_seen_report": "2026-07-23T19:08:02.111103",
+      "last_seen_report": "2026-07-24T08:18:55.337907",
       "last_heartbeat_slot": "2026-06-21:evening",
       "last_empty_report": "2026-06-22T18:58:38.572929",
       "send_error": "403"
@@ -121,10 +133,13 @@
       "initialized": true,
       "sent_signals": [
         "espn:401841155",
+        "espn:401841162",
+        "espn:401841165",
         "espn:401841436",
         "espn:401841438",
         "espn:401842739",
         "espn:401842759",
+        "espn:401850420",
         "espn:401860231",
         "espn:401860247",
         "espn:401860251",
@@ -161,7 +176,7 @@
         "espn:401841155": "completed|lose|2:1",
         "espn:401860247": "completed|win|0:1",
         "espn:761677": "completed|lose|2:2",
-        "espn:401860251": "pending||",
+        "espn:401860251": "completed|lose|4:2",
         "espn:401841436": "pending||",
         "espn:401861295": "pending||",
         "espn:761692": "pending||",
@@ -169,19 +184,25 @@
         "espn:401841438": "pending||",
         "espn:761680": "pending||",
         "espn:761691": "pending||",
-        "espn:401861294": "pending||"
+        "espn:401861294": "pending||",
+        "espn:401841165": "pending||",
+        "espn:401841162": "pending||",
+        "espn:401850420": "pending||"
       },
-      "last_seen_report": "2026-07-23T19:08:02.111103",
+      "last_seen_report": "2026-07-24T08:18:55.337907",
       "send_error": "403"
     },
     "351131518": {
       "initialized": true,
       "sent_signals": [
         "espn:401841155",
+        "espn:401841162",
+        "espn:401841165",
         "espn:401841436",
         "espn:401841438",
         "espn:401842739",
         "espn:401842759",
+        "espn:401850420",
         "espn:401860231",
         "espn:401860247",
         "espn:401860251",
@@ -218,7 +239,7 @@
         "espn:401841155": "completed|lose|2:1",
         "espn:401860247": "completed|win|0:1",
         "espn:761677": "completed|lose|2:2",
-        "espn:401860251": "pending||",
+        "espn:401860251": "completed|lose|4:2",
         "espn:401841436": "pending||",
         "espn:401861295": "pending||",
         "espn:761692": "pending||",
@@ -226,11 +247,14 @@
         "espn:401841438": "pending||",
         "espn:761680": "pending||",
         "espn:761691": "pending||",
-        "espn:401861294": "pending||"
+        "espn:401861294": "pending||",
+        "espn:401841165": "pending||",
+        "espn:401841162": "pending||",
+        "espn:401850420": "pending||"
       },
-      "last_seen_report": "2026-07-23T19:08:02.111103",
+      "last_seen_report": "2026-07-24T08:18:55.337907",
       "send_error": "403"
     }
   },
-  "last_report": "2026-07-23T19:08:02.111103"
+  "last_report": "2026-07-24T08:18:55.337907"
 }
