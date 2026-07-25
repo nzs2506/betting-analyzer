@@ -4,7 +4,7 @@
       "id": "espn:401860260",
       "league": "Бразилия Серия Б",
       "first_seen": "2026-07-25T07:59:51.991176",
-      "last_seen": "2026-07-25T07:59:51.991176",
+      "last_seen": "2026-07-25T19:00:38.194179",
       "match": {
         "source": "espn",
         "event_id": "401860260",
@@ -41,7 +41,7 @@
       "id": "espn:401877031",
       "league": "Мексика Лига MX",
       "first_seen": "2026-07-25T07:59:51.991176",
-      "last_seen": "2026-07-25T07:59:51.991176",
+      "last_seen": "2026-07-25T19:00:38.194179",
       "match": {
         "source": "espn",
         "event_id": "401877031",
@@ -115,7 +115,7 @@
       "id": "espn:401841162",
       "league": "Бразилия Серия А",
       "first_seen": "2026-07-24T08:18:55.337907",
-      "last_seen": "2026-07-25T07:59:51.991176",
+      "last_seen": "2026-07-25T19:00:38.194179",
       "match": {
         "source": "espn",
         "event_id": "401841162",
@@ -131,14 +131,14 @@
         "away_pts": 26,
         "home_form": "LWLWW",
         "away_form": "DWWWL",
-        "home_odds": 2.22,
+        "home_odds": 2.18,
         "draw_odds": 3.25,
-        "away_odds": 3.15,
+        "away_odds": 3.25,
         "bookmaker": "Nordic Bet",
         "time": "2026-07-26T22:30Z",
         "value_team": "Vitória",
         "value_side": "away",
-        "value_odds": 3.15,
+        "value_odds": 3.25,
         "value_pos": 11,
         "pos_diff": 8,
         "settlement": {
@@ -152,7 +152,7 @@
       "id": "espn:401850420",
       "league": "Чили Примера",
       "first_seen": "2026-07-24T08:18:55.337907",
-      "last_seen": "2026-07-25T07:59:51.991176",
+      "last_seen": "2026-07-25T19:00:38.194179",
       "match": {
         "source": "espn",
         "event_id": "401850420",
@@ -216,9 +216,14 @@
         "value_pos": 2,
         "pos_diff": 14,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 1,
+          "away_score": 0,
+          "score": "1:0",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -226,7 +231,7 @@
       "id": "espn:761692",
       "league": "США MLS",
       "first_seen": "2026-07-23T08:23:02.534686",
-      "last_seen": "2026-07-25T07:59:51.991176",
+      "last_seen": "2026-07-25T19:00:38.194179",
       "match": {
         "source": "espn",
         "event_id": "761692",
@@ -263,7 +268,7 @@
       "id": "espn:761686",
       "league": "США MLS",
       "first_seen": "2026-07-23T08:23:02.534686",
-      "last_seen": "2026-07-25T07:59:51.991176",
+      "last_seen": "2026-07-25T19:00:38.194179",
       "match": {
         "source": "espn",
         "event_id": "761686",
@@ -279,14 +284,14 @@
         "away_pts": 24,
         "home_form": "WLDLL",
         "away_form": "LLLLW",
-        "home_odds": 1.9,
-        "draw_odds": 3.5,
-        "away_odds": 3.1,
+        "home_odds": 1.74,
+        "draw_odds": 3.65,
+        "away_odds": 3.45,
         "bookmaker": "Winamax (FR)",
         "time": "2026-07-25T23:30Z",
         "value_team": "Seattle Sounders FC",
         "value_side": "away",
-        "value_odds": 3.1,
+        "value_odds": 3.45,
         "value_pos": 6,
         "pos_diff": 9,
         "settlement": {
@@ -337,7 +342,7 @@
       "id": "espn:761680",
       "league": "США MLS",
       "first_seen": "2026-07-23T08:23:02.534686",
-      "last_seen": "2026-07-25T07:59:51.991176",
+      "last_seen": "2026-07-25T19:00:38.194179",
       "match": {
         "source": "espn",
         "event_id": "761680",
@@ -353,14 +358,14 @@
         "away_pts": 23,
         "home_form": "LWWDL",
         "away_form": "WWDLD",
-        "home_odds": 1.95,
-        "draw_odds": 3.95,
-        "away_odds": 3.55,
+        "home_odds": 2.12,
+        "draw_odds": 3.7,
+        "away_odds": 3.25,
         "bookmaker": "Betsson",
         "time": "2026-07-25T23:15Z",
         "value_team": "FC Cincinnati",
         "value_side": "away",
-        "value_odds": 3.55,
+        "value_odds": 3.25,
         "value_pos": 5,
         "pos_diff": 6,
         "settlement": {
@@ -374,7 +379,7 @@
       "id": "espn:761691",
       "league": "США MLS",
       "first_seen": "2026-07-23T08:23:02.534686",
-      "last_seen": "2026-07-25T07:59:51.991176",
+      "last_seen": "2026-07-25T19:00:38.194179",
       "match": {
         "source": "espn",
         "event_id": "761691",
@@ -390,14 +395,14 @@
         "away_pts": 26,
         "home_form": "LLDWD",
         "away_form": "DWWLW",
-        "home_odds": 2.05,
-        "draw_odds": 3.6,
-        "away_odds": 2.55,
+        "home_odds": 2.1,
+        "draw_odds": 3.65,
+        "away_odds": 2.5,
         "bookmaker": "Winamax (FR)",
         "time": "2026-07-26T01:30Z",
         "value_team": "FC Dallas",
         "value_side": "away",
-        "value_odds": 2.55,
+        "value_odds": 2.5,
         "value_pos": 5,
         "pos_diff": 8,
         "settlement": {
@@ -438,9 +443,14 @@
         "value_pos": 5,
         "pos_diff": 4,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 0,
+          "away_score": 1,
+          "score": "0:1",
+          "outcome": "win",
+          "icon": "🟢",
+          "label": "прогноз сработал",
+          "roi": 2.4
         }
       }
     },
@@ -1154,5 +1164,5 @@
       }
     }
   ],
-  "generated_at": "2026-07-25T07:59:51.991176"
+  "generated_at": "2026-07-25T19:00:38.194179"
 }

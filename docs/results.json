@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-25T07:59:51.991176",
+  "generated_at": "2026-07-25T19:00:38.194179",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
     "leagues_checked": 18,
-    "fixtures_found": 136,
-    "with_odds": 52,
+    "fixtures_found": 122,
+    "with_odds": 47,
     "leagues_detail": [
       [
         "bra.1",
@@ -258,76 +258,6 @@
   },
   "results": [
     {
-      "league": "Китай Суперлига",
-      "match": {
-        "source": "espn",
-        "event_id": "401861295",
-        "fixture_id": null,
-        "league_slug": "chn.1",
-        "league_id": null,
-        "season": null,
-        "home": "Wuhan Three Towns",
-        "away": "Chongqing Tonglianglong",
-        "home_pos": 16,
-        "away_pos": 2,
-        "home_pts": 11,
-        "away_pts": 29,
-        "home_form": "WLLDD",
-        "away_form": "DDLWL",
-        "home_odds": 2.2,
-        "draw_odds": 3.5,
-        "away_odds": 3.15,
-        "bookmaker": "Coolbet",
-        "time": "2026-07-25T12:00Z",
-        "value_team": "Chongqing Tonglianglong",
-        "value_side": "away",
-        "value_odds": 3.15,
-        "value_pos": 2,
-        "pos_diff": 14,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401861295"
-      }
-    },
-    {
-      "league": "Бразилия Серия А",
-      "match": {
-        "source": "espn",
-        "event_id": "401841165",
-        "fixture_id": null,
-        "league_slug": "bra.1",
-        "league_id": null,
-        "season": null,
-        "home": "Grêmio",
-        "away": "Fluminense",
-        "home_pos": 16,
-        "away_pos": 4,
-        "home_pts": 21,
-        "away_pts": 32,
-        "home_form": "LLLDW",
-        "away_form": "DDWLW",
-        "home_odds": 2.45,
-        "draw_odds": 3.13,
-        "away_odds": 2.6,
-        "bookmaker": "Betclic (FR)",
-        "time": "2026-07-26T21:30Z",
-        "value_team": "Fluminense",
-        "value_side": "away",
-        "value_odds": 2.6,
-        "value_pos": 4,
-        "pos_diff": 12,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401841165"
-      }
-    },
-    {
       "league": "США MLS",
       "match": {
         "source": "espn",
@@ -344,14 +274,14 @@
         "away_pts": 24,
         "home_form": "WLDLL",
         "away_form": "LLLLW",
-        "home_odds": 1.9,
-        "draw_odds": 3.5,
-        "away_odds": 3.1,
+        "home_odds": 1.74,
+        "draw_odds": 3.65,
+        "away_odds": 3.45,
         "bookmaker": "Winamax (FR)",
         "time": "2026-07-25T23:30Z",
         "value_team": "Seattle Sounders FC",
         "value_side": "away",
-        "value_odds": 3.1,
+        "value_odds": 3.45,
         "value_pos": 6,
         "pos_diff": 9,
         "settlement": {
@@ -379,14 +309,14 @@
         "away_pts": 26,
         "home_form": "LWLWW",
         "away_form": "DWWWL",
-        "home_odds": 2.22,
+        "home_odds": 2.18,
         "draw_odds": 3.25,
-        "away_odds": 3.15,
+        "away_odds": 3.25,
         "bookmaker": "Nordic Bet",
         "time": "2026-07-26T22:30Z",
         "value_team": "Vitória",
         "value_side": "away",
-        "value_odds": 3.15,
+        "value_odds": 3.25,
         "value_pos": 11,
         "pos_diff": 8,
         "settlement": {
@@ -414,14 +344,14 @@
         "away_pts": 26,
         "home_form": "LLDWD",
         "away_form": "DWWLW",
-        "home_odds": 2.05,
-        "draw_odds": 3.6,
-        "away_odds": 2.55,
+        "home_odds": 2.1,
+        "draw_odds": 3.65,
+        "away_odds": 2.5,
         "bookmaker": "Winamax (FR)",
         "time": "2026-07-26T01:30Z",
         "value_team": "FC Dallas",
         "value_side": "away",
-        "value_odds": 2.55,
+        "value_odds": 2.5,
         "value_pos": 5,
         "pos_diff": 8,
         "settlement": {
@@ -519,14 +449,14 @@
         "away_pts": 23,
         "home_form": "LWWDL",
         "away_form": "WWDLD",
-        "home_odds": 1.95,
-        "draw_odds": 3.95,
-        "away_odds": 3.55,
+        "home_odds": 2.12,
+        "draw_odds": 3.7,
+        "away_odds": 3.25,
         "bookmaker": "Betsson",
         "time": "2026-07-25T23:15Z",
         "value_team": "FC Cincinnati",
         "value_side": "away",
-        "value_odds": 3.55,
+        "value_odds": 3.25,
         "value_pos": 5,
         "pos_diff": 6,
         "settlement": {
@@ -605,41 +535,6 @@
           "label": "матч не завершен"
         },
         "signal_id": "espn:401877031"
-      }
-    },
-    {
-      "league": "Китай Суперлига",
-      "match": {
-        "source": "espn",
-        "event_id": "401861294",
-        "fixture_id": null,
-        "league_slug": "chn.1",
-        "league_id": null,
-        "season": null,
-        "home": "Liaoning Tieren",
-        "away": "Qingdao West Coast",
-        "home_pos": 9,
-        "away_pos": 5,
-        "home_pts": 21,
-        "away_pts": 25,
-        "home_form": "DWLWW",
-        "away_form": "DLWWD",
-        "home_odds": 1.98,
-        "draw_odds": 3.85,
-        "away_odds": 3.4,
-        "bookmaker": "Coolbet",
-        "time": "2026-07-25T11:35Z",
-        "value_team": "Qingdao West Coast",
-        "value_side": "away",
-        "value_odds": 3.4,
-        "value_pos": 5,
-        "pos_diff": 4,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401861294"
       }
     }
   ],
