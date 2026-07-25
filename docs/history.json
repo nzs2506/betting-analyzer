@@ -1,10 +1,84 @@
 {
   "signals": [
     {
+      "id": "espn:401860260",
+      "league": "Бразилия Серия Б",
+      "first_seen": "2026-07-25T07:59:51.991176",
+      "last_seen": "2026-07-25T07:59:51.991176",
+      "match": {
+        "source": "espn",
+        "event_id": "401860260",
+        "fixture_id": null,
+        "league_slug": "bra.2",
+        "league_id": null,
+        "season": null,
+        "home": "Atlético Goianiense",
+        "away": "Operário PR",
+        "home_pos": 8,
+        "away_pos": 2,
+        "home_pts": 28,
+        "away_pts": 35,
+        "home_form": "WDWLW",
+        "away_form": "WDWWW",
+        "home_odds": 2.1,
+        "draw_odds": 3.25,
+        "away_odds": 3.5,
+        "bookmaker": "Unibet (NL)",
+        "time": "2026-07-27T22:30Z",
+        "value_team": "Operário PR",
+        "value_side": "away",
+        "value_odds": 3.5,
+        "value_pos": 2,
+        "pos_diff": 6,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
+      "id": "espn:401877031",
+      "league": "Мексика Лига MX",
+      "first_seen": "2026-07-25T07:59:51.991176",
+      "last_seen": "2026-07-25T07:59:51.991176",
+      "match": {
+        "source": "espn",
+        "event_id": "401877031",
+        "fixture_id": null,
+        "league_slug": "mex.1",
+        "league_id": null,
+        "season": null,
+        "home": "Guadalajara",
+        "away": "FC Juarez",
+        "home_pos": 18,
+        "away_pos": 14,
+        "home_pts": 0,
+        "away_pts": 0,
+        "home_form": "LLDWL",
+        "away_form": "LWLLL",
+        "home_odds": 1.45,
+        "draw_odds": 4.75,
+        "away_odds": 6.7,
+        "bookmaker": "Coolbet",
+        "time": "2026-07-25T23:07Z",
+        "value_team": "FC Juarez",
+        "value_side": "away",
+        "value_odds": 6.7,
+        "value_pos": 14,
+        "pos_diff": 4,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
       "id": "espn:401841165",
       "league": "Бразилия Серия А",
       "first_seen": "2026-07-24T08:18:55.337907",
-      "last_seen": "2026-07-24T19:18:29.320469",
+      "last_seen": "2026-07-25T07:59:51.991176",
       "match": {
         "source": "espn",
         "event_id": "401841165",
@@ -20,14 +94,14 @@
         "away_pts": 32,
         "home_form": "LLLDW",
         "away_form": "DDWLW",
-        "home_odds": 2.38,
-        "draw_odds": 3.05,
-        "away_odds": 2.55,
+        "home_odds": 2.45,
+        "draw_odds": 3.13,
+        "away_odds": 2.6,
         "bookmaker": "Betclic (FR)",
         "time": "2026-07-26T21:30Z",
         "value_team": "Fluminense",
         "value_side": "away",
-        "value_odds": 2.55,
+        "value_odds": 2.6,
         "value_pos": 4,
         "pos_diff": 12,
         "settlement": {
@@ -41,7 +115,7 @@
       "id": "espn:401841162",
       "league": "Бразилия Серия А",
       "first_seen": "2026-07-24T08:18:55.337907",
-      "last_seen": "2026-07-24T19:18:29.320469",
+      "last_seen": "2026-07-25T07:59:51.991176",
       "match": {
         "source": "espn",
         "event_id": "401841162",
@@ -78,7 +152,7 @@
       "id": "espn:401850420",
       "league": "Чили Примера",
       "first_seen": "2026-07-24T08:18:55.337907",
-      "last_seen": "2026-07-24T19:18:29.320469",
+      "last_seen": "2026-07-25T07:59:51.991176",
       "match": {
         "source": "espn",
         "event_id": "401850420",
@@ -115,7 +189,7 @@
       "id": "espn:401861295",
       "league": "Китай Суперлига",
       "first_seen": "2026-07-23T08:23:02.534686",
-      "last_seen": "2026-07-24T19:18:29.320469",
+      "last_seen": "2026-07-25T07:59:51.991176",
       "match": {
         "source": "espn",
         "event_id": "401861295",
@@ -152,7 +226,7 @@
       "id": "espn:761692",
       "league": "США MLS",
       "first_seen": "2026-07-23T08:23:02.534686",
-      "last_seen": "2026-07-24T19:18:29.320469",
+      "last_seen": "2026-07-25T07:59:51.991176",
       "match": {
         "source": "espn",
         "event_id": "761692",
@@ -189,7 +263,7 @@
       "id": "espn:761686",
       "league": "США MLS",
       "first_seen": "2026-07-23T08:23:02.534686",
-      "last_seen": "2026-07-24T19:18:29.320469",
+      "last_seen": "2026-07-25T07:59:51.991176",
       "match": {
         "source": "espn",
         "event_id": "761686",
@@ -205,14 +279,14 @@
         "away_pts": 24,
         "home_form": "WLDLL",
         "away_form": "LLLLW",
-        "home_odds": 1.94,
-        "draw_odds": 3.4,
-        "away_odds": 2.9,
+        "home_odds": 1.9,
+        "draw_odds": 3.5,
+        "away_odds": 3.1,
         "bookmaker": "Winamax (FR)",
         "time": "2026-07-25T23:30Z",
         "value_team": "Seattle Sounders FC",
         "value_side": "away",
-        "value_odds": 2.9,
+        "value_odds": 3.1,
         "value_pos": 6,
         "pos_diff": 9,
         "settlement": {
@@ -263,7 +337,7 @@
       "id": "espn:761680",
       "league": "США MLS",
       "first_seen": "2026-07-23T08:23:02.534686",
-      "last_seen": "2026-07-24T19:18:29.320469",
+      "last_seen": "2026-07-25T07:59:51.991176",
       "match": {
         "source": "espn",
         "event_id": "761680",
@@ -279,14 +353,14 @@
         "away_pts": 23,
         "home_form": "LWWDL",
         "away_form": "WWDLD",
-        "home_odds": 1.82,
-        "draw_odds": 4.15,
-        "away_odds": 3.95,
+        "home_odds": 1.95,
+        "draw_odds": 3.95,
+        "away_odds": 3.55,
         "bookmaker": "Betsson",
         "time": "2026-07-25T23:15Z",
         "value_team": "FC Cincinnati",
         "value_side": "away",
-        "value_odds": 3.95,
+        "value_odds": 3.55,
         "value_pos": 5,
         "pos_diff": 6,
         "settlement": {
@@ -300,7 +374,7 @@
       "id": "espn:761691",
       "league": "США MLS",
       "first_seen": "2026-07-23T08:23:02.534686",
-      "last_seen": "2026-07-24T19:18:29.320469",
+      "last_seen": "2026-07-25T07:59:51.991176",
       "match": {
         "source": "espn",
         "event_id": "761691",
@@ -316,14 +390,14 @@
         "away_pts": 26,
         "home_form": "LLDWD",
         "away_form": "DWWLW",
-        "home_odds": 2.0,
+        "home_odds": 2.05,
         "draw_odds": 3.6,
-        "away_odds": 2.6,
+        "away_odds": 2.55,
         "bookmaker": "Winamax (FR)",
         "time": "2026-07-26T01:30Z",
         "value_team": "FC Dallas",
         "value_side": "away",
-        "value_odds": 2.6,
+        "value_odds": 2.55,
         "value_pos": 5,
         "pos_diff": 8,
         "settlement": {
@@ -337,7 +411,7 @@
       "id": "espn:401861294",
       "league": "Китай Суперлига",
       "first_seen": "2026-07-23T08:23:02.534686",
-      "last_seen": "2026-07-24T19:18:29.320469",
+      "last_seen": "2026-07-25T07:59:51.991176",
       "match": {
         "source": "espn",
         "event_id": "401861294",
@@ -353,14 +427,14 @@
         "away_pts": 25,
         "home_form": "DWLWW",
         "away_form": "DLWWD",
-        "home_odds": 2.05,
-        "draw_odds": 3.75,
-        "away_odds": 3.3,
+        "home_odds": 1.98,
+        "draw_odds": 3.85,
+        "away_odds": 3.4,
         "bookmaker": "Coolbet",
         "time": "2026-07-25T11:35Z",
         "value_team": "Qingdao West Coast",
         "value_side": "away",
-        "value_odds": 3.3,
+        "value_odds": 3.4,
         "value_pos": 5,
         "pos_diff": 4,
         "settlement": {
@@ -401,9 +475,14 @@
         "value_pos": 8,
         "pos_diff": 7,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 1,
+          "away_score": 0,
+          "score": "1:0",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -1075,5 +1154,5 @@
       }
     }
   ],
-  "generated_at": "2026-07-24T19:18:29.320469"
+  "generated_at": "2026-07-25T07:59:51.991176"
 }
