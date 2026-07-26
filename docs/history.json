@@ -4,7 +4,7 @@
       "id": "espn:401841452",
       "league": "Аргентина Примера",
       "first_seen": "2026-07-26T08:19:50.745580",
-      "last_seen": "2026-07-26T08:19:50.745580",
+      "last_seen": "2026-07-26T19:03:32.544222",
       "match": {
         "source": "espn",
         "event_id": "401841452",
@@ -41,7 +41,7 @@
       "id": "espn:401841453",
       "league": "Аргентина Примера",
       "first_seen": "2026-07-26T08:19:50.745580",
-      "last_seen": "2026-07-26T08:19:50.745580",
+      "last_seen": "2026-07-26T19:03:32.544222",
       "match": {
         "source": "espn",
         "event_id": "401841453",
@@ -57,14 +57,14 @@
         "away_pts": 3,
         "home_form": "LLLWL",
         "away_form": "WWWDL",
-        "home_odds": 2.1,
-        "draw_odds": 2.85,
-        "away_odds": 3.3,
+        "home_odds": 2.15,
+        "draw_odds": 2.9,
+        "away_odds": 3.25,
         "bookmaker": "Winamax (DE)",
         "time": "2026-07-29T00:15Z",
         "value_team": "Racing Club",
         "value_side": "away",
-        "value_odds": 3.3,
+        "value_odds": 3.25,
         "value_pos": 3,
         "pos_diff": 8,
         "settlement": {
@@ -78,7 +78,7 @@
       "id": "espn:401841462",
       "league": "Аргентина Примера",
       "first_seen": "2026-07-26T08:19:50.745580",
-      "last_seen": "2026-07-26T08:19:50.745580",
+      "last_seen": "2026-07-26T19:03:32.544222",
       "match": {
         "source": "espn",
         "event_id": "401841462",
@@ -94,8 +94,8 @@
         "away_pts": 0,
         "home_form": "LWWDD",
         "away_form": "LLLWL",
-        "home_odds": 2.08,
-        "draw_odds": 2.99,
+        "home_odds": 2.07,
+        "draw_odds": 3.0,
         "away_odds": 4.22,
         "bookmaker": "1xBet",
         "time": "2026-07-28T22:00Z",
@@ -115,7 +115,7 @@
       "id": "espn:401860260",
       "league": "Бразилия Серия Б",
       "first_seen": "2026-07-25T07:59:51.991176",
-      "last_seen": "2026-07-26T08:19:50.745580",
+      "last_seen": "2026-07-26T19:03:32.544222",
       "match": {
         "source": "espn",
         "event_id": "401860260",
@@ -231,7 +231,7 @@
       "id": "espn:401841162",
       "league": "Бразилия Серия А",
       "first_seen": "2026-07-24T08:18:55.337907",
-      "last_seen": "2026-07-26T08:19:50.745580",
+      "last_seen": "2026-07-26T19:03:32.544222",
       "match": {
         "source": "espn",
         "event_id": "401841162",
@@ -247,14 +247,14 @@
         "away_pts": 26,
         "home_form": "LWLWW",
         "away_form": "DWWWL",
-        "home_odds": 2.18,
+        "home_odds": 2.22,
         "draw_odds": 3.25,
-        "away_odds": 3.25,
+        "away_odds": 3.15,
         "bookmaker": "Nordic Bet",
         "time": "2026-07-26T22:30Z",
         "value_team": "Vitória",
         "value_side": "away",
-        "value_odds": 3.25,
+        "value_odds": 3.15,
         "value_pos": 11,
         "pos_diff": 8,
         "settlement": {
@@ -268,7 +268,7 @@
       "id": "espn:401850420",
       "league": "Чили Примера",
       "first_seen": "2026-07-24T08:18:55.337907",
-      "last_seen": "2026-07-26T08:19:50.745580",
+      "last_seen": "2026-07-26T19:03:32.544222",
       "match": {
         "source": "espn",
         "event_id": "401850420",
@@ -1305,5 +1305,5 @@
       }
     }
   ],
-  "generated_at": "2026-07-26T08:19:50.745580"
+  "generated_at": "2026-07-26T19:03:32.544222"
 }

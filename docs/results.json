@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-26T08:19:50.745580",
+  "generated_at": "2026-07-26T19:03:32.544222",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 17,
-    "fixtures_found": 87,
-    "with_odds": 33,
+    "leagues_checked": 15,
+    "fixtures_found": 53,
+    "with_odds": 20,
     "leagues_detail": [
       [
         "bra.1",
@@ -47,7 +47,7 @@
       [
         "uru.1",
         "Уругвай Лига",
-        "ok"
+        "no_matches"
       ],
       [
         "ecu.1",
@@ -107,7 +107,7 @@
       [
         "chn.1",
         "Китай Суперлига",
-        "ok"
+        "no_matches"
       ],
       [
         "ind.1",
@@ -309,14 +309,14 @@
         "away_pts": 26,
         "home_form": "LWLWW",
         "away_form": "DWWWL",
-        "home_odds": 2.18,
+        "home_odds": 2.22,
         "draw_odds": 3.25,
-        "away_odds": 3.25,
+        "away_odds": 3.15,
         "bookmaker": "Nordic Bet",
         "time": "2026-07-26T22:30Z",
         "value_team": "Vitória",
         "value_side": "away",
-        "value_odds": 3.25,
+        "value_odds": 3.15,
         "value_pos": 11,
         "pos_diff": 8,
         "settlement": {
@@ -344,14 +344,14 @@
         "away_pts": 3,
         "home_form": "LLLWL",
         "away_form": "WWWDL",
-        "home_odds": 2.1,
-        "draw_odds": 2.85,
-        "away_odds": 3.3,
+        "home_odds": 2.15,
+        "draw_odds": 2.9,
+        "away_odds": 3.25,
         "bookmaker": "Winamax (DE)",
         "time": "2026-07-29T00:15Z",
         "value_team": "Racing Club",
         "value_side": "away",
-        "value_odds": 3.3,
+        "value_odds": 3.25,
         "value_pos": 3,
         "pos_diff": 8,
         "settlement": {
@@ -414,8 +414,8 @@
         "away_pts": 0,
         "home_form": "LWWDD",
         "away_form": "LLLWL",
-        "home_odds": 2.08,
-        "draw_odds": 2.99,
+        "home_odds": 2.07,
+        "draw_odds": 3.0,
         "away_odds": 4.22,
         "bookmaker": "1xBet",
         "time": "2026-07-28T22:00Z",
