@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-25T19:00:38.194179",
+  "generated_at": "2026-07-26T08:19:50.745580",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 18,
-    "fixtures_found": 122,
-    "with_odds": 47,
+    "leagues_checked": 17,
+    "fixtures_found": 87,
+    "with_odds": 33,
     "leagues_detail": [
       [
         "bra.1",
@@ -87,7 +87,7 @@
       [
         "usa.1",
         "США MLS",
-        "ok"
+        "no_matches"
       ],
       [
         "usa.2",
@@ -258,38 +258,38 @@
   },
   "results": [
     {
-      "league": "США MLS",
+      "league": "Аргентина Примера",
       "match": {
         "source": "espn",
-        "event_id": "761686",
+        "event_id": "401841452",
         "fixture_id": null,
-        "league_slug": "usa.1",
+        "league_slug": "arg.1",
         "league_id": null,
         "season": null,
-        "home": "Philadelphia Union",
-        "away": "Seattle Sounders FC",
+        "home": "San Lorenzo",
+        "away": "Gimnasia (Mendoza)",
         "home_pos": 15,
-        "away_pos": 6,
-        "home_pts": 10,
-        "away_pts": 24,
-        "home_form": "WLDLL",
-        "away_form": "LLLLW",
-        "home_odds": 1.74,
-        "draw_odds": 3.65,
-        "away_odds": 3.45,
-        "bookmaker": "Winamax (FR)",
-        "time": "2026-07-25T23:30Z",
-        "value_team": "Seattle Sounders FC",
+        "away_pos": 1,
+        "home_pts": 0,
+        "away_pts": 3,
+        "home_form": "LLLDL",
+        "away_form": "WWLWL",
+        "home_odds": 1.92,
+        "draw_odds": 2.85,
+        "away_odds": 4.0,
+        "bookmaker": "Winamax (DE)",
+        "time": "2026-07-28T22:00Z",
+        "value_team": "Gimnasia (Mendoza)",
         "value_side": "away",
-        "value_odds": 3.45,
-        "value_pos": 6,
-        "pos_diff": 9,
+        "value_odds": 4.0,
+        "value_pos": 1,
+        "pos_diff": 14,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
           "label": "матч не завершен"
         },
-        "signal_id": "espn:761686"
+        "signal_id": "espn:401841452"
       }
     },
     {
@@ -328,73 +328,38 @@
       }
     },
     {
-      "league": "США MLS",
+      "league": "Аргентина Примера",
       "match": {
         "source": "espn",
-        "event_id": "761691",
+        "event_id": "401841453",
         "fixture_id": null,
-        "league_slug": "usa.1",
+        "league_slug": "arg.1",
         "league_id": null,
         "season": null,
-        "home": "San Diego FC",
-        "away": "FC Dallas",
-        "home_pos": 13,
-        "away_pos": 5,
-        "home_pts": 17,
-        "away_pts": 26,
-        "home_form": "LLDWD",
-        "away_form": "DWWLW",
+        "home": "Rosario Central",
+        "away": "Racing Club",
+        "home_pos": 11,
+        "away_pos": 3,
+        "home_pts": 0,
+        "away_pts": 3,
+        "home_form": "LLLWL",
+        "away_form": "WWWDL",
         "home_odds": 2.1,
-        "draw_odds": 3.65,
-        "away_odds": 2.5,
-        "bookmaker": "Winamax (FR)",
-        "time": "2026-07-26T01:30Z",
-        "value_team": "FC Dallas",
-        "value_side": "away",
-        "value_odds": 2.5,
-        "value_pos": 5,
-        "pos_diff": 8,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:761691"
-      }
-    },
-    {
-      "league": "США MLS",
-      "match": {
-        "source": "espn",
-        "event_id": "761692",
-        "fixture_id": null,
-        "league_slug": "usa.1",
-        "league_id": null,
-        "season": null,
-        "home": "Portland Timbers",
-        "away": "Real Salt Lake",
-        "home_pos": 12,
-        "away_pos": 4,
-        "home_pts": 18,
-        "away_pts": 26,
-        "home_form": "DWLLD",
-        "away_form": "LDWWL",
-        "home_odds": 2.25,
-        "draw_odds": 3.65,
-        "away_odds": 2.45,
+        "draw_odds": 2.85,
+        "away_odds": 3.3,
         "bookmaker": "Winamax (DE)",
-        "time": "2026-07-26T02:30Z",
-        "value_team": "Real Salt Lake",
+        "time": "2026-07-29T00:15Z",
+        "value_team": "Racing Club",
         "value_side": "away",
-        "value_odds": 2.45,
-        "value_pos": 4,
+        "value_odds": 3.3,
+        "value_pos": 3,
         "pos_diff": 8,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
           "label": "матч не завершен"
         },
-        "signal_id": "espn:761692"
+        "signal_id": "espn:401841453"
       }
     },
     {
@@ -433,38 +398,38 @@
       }
     },
     {
-      "league": "США MLS",
+      "league": "Аргентина Примера",
       "match": {
         "source": "espn",
-        "event_id": "761680",
+        "event_id": "401841462",
         "fixture_id": null,
-        "league_slug": "usa.1",
+        "league_slug": "arg.1",
         "league_id": null,
         "season": null,
-        "home": "Columbus Crew",
-        "away": "FC Cincinnati",
-        "home_pos": 11,
-        "away_pos": 5,
-        "home_pts": 16,
-        "away_pts": 23,
-        "home_form": "LWWDL",
-        "away_form": "WWDLD",
-        "home_odds": 2.12,
-        "draw_odds": 3.7,
-        "away_odds": 3.25,
-        "bookmaker": "Betsson",
-        "time": "2026-07-25T23:15Z",
-        "value_team": "FC Cincinnati",
+        "home": "Banfield",
+        "away": "Sarmiento (Junín)",
+        "home_pos": 15,
+        "away_pos": 10,
+        "home_pts": 0,
+        "away_pts": 0,
+        "home_form": "LWWDD",
+        "away_form": "LLLWL",
+        "home_odds": 2.08,
+        "draw_odds": 2.99,
+        "away_odds": 4.22,
+        "bookmaker": "1xBet",
+        "time": "2026-07-28T22:00Z",
+        "value_team": "Sarmiento (Junín)",
         "value_side": "away",
-        "value_odds": 3.25,
-        "value_pos": 5,
-        "pos_diff": 6,
+        "value_odds": 4.22,
+        "value_pos": 10,
+        "pos_diff": 5,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
           "label": "матч не завершен"
         },
-        "signal_id": "espn:761680"
+        "signal_id": "espn:401841462"
       }
     },
     {
@@ -501,42 +466,7 @@
         },
         "signal_id": "espn:401850420"
       }
-    },
-    {
-      "league": "Мексика Лига MX",
-      "match": {
-        "source": "espn",
-        "event_id": "401877031",
-        "fixture_id": null,
-        "league_slug": "mex.1",
-        "league_id": null,
-        "season": null,
-        "home": "Guadalajara",
-        "away": "FC Juarez",
-        "home_pos": 18,
-        "away_pos": 14,
-        "home_pts": 0,
-        "away_pts": 0,
-        "home_form": "LLDWL",
-        "away_form": "LWLLL",
-        "home_odds": 1.45,
-        "draw_odds": 4.75,
-        "away_odds": 6.7,
-        "bookmaker": "Coolbet",
-        "time": "2026-07-25T23:07Z",
-        "value_team": "FC Juarez",
-        "value_side": "away",
-        "value_odds": 6.7,
-        "value_pos": 14,
-        "pos_diff": 4,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401877031"
-      }
     }
   ],
-  "history_count": 29
+  "history_count": 32
 }
