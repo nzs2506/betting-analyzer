@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-26T19:03:32.544222",
+  "generated_at": "2026-07-27T09:41:59.224284",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 15,
-    "fixtures_found": 53,
-    "with_odds": 20,
+    "leagues_checked": 12,
+    "fixtures_found": 32,
+    "with_odds": 17,
     "leagues_detail": [
       [
         "bra.1",
@@ -42,7 +42,7 @@
       [
         "col.1",
         "Колумбия Примера А",
-        "ok"
+        "no_matches"
       ],
       [
         "uru.1",
@@ -67,7 +67,7 @@
       [
         "per.1",
         "Перу Лига 1",
-        "ok"
+        "no_matches"
       ],
       [
         "ven.1",
@@ -77,17 +77,17 @@
       [
         "mex.1",
         "Мексика Лига MX",
-        "ok"
+        "no_matches"
       ],
       [
         "mex.2",
         "Мексика Лига Экспансьон",
-        "ok"
+        "no_matches"
       ],
       [
         "usa.1",
         "США MLS",
-        "no_matches"
+        "ok"
       ],
       [
         "usa.2",
@@ -268,8 +268,8 @@
         "season": null,
         "home": "San Lorenzo",
         "away": "Gimnasia (Mendoza)",
-        "home_pos": 15,
-        "away_pos": 1,
+        "home_pos": 13,
+        "away_pos": 3,
         "home_pts": 0,
         "away_pts": 3,
         "home_form": "LLLDL",
@@ -282,49 +282,14 @@
         "value_team": "Gimnasia (Mendoza)",
         "value_side": "away",
         "value_odds": 4.0,
-        "value_pos": 1,
-        "pos_diff": 14,
+        "value_pos": 3,
+        "pos_diff": 10,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
           "label": "матч не завершен"
         },
         "signal_id": "espn:401841452"
-      }
-    },
-    {
-      "league": "Бразилия Серия А",
-      "match": {
-        "source": "espn",
-        "event_id": "401841162",
-        "fixture_id": null,
-        "league_slug": "bra.1",
-        "league_id": null,
-        "season": null,
-        "home": "Remo",
-        "away": "Vitória",
-        "home_pos": 19,
-        "away_pos": 11,
-        "home_pts": 18,
-        "away_pts": 26,
-        "home_form": "LWLWW",
-        "away_form": "DWWWL",
-        "home_odds": 2.22,
-        "draw_odds": 3.25,
-        "away_odds": 3.15,
-        "bookmaker": "Nordic Bet",
-        "time": "2026-07-26T22:30Z",
-        "value_team": "Vitória",
-        "value_side": "away",
-        "value_odds": 3.15,
-        "value_pos": 11,
-        "pos_diff": 8,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401841162"
       }
     },
     {
@@ -363,6 +328,41 @@
       }
     },
     {
+      "league": "Аргентина Примера",
+      "match": {
+        "source": "espn",
+        "event_id": "401841458",
+        "fixture_id": null,
+        "league_slug": "arg.1",
+        "league_id": null,
+        "season": null,
+        "home": "Defensa y Justicia",
+        "away": "Deportivo Riestra",
+        "home_pos": 9,
+        "away_pos": 1,
+        "home_pts": 1,
+        "away_pts": 3,
+        "home_form": "DLLLL",
+        "away_form": "WWDLL",
+        "home_odds": 2.05,
+        "draw_odds": 2.8,
+        "away_odds": 3.7,
+        "bookmaker": "Winamax (DE)",
+        "time": "2026-07-29T20:00Z",
+        "value_team": "Deportivo Riestra",
+        "value_side": "away",
+        "value_odds": 3.7,
+        "value_pos": 1,
+        "pos_diff": 8,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401841458"
+      }
+    },
+    {
       "league": "Бразилия Серия Б",
       "match": {
         "source": "espn",
@@ -379,14 +379,14 @@
         "away_pts": 35,
         "home_form": "WDWLW",
         "away_form": "WDWWW",
-        "home_odds": 2.1,
-        "draw_odds": 3.25,
-        "away_odds": 3.5,
+        "home_odds": 2.16,
+        "draw_odds": 3.2,
+        "away_odds": 3.35,
         "bookmaker": "Unibet (NL)",
         "time": "2026-07-27T22:30Z",
         "value_team": "Operário PR",
         "value_side": "away",
-        "value_odds": 3.5,
+        "value_odds": 3.35,
         "value_pos": 2,
         "pos_diff": 6,
         "settlement": {
@@ -414,14 +414,14 @@
         "away_pts": 0,
         "home_form": "LWWDD",
         "away_form": "LLLWL",
-        "home_odds": 2.07,
+        "home_odds": 2.06,
         "draw_odds": 3.0,
-        "away_odds": 4.22,
+        "away_odds": 4.28,
         "bookmaker": "1xBet",
         "time": "2026-07-28T22:00Z",
         "value_team": "Sarmiento (Junín)",
         "value_side": "away",
-        "value_odds": 4.22,
+        "value_odds": 4.28,
         "value_pos": 10,
         "pos_diff": 5,
         "settlement": {
@@ -431,42 +431,7 @@
         },
         "signal_id": "espn:401841462"
       }
-    },
-    {
-      "league": "Чили Примера",
-      "match": {
-        "source": "espn",
-        "event_id": "401850420",
-        "fixture_id": null,
-        "league_slug": "chi.1",
-        "league_id": null,
-        "season": null,
-        "home": "Deportes Concepcion",
-        "away": "O'Higgins",
-        "home_pos": 14,
-        "away_pos": 10,
-        "home_pts": 14,
-        "away_pts": 20,
-        "home_form": "WWWLW",
-        "away_form": "LWWDL",
-        "home_odds": 2.28,
-        "draw_odds": 3.25,
-        "away_odds": 3.0,
-        "bookmaker": "LeoVegas (SE)",
-        "time": "2026-07-27T00:30Z",
-        "value_team": "O'Higgins",
-        "value_side": "away",
-        "value_odds": 3.0,
-        "value_pos": 10,
-        "pos_diff": 4,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401850420"
-      }
     }
   ],
-  "history_count": 32
+  "history_count": 33
 }
