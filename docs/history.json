@@ -4,7 +4,7 @@
       "id": "espn:401841458",
       "league": "Аргентина Примера",
       "first_seen": "2026-07-27T09:41:59.224284",
-      "last_seen": "2026-07-27T09:41:59.224284",
+      "last_seen": "2026-07-27T19:20:02.150622",
       "match": {
         "source": "espn",
         "event_id": "401841458",
@@ -21,7 +21,7 @@
         "home_form": "DLLLL",
         "away_form": "WWDLL",
         "home_odds": 2.05,
-        "draw_odds": 2.8,
+        "draw_odds": 2.85,
         "away_odds": 3.7,
         "bookmaker": "Winamax (DE)",
         "time": "2026-07-29T20:00Z",
@@ -41,7 +41,7 @@
       "id": "espn:401841452",
       "league": "Аргентина Примера",
       "first_seen": "2026-07-26T08:19:50.745580",
-      "last_seen": "2026-07-27T09:41:59.224284",
+      "last_seen": "2026-07-27T19:20:02.150622",
       "match": {
         "source": "espn",
         "event_id": "401841452",
@@ -57,8 +57,8 @@
         "away_pts": 3,
         "home_form": "LLLDL",
         "away_form": "WWLWL",
-        "home_odds": 1.92,
-        "draw_odds": 2.85,
+        "home_odds": 1.94,
+        "draw_odds": 2.9,
         "away_odds": 4.0,
         "bookmaker": "Winamax (DE)",
         "time": "2026-07-28T22:00Z",
@@ -78,7 +78,7 @@
       "id": "espn:401841453",
       "league": "Аргентина Примера",
       "first_seen": "2026-07-26T08:19:50.745580",
-      "last_seen": "2026-07-27T09:41:59.224284",
+      "last_seen": "2026-07-27T19:20:02.150622",
       "match": {
         "source": "espn",
         "event_id": "401841453",
@@ -95,7 +95,7 @@
         "home_form": "LLLWL",
         "away_form": "WWWDL",
         "home_odds": 2.15,
-        "draw_odds": 2.9,
+        "draw_odds": 2.95,
         "away_odds": 3.25,
         "bookmaker": "Winamax (DE)",
         "time": "2026-07-29T00:15Z",
@@ -115,7 +115,7 @@
       "id": "espn:401841462",
       "league": "Аргентина Примера",
       "first_seen": "2026-07-26T08:19:50.745580",
-      "last_seen": "2026-07-27T09:41:59.224284",
+      "last_seen": "2026-07-27T19:20:02.150622",
       "match": {
         "source": "espn",
         "event_id": "401841462",
@@ -131,14 +131,14 @@
         "away_pts": 0,
         "home_form": "LWWDD",
         "away_form": "LLLWL",
-        "home_odds": 2.06,
+        "home_odds": 2.05,
         "draw_odds": 3.0,
-        "away_odds": 4.28,
+        "away_odds": 4.33,
         "bookmaker": "1xBet",
         "time": "2026-07-28T22:00Z",
         "value_team": "Sarmiento (Junín)",
         "value_side": "away",
-        "value_odds": 4.28,
+        "value_odds": 4.33,
         "value_pos": 10,
         "pos_diff": 5,
         "settlement": {
@@ -152,7 +152,7 @@
       "id": "espn:401860260",
       "league": "Бразилия Серия Б",
       "first_seen": "2026-07-25T07:59:51.991176",
-      "last_seen": "2026-07-27T09:41:59.224284",
+      "last_seen": "2026-07-27T19:20:02.150622",
       "match": {
         "source": "espn",
         "event_id": "401860260",
@@ -168,14 +168,14 @@
         "away_pts": 35,
         "home_form": "WDWLW",
         "away_form": "WDWWW",
-        "home_odds": 2.16,
+        "home_odds": 2.12,
         "draw_odds": 3.2,
-        "away_odds": 3.35,
+        "away_odds": 3.45,
         "bookmaker": "Unibet (NL)",
         "time": "2026-07-27T22:30Z",
         "value_team": "Operário PR",
         "value_side": "away",
-        "value_odds": 3.35,
+        "value_odds": 3.45,
         "value_pos": 2,
         "pos_diff": 6,
         "settlement": {
@@ -1357,5 +1357,5 @@
       }
     }
   ],
-  "generated_at": "2026-07-27T09:41:59.224284"
+  "generated_at": "2026-07-27T19:20:02.150622"
 }

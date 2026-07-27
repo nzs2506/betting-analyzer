@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-27T09:41:59.224284",
+  "generated_at": "2026-07-27T19:20:02.150622",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 12,
-    "fixtures_found": 32,
-    "with_odds": 17,
+    "leagues_checked": 8,
+    "fixtures_found": 27,
+    "with_odds": 14,
     "leagues_detail": [
       [
         "bra.1",
@@ -57,7 +57,7 @@
       [
         "bol.1",
         "Боливия Лига",
-        "ok"
+        "no_matches"
       ],
       [
         "par.1",
@@ -162,7 +162,7 @@
       [
         "nor.1",
         "Норвегия Элитесерен",
-        "ok"
+        "no_matches"
       ],
       [
         "nor.2",
@@ -172,7 +172,7 @@
       [
         "swe.1",
         "Швеция Алльсвенскан",
-        "ok"
+        "no_matches"
       ],
       [
         "swe.2",
@@ -182,7 +182,7 @@
       [
         "den.1",
         "Дания Суперлига",
-        "ok"
+        "no_matches"
       ],
       [
         "den.2",
@@ -274,8 +274,8 @@
         "away_pts": 3,
         "home_form": "LLLDL",
         "away_form": "WWLWL",
-        "home_odds": 1.92,
-        "draw_odds": 2.85,
+        "home_odds": 1.94,
+        "draw_odds": 2.9,
         "away_odds": 4.0,
         "bookmaker": "Winamax (DE)",
         "time": "2026-07-28T22:00Z",
@@ -310,7 +310,7 @@
         "home_form": "LLLWL",
         "away_form": "WWWDL",
         "home_odds": 2.15,
-        "draw_odds": 2.9,
+        "draw_odds": 2.95,
         "away_odds": 3.25,
         "bookmaker": "Winamax (DE)",
         "time": "2026-07-29T00:15Z",
@@ -345,7 +345,7 @@
         "home_form": "DLLLL",
         "away_form": "WWDLL",
         "home_odds": 2.05,
-        "draw_odds": 2.8,
+        "draw_odds": 2.85,
         "away_odds": 3.7,
         "bookmaker": "Winamax (DE)",
         "time": "2026-07-29T20:00Z",
@@ -379,14 +379,14 @@
         "away_pts": 35,
         "home_form": "WDWLW",
         "away_form": "WDWWW",
-        "home_odds": 2.16,
+        "home_odds": 2.12,
         "draw_odds": 3.2,
-        "away_odds": 3.35,
+        "away_odds": 3.45,
         "bookmaker": "Unibet (NL)",
         "time": "2026-07-27T22:30Z",
         "value_team": "Operário PR",
         "value_side": "away",
-        "value_odds": 3.35,
+        "value_odds": 3.45,
         "value_pos": 2,
         "pos_diff": 6,
         "settlement": {
@@ -414,14 +414,14 @@
         "away_pts": 0,
         "home_form": "LWWDD",
         "away_form": "LLLWL",
-        "home_odds": 2.06,
+        "home_odds": 2.05,
         "draw_odds": 3.0,
-        "away_odds": 4.28,
+        "away_odds": 4.33,
         "bookmaker": "1xBet",
         "time": "2026-07-28T22:00Z",
         "value_team": "Sarmiento (Junín)",
         "value_side": "away",
-        "value_odds": 4.28,
+        "value_odds": 4.33,
         "value_pos": 10,
         "pos_diff": 5,
         "settlement": {
