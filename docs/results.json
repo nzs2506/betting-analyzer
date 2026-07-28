@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-27T19:20:02.150622",
+  "generated_at": "2026-07-28T08:26:12.312656",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 8,
-    "fixtures_found": 27,
-    "with_odds": 14,
+    "leagues_checked": 7,
+    "fixtures_found": 30,
+    "with_odds": 15,
     "leagues_detail": [
       [
         "bra.1",
@@ -32,17 +32,17 @@
       [
         "arg.2",
         "Аргентина Насьональ Б",
-        "ok"
+        "no_matches"
       ],
       [
         "chi.1",
         "Чили Примера",
-        "ok"
+        "no_matches"
       ],
       [
         "col.1",
         "Колумбия Примера А",
-        "no_matches"
+        "ok"
       ],
       [
         "uru.1",
@@ -52,7 +52,7 @@
       [
         "ecu.1",
         "Эквадор ЛигаПро",
-        "ok"
+        "no_matches"
       ],
       [
         "bol.1",
@@ -82,7 +82,7 @@
       [
         "mex.2",
         "Мексика Лига Экспансьон",
-        "no_matches"
+        "ok"
       ],
       [
         "usa.1",
@@ -274,14 +274,14 @@
         "away_pts": 3,
         "home_form": "LLLDL",
         "away_form": "WWLWL",
-        "home_odds": 1.94,
-        "draw_odds": 2.9,
-        "away_odds": 4.0,
+        "home_odds": 2.0,
+        "draw_odds": 3.0,
+        "away_odds": 3.8,
         "bookmaker": "Winamax (DE)",
         "time": "2026-07-28T22:00Z",
         "value_team": "Gimnasia (Mendoza)",
         "value_side": "away",
-        "value_odds": 4.0,
+        "value_odds": 3.8,
         "value_pos": 3,
         "pos_diff": 10,
         "settlement": {
@@ -309,14 +309,14 @@
         "away_pts": 3,
         "home_form": "LLLWL",
         "away_form": "WWWDL",
-        "home_odds": 2.15,
-        "draw_odds": 2.95,
-        "away_odds": 3.25,
+        "home_odds": 2.3,
+        "draw_odds": 2.9,
+        "away_odds": 3.15,
         "bookmaker": "Winamax (DE)",
         "time": "2026-07-29T00:15Z",
         "value_team": "Racing Club",
         "value_side": "away",
-        "value_odds": 3.25,
+        "value_odds": 3.15,
         "value_pos": 3,
         "pos_diff": 8,
         "settlement": {
@@ -363,41 +363,6 @@
       }
     },
     {
-      "league": "Бразилия Серия Б",
-      "match": {
-        "source": "espn",
-        "event_id": "401860260",
-        "fixture_id": null,
-        "league_slug": "bra.2",
-        "league_id": null,
-        "season": null,
-        "home": "Atlético Goianiense",
-        "away": "Operário PR",
-        "home_pos": 8,
-        "away_pos": 2,
-        "home_pts": 28,
-        "away_pts": 35,
-        "home_form": "WDWLW",
-        "away_form": "WDWWW",
-        "home_odds": 2.12,
-        "draw_odds": 3.2,
-        "away_odds": 3.45,
-        "bookmaker": "Unibet (NL)",
-        "time": "2026-07-27T22:30Z",
-        "value_team": "Operário PR",
-        "value_side": "away",
-        "value_odds": 3.45,
-        "value_pos": 2,
-        "pos_diff": 6,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401860260"
-      }
-    },
-    {
       "league": "Аргентина Примера",
       "match": {
         "source": "espn",
@@ -414,14 +379,14 @@
         "away_pts": 0,
         "home_form": "LWWDD",
         "away_form": "LLLWL",
-        "home_odds": 2.05,
-        "draw_odds": 3.0,
-        "away_odds": 4.33,
+        "home_odds": 2.07,
+        "draw_odds": 2.98,
+        "away_odds": 4.28,
         "bookmaker": "1xBet",
         "time": "2026-07-28T22:00Z",
         "value_team": "Sarmiento (Junín)",
         "value_side": "away",
-        "value_odds": 4.33,
+        "value_odds": 4.28,
         "value_pos": 10,
         "pos_diff": 5,
         "settlement": {

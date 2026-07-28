@@ -4,7 +4,7 @@
       "id": "espn:401841458",
       "league": "Аргентина Примера",
       "first_seen": "2026-07-27T09:41:59.224284",
-      "last_seen": "2026-07-27T19:20:02.150622",
+      "last_seen": "2026-07-28T08:26:12.312656",
       "match": {
         "source": "espn",
         "event_id": "401841458",
@@ -41,7 +41,7 @@
       "id": "espn:401841452",
       "league": "Аргентина Примера",
       "first_seen": "2026-07-26T08:19:50.745580",
-      "last_seen": "2026-07-27T19:20:02.150622",
+      "last_seen": "2026-07-28T08:26:12.312656",
       "match": {
         "source": "espn",
         "event_id": "401841452",
@@ -57,14 +57,14 @@
         "away_pts": 3,
         "home_form": "LLLDL",
         "away_form": "WWLWL",
-        "home_odds": 1.94,
-        "draw_odds": 2.9,
-        "away_odds": 4.0,
+        "home_odds": 2.0,
+        "draw_odds": 3.0,
+        "away_odds": 3.8,
         "bookmaker": "Winamax (DE)",
         "time": "2026-07-28T22:00Z",
         "value_team": "Gimnasia (Mendoza)",
         "value_side": "away",
-        "value_odds": 4.0,
+        "value_odds": 3.8,
         "value_pos": 3,
         "pos_diff": 10,
         "settlement": {
@@ -78,7 +78,7 @@
       "id": "espn:401841453",
       "league": "Аргентина Примера",
       "first_seen": "2026-07-26T08:19:50.745580",
-      "last_seen": "2026-07-27T19:20:02.150622",
+      "last_seen": "2026-07-28T08:26:12.312656",
       "match": {
         "source": "espn",
         "event_id": "401841453",
@@ -94,14 +94,14 @@
         "away_pts": 3,
         "home_form": "LLLWL",
         "away_form": "WWWDL",
-        "home_odds": 2.15,
-        "draw_odds": 2.95,
-        "away_odds": 3.25,
+        "home_odds": 2.3,
+        "draw_odds": 2.9,
+        "away_odds": 3.15,
         "bookmaker": "Winamax (DE)",
         "time": "2026-07-29T00:15Z",
         "value_team": "Racing Club",
         "value_side": "away",
-        "value_odds": 3.25,
+        "value_odds": 3.15,
         "value_pos": 3,
         "pos_diff": 8,
         "settlement": {
@@ -115,7 +115,7 @@
       "id": "espn:401841462",
       "league": "Аргентина Примера",
       "first_seen": "2026-07-26T08:19:50.745580",
-      "last_seen": "2026-07-27T19:20:02.150622",
+      "last_seen": "2026-07-28T08:26:12.312656",
       "match": {
         "source": "espn",
         "event_id": "401841462",
@@ -131,14 +131,14 @@
         "away_pts": 0,
         "home_form": "LWWDD",
         "away_form": "LLLWL",
-        "home_odds": 2.05,
-        "draw_odds": 3.0,
-        "away_odds": 4.33,
+        "home_odds": 2.07,
+        "draw_odds": 2.98,
+        "away_odds": 4.28,
         "bookmaker": "1xBet",
         "time": "2026-07-28T22:00Z",
         "value_team": "Sarmiento (Junín)",
         "value_side": "away",
-        "value_odds": 4.33,
+        "value_odds": 4.28,
         "value_pos": 10,
         "pos_diff": 5,
         "settlement": {
@@ -179,9 +179,14 @@
         "value_pos": 2,
         "pos_diff": 6,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 3,
+          "away_score": 1,
+          "score": "3:1",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -1357,5 +1362,5 @@
       }
     }
   ],
-  "generated_at": "2026-07-27T19:20:02.150622"
+  "generated_at": "2026-07-28T08:26:12.312656"
 }
