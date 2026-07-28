@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-28T08:26:12.312656",
+  "generated_at": "2026-07-28T19:16:06.787852",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
     "leagues_checked": 7,
-    "fixtures_found": 30,
+    "fixtures_found": 29,
     "with_odds": 15,
     "leagues_detail": [
       [
@@ -22,7 +22,7 @@
       [
         "bra.3",
         "Бразилия Серия С",
-        "no_matches"
+        "no_data"
       ],
       [
         "arg.1",
@@ -207,7 +207,7 @@
       [
         "irl.1",
         "Ирландия Лига",
-        "no_matches"
+        "no_data"
       ],
       [
         "wal.1",
@@ -274,14 +274,14 @@
         "away_pts": 3,
         "home_form": "LLLDL",
         "away_form": "WWLWL",
-        "home_odds": 2.0,
+        "home_odds": 1.96,
         "draw_odds": 3.0,
-        "away_odds": 3.8,
+        "away_odds": 3.9,
         "bookmaker": "Winamax (DE)",
         "time": "2026-07-28T22:00Z",
         "value_team": "Gimnasia (Mendoza)",
         "value_side": "away",
-        "value_odds": 3.8,
+        "value_odds": 3.9,
         "value_pos": 3,
         "pos_diff": 10,
         "settlement": {
@@ -309,14 +309,14 @@
         "away_pts": 3,
         "home_form": "LLLWL",
         "away_form": "WWWDL",
-        "home_odds": 2.3,
-        "draw_odds": 2.9,
-        "away_odds": 3.15,
+        "home_odds": 2.05,
+        "draw_odds": 2.95,
+        "away_odds": 3.65,
         "bookmaker": "Winamax (DE)",
         "time": "2026-07-29T00:15Z",
         "value_team": "Racing Club",
         "value_side": "away",
-        "value_odds": 3.15,
+        "value_odds": 3.65,
         "value_pos": 3,
         "pos_diff": 8,
         "settlement": {
@@ -344,14 +344,14 @@
         "away_pts": 3,
         "home_form": "DLLLL",
         "away_form": "WWDLL",
-        "home_odds": 2.05,
+        "home_odds": 2.1,
         "draw_odds": 2.85,
-        "away_odds": 3.7,
+        "away_odds": 3.5,
         "bookmaker": "Winamax (DE)",
         "time": "2026-07-29T20:00Z",
         "value_team": "Deportivo Riestra",
         "value_side": "away",
-        "value_odds": 3.7,
+        "value_odds": 3.5,
         "value_pos": 1,
         "pos_diff": 8,
         "settlement": {
@@ -379,14 +379,14 @@
         "away_pts": 0,
         "home_form": "LWWDD",
         "away_form": "LLLWL",
-        "home_odds": 2.07,
-        "draw_odds": 2.98,
-        "away_odds": 4.28,
+        "home_odds": 2.09,
+        "draw_odds": 3.02,
+        "away_odds": 4.12,
         "bookmaker": "1xBet",
         "time": "2026-07-28T22:00Z",
         "value_team": "Sarmiento (Junín)",
         "value_side": "away",
-        "value_odds": 4.28,
+        "value_odds": 4.12,
         "value_pos": 10,
         "pos_diff": 5,
         "settlement": {
