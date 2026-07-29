@@ -4,7 +4,7 @@
       "id": "espn:401877026",
       "league": "Мексика Лига MX",
       "first_seen": "2026-07-29T08:31:55.842768",
-      "last_seen": "2026-07-29T08:31:55.842768",
+      "last_seen": "2026-07-29T19:07:29.322984",
       "match": {
         "source": "espn",
         "event_id": "401877026",
@@ -41,7 +41,7 @@
       "id": "espn:401841458",
       "league": "Аргентина Примера",
       "first_seen": "2026-07-27T09:41:59.224284",
-      "last_seen": "2026-07-29T08:31:55.842768",
+      "last_seen": "2026-07-29T19:07:29.322984",
       "match": {
         "source": "espn",
         "event_id": "401841458",
@@ -57,14 +57,14 @@
         "away_pts": 3,
         "home_form": "DLLLL",
         "away_form": "WWDLL",
-        "home_odds": 2.2,
-        "draw_odds": 2.85,
-        "away_odds": 3.45,
+        "home_odds": 2.3,
+        "draw_odds": 2.8,
+        "away_odds": 3.25,
         "bookmaker": "Winamax (DE)",
         "time": "2026-07-29T20:00Z",
         "value_team": "Deportivo Riestra",
         "value_side": "away",
-        "value_odds": 3.45,
+        "value_odds": 3.25,
         "value_pos": 1,
         "pos_diff": 9,
         "settlement": {
@@ -1414,5 +1414,5 @@
       }
     }
   ],
-  "generated_at": "2026-07-29T08:31:55.842768"
+  "generated_at": "2026-07-29T19:07:29.322984"
 }
