@@ -1,10 +1,47 @@
 {
   "signals": [
     {
+      "id": "espn:401877026",
+      "league": "Мексика Лига MX",
+      "first_seen": "2026-07-29T08:31:55.842768",
+      "last_seen": "2026-07-29T08:31:55.842768",
+      "match": {
+        "source": "espn",
+        "event_id": "401877026",
+        "fixture_id": null,
+        "league_slug": "mex.1",
+        "league_id": null,
+        "season": null,
+        "home": "Atlético de San Luis",
+        "away": "Tijuana",
+        "home_pos": 13,
+        "away_pos": 1,
+        "home_pts": 1,
+        "away_pts": 6,
+        "home_form": "DLLWL",
+        "away_form": "WWDWD",
+        "home_odds": 2.25,
+        "draw_odds": 3.25,
+        "away_odds": 2.7,
+        "bookmaker": "Betclic (FR)",
+        "time": "2026-08-01T03:00Z",
+        "value_team": "Tijuana",
+        "value_side": "away",
+        "value_odds": 2.7,
+        "value_pos": 1,
+        "pos_diff": 12,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
       "id": "espn:401841458",
       "league": "Аргентина Примера",
       "first_seen": "2026-07-27T09:41:59.224284",
-      "last_seen": "2026-07-28T19:16:06.787852",
+      "last_seen": "2026-07-29T08:31:55.842768",
       "match": {
         "source": "espn",
         "event_id": "401841458",
@@ -14,22 +51,22 @@
         "season": null,
         "home": "Defensa y Justicia",
         "away": "Deportivo Riestra",
-        "home_pos": 9,
+        "home_pos": 10,
         "away_pos": 1,
         "home_pts": 1,
         "away_pts": 3,
         "home_form": "DLLLL",
         "away_form": "WWDLL",
-        "home_odds": 2.1,
+        "home_odds": 2.2,
         "draw_odds": 2.85,
-        "away_odds": 3.5,
+        "away_odds": 3.45,
         "bookmaker": "Winamax (DE)",
         "time": "2026-07-29T20:00Z",
         "value_team": "Deportivo Riestra",
         "value_side": "away",
-        "value_odds": 3.5,
+        "value_odds": 3.45,
         "value_pos": 1,
-        "pos_diff": 8,
+        "pos_diff": 9,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
@@ -68,9 +105,14 @@
         "value_pos": 3,
         "pos_diff": 10,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 1,
+          "away_score": 0,
+          "score": "1:0",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -105,9 +147,14 @@
         "value_pos": 3,
         "pos_diff": 8,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 0,
+          "away_score": 0,
+          "score": "0:0",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -142,9 +189,14 @@
         "value_pos": 10,
         "pos_diff": 5,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 3,
+          "away_score": 2,
+          "score": "3:2",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -1362,5 +1414,5 @@
       }
     }
   ],
-  "generated_at": "2026-07-28T19:16:06.787852"
+  "generated_at": "2026-07-29T08:31:55.842768"
 }
