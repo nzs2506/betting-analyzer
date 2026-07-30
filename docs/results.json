@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-29T19:07:29.322984",
+  "generated_at": "2026-07-30T08:17:15.545158",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 16,
-    "fixtures_found": 39,
-    "with_odds": 14,
+    "leagues_checked": 21,
+    "fixtures_found": 108,
+    "with_odds": 34,
     "leagues_detail": [
       [
         "bra.1",
@@ -32,7 +32,7 @@
       [
         "arg.2",
         "Аргентина Насьональ Б",
-        "no_matches"
+        "ok"
       ],
       [
         "chi.1",
@@ -72,7 +72,7 @@
       [
         "ven.1",
         "Венесуэла Примера",
-        "no_data"
+        "ok"
       ],
       [
         "mex.1",
@@ -172,7 +172,7 @@
       [
         "swe.1",
         "Швеция Алльсвенскан",
-        "no_matches"
+        "ok"
       ],
       [
         "swe.2",
@@ -182,7 +182,7 @@
       [
         "den.1",
         "Дания Суперлига",
-        "no_matches"
+        "ok"
       ],
       [
         "den.2",
@@ -202,7 +202,7 @@
       [
         "sco.2",
         "Шотландия Чемпионшип",
-        "no_matches"
+        "ok"
       ],
       [
         "irl.1",
@@ -293,40 +293,250 @@
       }
     },
     {
-      "league": "Аргентина Примера",
+      "league": "Китай Суперлига",
       "match": {
         "source": "espn",
-        "event_id": "401841458",
+        "event_id": "401861436",
         "fixture_id": null,
-        "league_slug": "arg.1",
+        "league_slug": "chn.1",
         "league_id": null,
         "season": null,
-        "home": "Defensa y Justicia",
-        "away": "Deportivo Riestra",
-        "home_pos": 10,
-        "away_pos": 1,
-        "home_pts": 1,
-        "away_pts": 3,
-        "home_form": "DLLLL",
-        "away_form": "WWDLL",
-        "home_odds": 2.3,
-        "draw_odds": 2.8,
-        "away_odds": 3.25,
-        "bookmaker": "Winamax (DE)",
-        "time": "2026-07-29T20:00Z",
-        "value_team": "Deportivo Riestra",
+        "home": "Tianjin Jinmen Tiger",
+        "away": "Yunnan Yukun",
+        "home_pos": 14,
+        "away_pos": 3,
+        "home_pts": 14,
+        "away_pts": 28,
+        "home_form": "WWWLW",
+        "away_form": "WDLWL",
+        "home_odds": 2.35,
+        "draw_odds": 3.3,
+        "away_odds": 2.45,
+        "bookmaker": "Unibet (FR)",
+        "time": "2026-08-01T11:00Z",
+        "value_team": "Yunnan Yukun",
         "value_side": "away",
-        "value_odds": 3.25,
-        "value_pos": 1,
-        "pos_diff": 9,
+        "value_odds": 2.45,
+        "value_pos": 3,
+        "pos_diff": 11,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
           "label": "матч не завершен"
         },
-        "signal_id": "espn:401841458"
+        "signal_id": "espn:401861436"
+      }
+    },
+    {
+      "league": "США MLS",
+      "match": {
+        "source": "espn",
+        "event_id": "761697",
+        "fixture_id": null,
+        "league_slug": "usa.1",
+        "league_id": null,
+        "season": null,
+        "home": "CF Montréal",
+        "away": "New England Revolution",
+        "home_pos": 13,
+        "away_pos": 3,
+        "home_pts": 15,
+        "away_pts": 29,
+        "home_form": "LLDDL",
+        "away_form": "WDLWL",
+        "home_odds": 2.25,
+        "draw_odds": 3.55,
+        "away_odds": 3.08,
+        "bookmaker": "Pinnacle",
+        "time": "2026-08-01T23:30Z",
+        "value_team": "New England Revolution",
+        "value_side": "away",
+        "value_odds": 3.08,
+        "value_pos": 3,
+        "pos_diff": 10,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:761697"
+      }
+    },
+    {
+      "league": "Чили Примера",
+      "match": {
+        "source": "espn",
+        "event_id": "401850604",
+        "fixture_id": null,
+        "league_slug": "chi.1",
+        "league_id": null,
+        "season": null,
+        "home": "Deportes Limache",
+        "away": "Ñublense",
+        "home_pos": 9,
+        "away_pos": 4,
+        "home_pts": 21,
+        "away_pts": 25,
+        "home_form": "LWDLD",
+        "away_form": "WDWWW",
+        "home_odds": 2.0,
+        "draw_odds": 3.35,
+        "away_odds": 3.1,
+        "bookmaker": "Winamax (DE)",
+        "time": "2026-08-02T00:00Z",
+        "value_team": "Ñublense",
+        "value_side": "away",
+        "value_odds": 3.1,
+        "value_pos": 4,
+        "pos_diff": 5,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401850604"
+      }
+    },
+    {
+      "league": "Мексика Лига MX",
+      "match": {
+        "source": "espn",
+        "event_id": "401877022",
+        "fixture_id": null,
+        "league_slug": "mex.1",
+        "league_id": null,
+        "season": null,
+        "home": "Atlas",
+        "away": "Monterrey",
+        "home_pos": 3,
+        "away_pos": 8,
+        "home_pts": 6,
+        "away_pts": 3,
+        "home_form": "WWLLW",
+        "away_form": "LWLWL",
+        "home_odds": 2.62,
+        "draw_odds": 3.1,
+        "away_odds": 2.3,
+        "bookmaker": "William Hill",
+        "time": "2026-08-02T01:05Z",
+        "value_team": "Atlas",
+        "value_side": "home",
+        "value_odds": 2.62,
+        "value_pos": 3,
+        "pos_diff": 5,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401877022"
+      }
+    },
+    {
+      "league": "США MLS",
+      "match": {
+        "source": "espn",
+        "event_id": "761709",
+        "fixture_id": null,
+        "league_slug": "usa.1",
+        "league_id": null,
+        "season": null,
+        "home": "LA Galaxy",
+        "away": "FC Dallas",
+        "home_pos": 11,
+        "away_pos": 6,
+        "home_pts": 21,
+        "away_pts": 26,
+        "home_form": "DLLDW",
+        "away_form": "LDWWL",
+        "home_odds": 2.18,
+        "draw_odds": 3.87,
+        "away_odds": 3.01,
+        "bookmaker": "Pinnacle",
+        "time": "2026-08-02T02:30Z",
+        "value_team": "FC Dallas",
+        "value_side": "away",
+        "value_odds": 3.01,
+        "value_pos": 6,
+        "pos_diff": 5,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:761709"
+      }
+    },
+    {
+      "league": "Австрия Бундеслига",
+      "match": {
+        "source": "espn",
+        "event_id": "401881819",
+        "fixture_id": null,
+        "league_slug": "aut.1",
+        "league_id": null,
+        "season": null,
+        "home": "RB Salzburg",
+        "away": "TSV Hartberg",
+        "home_pos": 9,
+        "away_pos": 4,
+        "home_pts": 0,
+        "away_pts": 0,
+        "home_form": "LLDLW",
+        "away_form": "WLLLW",
+        "home_odds": 1.32,
+        "draw_odds": 6.0,
+        "away_odds": 10.0,
+        "bookmaker": "Betfair",
+        "time": "2026-08-01T17:30Z",
+        "value_team": "TSV Hartberg",
+        "value_side": "away",
+        "value_odds": 10.0,
+        "value_pos": 4,
+        "pos_diff": 5,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401881819"
+      }
+    },
+    {
+      "league": "США MLS",
+      "match": {
+        "source": "espn",
+        "event_id": "761700",
+        "fixture_id": null,
+        "league_slug": "usa.1",
+        "league_id": null,
+        "season": null,
+        "home": "FC Cincinnati",
+        "away": "San Jose Earthquakes",
+        "home_pos": 7,
+        "away_pos": 3,
+        "home_pts": 23,
+        "away_pts": 33,
+        "home_form": "LWWDL",
+        "away_form": "DLWLL",
+        "home_odds": 1.85,
+        "draw_odds": 3.73,
+        "away_odds": 3.02,
+        "bookmaker": "Betclic (FR)",
+        "time": "2026-08-01T23:30Z",
+        "value_team": "San Jose Earthquakes",
+        "value_side": "away",
+        "value_odds": 3.02,
+        "value_pos": 3,
+        "pos_diff": 4,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:761700"
       }
     }
   ],
-  "history_count": 34
+  "history_count": 41
 }
