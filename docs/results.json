@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-02T08:14:26.665778",
+  "generated_at": "2026-08-02T19:02:47.342097",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 17,
-    "fixtures_found": 83,
-    "with_odds": 24,
+    "leagues_checked": 14,
+    "fixtures_found": 46,
+    "with_odds": 8,
     "leagues_detail": [
       [
         "bra.1",
@@ -107,7 +107,7 @@
       [
         "chn.1",
         "Китай Суперлига",
-        "ok"
+        "no_matches"
       ],
       [
         "ind.1",
@@ -162,7 +162,7 @@
       [
         "nor.1",
         "Норвегия Элитесерен",
-        "ok"
+        "no_matches"
       ],
       [
         "nor.2",
@@ -237,7 +237,7 @@
       [
         "aut.1",
         "Австрия Бундеслига",
-        "ok"
+        "no_matches"
       ],
       [
         "bel.1",
@@ -274,14 +274,14 @@
         "away_pts": 6,
         "home_form": "LLWWL",
         "away_form": "WWLDD",
-        "home_odds": 1.53,
+        "home_odds": 1.44,
         "draw_odds": 3.8,
-        "away_odds": 4.8,
+        "away_odds": 5.0,
         "bookmaker": "William Hill",
         "time": "2026-08-03T01:05Z",
         "value_team": "Necaxa",
         "value_side": "away",
-        "value_odds": 4.8,
+        "value_odds": 5.0,
         "value_pos": 4,
         "pos_diff": 9,
         "settlement": {
@@ -290,41 +290,6 @@
           "label": "матч не завершен"
         },
         "signal_id": "espn:401877019"
-      }
-    },
-    {
-      "league": "Дания Суперлига",
-      "match": {
-        "source": "espn",
-        "event_id": "401874508",
-        "fixture_id": null,
-        "league_slug": "den.1",
-        "league_id": null,
-        "season": null,
-        "home": "Brøndby IF",
-        "away": "Viborg FF",
-        "home_pos": 9,
-        "away_pos": 3,
-        "home_pts": 1,
-        "away_pts": 3,
-        "home_form": "DLWLD",
-        "away_form": "WLLDW",
-        "home_odds": 1.89,
-        "draw_odds": 3.7,
-        "away_odds": 3.73,
-        "bookmaker": "1xBet",
-        "time": "2026-08-02T14:00Z",
-        "value_team": "Viborg FF",
-        "value_side": "away",
-        "value_odds": 3.73,
-        "value_pos": 3,
-        "pos_diff": 6,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401874508"
       }
     },
     {
@@ -344,14 +309,14 @@
         "away_pts": 0,
         "home_form": "LWDDW",
         "away_form": "LLWWL",
-        "home_odds": 3.45,
-        "draw_odds": 3.0,
-        "away_odds": 2.0,
+        "home_odds": 4.0,
+        "draw_odds": 3.1,
+        "away_odds": 1.84,
         "bookmaker": "Winamax (FR)",
         "time": "2026-08-02T20:00Z",
         "value_team": "Newell's Old Boys",
         "value_side": "home",
-        "value_odds": 3.45,
+        "value_odds": 4.0,
         "value_pos": 10,
         "pos_diff": 4,
         "settlement": {
@@ -360,41 +325,6 @@
           "label": "матч не завершен"
         },
         "signal_id": "espn:401841473"
-      }
-    },
-    {
-      "league": "Австрия Бундеслига",
-      "match": {
-        "source": "espn",
-        "event_id": "401881818",
-        "fixture_id": null,
-        "league_slug": "aut.1",
-        "league_id": null,
-        "season": null,
-        "home": "Wolfsberger",
-        "away": "Austria Vienna",
-        "home_pos": 10,
-        "away_pos": 6,
-        "home_pts": 0,
-        "away_pts": 0,
-        "home_form": "LWWWW",
-        "away_form": "WWLWW",
-        "home_odds": 2.48,
-        "draw_odds": 3.5,
-        "away_odds": 3.1,
-        "bookmaker": "Betfair",
-        "time": "2026-08-02T15:00Z",
-        "value_team": "Austria Vienna",
-        "value_side": "away",
-        "value_odds": 3.1,
-        "value_pos": 6,
-        "pos_diff": 4,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401881818"
       }
     }
   ],

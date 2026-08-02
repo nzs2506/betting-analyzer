@@ -31,9 +31,14 @@
         "value_pos": 3,
         "pos_diff": 6,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 1,
+          "away_score": 0,
+          "score": "1:0",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -41,7 +46,7 @@
       "id": "espn:401877019",
       "league": "Мексика Лига MX",
       "first_seen": "2026-08-01T08:12:46.476008",
-      "last_seen": "2026-08-02T08:14:26.665778",
+      "last_seen": "2026-08-02T19:02:47.342097",
       "match": {
         "source": "espn",
         "event_id": "401877019",
@@ -57,14 +62,14 @@
         "away_pts": 6,
         "home_form": "LLWWL",
         "away_form": "WWLDD",
-        "home_odds": 1.53,
+        "home_odds": 1.44,
         "draw_odds": 3.8,
-        "away_odds": 4.8,
+        "away_odds": 5.0,
         "bookmaker": "William Hill",
         "time": "2026-08-03T01:05Z",
         "value_team": "Necaxa",
         "value_side": "away",
-        "value_odds": 4.8,
+        "value_odds": 5.0,
         "value_pos": 4,
         "pos_diff": 9,
         "settlement": {
@@ -105,9 +110,14 @@
         "value_pos": 6,
         "pos_diff": 4,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 3,
+          "away_score": 0,
+          "score": "3:0",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -115,7 +125,7 @@
       "id": "espn:401841473",
       "league": "Аргентина Примера",
       "first_seen": "2026-07-31T08:42:40.562805",
-      "last_seen": "2026-08-02T08:14:26.665778",
+      "last_seen": "2026-08-02T19:02:47.342097",
       "match": {
         "source": "espn",
         "event_id": "401841473",
@@ -131,14 +141,14 @@
         "away_pts": 0,
         "home_form": "LWDDW",
         "away_form": "LLWWL",
-        "home_odds": 3.45,
-        "draw_odds": 3.0,
-        "away_odds": 2.0,
+        "home_odds": 4.0,
+        "draw_odds": 3.1,
+        "away_odds": 1.84,
         "bookmaker": "Winamax (FR)",
         "time": "2026-08-02T20:00Z",
         "value_team": "Newell's Old Boys",
         "value_side": "home",
-        "value_odds": 3.45,
+        "value_odds": 4.0,
         "value_pos": 10,
         "pos_diff": 4,
         "settlement": {
@@ -1940,5 +1950,5 @@
       }
     }
   ],
-  "generated_at": "2026-08-02T08:14:26.665778"
+  "generated_at": "2026-08-02T19:02:47.342097"
 }
