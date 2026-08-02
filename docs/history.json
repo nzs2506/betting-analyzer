@@ -4,7 +4,7 @@
       "id": "espn:401874508",
       "league": "Дания Суперлига",
       "first_seen": "2026-08-01T19:01:44.653618",
-      "last_seen": "2026-08-01T19:01:44.653618",
+      "last_seen": "2026-08-02T08:14:26.665778",
       "match": {
         "source": "espn",
         "event_id": "401874508",
@@ -20,8 +20,8 @@
         "away_pts": 3,
         "home_form": "DLWLD",
         "away_form": "WLLDW",
-        "home_odds": 1.9,
-        "draw_odds": 3.66,
+        "home_odds": 1.89,
+        "draw_odds": 3.7,
         "away_odds": 3.73,
         "bookmaker": "1xBet",
         "time": "2026-08-02T14:00Z",
@@ -41,7 +41,7 @@
       "id": "espn:401877019",
       "league": "Мексика Лига MX",
       "first_seen": "2026-08-01T08:12:46.476008",
-      "last_seen": "2026-08-01T19:01:44.653618",
+      "last_seen": "2026-08-02T08:14:26.665778",
       "match": {
         "source": "espn",
         "event_id": "401877019",
@@ -51,22 +51,22 @@
         "season": null,
         "home": "Toluca",
         "away": "Necaxa",
-        "home_pos": 10,
-        "away_pos": 5,
+        "home_pos": 13,
+        "away_pos": 4,
         "home_pts": 3,
         "away_pts": 6,
         "home_form": "LLWWL",
         "away_form": "WWLDD",
-        "home_odds": 1.5,
+        "home_odds": 1.53,
         "draw_odds": 3.8,
-        "away_odds": 5.0,
+        "away_odds": 4.8,
         "bookmaker": "William Hill",
         "time": "2026-08-03T01:05Z",
         "value_team": "Necaxa",
         "value_side": "away",
-        "value_odds": 5.0,
-        "value_pos": 5,
-        "pos_diff": 5,
+        "value_odds": 4.8,
+        "value_pos": 4,
+        "pos_diff": 9,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
@@ -78,7 +78,7 @@
       "id": "espn:401881818",
       "league": "Австрия Бундеслига",
       "first_seen": "2026-07-31T08:42:40.562805",
-      "last_seen": "2026-08-01T19:01:44.653618",
+      "last_seen": "2026-08-02T08:14:26.665778",
       "match": {
         "source": "espn",
         "event_id": "401881818",
@@ -88,13 +88,13 @@
         "season": null,
         "home": "Wolfsberger",
         "away": "Austria Vienna",
-        "home_pos": 11,
-        "away_pos": 5,
+        "home_pos": 10,
+        "away_pos": 6,
         "home_pts": 0,
         "away_pts": 0,
         "home_form": "LWWWW",
         "away_form": "WWLWW",
-        "home_odds": 2.34,
+        "home_odds": 2.48,
         "draw_odds": 3.5,
         "away_odds": 3.1,
         "bookmaker": "Betfair",
@@ -102,8 +102,8 @@
         "value_team": "Austria Vienna",
         "value_side": "away",
         "value_odds": 3.1,
-        "value_pos": 5,
-        "pos_diff": 6,
+        "value_pos": 6,
+        "pos_diff": 4,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
@@ -115,7 +115,7 @@
       "id": "espn:401841473",
       "league": "Аргентина Примера",
       "first_seen": "2026-07-31T08:42:40.562805",
-      "last_seen": "2026-08-01T19:01:44.653618",
+      "last_seen": "2026-08-02T08:14:26.665778",
       "match": {
         "source": "espn",
         "event_id": "401841473",
@@ -125,22 +125,22 @@
         "season": null,
         "home": "Newell's Old Boys",
         "away": "Boca Juniors",
-        "home_pos": 8,
+        "home_pos": 10,
         "away_pos": 14,
         "home_pts": 3,
         "away_pts": 0,
         "home_form": "LWDDW",
         "away_form": "LLWWL",
-        "home_odds": 3.5,
+        "home_odds": 3.45,
         "draw_odds": 3.0,
-        "away_odds": 1.98,
+        "away_odds": 2.0,
         "bookmaker": "Winamax (FR)",
         "time": "2026-08-02T20:00Z",
         "value_team": "Newell's Old Boys",
         "value_side": "home",
-        "value_odds": 3.5,
-        "value_pos": 8,
-        "pos_diff": 6,
+        "value_odds": 3.45,
+        "value_pos": 10,
+        "pos_diff": 4,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
@@ -179,9 +179,14 @@
         "value_pos": 1,
         "pos_diff": 5,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 0,
+          "away_score": 1,
+          "score": "0:1",
+          "outcome": "win",
+          "icon": "🟢",
+          "label": "прогноз сработал",
+          "roi": 2.35
         }
       }
     },
@@ -295,9 +300,14 @@
         "value_pos": 3,
         "pos_diff": 10,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 2,
+          "away_score": 2,
+          "score": "2:2",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -369,9 +379,14 @@
         "value_pos": 4,
         "pos_diff": 7,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 0,
+          "away_score": 2,
+          "score": "0:2",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -406,9 +421,14 @@
         "value_pos": 6,
         "pos_diff": 5,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 0,
+          "away_score": 0,
+          "score": "0:0",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -443,9 +463,14 @@
         "value_pos": 4,
         "pos_diff": 4,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 1,
+          "away_score": 0,
+          "score": "1:0",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -480,9 +505,14 @@
         "value_pos": 3,
         "pos_diff": 4,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 4,
+          "away_score": 2,
+          "score": "4:2",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -1910,5 +1940,5 @@
       }
     }
   ],
-  "generated_at": "2026-08-01T19:01:44.653618"
+  "generated_at": "2026-08-02T08:14:26.665778"
 }
