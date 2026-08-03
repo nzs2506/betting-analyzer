@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-03T09:34:52.564929",
+  "generated_at": "2026-08-03T19:24:49.101059",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 11,
-    "fixtures_found": 37,
-    "with_odds": 3,
+    "leagues_checked": 8,
+    "fixtures_found": 32,
+    "with_odds": 2,
     "leagues_detail": [
       [
         "bra.1",
@@ -172,7 +172,7 @@
       [
         "swe.1",
         "Швеция Алльсвенскан",
-        "ok"
+        "no_matches"
       ],
       [
         "swe.2",
@@ -182,7 +182,7 @@
       [
         "den.1",
         "Дания Суперлига",
-        "ok"
+        "no_matches"
       ],
       [
         "den.2",
@@ -197,7 +197,7 @@
       [
         "sco.1",
         "Шотландия Премьершип",
-        "ok"
+        "no_matches"
       ],
       [
         "sco.2",
