@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-08-04T08:29:19.505681",
+  "generated_at": "2026-08-04T19:24:31.317134",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 8,
-    "fixtures_found": 30,
-    "with_odds": 1,
+    "leagues_checked": 0,
+    "fixtures_found": 0,
+    "with_odds": 0,
     "leagues_detail": [
       [
         "bra.1",
         "Бразилия Серия А",
-        "no_matches"
+        "no_data"
       ],
       [
         "bra.2",
         "Бразилия Серия Б",
-        "no_matches"
+        "no_data"
       ],
       [
         "bra.3",
@@ -27,67 +27,67 @@
       [
         "arg.1",
         "Аргентина Примера",
-        "ok"
+        "no_data"
       ],
       [
         "arg.2",
         "Аргентина Насьональ Б",
-        "ok"
+        "no_data"
       ],
       [
         "chi.1",
         "Чили Примера",
-        "no_matches"
+        "no_data"
       ],
       [
         "col.1",
         "Колумбия Примера А",
-        "ok"
+        "no_data"
       ],
       [
         "uru.1",
         "Уругвай Лига",
-        "ok"
+        "no_data"
       ],
       [
         "ecu.1",
         "Эквадор ЛигаПро",
-        "no_matches"
+        "no_data"
       ],
       [
         "bol.1",
         "Боливия Лига",
-        "ok"
+        "no_data"
       ],
       [
         "par.1",
         "Парагвай Примера",
-        "no_matches"
+        "no_data"
       ],
       [
         "per.1",
         "Перу Лига 1",
-        "ok"
+        "no_data"
       ],
       [
         "ven.1",
         "Венесуэла Примера",
-        "ok"
+        "no_data"
       ],
       [
         "mex.1",
         "Мексика Лига MX",
-        "no_matches"
+        "no_data"
       ],
       [
         "mex.2",
         "Мексика Лига Экспансьон",
-        "ok"
+        "no_data"
       ],
       [
         "usa.1",
         "США MLS",
-        "no_matches"
+        "no_data"
       ],
       [
         "usa.2",
@@ -97,7 +97,7 @@
       [
         "jpn.1",
         "Япония J-League",
-        "no_matches"
+        "no_data"
       ],
       [
         "jpn.2",
@@ -107,62 +107,62 @@
       [
         "chn.1",
         "Китай Суперлига",
-        "no_matches"
+        "no_data"
       ],
       [
         "ind.1",
         "Индия Суперлига",
-        "no_matches"
+        "no_data"
       ],
       [
         "idn.1",
         "Индонезия Суперлига",
-        "no_matches"
+        "no_data"
       ],
       [
         "tha.1",
         "Таиланд Лига 1",
-        "no_matches"
+        "no_data"
       ],
       [
         "mys.1",
         "Малайзия Суперлига",
-        "no_matches"
+        "no_data"
       ],
       [
         "aus.1",
         "Австралия А-Лига",
-        "no_matches"
+        "no_data"
       ],
       [
         "nga.1",
         "Нигерия Профлига",
-        "no_matches"
+        "no_data"
       ],
       [
         "gha.1",
         "Гана Премьер-лига",
-        "no_matches"
+        "no_data"
       ],
       [
         "ken.1",
         "Кения Премьер-лига",
-        "no_matches"
+        "no_data"
       ],
       [
         "uga.1",
         "Уганда Премьер-лига",
-        "no_matches"
+        "no_data"
       ],
       [
         "zam.1",
         "Замбия Суперлига",
-        "no_matches"
+        "no_data"
       ],
       [
         "nor.1",
         "Норвегия Элитесерен",
-        "no_matches"
+        "no_data"
       ],
       [
         "nor.2",
@@ -172,7 +172,7 @@
       [
         "swe.1",
         "Швеция Алльсвенскан",
-        "no_matches"
+        "no_data"
       ],
       [
         "swe.2",
@@ -182,7 +182,7 @@
       [
         "den.1",
         "Дания Суперлига",
-        "no_matches"
+        "no_data"
       ],
       [
         "den.2",
@@ -197,12 +197,12 @@
       [
         "sco.1",
         "Шотландия Премьершип",
-        "no_matches"
+        "no_data"
       ],
       [
         "sco.2",
         "Шотландия Чемпионшип",
-        "no_matches"
+        "no_data"
       ],
       [
         "irl.1",
@@ -212,12 +212,12 @@
       [
         "wal.1",
         "Уэльс Премьер",
-        "no_matches"
+        "no_data"
       ],
       [
         "tur.1",
         "Турция Суперлига",
-        "no_matches"
+        "no_data"
       ],
       [
         "tur.2",
@@ -227,7 +227,7 @@
       [
         "gre.1",
         "Греция Суперлига",
-        "no_matches"
+        "no_data"
       ],
       [
         "rou.1",
@@ -237,12 +237,12 @@
       [
         "aut.1",
         "Австрия Бундеслига",
-        "no_matches"
+        "no_data"
       ],
       [
         "bel.1",
         "Бельгия Про Лига",
-        "no_matches"
+        "no_data"
       ],
       [
         "api-football",
