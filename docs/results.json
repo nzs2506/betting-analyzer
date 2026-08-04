@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-03T19:24:49.101059",
+  "generated_at": "2026-08-04T08:29:19.505681",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
     "leagues_checked": 8,
-    "fixtures_found": 32,
-    "with_odds": 2,
+    "fixtures_found": 30,
+    "with_odds": 1,
     "leagues_detail": [
       [
         "bra.1",
@@ -52,7 +52,7 @@
       [
         "ecu.1",
         "Эквадор ЛигаПро",
-        "ok"
+        "no_matches"
       ],
       [
         "bol.1",
@@ -62,12 +62,12 @@
       [
         "par.1",
         "Парагвай Примера",
-        "ok"
+        "no_matches"
       ],
       [
         "per.1",
         "Перу Лига 1",
-        "no_matches"
+        "ok"
       ],
       [
         "ven.1",
@@ -82,7 +82,7 @@
       [
         "mex.2",
         "Мексика Лига Экспансьон",
-        "no_matches"
+        "ok"
       ],
       [
         "usa.1",
