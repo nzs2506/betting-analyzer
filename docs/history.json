@@ -1,6 +1,80 @@
 {
   "signals": [
     {
+      "id": "espn:401860370",
+      "league": "Бразилия Серия Б",
+      "first_seen": "2026-10-01T22:15:51.771122",
+      "last_seen": "2026-10-01T22:15:51.771122",
+      "match": {
+        "source": "espn",
+        "event_id": "401860370",
+        "fixture_id": null,
+        "league_slug": "bra.2",
+        "league_id": null,
+        "season": null,
+        "home": "Botafogo-SP",
+        "away": "Vila Nova",
+        "home_pos": 16,
+        "away_pos": 1,
+        "home_pts": 35,
+        "away_pts": 54,
+        "home_form": "WDLLL",
+        "away_form": "WWDWL",
+        "home_odds": 2.48,
+        "draw_odds": 3.05,
+        "away_odds": 2.9,
+        "bookmaker": "Unibet (SE)",
+        "time": "2026-10-03T21:30Z",
+        "value_team": "Vila Nova",
+        "value_side": "away",
+        "value_odds": 2.9,
+        "value_pos": 1,
+        "pos_diff": 15,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
+      "id": "espn:401841588",
+      "league": "Аргентина Примера",
+      "first_seen": "2026-10-01T22:15:51.771122",
+      "last_seen": "2026-10-01T22:15:51.771122",
+      "match": {
+        "source": "espn",
+        "event_id": "401841588",
+        "fixture_id": null,
+        "league_slug": "arg.1",
+        "league_id": null,
+        "season": null,
+        "home": "Independiente",
+        "away": "Instituto (Córdoba)",
+        "home_pos": 6,
+        "away_pos": 1,
+        "home_pts": 17,
+        "away_pts": 22,
+        "home_form": "WDWLD",
+        "away_form": "WWLWL",
+        "home_odds": 2.44,
+        "draw_odds": 3.03,
+        "away_odds": 3.19,
+        "bookmaker": "1xBet",
+        "time": "2026-10-02T22:15Z",
+        "value_team": "Instituto (Córdoba)",
+        "value_side": "away",
+        "value_odds": 3.19,
+        "value_pos": 1,
+        "pos_diff": 5,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
       "id": "espn:401874508",
       "league": "Дания Суперлига",
       "first_seen": "2026-08-01T19:01:44.653618",
@@ -1965,5 +2039,5 @@
       }
     }
   ],
-  "generated_at": "2026-10-01T12:18:08.340958"
+  "generated_at": "2026-10-01T22:15:51.771122"
 }
