@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-01T22:15:51.771122",
+  "generated_at": "2026-10-02T11:46:41.971558",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 11,
-    "fixtures_found": 46,
-    "with_odds": 16,
+    "leagues_checked": 10,
+    "fixtures_found": 66,
+    "with_odds": 15,
     "leagues_detail": [
       [
         "bra.1",
@@ -87,7 +87,7 @@
       [
         "usa.1",
         "США MLS",
-        "ok"
+        "no_matches"
       ],
       [
         "usa.2",
