@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-02T21:44:45.969866",
+  "generated_at": "2026-10-03T11:00:14.916120",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 10,
-    "fixtures_found": 66,
-    "with_odds": 15,
+    "leagues_checked": 9,
+    "fixtures_found": 61,
+    "with_odds": 10,
     "leagues_detail": [
       [
         "bra.1",
@@ -37,7 +37,7 @@
       [
         "chi.1",
         "Чили Примера",
-        "ok"
+        "no_matches"
       ],
       [
         "col.1",
@@ -269,7 +269,7 @@
         "home": "Botafogo-SP",
         "away": "Vila Nova",
         "home_pos": 16,
-        "away_pos": 1,
+        "away_pos": 2,
         "home_pts": 35,
         "away_pts": 54,
         "home_form": "WDLLL",
@@ -282,49 +282,14 @@
         "value_team": "Vila Nova",
         "value_side": "away",
         "value_odds": 2.9,
-        "value_pos": 1,
-        "pos_diff": 15,
+        "value_pos": 2,
+        "pos_diff": 14,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
           "label": "матч не завершен"
         },
         "signal_id": "espn:401860370"
-      }
-    },
-    {
-      "league": "Аргентина Примера",
-      "match": {
-        "source": "espn",
-        "event_id": "401841588",
-        "fixture_id": null,
-        "league_slug": "arg.1",
-        "league_id": null,
-        "season": null,
-        "home": "Independiente",
-        "away": "Instituto (Córdoba)",
-        "home_pos": 6,
-        "away_pos": 1,
-        "home_pts": 17,
-        "away_pts": 22,
-        "home_form": "WDWLD",
-        "away_form": "WWLWL",
-        "home_odds": 2.47,
-        "draw_odds": 2.97,
-        "away_odds": 3.21,
-        "bookmaker": "1xBet",
-        "time": "2026-10-02T22:15Z",
-        "value_team": "Instituto (Córdoba)",
-        "value_side": "away",
-        "value_odds": 3.21,
-        "value_pos": 1,
-        "pos_diff": 5,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401841588"
       }
     }
   ],

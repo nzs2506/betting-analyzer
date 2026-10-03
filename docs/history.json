@@ -4,7 +4,7 @@
       "id": "espn:401860370",
       "league": "Бразилия Серия Б",
       "first_seen": "2026-10-01T22:15:51.771122",
-      "last_seen": "2026-10-02T21:44:45.969866",
+      "last_seen": "2026-10-03T11:00:14.916120",
       "match": {
         "source": "espn",
         "event_id": "401860370",
@@ -15,7 +15,7 @@
         "home": "Botafogo-SP",
         "away": "Vila Nova",
         "home_pos": 16,
-        "away_pos": 1,
+        "away_pos": 2,
         "home_pts": 35,
         "away_pts": 54,
         "home_form": "WDLLL",
@@ -28,8 +28,8 @@
         "value_team": "Vila Nova",
         "value_side": "away",
         "value_odds": 2.9,
-        "value_pos": 1,
-        "pos_diff": 15,
+        "value_pos": 2,
+        "pos_diff": 14,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
@@ -68,9 +68,14 @@
         "value_pos": 1,
         "pos_diff": 5,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 1,
+          "away_score": 4,
+          "score": "1:4",
+          "outcome": "win",
+          "icon": "🟢",
+          "label": "прогноз сработал",
+          "roi": 2.21
         }
       }
     },
@@ -2039,5 +2044,5 @@
       }
     }
   ],
-  "generated_at": "2026-10-02T21:44:45.969866"
+  "generated_at": "2026-10-03T11:00:14.916120"
 }
