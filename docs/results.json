@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-04T11:42:10.904289",
+  "generated_at": "2026-10-04T20:48:11.074857",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 8,
-    "fixtures_found": 39,
+    "leagues_checked": 7,
+    "fixtures_found": 24,
     "with_odds": 5,
     "leagues_detail": [
       [
@@ -82,7 +82,7 @@
       [
         "mex.2",
         "Мексика Лига Экспансьон",
-        "ok"
+        "no_matches"
       ],
       [
         "usa.1",
@@ -152,7 +152,7 @@
       [
         "uga.1",
         "Уганда Премьер-лига",
-        "no_data"
+        "no_matches"
       ],
       [
         "zam.1",
