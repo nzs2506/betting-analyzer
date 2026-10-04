@@ -31,9 +31,14 @@
         "value_pos": 2,
         "pos_diff": 14,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 0,
+          "away_score": 1,
+          "score": "0:1",
+          "outcome": "win",
+          "icon": "🟢",
+          "label": "прогноз сработал",
+          "roi": 1.9
         }
       }
     },
@@ -2044,5 +2049,5 @@
       }
     }
   ],
-  "generated_at": "2026-10-03T20:31:29.533865"
+  "generated_at": "2026-10-04T11:42:10.904289"
 }

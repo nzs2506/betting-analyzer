@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-03T20:31:29.533865",
+  "generated_at": "2026-10-04T11:42:10.904289",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
     "leagues_checked": 8,
-    "fixtures_found": 42,
-    "with_odds": 4,
+    "fixtures_found": 39,
+    "with_odds": 5,
     "leagues_detail": [
       [
         "bra.1",
         "Бразилия Серия А",
-        "ok"
+        "no_matches"
       ],
       [
         "bra.2",
@@ -87,7 +87,7 @@
       [
         "usa.1",
         "США MLS",
-        "no_matches"
+        "ok"
       ],
       [
         "usa.2",
@@ -152,7 +152,7 @@
       [
         "uga.1",
         "Уганда Премьер-лига",
-        "no_matches"
+        "no_data"
       ],
       [
         "zam.1",
@@ -256,42 +256,6 @@
       ]
     ]
   },
-  "results": [
-    {
-      "league": "Бразилия Серия Б",
-      "match": {
-        "source": "espn",
-        "event_id": "401860370",
-        "fixture_id": null,
-        "league_slug": "bra.2",
-        "league_id": null,
-        "season": null,
-        "home": "Botafogo-SP",
-        "away": "Vila Nova",
-        "home_pos": 16,
-        "away_pos": 2,
-        "home_pts": 35,
-        "away_pts": 54,
-        "home_form": "WDLLL",
-        "away_form": "WWDWL",
-        "home_odds": 2.48,
-        "draw_odds": 3.05,
-        "away_odds": 2.9,
-        "bookmaker": "Unibet (SE)",
-        "time": "2026-10-03T21:30Z",
-        "value_team": "Vila Nova",
-        "value_side": "away",
-        "value_odds": 2.9,
-        "value_pos": 2,
-        "pos_diff": 14,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401860370"
-      }
-    }
-  ],
+  "results": [],
   "history_count": 49
 }
