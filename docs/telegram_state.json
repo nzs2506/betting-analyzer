@@ -101,10 +101,10 @@
         "espn:401841476": "completed|win|0:1",
         "espn:401877019": "completed|lose|3:1",
         "espn:401874508": "completed|lose|1:0",
-        "espn:401860370": "pending||",
+        "espn:401860370": "completed|win|0:1",
         "espn:401841588": "completed|win|1:4"
       },
-      "last_seen_report": "2026-10-03T20:31:29.533865",
+      "last_seen_report": "2026-10-04T11:42:10.904289",
       "last_heartbeat_slot": "2026-10-03:evening",
       "last_empty_report": "2026-10-01T12:18:08.340958"
     },
@@ -209,10 +209,10 @@
         "espn:401841476": "completed|win|0:1",
         "espn:401877019": "completed|lose|3:1",
         "espn:401874508": "completed|lose|1:0",
-        "espn:401860370": "pending||",
+        "espn:401860370": "completed|win|0:1",
         "espn:401841588": "completed|win|1:4"
       },
-      "last_seen_report": "2026-10-03T20:31:29.533865",
+      "last_seen_report": "2026-10-04T11:42:10.904289",
       "last_heartbeat_slot": "2026-06-21:evening",
       "last_empty_report": "2026-06-22T18:58:38.572929",
       "send_error": "403"
@@ -318,10 +318,10 @@
         "espn:401841476": "completed|win|0:1",
         "espn:401877019": "completed|lose|3:1",
         "espn:401874508": "completed|lose|1:0",
-        "espn:401860370": "pending||",
+        "espn:401860370": "completed|win|0:1",
         "espn:401841588": "completed|win|1:4"
       },
-      "last_seen_report": "2026-10-03T20:31:29.533865",
+      "last_seen_report": "2026-10-04T11:42:10.904289",
       "send_error": "403"
     },
     "351131518": {
@@ -425,12 +425,12 @@
         "espn:401841476": "completed|win|0:1",
         "espn:401877019": "completed|lose|3:1",
         "espn:401874508": "completed|lose|1:0",
-        "espn:401860370": "pending||",
+        "espn:401860370": "completed|win|0:1",
         "espn:401841588": "completed|win|1:4"
       },
-      "last_seen_report": "2026-10-03T20:31:29.533865",
+      "last_seen_report": "2026-10-04T11:42:10.904289",
       "send_error": "403"
     }
   },
-  "last_report": "2026-10-03T20:31:29.533865"
+  "last_report": "2026-10-04T11:42:10.904289"
 }
