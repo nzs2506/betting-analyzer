@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-05T13:25:12.684250",
+  "generated_at": "2026-10-05T23:38:24.685703",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 8,
-    "fixtures_found": 27,
-    "with_odds": 13,
+    "leagues_checked": 6,
+    "fixtures_found": 19,
+    "with_odds": 12,
     "leagues_detail": [
       [
         "bra.1",
@@ -32,7 +32,7 @@
       [
         "arg.2",
         "Аргентина Насьональ Б",
-        "ok"
+        "no_matches"
       ],
       [
         "chi.1",
@@ -47,7 +47,7 @@
       [
         "uru.1",
         "Уругвай Лига",
-        "ok"
+        "no_matches"
       ],
       [
         "ecu.1",
@@ -274,14 +274,14 @@
         "away_pts": 32,
         "home_form": "LWLLL",
         "away_form": "LLLDL",
-        "home_odds": 1.97,
-        "draw_odds": 3.1,
-        "away_odds": 3.2,
-        "bookmaker": "Unibet (FR)",
+        "home_odds": 2.22,
+        "draw_odds": 3.25,
+        "away_odds": 3.3,
+        "bookmaker": "Codere (IT)",
         "time": "2026-10-07T22:30Z",
         "value_team": "Corinthians",
         "value_side": "away",
-        "value_odds": 3.2,
+        "value_odds": 3.3,
         "value_pos": 14,
         "pos_diff": 4,
         "settlement": {
@@ -311,7 +311,7 @@
         "away_form": "WWWDL",
         "home_odds": 2.65,
         "draw_odds": 3.3,
-        "away_odds": 2.32,
+        "away_odds": 2.33,
         "bookmaker": "Betclic (FR)",
         "time": "2026-10-07T23:30Z",
         "value_team": "Botafogo",
