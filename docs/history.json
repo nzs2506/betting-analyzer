@@ -1,10 +1,47 @@
 {
   "signals": [
     {
+      "id": "espn:401841613",
+      "league": "Аргентина Примера",
+      "first_seen": "2026-10-07T12:32:14.865563",
+      "last_seen": "2026-10-07T12:32:14.865563",
+      "match": {
+        "source": "espn",
+        "event_id": "401841613",
+        "fixture_id": null,
+        "league_slug": "arg.1",
+        "league_id": null,
+        "season": null,
+        "home": "Unión (Santa Fe)",
+        "away": "Defensa y Justicia",
+        "home_pos": 10,
+        "away_pos": 3,
+        "home_pts": 13,
+        "away_pts": 21,
+        "home_form": "LLLWW",
+        "away_form": "WDWLW",
+        "home_odds": 2.22,
+        "draw_odds": 3.25,
+        "away_odds": 3.5,
+        "bookmaker": "Betfair",
+        "time": "2026-10-10T00:45Z",
+        "value_team": "Defensa y Justicia",
+        "value_side": "away",
+        "value_odds": 3.5,
+        "value_pos": 3,
+        "pos_diff": 7,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
       "id": "espn:401860378",
       "league": "Бразилия Серия Б",
       "first_seen": "2026-10-06T12:38:50.530562",
-      "last_seen": "2026-10-06T22:12:53.850579",
+      "last_seen": "2026-10-07T12:32:14.865563",
       "match": {
         "source": "espn",
         "event_id": "401860378",
@@ -20,14 +57,14 @@
         "away_pts": 53,
         "home_form": "WDWDL",
         "away_form": "WWLLL",
-        "home_odds": 2.43,
-        "draw_odds": 3.05,
-        "away_odds": 3.0,
+        "home_odds": 2.4,
+        "draw_odds": 3.1,
+        "away_odds": 3.05,
         "bookmaker": "Unibet (SE)",
         "time": "2026-10-08T22:30Z",
         "value_team": "Criciúma",
         "value_side": "away",
-        "value_odds": 3.0,
+        "value_odds": 3.05,
         "value_pos": 4,
         "pos_diff": 11,
         "settlement": {
@@ -41,7 +78,7 @@
       "id": "espn:401841255",
       "league": "Бразилия Серия А",
       "first_seen": "2026-10-05T13:25:12.684250",
-      "last_seen": "2026-10-06T22:12:53.850579",
+      "last_seen": "2026-10-07T12:32:14.865563",
       "match": {
         "source": "espn",
         "event_id": "401841255",
@@ -57,14 +94,14 @@
         "away_pts": 32,
         "home_form": "LWLLL",
         "away_form": "LLLDL",
-        "home_odds": 2.23,
-        "draw_odds": 3.25,
-        "away_odds": 3.3,
+        "home_odds": 2.33,
+        "draw_odds": 3.15,
+        "away_odds": 3.2,
         "bookmaker": "Codere (IT)",
         "time": "2026-10-07T22:30Z",
         "value_team": "Corinthians",
         "value_side": "away",
-        "value_odds": 3.3,
+        "value_odds": 3.2,
         "value_pos": 14,
         "pos_diff": 4,
         "settlement": {
@@ -78,7 +115,7 @@
       "id": "espn:401841257",
       "league": "Бразилия Серия А",
       "first_seen": "2026-10-05T13:25:12.684250",
-      "last_seen": "2026-10-06T22:12:53.850579",
+      "last_seen": "2026-10-07T12:32:14.865563",
       "match": {
         "source": "espn",
         "event_id": "401841257",
@@ -94,14 +131,14 @@
         "away_pts": 31,
         "home_form": "LWDDL",
         "away_form": "WWWDL",
-        "home_odds": 2.65,
-        "draw_odds": 3.32,
-        "away_odds": 2.32,
+        "home_odds": 2.88,
+        "draw_odds": 3.38,
+        "away_odds": 2.13,
         "bookmaker": "Betclic (FR)",
         "time": "2026-10-07T23:30Z",
         "value_team": "Botafogo",
         "value_side": "home",
-        "value_odds": 2.65,
+        "value_odds": 2.88,
         "value_pos": 12,
         "pos_diff": 4,
         "settlement": {
@@ -2160,5 +2197,5 @@
       }
     }
   ],
-  "generated_at": "2026-10-06T22:12:53.850579"
+  "generated_at": "2026-10-07T12:32:14.865563"
 }

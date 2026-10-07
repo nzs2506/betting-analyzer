@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-06T22:12:53.850579",
+  "generated_at": "2026-10-07T12:32:14.865563",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 7,
-    "fixtures_found": 27,
-    "with_odds": 15,
+    "leagues_checked": 16,
+    "fixtures_found": 46,
+    "with_odds": 22,
     "leagues_detail": [
       [
         "bra.1",
@@ -27,7 +27,7 @@
       [
         "arg.1",
         "Аргентина Примера",
-        "no_matches"
+        "ok"
       ],
       [
         "arg.2",
@@ -47,7 +47,7 @@
       [
         "uru.1",
         "Уругвай Лига",
-        "no_matches"
+        "ok"
       ],
       [
         "ecu.1",
@@ -57,12 +57,12 @@
       [
         "bol.1",
         "Боливия Лига",
-        "no_matches"
+        "ok"
       ],
       [
         "par.1",
         "Парагвай Примера",
-        "ok"
+        "no_matches"
       ],
       [
         "per.1",
@@ -77,7 +77,7 @@
       [
         "mex.1",
         "Мексика Лига MX",
-        "no_matches"
+        "ok"
       ],
       [
         "mex.2",
@@ -87,7 +87,7 @@
       [
         "usa.1",
         "США MLS",
-        "ok"
+        "no_matches"
       ],
       [
         "usa.2",
@@ -97,7 +97,7 @@
       [
         "jpn.1",
         "Япония J-League",
-        "no_matches"
+        "ok"
       ],
       [
         "jpn.2",
@@ -107,7 +107,7 @@
       [
         "chn.1",
         "Китай Суперлига",
-        "no_matches"
+        "ok"
       ],
       [
         "ind.1",
@@ -162,7 +162,7 @@
       [
         "nor.1",
         "Норвегия Элитесерен",
-        "no_matches"
+        "ok"
       ],
       [
         "nor.2",
@@ -172,7 +172,7 @@
       [
         "swe.1",
         "Швеция Алльсвенскан",
-        "no_matches"
+        "ok"
       ],
       [
         "swe.2",
@@ -182,7 +182,7 @@
       [
         "den.1",
         "Дания Суперлига",
-        "no_matches"
+        "ok"
       ],
       [
         "den.2",
@@ -217,7 +217,7 @@
       [
         "tur.1",
         "Турция Суперлига",
-        "no_matches"
+        "ok"
       ],
       [
         "tur.2",
@@ -242,7 +242,7 @@
       [
         "bel.1",
         "Бельгия Про Лига",
-        "no_matches"
+        "ok"
       ],
       [
         "api-football",
@@ -274,14 +274,14 @@
         "away_pts": 53,
         "home_form": "WDWDL",
         "away_form": "WWLLL",
-        "home_odds": 2.43,
-        "draw_odds": 3.05,
-        "away_odds": 3.0,
+        "home_odds": 2.4,
+        "draw_odds": 3.1,
+        "away_odds": 3.05,
         "bookmaker": "Unibet (SE)",
         "time": "2026-10-08T22:30Z",
         "value_team": "Criciúma",
         "value_side": "away",
-        "value_odds": 3.0,
+        "value_odds": 3.05,
         "value_pos": 4,
         "pos_diff": 11,
         "settlement": {
@@ -290,6 +290,41 @@
           "label": "матч не завершен"
         },
         "signal_id": "espn:401860378"
+      }
+    },
+    {
+      "league": "Аргентина Примера",
+      "match": {
+        "source": "espn",
+        "event_id": "401841613",
+        "fixture_id": null,
+        "league_slug": "arg.1",
+        "league_id": null,
+        "season": null,
+        "home": "Unión (Santa Fe)",
+        "away": "Defensa y Justicia",
+        "home_pos": 10,
+        "away_pos": 3,
+        "home_pts": 13,
+        "away_pts": 21,
+        "home_form": "LLLWW",
+        "away_form": "WDWLW",
+        "home_odds": 2.22,
+        "draw_odds": 3.25,
+        "away_odds": 3.5,
+        "bookmaker": "Betfair",
+        "time": "2026-10-10T00:45Z",
+        "value_team": "Defensa y Justicia",
+        "value_side": "away",
+        "value_odds": 3.5,
+        "value_pos": 3,
+        "pos_diff": 7,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401841613"
       }
     },
     {
@@ -309,14 +344,14 @@
         "away_pts": 32,
         "home_form": "LWLLL",
         "away_form": "LLLDL",
-        "home_odds": 2.23,
-        "draw_odds": 3.25,
-        "away_odds": 3.3,
+        "home_odds": 2.33,
+        "draw_odds": 3.15,
+        "away_odds": 3.2,
         "bookmaker": "Codere (IT)",
         "time": "2026-10-07T22:30Z",
         "value_team": "Corinthians",
         "value_side": "away",
-        "value_odds": 3.3,
+        "value_odds": 3.2,
         "value_pos": 14,
         "pos_diff": 4,
         "settlement": {
@@ -344,14 +379,14 @@
         "away_pts": 31,
         "home_form": "LWDDL",
         "away_form": "WWWDL",
-        "home_odds": 2.65,
-        "draw_odds": 3.32,
-        "away_odds": 2.32,
+        "home_odds": 2.88,
+        "draw_odds": 3.38,
+        "away_odds": 2.13,
         "bookmaker": "Betclic (FR)",
         "time": "2026-10-07T23:30Z",
         "value_team": "Botafogo",
         "value_side": "home",
-        "value_odds": 2.65,
+        "value_odds": 2.88,
         "value_pos": 12,
         "pos_diff": 4,
         "settlement": {
@@ -363,5 +398,5 @@
       }
     }
   ],
-  "history_count": 52
+  "history_count": 53
 }
