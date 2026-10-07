@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-07T12:32:14.865563",
+  "generated_at": "2026-10-07T22:34:29.138600",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
     "leagues_checked": 16,
-    "fixtures_found": 46,
-    "with_odds": 22,
+    "fixtures_found": 41,
+    "with_odds": 18,
     "leagues_detail": [
       [
         "bra.1",
@@ -309,14 +309,14 @@
         "away_pts": 21,
         "home_form": "LLLWW",
         "away_form": "WDWLW",
-        "home_odds": 2.22,
+        "home_odds": 2.2,
         "draw_odds": 3.25,
-        "away_odds": 3.5,
+        "away_odds": 3.4,
         "bookmaker": "Betfair",
         "time": "2026-10-10T00:45Z",
         "value_team": "Defensa y Justicia",
         "value_side": "away",
-        "value_odds": 3.5,
+        "value_odds": 3.4,
         "value_pos": 3,
         "pos_diff": 7,
         "settlement": {
@@ -325,41 +325,6 @@
           "label": "матч не завершен"
         },
         "signal_id": "espn:401841613"
-      }
-    },
-    {
-      "league": "Бразилия Серия А",
-      "match": {
-        "source": "espn",
-        "event_id": "401841255",
-        "fixture_id": null,
-        "league_slug": "bra.1",
-        "league_id": null,
-        "season": null,
-        "home": "Internacional",
-        "away": "Corinthians",
-        "home_pos": 18,
-        "away_pos": 14,
-        "home_pts": 28,
-        "away_pts": 32,
-        "home_form": "LWLLL",
-        "away_form": "LLLDL",
-        "home_odds": 2.33,
-        "draw_odds": 3.15,
-        "away_odds": 3.2,
-        "bookmaker": "Codere (IT)",
-        "time": "2026-10-07T22:30Z",
-        "value_team": "Corinthians",
-        "value_side": "away",
-        "value_odds": 3.2,
-        "value_pos": 14,
-        "pos_diff": 4,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401841255"
       }
     },
     {
@@ -379,14 +344,14 @@
         "away_pts": 31,
         "home_form": "LWDDL",
         "away_form": "WWWDL",
-        "home_odds": 2.88,
-        "draw_odds": 3.38,
-        "away_odds": 2.13,
+        "home_odds": 2.92,
+        "draw_odds": 3.48,
+        "away_odds": 2.08,
         "bookmaker": "Betclic (FR)",
         "time": "2026-10-07T23:30Z",
         "value_team": "Botafogo",
         "value_side": "home",
-        "value_odds": 2.88,
+        "value_odds": 2.92,
         "value_pos": 12,
         "pos_diff": 4,
         "settlement": {
