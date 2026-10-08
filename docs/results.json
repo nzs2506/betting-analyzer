@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-08T12:41:55.706155",
+  "generated_at": "2026-10-08T22:46:39.397924",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 26,
-    "fixtures_found": 121,
-    "with_odds": 52,
+    "leagues_checked": 25,
+    "fixtures_found": 116,
+    "with_odds": 50,
     "leagues_detail": [
       [
         "bra.1",
@@ -17,7 +17,7 @@
       [
         "bra.2",
         "Бразилия Серия Б",
-        "ok"
+        "no_matches"
       ],
       [
         "bra.3",
@@ -258,41 +258,6 @@
   },
   "results": [
     {
-      "league": "Бразилия Серия Б",
-      "match": {
-        "source": "espn",
-        "event_id": "401860378",
-        "fixture_id": null,
-        "league_slug": "bra.2",
-        "league_id": null,
-        "season": null,
-        "home": "Ceará",
-        "away": "Criciúma",
-        "home_pos": 15,
-        "away_pos": 5,
-        "home_pts": 39,
-        "away_pts": 53,
-        "home_form": "WDWDL",
-        "away_form": "WWLLL",
-        "home_odds": 2.35,
-        "draw_odds": 3.1,
-        "away_odds": 3.05,
-        "bookmaker": "Unibet (SE)",
-        "time": "2026-10-08T22:30Z",
-        "value_team": "Criciúma",
-        "value_side": "away",
-        "value_odds": 3.05,
-        "value_pos": 5,
-        "pos_diff": 10,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401860378"
-      }
-    },
-    {
       "league": "США MLS",
       "match": {
         "source": "espn",
@@ -379,8 +344,8 @@
         "away_pts": 21,
         "home_form": "LLLWW",
         "away_form": "WDWLW",
-        "home_odds": 2.2,
-        "draw_odds": 3.3,
+        "home_odds": 1.4,
+        "draw_odds": 3.1,
         "away_odds": 3.45,
         "bookmaker": "Betfair",
         "time": "2026-10-10T00:45Z",
