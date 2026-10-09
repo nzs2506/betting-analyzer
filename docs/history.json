@@ -1,10 +1,47 @@
 {
   "signals": [
     {
+      "id": "espn:401841604",
+      "league": "Аргентина Примера",
+      "first_seen": "2026-10-09T12:29:01.447216",
+      "last_seen": "2026-10-09T12:29:01.447216",
+      "match": {
+        "source": "espn",
+        "event_id": "401841604",
+        "fixture_id": null,
+        "league_slug": "arg.1",
+        "league_id": null,
+        "season": null,
+        "home": "Racing Club",
+        "away": "Belgrano (Córdoba)",
+        "home_pos": 12,
+        "away_pos": 2,
+        "home_pts": 11,
+        "away_pts": 19,
+        "home_form": "WLWLL",
+        "away_form": "WWDDD",
+        "home_odds": 2.1,
+        "draw_odds": 2.85,
+        "away_odds": 3.0,
+        "bookmaker": "Unibet (FR)",
+        "time": "2026-10-11T22:15Z",
+        "value_team": "Belgrano (Córdoba)",
+        "value_side": "away",
+        "value_odds": 3.0,
+        "value_pos": 2,
+        "pos_diff": 10,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
       "id": "espn:761854",
       "league": "США MLS",
       "first_seen": "2026-10-08T12:41:55.706155",
-      "last_seen": "2026-10-08T22:46:39.397924",
+      "last_seen": "2026-10-09T12:29:01.447216",
       "match": {
         "source": "espn",
         "event_id": "761854",
@@ -20,8 +57,8 @@
         "away_pts": 44,
         "home_form": "LLLLL",
         "away_form": "LDLWD",
-        "home_odds": 1.9,
-        "draw_odds": 3.4,
+        "home_odds": 1.92,
+        "draw_odds": 3.5,
         "away_odds": 3.1,
         "bookmaker": "Unibet (FR)",
         "time": "2026-10-11T00:30Z",
@@ -41,7 +78,7 @@
       "id": "espn:401874016",
       "league": "Швеция Алльсвенскан",
       "first_seen": "2026-10-08T12:41:55.706155",
-      "last_seen": "2026-10-08T22:46:39.397924",
+      "last_seen": "2026-10-09T12:29:01.447216",
       "match": {
         "source": "espn",
         "event_id": "401874016",
@@ -78,7 +115,7 @@
       "id": "espn:761855",
       "league": "США MLS",
       "first_seen": "2026-10-08T12:41:55.706155",
-      "last_seen": "2026-10-08T22:46:39.397924",
+      "last_seen": "2026-10-09T12:29:01.447216",
       "match": {
         "source": "espn",
         "event_id": "761855",
@@ -94,14 +131,14 @@
         "away_pts": 32,
         "home_form": "LWLWL",
         "away_form": "LLLDW",
-        "home_odds": 2.35,
-        "draw_odds": 3.85,
-        "away_odds": 2.52,
+        "home_odds": 2.3,
+        "draw_odds": 3.9,
+        "away_odds": 2.58,
         "bookmaker": "MyBookie.ag",
         "time": "2026-10-11T00:30Z",
         "value_team": "Portland Timbers",
         "value_side": "away",
-        "value_odds": 2.52,
+        "value_odds": 2.58,
         "value_pos": 10,
         "pos_diff": 5,
         "settlement": {
@@ -115,7 +152,7 @@
       "id": "espn:401877606",
       "league": "Япония J-League",
       "first_seen": "2026-10-08T12:41:55.706155",
-      "last_seen": "2026-10-08T22:46:39.397924",
+      "last_seen": "2026-10-09T12:29:01.447216",
       "match": {
         "source": "espn",
         "event_id": "401877606",
@@ -126,7 +163,7 @@
         "home": "Cerezo Osaka",
         "away": "Yokohama F. Marinos",
         "home_pos": 11,
-        "away_pos": 6,
+        "away_pos": 7,
         "home_pts": 11,
         "away_pts": 14,
         "home_form": "DLDWL",
@@ -139,8 +176,8 @@
         "value_team": "Yokohama F. Marinos",
         "value_side": "away",
         "value_odds": 3.0,
-        "value_pos": 6,
-        "pos_diff": 5,
+        "value_pos": 7,
+        "pos_diff": 4,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
@@ -152,7 +189,7 @@
       "id": "espn:401850664",
       "league": "Чили Примера",
       "first_seen": "2026-10-08T12:41:55.706155",
-      "last_seen": "2026-10-08T22:46:39.397924",
+      "last_seen": "2026-10-09T12:29:01.447216",
       "match": {
         "source": "espn",
         "event_id": "401850664",
@@ -189,7 +226,7 @@
       "id": "espn:761850",
       "league": "США MLS",
       "first_seen": "2026-10-08T12:41:55.706155",
-      "last_seen": "2026-10-08T22:46:39.397924",
+      "last_seen": "2026-10-09T12:29:01.447216",
       "match": {
         "source": "espn",
         "event_id": "761850",
@@ -205,7 +242,7 @@
         "away_pts": 33,
         "home_form": "DWDLD",
         "away_form": "LDDLL",
-        "home_odds": 2.15,
+        "home_odds": 2.25,
         "draw_odds": 3.7,
         "away_odds": 2.45,
         "bookmaker": "Unibet (FR)",
@@ -226,7 +263,7 @@
       "id": "espn:761857",
       "league": "США MLS",
       "first_seen": "2026-10-08T12:41:55.706155",
-      "last_seen": "2026-10-08T22:46:39.397924",
+      "last_seen": "2026-10-09T12:29:01.447216",
       "match": {
         "source": "espn",
         "event_id": "761857",
@@ -263,7 +300,7 @@
       "id": "espn:401861474",
       "league": "Китай Суперлига",
       "first_seen": "2026-10-08T12:41:55.706155",
-      "last_seen": "2026-10-08T22:46:39.397924",
+      "last_seen": "2026-10-09T12:29:01.447216",
       "match": {
         "source": "espn",
         "event_id": "401861474",
@@ -279,14 +316,14 @@
         "away_pts": 38,
         "home_form": "WWLWL",
         "away_form": "WLDWW",
-        "home_odds": 1.55,
-        "draw_odds": 5.0,
-        "away_odds": 4.3,
+        "home_odds": 1.58,
+        "draw_odds": 5.1,
+        "away_odds": 4.4,
         "bookmaker": "BetOnline.ag",
         "time": "2026-10-10T11:35Z",
         "value_team": "Yunnan Yukun",
         "value_side": "away",
-        "value_odds": 4.3,
+        "value_odds": 4.4,
         "value_pos": 4,
         "pos_diff": 4,
         "settlement": {
@@ -300,7 +337,7 @@
       "id": "espn:401841613",
       "league": "Аргентина Примера",
       "first_seen": "2026-10-07T12:32:14.865563",
-      "last_seen": "2026-10-08T22:46:39.397924",
+      "last_seen": "2026-10-09T12:29:01.447216",
       "match": {
         "source": "espn",
         "event_id": "401841613",
@@ -316,14 +353,14 @@
         "away_pts": 21,
         "home_form": "LLLWW",
         "away_form": "WDWLW",
-        "home_odds": 1.4,
-        "draw_odds": 3.1,
-        "away_odds": 3.45,
+        "home_odds": 2.34,
+        "draw_odds": 3.3,
+        "away_odds": 3.5,
         "bookmaker": "Betfair",
         "time": "2026-10-10T00:45Z",
         "value_team": "Defensa y Justicia",
         "value_side": "away",
-        "value_odds": 3.45,
+        "value_odds": 3.5,
         "value_pos": 3,
         "pos_diff": 7,
         "settlement": {
@@ -364,9 +401,14 @@
         "value_pos": 5,
         "pos_diff": 10,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 1,
+          "away_score": 0,
+          "score": "1:0",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -2503,5 +2545,5 @@
       }
     }
   ],
-  "generated_at": "2026-10-08T22:46:39.397924"
+  "generated_at": "2026-10-09T12:29:01.447216"
 }
