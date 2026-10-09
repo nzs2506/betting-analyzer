@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-09T12:29:01.447216",
+  "generated_at": "2026-10-09T22:09:47.922715",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
     "leagues_checked": 26,
-    "fixtures_found": 193,
-    "with_odds": 77,
+    "fixtures_found": 183,
+    "with_odds": 72,
     "leagues_detail": [
       [
         "bra.1",
@@ -344,14 +344,14 @@
         "away_pts": 51,
         "home_form": "WLDWL",
         "away_form": "WWWLL",
-        "home_odds": 2.45,
-        "draw_odds": 3.44,
-        "away_odds": 2.78,
+        "home_odds": 2.47,
+        "draw_odds": 3.48,
+        "away_odds": 2.81,
         "bookmaker": "Pinnacle",
         "time": "2026-10-10T13:00Z",
         "value_team": "IK Sirius",
         "value_side": "away",
-        "value_odds": 2.78,
+        "value_odds": 2.81,
         "value_pos": 1,
         "pos_diff": 9,
         "settlement": {
@@ -430,6 +430,41 @@
           "label": "матч не завершен"
         },
         "signal_id": "espn:761855"
+      }
+    },
+    {
+      "league": "Норвегия Элитесерен",
+      "match": {
+        "source": "espn",
+        "event_id": "401843457",
+        "fixture_id": null,
+        "league_slug": "nor.1",
+        "league_id": null,
+        "season": null,
+        "home": "Aalesund",
+        "away": "Sarpsborg FK",
+        "home_pos": 14,
+        "away_pos": 9,
+        "home_pts": 21,
+        "away_pts": 25,
+        "home_form": "WLWLD",
+        "away_form": "LDDDL",
+        "home_odds": 2.1,
+        "draw_odds": 3.65,
+        "away_odds": 2.55,
+        "bookmaker": "Unibet (FR)",
+        "time": "2026-10-11T15:00Z",
+        "value_team": "Sarpsborg FK",
+        "value_side": "away",
+        "value_odds": 2.55,
+        "value_pos": 9,
+        "pos_diff": 5,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401843457"
       }
     },
     {
@@ -556,12 +591,12 @@
         "away_form": "WDWDL",
         "home_odds": 2.25,
         "draw_odds": 3.6,
-        "away_odds": 3.0,
+        "away_odds": 3.1,
         "bookmaker": "Coolbet",
         "time": "2026-10-10T05:00Z",
         "value_team": "Yokohama F. Marinos",
         "value_side": "away",
-        "value_odds": 3.0,
+        "value_odds": 3.1,
         "value_pos": 7,
         "pos_diff": 4,
         "settlement": {
@@ -590,7 +625,7 @@
         "home_form": "WWLWL",
         "away_form": "WLDWW",
         "home_odds": 1.58,
-        "draw_odds": 5.1,
+        "draw_odds": 5.0,
         "away_odds": 4.4,
         "bookmaker": "BetOnline.ag",
         "time": "2026-10-10T11:35Z",
@@ -608,5 +643,5 @@
       }
     }
   ],
-  "history_count": 62
+  "history_count": 63
 }
