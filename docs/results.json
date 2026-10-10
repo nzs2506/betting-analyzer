@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-10T11:47:59.358656",
+  "generated_at": "2026-10-10T21:03:52.739193",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 26,
-    "fixtures_found": 188,
-    "with_odds": 73,
+    "leagues_checked": 25,
+    "fixtures_found": 142,
+    "with_odds": 57,
     "leagues_detail": [
       [
         "bra.1",
@@ -202,7 +202,7 @@
       [
         "sco.2",
         "Шотландия Чемпионшип",
-        "ok"
+        "no_matches"
       ],
       [
         "irl.1",
@@ -309,7 +309,7 @@
         "away_pts": 44,
         "home_form": "LLLLL",
         "away_form": "LDLWD",
-        "home_odds": 1.93,
+        "home_odds": 1.95,
         "draw_odds": 3.4,
         "away_odds": 3.1,
         "bookmaker": "Unibet (FR)",
@@ -325,41 +325,6 @@
           "label": "матч не завершен"
         },
         "signal_id": "espn:761854"
-      }
-    },
-    {
-      "league": "США MLS",
-      "match": {
-        "source": "espn",
-        "event_id": "761855",
-        "fixture_id": null,
-        "league_slug": "usa.1",
-        "league_id": null,
-        "season": null,
-        "home": "Sporting Kansas City",
-        "away": "Portland Timbers",
-        "home_pos": 15,
-        "away_pos": 10,
-        "home_pts": 21,
-        "away_pts": 32,
-        "home_form": "LWLWL",
-        "away_form": "LLLDW",
-        "home_odds": 2.33,
-        "draw_odds": 4.0,
-        "away_odds": 2.62,
-        "bookmaker": "MyBookie.ag",
-        "time": "2026-10-11T00:30Z",
-        "value_team": "Portland Timbers",
-        "value_side": "away",
-        "value_odds": 2.62,
-        "value_pos": 10,
-        "pos_diff": 5,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:761855"
       }
     },
     {
@@ -379,8 +344,8 @@
         "away_pts": 25,
         "home_form": "WLWLD",
         "away_form": "LDDDL",
-        "home_odds": 2.1,
-        "draw_odds": 3.65,
+        "home_odds": 2.15,
+        "draw_odds": 3.7,
         "away_odds": 2.55,
         "bookmaker": "Unibet (FR)",
         "time": "2026-10-11T15:00Z",
@@ -436,35 +401,35 @@
       "league": "Чили Примера",
       "match": {
         "source": "espn",
-        "event_id": "401850664",
+        "event_id": "401850662",
         "fixture_id": null,
         "league_slug": "chi.1",
         "league_id": null,
         "season": null,
-        "home": "Huachipato",
-        "away": "O'Higgins",
-        "home_pos": 9,
-        "away_pos": 13,
-        "home_pts": 31,
-        "away_pts": 27,
-        "home_form": "WWDLL",
-        "away_form": "WWWWL",
-        "home_odds": 2.7,
-        "draw_odds": 3.4,
-        "away_odds": 2.2,
-        "bookmaker": "Winamax (FR)",
-        "time": "2026-10-10T20:30Z",
-        "value_team": "Huachipato",
+        "home": "Universidad de Chile",
+        "away": "Ñublense",
+        "home_pos": 3,
+        "away_pos": 7,
+        "home_pts": 42,
+        "away_pts": 32,
+        "home_form": "DDWWW",
+        "away_form": "WLLLL",
+        "home_odds": 1.49,
+        "draw_odds": 3.9,
+        "away_odds": 1.1,
+        "bookmaker": "Betfair",
+        "time": "2026-10-12T20:00Z",
+        "value_team": "Universidad de Chile",
         "value_side": "home",
-        "value_odds": 2.7,
-        "value_pos": 9,
+        "value_odds": 1.49,
+        "value_pos": 3,
         "pos_diff": 4,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
           "label": "матч не завершен"
         },
-        "signal_id": "espn:401850664"
+        "signal_id": "espn:401850662"
       }
     },
     {
@@ -538,5 +503,5 @@
       }
     }
   ],
-  "history_count": 64
+  "history_count": 65
 }

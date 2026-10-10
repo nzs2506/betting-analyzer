@@ -1,10 +1,47 @@
 {
   "signals": [
     {
+      "id": "espn:401850662",
+      "league": "Чили Примера",
+      "first_seen": "2026-10-10T21:03:52.739193",
+      "last_seen": "2026-10-10T21:03:52.739193",
+      "match": {
+        "source": "espn",
+        "event_id": "401850662",
+        "fixture_id": null,
+        "league_slug": "chi.1",
+        "league_id": null,
+        "season": null,
+        "home": "Universidad de Chile",
+        "away": "Ñublense",
+        "home_pos": 3,
+        "away_pos": 7,
+        "home_pts": 42,
+        "away_pts": 32,
+        "home_form": "DDWWW",
+        "away_form": "WLLLL",
+        "home_odds": 1.49,
+        "draw_odds": 3.9,
+        "away_odds": 1.1,
+        "bookmaker": "Betfair",
+        "time": "2026-10-12T20:00Z",
+        "value_team": "Universidad de Chile",
+        "value_side": "home",
+        "value_odds": 1.49,
+        "value_pos": 3,
+        "pos_diff": 4,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
       "id": "espn:401841264",
       "league": "Бразилия Серия А",
       "first_seen": "2026-10-10T11:47:59.358656",
-      "last_seen": "2026-10-10T11:47:59.358656",
+      "last_seen": "2026-10-10T21:03:52.739193",
       "match": {
         "source": "espn",
         "event_id": "401841264",
@@ -41,7 +78,7 @@
       "id": "espn:401843457",
       "league": "Норвегия Элитесерен",
       "first_seen": "2026-10-09T22:09:47.922715",
-      "last_seen": "2026-10-10T11:47:59.358656",
+      "last_seen": "2026-10-10T21:03:52.739193",
       "match": {
         "source": "espn",
         "event_id": "401843457",
@@ -57,8 +94,8 @@
         "away_pts": 25,
         "home_form": "WLWLD",
         "away_form": "LDDDL",
-        "home_odds": 2.1,
-        "draw_odds": 3.65,
+        "home_odds": 2.15,
+        "draw_odds": 3.7,
         "away_odds": 2.55,
         "bookmaker": "Unibet (FR)",
         "time": "2026-10-11T15:00Z",
@@ -78,7 +115,7 @@
       "id": "espn:401841604",
       "league": "Аргентина Примера",
       "first_seen": "2026-10-09T12:29:01.447216",
-      "last_seen": "2026-10-10T11:47:59.358656",
+      "last_seen": "2026-10-10T21:03:52.739193",
       "match": {
         "source": "espn",
         "event_id": "401841604",
@@ -115,7 +152,7 @@
       "id": "espn:761854",
       "league": "США MLS",
       "first_seen": "2026-10-08T12:41:55.706155",
-      "last_seen": "2026-10-10T11:47:59.358656",
+      "last_seen": "2026-10-10T21:03:52.739193",
       "match": {
         "source": "espn",
         "event_id": "761854",
@@ -131,7 +168,7 @@
         "away_pts": 44,
         "home_form": "LLLLL",
         "away_form": "LDLWD",
-        "home_odds": 1.93,
+        "home_odds": 1.95,
         "draw_odds": 3.4,
         "away_odds": 3.1,
         "bookmaker": "Unibet (FR)",
@@ -179,9 +216,14 @@
         "value_pos": 1,
         "pos_diff": 9,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 0,
+          "away_score": 1,
+          "score": "0:1",
+          "outcome": "win",
+          "icon": "🟢",
+          "label": "прогноз сработал",
+          "roi": 1.81
         }
       }
     },
@@ -305,7 +347,7 @@
       "id": "espn:761850",
       "league": "США MLS",
       "first_seen": "2026-10-08T12:41:55.706155",
-      "last_seen": "2026-10-10T11:47:59.358656",
+      "last_seen": "2026-10-10T21:03:52.739193",
       "match": {
         "source": "espn",
         "event_id": "761850",
@@ -342,7 +384,7 @@
       "id": "espn:761857",
       "league": "США MLS",
       "first_seen": "2026-10-08T12:41:55.706155",
-      "last_seen": "2026-10-10T11:47:59.358656",
+      "last_seen": "2026-10-10T21:03:52.739193",
       "match": {
         "source": "espn",
         "event_id": "761857",
@@ -406,9 +448,14 @@
         "value_pos": 4,
         "pos_diff": 4,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 7,
+          "away_score": 1,
+          "score": "7:1",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -2629,5 +2676,5 @@
       }
     }
   ],
-  "generated_at": "2026-10-10T11:47:59.358656"
+  "generated_at": "2026-10-10T21:03:52.739193"
 }
