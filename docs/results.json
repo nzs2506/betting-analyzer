@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-10T21:03:52.739193",
+  "generated_at": "2026-10-11T11:59:50.641313",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 25,
-    "fixtures_found": 142,
-    "with_odds": 57,
+    "leagues_checked": 24,
+    "fixtures_found": 105,
+    "with_odds": 36,
     "leagues_detail": [
       [
         "bra.1",
@@ -97,7 +97,7 @@
       [
         "jpn.1",
         "Япония J-League",
-        "ok"
+        "no_matches"
       ],
       [
         "jpn.2",
@@ -107,7 +107,7 @@
       [
         "chn.1",
         "Китай Суперлига",
-        "ok"
+        "no_matches"
       ],
       [
         "ind.1",
@@ -202,7 +202,7 @@
       [
         "sco.2",
         "Шотландия Чемпионшип",
-        "no_matches"
+        "ok"
       ],
       [
         "irl.1",
@@ -268,13 +268,13 @@
         "season": null,
         "home": "Racing Club",
         "away": "Belgrano (Córdoba)",
-        "home_pos": 12,
+        "home_pos": 13,
         "away_pos": 2,
         "home_pts": 11,
         "away_pts": 19,
         "home_form": "WLWLL",
         "away_form": "WWDDD",
-        "home_odds": 2.05,
+        "home_odds": 2.1,
         "draw_odds": 2.95,
         "away_odds": 3.1,
         "bookmaker": "Unibet (FR)",
@@ -283,48 +283,13 @@
         "value_side": "away",
         "value_odds": 3.1,
         "value_pos": 2,
-        "pos_diff": 10,
+        "pos_diff": 11,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
           "label": "матч не завершен"
         },
         "signal_id": "espn:401841604"
-      }
-    },
-    {
-      "league": "США MLS",
-      "match": {
-        "source": "espn",
-        "event_id": "761854",
-        "fixture_id": null,
-        "league_slug": "usa.1",
-        "league_id": null,
-        "season": null,
-        "home": "Minnesota United FC",
-        "away": "Houston Dynamo FC",
-        "home_pos": 14,
-        "away_pos": 5,
-        "home_pts": 29,
-        "away_pts": 44,
-        "home_form": "LLLLL",
-        "away_form": "LDLWD",
-        "home_odds": 1.95,
-        "draw_odds": 3.4,
-        "away_odds": 3.1,
-        "bookmaker": "Unibet (FR)",
-        "time": "2026-10-11T00:30Z",
-        "value_team": "Houston Dynamo FC",
-        "value_side": "away",
-        "value_odds": 3.1,
-        "value_pos": 5,
-        "pos_diff": 9,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:761854"
       }
     },
     {
@@ -344,14 +309,14 @@
         "away_pts": 25,
         "home_form": "WLWLD",
         "away_form": "LDDDL",
-        "home_odds": 2.15,
-        "draw_odds": 3.7,
-        "away_odds": 2.55,
+        "home_odds": 2.1,
+        "draw_odds": 3.65,
+        "away_odds": 2.6,
         "bookmaker": "Unibet (FR)",
         "time": "2026-10-11T15:00Z",
         "value_team": "Sarpsborg FK",
         "value_side": "away",
-        "value_odds": 2.55,
+        "value_odds": 2.6,
         "value_pos": 9,
         "pos_diff": 5,
         "settlement": {
@@ -360,146 +325,6 @@
           "label": "матч не завершен"
         },
         "signal_id": "espn:401843457"
-      }
-    },
-    {
-      "league": "Бразилия Серия А",
-      "match": {
-        "source": "espn",
-        "event_id": "401841264",
-        "fixture_id": null,
-        "league_slug": "bra.1",
-        "league_id": null,
-        "season": null,
-        "home": "Coritiba",
-        "away": "Botafogo",
-        "home_pos": 9,
-        "away_pos": 13,
-        "home_pts": 38,
-        "away_pts": 35,
-        "home_form": "DLDLW",
-        "away_form": "DLWDD",
-        "home_odds": 2.65,
-        "draw_odds": 3.4,
-        "away_odds": 2.48,
-        "bookmaker": "Unibet (SE)",
-        "time": "2026-10-12T19:00Z",
-        "value_team": "Coritiba",
-        "value_side": "home",
-        "value_odds": 2.65,
-        "value_pos": 9,
-        "pos_diff": 4,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401841264"
-      }
-    },
-    {
-      "league": "Чили Примера",
-      "match": {
-        "source": "espn",
-        "event_id": "401850662",
-        "fixture_id": null,
-        "league_slug": "chi.1",
-        "league_id": null,
-        "season": null,
-        "home": "Universidad de Chile",
-        "away": "Ñublense",
-        "home_pos": 3,
-        "away_pos": 7,
-        "home_pts": 42,
-        "away_pts": 32,
-        "home_form": "DDWWW",
-        "away_form": "WLLLL",
-        "home_odds": 1.49,
-        "draw_odds": 3.9,
-        "away_odds": 1.1,
-        "bookmaker": "Betfair",
-        "time": "2026-10-12T20:00Z",
-        "value_team": "Universidad de Chile",
-        "value_side": "home",
-        "value_odds": 1.49,
-        "value_pos": 3,
-        "pos_diff": 4,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401850662"
-      }
-    },
-    {
-      "league": "США MLS",
-      "match": {
-        "source": "espn",
-        "event_id": "761850",
-        "fixture_id": null,
-        "league_slug": "usa.1",
-        "league_id": null,
-        "season": null,
-        "home": "Atlanta United FC",
-        "away": "FC Cincinnati",
-        "home_pos": 14,
-        "away_pos": 10,
-        "home_pts": 27,
-        "away_pts": 33,
-        "home_form": "DWDLD",
-        "away_form": "LDDLL",
-        "home_odds": 2.1,
-        "draw_odds": 3.7,
-        "away_odds": 2.6,
-        "bookmaker": "Unibet (FR)",
-        "time": "2026-10-10T23:30Z",
-        "value_team": "FC Cincinnati",
-        "value_side": "away",
-        "value_odds": 2.6,
-        "value_pos": 10,
-        "pos_diff": 4,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:761850"
-      }
-    },
-    {
-      "league": "США MLS",
-      "match": {
-        "source": "espn",
-        "event_id": "761857",
-        "fixture_id": null,
-        "league_slug": "usa.1",
-        "league_id": null,
-        "season": null,
-        "home": "Colorado Rapids",
-        "away": "San Jose Earthquakes",
-        "home_pos": 8,
-        "away_pos": 4,
-        "home_pts": 36,
-        "away_pts": 45,
-        "home_form": "LDLWD",
-        "away_form": "WDWWD",
-        "home_odds": 1.93,
-        "draw_odds": 3.75,
-        "away_odds": 3.6,
-        "bookmaker": "MyBookie.ag",
-        "time": "2026-10-11T01:30Z",
-        "value_team": "San Jose Earthquakes",
-        "value_side": "away",
-        "value_odds": 3.6,
-        "value_pos": 4,
-        "pos_diff": 4,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:761857"
       }
     }
   ],
