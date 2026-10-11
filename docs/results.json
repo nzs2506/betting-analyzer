@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-11T11:59:50.641313",
+  "generated_at": "2026-10-11T21:24:10.171496",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 24,
-    "fixtures_found": 105,
-    "with_odds": 36,
+    "leagues_checked": 21,
+    "fixtures_found": 47,
+    "with_odds": 17,
     "leagues_detail": [
       [
         "bra.1",
@@ -197,7 +197,7 @@
       [
         "sco.1",
         "Шотландия Премьершип",
-        "ok"
+        "no_matches"
       ],
       [
         "sco.2",
@@ -237,12 +237,12 @@
       [
         "aut.1",
         "Австрия Бундеслига",
-        "ok"
+        "no_matches"
       ],
       [
         "bel.1",
         "Бельгия Про Лига",
-        "ok"
+        "no_matches"
       ],
       [
         "api-football",
@@ -274,8 +274,8 @@
         "away_pts": 19,
         "home_form": "WLWLL",
         "away_form": "WWDDD",
-        "home_odds": 2.1,
-        "draw_odds": 2.95,
+        "home_odds": 2.05,
+        "draw_odds": 2.9,
         "away_odds": 3.1,
         "bookmaker": "Unibet (FR)",
         "time": "2026-10-11T22:15Z",
@@ -290,41 +290,6 @@
           "label": "матч не завершен"
         },
         "signal_id": "espn:401841604"
-      }
-    },
-    {
-      "league": "Норвегия Элитесерен",
-      "match": {
-        "source": "espn",
-        "event_id": "401843457",
-        "fixture_id": null,
-        "league_slug": "nor.1",
-        "league_id": null,
-        "season": null,
-        "home": "Aalesund",
-        "away": "Sarpsborg FK",
-        "home_pos": 14,
-        "away_pos": 9,
-        "home_pts": 21,
-        "away_pts": 25,
-        "home_form": "WLWLD",
-        "away_form": "LDDDL",
-        "home_odds": 2.1,
-        "draw_odds": 3.65,
-        "away_odds": 2.6,
-        "bookmaker": "Unibet (FR)",
-        "time": "2026-10-11T15:00Z",
-        "value_team": "Sarpsborg FK",
-        "value_side": "away",
-        "value_odds": 2.6,
-        "value_pos": 9,
-        "pos_diff": 5,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401843457"
       }
     }
   ],

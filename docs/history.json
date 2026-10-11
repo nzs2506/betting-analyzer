@@ -105,9 +105,14 @@
         "value_pos": 9,
         "pos_diff": 5,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 2,
+          "away_score": 4,
+          "score": "2:4",
+          "outcome": "win",
+          "icon": "🟢",
+          "label": "прогноз сработал",
+          "roi": 1.6
         }
       }
     },
@@ -115,7 +120,7 @@
       "id": "espn:401841604",
       "league": "Аргентина Примера",
       "first_seen": "2026-10-09T12:29:01.447216",
-      "last_seen": "2026-10-11T11:59:50.641313",
+      "last_seen": "2026-10-11T21:24:10.171496",
       "match": {
         "source": "espn",
         "event_id": "401841604",
@@ -131,8 +136,8 @@
         "away_pts": 19,
         "home_form": "WLWLL",
         "away_form": "WWDDD",
-        "home_odds": 2.1,
-        "draw_odds": 2.95,
+        "home_odds": 2.05,
+        "draw_odds": 2.9,
         "away_odds": 3.1,
         "bookmaker": "Unibet (FR)",
         "time": "2026-10-11T22:15Z",
@@ -2701,5 +2706,5 @@
       }
     }
   ],
-  "generated_at": "2026-10-11T11:59:50.641313"
+  "generated_at": "2026-10-11T21:24:10.171496"
 }
