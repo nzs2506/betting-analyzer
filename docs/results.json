@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-13T13:25:08.449798",
+  "generated_at": "2026-10-13T22:13:57.038245",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 7,
-    "fixtures_found": 25,
+    "leagues_checked": 6,
+    "fixtures_found": 24,
     "with_odds": 14,
     "leagues_detail": [
       [
@@ -202,7 +202,7 @@
       [
         "sco.2",
         "Шотландия Чемпионшип",
-        "ok"
+        "no_matches"
       ],
       [
         "irl.1",
@@ -309,14 +309,14 @@
         "away_pts": 46,
         "home_form": "DWLLL",
         "away_form": "DWDWW",
-        "home_odds": 2.01,
-        "draw_odds": 3.94,
-        "away_odds": 3.56,
+        "home_odds": 1.94,
+        "draw_odds": 3.98,
+        "away_odds": 3.77,
         "bookmaker": "1xBet",
         "time": "2026-10-15T01:30Z",
         "value_team": "San Jose Earthquakes",
         "value_side": "away",
-        "value_odds": 3.56,
+        "value_odds": 3.77,
         "value_pos": 4,
         "pos_diff": 7,
         "settlement": {
@@ -414,14 +414,14 @@
         "away_pts": 46,
         "home_form": "DLDDL",
         "away_form": "DLWWW",
-        "home_odds": 1.97,
-        "draw_odds": 4.13,
-        "away_odds": 3.54,
+        "home_odds": 1.91,
+        "draw_odds": 4.17,
+        "away_odds": 3.73,
         "bookmaker": "1xBet",
         "time": "2026-10-14T23:30Z",
         "value_team": "New England Revolution",
         "value_side": "away",
-        "value_odds": 3.54,
+        "value_odds": 3.73,
         "value_pos": 4,
         "pos_diff": 5,
         "settlement": {
@@ -449,14 +449,14 @@
         "away_pts": 37,
         "home_form": "DLLLW",
         "away_form": "DLLLW",
-        "home_odds": 2.31,
-        "draw_odds": 4.0,
-        "away_odds": 2.88,
+        "home_odds": 2.23,
+        "draw_odds": 3.9,
+        "away_odds": 3.06,
         "bookmaker": "1xBet",
         "time": "2026-10-14T23:30Z",
         "value_team": "Orlando City SC",
         "value_side": "away",
-        "value_odds": 2.88,
+        "value_odds": 3.06,
         "value_pos": 7,
         "pos_diff": 4,
         "settlement": {
