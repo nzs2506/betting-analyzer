@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-13T22:13:57.038245",
+  "generated_at": "2026-10-14T11:02:48.210872",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 6,
-    "fixtures_found": 24,
-    "with_odds": 14,
+    "leagues_checked": 20,
+    "fixtures_found": 46,
+    "with_odds": 23,
     "leagues_detail": [
       [
         "bra.1",
         "Бразилия Серия А",
-        "no_matches"
+        "ok"
       ],
       [
         "bra.2",
@@ -32,7 +32,7 @@
       [
         "arg.2",
         "Аргентина Насьональ Б",
-        "no_matches"
+        "ok"
       ],
       [
         "chi.1",
@@ -47,7 +47,7 @@
       [
         "uru.1",
         "Уругвай Лига",
-        "no_matches"
+        "ok"
       ],
       [
         "ecu.1",
@@ -57,17 +57,17 @@
       [
         "bol.1",
         "Боливия Лига",
-        "no_matches"
+        "ok"
       ],
       [
         "par.1",
         "Парагвай Примера",
-        "no_matches"
+        "ok"
       ],
       [
         "per.1",
         "Перу Лига 1",
-        "no_matches"
+        "ok"
       ],
       [
         "ven.1",
@@ -77,7 +77,7 @@
       [
         "mex.1",
         "Мексика Лига MX",
-        "no_matches"
+        "ok"
       ],
       [
         "mex.2",
@@ -107,7 +107,7 @@
       [
         "chn.1",
         "Китай Суперлига",
-        "no_matches"
+        "ok"
       ],
       [
         "ind.1",
@@ -132,7 +132,7 @@
       [
         "aus.1",
         "Австралия А-Лига",
-        "no_matches"
+        "ok"
       ],
       [
         "nga.1",
@@ -172,7 +172,7 @@
       [
         "swe.1",
         "Швеция Алльсвенскан",
-        "no_matches"
+        "ok"
       ],
       [
         "swe.2",
@@ -182,7 +182,7 @@
       [
         "den.1",
         "Дания Суперлига",
-        "no_matches"
+        "ok"
       ],
       [
         "den.2",
@@ -202,7 +202,7 @@
       [
         "sco.2",
         "Шотландия Чемпионшип",
-        "no_matches"
+        "ok"
       ],
       [
         "irl.1",
@@ -217,7 +217,7 @@
       [
         "tur.1",
         "Турция Суперлига",
-        "no_matches"
+        "ok"
       ],
       [
         "tur.2",
@@ -237,7 +237,7 @@
       [
         "aut.1",
         "Австрия Бундеслига",
-        "no_matches"
+        "ok"
       ],
       [
         "bel.1",
@@ -258,6 +258,41 @@
   },
   "results": [
     {
+      "league": "Мексика Лига MX",
+      "match": {
+        "source": "espn",
+        "event_id": "401876946",
+        "fixture_id": null,
+        "league_slug": "mex.1",
+        "league_id": null,
+        "season": null,
+        "home": "Necaxa",
+        "away": "Atlas",
+        "home_pos": 17,
+        "away_pos": 6,
+        "home_pts": 9,
+        "away_pts": 18,
+        "home_form": "DLLLD",
+        "away_form": "DWDLD",
+        "home_odds": 2.23,
+        "draw_odds": 3.4,
+        "away_odds": 2.88,
+        "bookmaker": "Unibet (SE)",
+        "time": "2026-10-17T01:00Z",
+        "value_team": "Atlas",
+        "value_side": "away",
+        "value_odds": 2.88,
+        "value_pos": 6,
+        "pos_diff": 11,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401876946"
+      }
+    },
+    {
       "league": "США MLS",
       "match": {
         "source": "espn",
@@ -274,14 +309,14 @@
         "away_pts": 46,
         "home_form": "DWWWL",
         "away_form": "DLWDW",
-        "home_odds": 2.03,
-        "draw_odds": 3.96,
-        "away_odds": 3.48,
-        "bookmaker": "1xBet",
+        "home_odds": 1.8,
+        "draw_odds": 3.7,
+        "away_odds": 3.3,
+        "bookmaker": "Unibet (FR)",
         "time": "2026-10-14T23:30Z",
         "value_team": "Charlotte FC",
         "value_side": "away",
-        "value_odds": 3.48,
+        "value_odds": 3.3,
         "value_pos": 5,
         "pos_diff": 8,
         "settlement": {
@@ -309,14 +344,14 @@
         "away_pts": 46,
         "home_form": "DWLLL",
         "away_form": "DWDWW",
-        "home_odds": 1.94,
-        "draw_odds": 3.98,
-        "away_odds": 3.77,
-        "bookmaker": "1xBet",
+        "home_odds": 1.91,
+        "draw_odds": 3.6,
+        "away_odds": 3.4,
+        "bookmaker": "888sport",
         "time": "2026-10-15T01:30Z",
         "value_team": "San Jose Earthquakes",
         "value_side": "away",
-        "value_odds": 3.77,
+        "value_odds": 3.4,
         "value_pos": 4,
         "pos_diff": 7,
         "settlement": {
@@ -344,14 +379,14 @@
         "away_pts": 45,
         "home_form": "DDDLL",
         "away_form": "DLDLW",
-        "home_odds": 2.25,
-        "draw_odds": 3.69,
-        "away_odds": 3.17,
-        "bookmaker": "1xBet",
+        "home_odds": 2.1,
+        "draw_odds": 3.4,
+        "away_odds": 3.0,
+        "bookmaker": "888sport",
         "time": "2026-10-15T02:30Z",
         "value_team": "Houston Dynamo FC",
         "value_side": "away",
-        "value_odds": 3.17,
+        "value_odds": 3.0,
         "value_pos": 5,
         "pos_diff": 7,
         "settlement": {
@@ -379,14 +414,14 @@
         "away_pts": 16,
         "home_form": "DLDWL",
         "away_form": "DLWWW",
-        "home_odds": 4.9,
-        "draw_odds": 3.35,
-        "away_odds": 1.66,
+        "home_odds": 5.3,
+        "draw_odds": 3.6,
+        "away_odds": 1.58,
         "bookmaker": "Winamax (DE)",
         "time": "2026-10-14T22:00Z",
         "value_team": "Sarmiento (Junín)",
         "value_side": "home",
-        "value_odds": 4.9,
+        "value_odds": 5.3,
         "value_pos": 4,
         "pos_diff": 5,
         "settlement": {
@@ -414,14 +449,14 @@
         "away_pts": 46,
         "home_form": "DLDDL",
         "away_form": "DLWWW",
-        "home_odds": 1.91,
-        "draw_odds": 4.17,
-        "away_odds": 3.73,
-        "bookmaker": "1xBet",
+        "home_odds": 1.62,
+        "draw_odds": 4.1,
+        "away_odds": 3.8,
+        "bookmaker": "Unibet (FR)",
         "time": "2026-10-14T23:30Z",
         "value_team": "New England Revolution",
         "value_side": "away",
-        "value_odds": 3.73,
+        "value_odds": 3.8,
         "value_pos": 4,
         "pos_diff": 5,
         "settlement": {
@@ -449,14 +484,14 @@
         "away_pts": 37,
         "home_form": "DLLLW",
         "away_form": "DLLLW",
-        "home_odds": 2.23,
-        "draw_odds": 3.9,
-        "away_odds": 3.06,
-        "bookmaker": "1xBet",
+        "home_odds": 2.32,
+        "draw_odds": 3.8,
+        "away_odds": 2.72,
+        "bookmaker": "MyBookie.ag",
         "time": "2026-10-14T23:30Z",
         "value_team": "Orlando City SC",
         "value_side": "away",
-        "value_odds": 3.06,
+        "value_odds": 2.72,
         "value_pos": 7,
         "pos_diff": 4,
         "settlement": {
@@ -468,5 +503,5 @@
       }
     }
   ],
-  "history_count": 71
+  "history_count": 72
 }
