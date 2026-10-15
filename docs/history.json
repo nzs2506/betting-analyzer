@@ -1,10 +1,84 @@
 {
   "signals": [
     {
+      "id": "espn:401860392",
+      "league": "Бразилия Серия Б",
+      "first_seen": "2026-10-15T10:45:46.426136",
+      "last_seen": "2026-10-15T10:45:46.426136",
+      "match": {
+        "source": "espn",
+        "event_id": "401860392",
+        "fixture_id": null,
+        "league_slug": "bra.2",
+        "league_id": null,
+        "season": null,
+        "home": "Ceará",
+        "away": "Juventude",
+        "home_pos": 15,
+        "away_pos": 3,
+        "home_pts": 42,
+        "away_pts": 60,
+        "home_form": "DWWDW",
+        "away_form": "DWWWL",
+        "home_odds": 2.6,
+        "draw_odds": 3.05,
+        "away_odds": 2.8,
+        "bookmaker": "Unibet (SE)",
+        "time": "2026-10-17T19:30Z",
+        "value_team": "Juventude",
+        "value_side": "away",
+        "value_odds": 2.8,
+        "value_pos": 3,
+        "pos_diff": 12,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
+      "id": "espn:401892159",
+      "league": "Австралия А-Лига",
+      "first_seen": "2026-10-15T10:45:46.426136",
+      "last_seen": "2026-10-15T10:45:46.426136",
+      "match": {
+        "source": "espn",
+        "event_id": "401892159",
+        "fixture_id": null,
+        "league_slug": "aus.1",
+        "league_id": null,
+        "season": null,
+        "home": "Central Coast Mariners",
+        "away": "Newcastle Jets",
+        "home_pos": 4,
+        "away_pos": 8,
+        "home_pts": 0,
+        "away_pts": 0,
+        "home_form": "LWDLD",
+        "away_form": "DLLDW",
+        "home_odds": 3.75,
+        "draw_odds": 3.8,
+        "away_odds": 1.59,
+        "bookmaker": "Unibet (FR)",
+        "time": "2026-10-17T08:40Z",
+        "value_team": "Central Coast Mariners",
+        "value_side": "home",
+        "value_odds": 3.75,
+        "value_pos": 4,
+        "pos_diff": 4,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
       "id": "espn:401876946",
       "league": "Мексика Лига MX",
       "first_seen": "2026-10-14T11:02:48.210872",
-      "last_seen": "2026-10-14T21:13:53.878064",
+      "last_seen": "2026-10-15T10:45:46.426136",
       "match": {
         "source": "espn",
         "event_id": "401876946",
@@ -20,14 +94,14 @@
         "away_pts": 18,
         "home_form": "DLLLD",
         "away_form": "DWDLD",
-        "home_odds": 2.23,
+        "home_odds": 2.3,
         "draw_odds": 3.4,
-        "away_odds": 2.88,
+        "away_odds": 2.8,
         "bookmaker": "Unibet (SE)",
         "time": "2026-10-17T01:00Z",
         "value_team": "Atlas",
         "value_side": "away",
-        "value_odds": 2.88,
+        "value_odds": 2.8,
         "value_pos": 6,
         "pos_diff": 11,
         "settlement": {
@@ -68,9 +142,14 @@
         "value_pos": 5,
         "pos_diff": 8,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 3,
+          "away_score": 1,
+          "score": "3:1",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -105,9 +184,14 @@
         "value_pos": 4,
         "pos_diff": 7,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 1,
+          "away_score": 1,
+          "score": "1:1",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -142,9 +226,14 @@
         "value_pos": 5,
         "pos_diff": 7,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 3,
+          "away_score": 3,
+          "score": "3:3",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -179,9 +268,14 @@
         "value_pos": 4,
         "pos_diff": 5,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 1,
+          "away_score": 1,
+          "score": "1:1",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -216,9 +310,14 @@
         "value_pos": 4,
         "pos_diff": 5,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 2,
+          "away_score": 3,
+          "score": "2:3",
+          "outcome": "win",
+          "icon": "🟢",
+          "label": "прогноз сработал",
+          "roi": 2.64
         }
       }
     },
@@ -253,9 +352,14 @@
         "value_pos": 7,
         "pos_diff": 4,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 3,
+          "away_score": 3,
+          "score": "3:3",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -2980,5 +3084,5 @@
       }
     }
   ],
-  "generated_at": "2026-10-14T21:13:53.878064"
+  "generated_at": "2026-10-15T10:45:46.426136"
 }

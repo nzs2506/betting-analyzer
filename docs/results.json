@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-14T21:13:53.878064",
+  "generated_at": "2026-10-15T10:45:46.426136",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 20,
-    "fixtures_found": 46,
-    "with_odds": 23,
+    "leagues_checked": 25,
+    "fixtures_found": 123,
+    "with_odds": 52,
     "leagues_detail": [
       [
         "bra.1",
@@ -72,7 +72,7 @@
       [
         "ven.1",
         "Венесуэла Примера",
-        "no_matches"
+        "ok"
       ],
       [
         "mex.1",
@@ -97,7 +97,7 @@
       [
         "jpn.1",
         "Япония J-League",
-        "no_matches"
+        "ok"
       ],
       [
         "jpn.2",
@@ -162,7 +162,7 @@
       [
         "nor.1",
         "Норвегия Элитесерен",
-        "no_matches"
+        "ok"
       ],
       [
         "nor.2",
@@ -197,7 +197,7 @@
       [
         "sco.1",
         "Шотландия Премьершип",
-        "no_matches"
+        "ok"
       ],
       [
         "sco.2",
@@ -227,7 +227,7 @@
       [
         "gre.1",
         "Греция Суперлига",
-        "no_matches"
+        "ok"
       ],
       [
         "rou.1",
@@ -258,6 +258,41 @@
   },
   "results": [
     {
+      "league": "Бразилия Серия Б",
+      "match": {
+        "source": "espn",
+        "event_id": "401860392",
+        "fixture_id": null,
+        "league_slug": "bra.2",
+        "league_id": null,
+        "season": null,
+        "home": "Ceará",
+        "away": "Juventude",
+        "home_pos": 15,
+        "away_pos": 3,
+        "home_pts": 42,
+        "away_pts": 60,
+        "home_form": "DWWDW",
+        "away_form": "DWWWL",
+        "home_odds": 2.6,
+        "draw_odds": 3.05,
+        "away_odds": 2.8,
+        "bookmaker": "Unibet (SE)",
+        "time": "2026-10-17T19:30Z",
+        "value_team": "Juventude",
+        "value_side": "away",
+        "value_odds": 2.8,
+        "value_pos": 3,
+        "pos_diff": 12,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401860392"
+      }
+    },
+    {
       "league": "Мексика Лига MX",
       "match": {
         "source": "espn",
@@ -274,14 +309,14 @@
         "away_pts": 18,
         "home_form": "DLLLD",
         "away_form": "DWDLD",
-        "home_odds": 2.23,
+        "home_odds": 2.3,
         "draw_odds": 3.4,
-        "away_odds": 2.88,
+        "away_odds": 2.8,
         "bookmaker": "Unibet (SE)",
         "time": "2026-10-17T01:00Z",
         "value_team": "Atlas",
         "value_side": "away",
-        "value_odds": 2.88,
+        "value_odds": 2.8,
         "value_pos": 6,
         "pos_diff": 11,
         "settlement": {
@@ -293,215 +328,40 @@
       }
     },
     {
-      "league": "США MLS",
+      "league": "Австралия А-Лига",
       "match": {
         "source": "espn",
-        "event_id": "761865",
+        "event_id": "401892159",
         "fixture_id": null,
-        "league_slug": "usa.1",
+        "league_slug": "aus.1",
         "league_id": null,
         "season": null,
-        "home": "Columbus Crew",
-        "away": "Charlotte FC",
-        "home_pos": 13,
-        "away_pos": 5,
-        "home_pts": 29,
-        "away_pts": 46,
-        "home_form": "DWWWL",
-        "away_form": "DLWDW",
-        "home_odds": 2.01,
-        "draw_odds": 4.04,
-        "away_odds": 3.48,
-        "bookmaker": "1xBet",
-        "time": "2026-10-14T23:30Z",
-        "value_team": "Charlotte FC",
-        "value_side": "away",
-        "value_odds": 3.48,
-        "value_pos": 5,
-        "pos_diff": 8,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:761865"
-      }
-    },
-    {
-      "league": "США MLS",
-      "match": {
-        "source": "espn",
-        "event_id": "761870",
-        "fixture_id": null,
-        "league_slug": "usa.1",
-        "league_id": null,
-        "season": null,
-        "home": "Real Salt Lake",
-        "away": "San Jose Earthquakes",
-        "home_pos": 11,
-        "away_pos": 4,
-        "home_pts": 32,
-        "away_pts": 46,
-        "home_form": "DWLLL",
-        "away_form": "DWDWW",
-        "home_odds": 1.94,
-        "draw_odds": 4.04,
-        "away_odds": 3.73,
-        "bookmaker": "1xBet",
-        "time": "2026-10-15T01:30Z",
-        "value_team": "San Jose Earthquakes",
-        "value_side": "away",
-        "value_odds": 3.73,
-        "value_pos": 4,
-        "pos_diff": 7,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:761870"
-      }
-    },
-    {
-      "league": "США MLS",
-      "match": {
-        "source": "espn",
-        "event_id": "761872",
-        "fixture_id": null,
-        "league_slug": "usa.1",
-        "league_id": null,
-        "season": null,
-        "home": "San Diego FC",
-        "away": "Houston Dynamo FC",
-        "home_pos": 12,
-        "away_pos": 5,
-        "home_pts": 32,
-        "away_pts": 45,
-        "home_form": "DDDLL",
-        "away_form": "DLDLW",
-        "home_odds": 2.12,
-        "draw_odds": 3.73,
-        "away_odds": 3.44,
-        "bookmaker": "1xBet",
-        "time": "2026-10-15T02:30Z",
-        "value_team": "Houston Dynamo FC",
-        "value_side": "away",
-        "value_odds": 3.44,
-        "value_pos": 5,
-        "pos_diff": 7,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:761872"
-      }
-    },
-    {
-      "league": "Аргентина Примера",
-      "match": {
-        "source": "espn",
-        "event_id": "401841598",
-        "fixture_id": null,
-        "league_slug": "arg.1",
-        "league_id": null,
-        "season": null,
-        "home": "Sarmiento (Junín)",
-        "away": "River Plate",
+        "home": "Central Coast Mariners",
+        "away": "Newcastle Jets",
         "home_pos": 4,
-        "away_pos": 9,
-        "home_pts": 19,
-        "away_pts": 16,
-        "home_form": "DLDWL",
-        "away_form": "DLWWW",
-        "home_odds": 5.9,
-        "draw_odds": 3.9,
-        "away_odds": 1.49,
-        "bookmaker": "Winamax (DE)",
-        "time": "2026-10-14T22:00Z",
-        "value_team": "Sarmiento (Junín)",
+        "away_pos": 8,
+        "home_pts": 0,
+        "away_pts": 0,
+        "home_form": "LWDLD",
+        "away_form": "DLLDW",
+        "home_odds": 3.75,
+        "draw_odds": 3.8,
+        "away_odds": 1.59,
+        "bookmaker": "Unibet (FR)",
+        "time": "2026-10-17T08:40Z",
+        "value_team": "Central Coast Mariners",
         "value_side": "home",
-        "value_odds": 5.9,
+        "value_odds": 3.75,
         "value_pos": 4,
-        "pos_diff": 5,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401841598"
-      }
-    },
-    {
-      "league": "США MLS",
-      "match": {
-        "source": "espn",
-        "event_id": "761862",
-        "fixture_id": null,
-        "league_slug": "usa.1",
-        "league_id": null,
-        "season": null,
-        "home": "FC Cincinnati",
-        "away": "New England Revolution",
-        "home_pos": 9,
-        "away_pos": 4,
-        "home_pts": 36,
-        "away_pts": 46,
-        "home_form": "DLDDL",
-        "away_form": "DLWWW",
-        "home_odds": 1.9,
-        "draw_odds": 4.37,
-        "away_odds": 3.64,
-        "bookmaker": "1xBet",
-        "time": "2026-10-14T23:30Z",
-        "value_team": "New England Revolution",
-        "value_side": "away",
-        "value_odds": 3.64,
-        "value_pos": 4,
-        "pos_diff": 5,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:761862"
-      }
-    },
-    {
-      "league": "США MLS",
-      "match": {
-        "source": "espn",
-        "event_id": "761860",
-        "fixture_id": null,
-        "league_slug": "usa.1",
-        "league_id": null,
-        "season": null,
-        "home": "Toronto FC",
-        "away": "Orlando City SC",
-        "home_pos": 11,
-        "away_pos": 7,
-        "home_pts": 32,
-        "away_pts": 37,
-        "home_form": "DLLLW",
-        "away_form": "DLLLW",
-        "home_odds": 2.39,
-        "draw_odds": 3.88,
-        "away_odds": 2.82,
-        "bookmaker": "1xBet",
-        "time": "2026-10-14T23:30Z",
-        "value_team": "Orlando City SC",
-        "value_side": "away",
-        "value_odds": 2.82,
-        "value_pos": 7,
         "pos_diff": 4,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
           "label": "матч не завершен"
         },
-        "signal_id": "espn:761860"
+        "signal_id": "espn:401892159"
       }
     }
   ],
-  "history_count": 72
+  "history_count": 74
 }
