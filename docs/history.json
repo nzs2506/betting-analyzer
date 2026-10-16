@@ -1,6 +1,43 @@
 {
   "signals": [
     {
+      "id": "espn:401843461",
+      "league": "Норвегия Элитесерен",
+      "first_seen": "2026-10-16T20:26:00.560456",
+      "last_seen": "2026-10-16T20:26:00.560456",
+      "match": {
+        "source": "espn",
+        "event_id": "401843461",
+        "fixture_id": null,
+        "league_slug": "nor.1",
+        "league_id": null,
+        "season": null,
+        "home": "Sarpsborg FK",
+        "away": "Rosenborg",
+        "home_pos": 9,
+        "away_pos": 5,
+        "home_pts": 28,
+        "away_pts": 34,
+        "home_form": "DLDDD",
+        "away_form": "DWWWL",
+        "home_odds": 2.2,
+        "draw_odds": 3.55,
+        "away_odds": 2.55,
+        "bookmaker": "PMU (FR)",
+        "time": "2026-10-18T12:30Z",
+        "value_team": "Rosenborg",
+        "value_side": "away",
+        "value_odds": 2.55,
+        "value_pos": 5,
+        "pos_diff": 4,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
       "id": "espn:761876",
       "league": "США MLS",
       "first_seen": "2026-10-16T10:33:23.426311",
@@ -41,7 +78,7 @@
       "id": "espn:401888272",
       "league": "Турция Суперлига",
       "first_seen": "2026-10-16T10:33:23.426311",
-      "last_seen": "2026-10-16T10:33:23.426311",
+      "last_seen": "2026-10-16T20:26:00.560456",
       "match": {
         "source": "espn",
         "event_id": "401888272",
@@ -51,7 +88,7 @@
         "season": null,
         "home": "Kocaelispor",
         "away": "Goztepe",
-        "home_pos": 7,
+        "home_pos": 8,
         "away_pos": 15,
         "home_pts": 12,
         "away_pts": 6,
@@ -65,8 +102,8 @@
         "value_team": "Kocaelispor",
         "value_side": "home",
         "value_odds": 2.93,
-        "value_pos": 7,
-        "pos_diff": 8,
+        "value_pos": 8,
+        "pos_diff": 7,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
@@ -78,7 +115,7 @@
       "id": "espn:401841628",
       "league": "Аргентина Примера",
       "first_seen": "2026-10-16T10:33:23.426311",
-      "last_seen": "2026-10-16T10:33:23.426311",
+      "last_seen": "2026-10-16T20:26:00.560456",
       "match": {
         "source": "espn",
         "event_id": "401841628",
@@ -115,7 +152,7 @@
       "id": "espn:401841618",
       "league": "Аргентина Примера",
       "first_seen": "2026-10-16T10:33:23.426311",
-      "last_seen": "2026-10-16T10:33:23.426311",
+      "last_seen": "2026-10-16T20:26:00.560456",
       "match": {
         "source": "espn",
         "event_id": "401841618",
@@ -152,7 +189,7 @@
       "id": "espn:401843466",
       "league": "Норвегия Элитесерен",
       "first_seen": "2026-10-16T10:33:23.426311",
-      "last_seen": "2026-10-16T10:33:23.426311",
+      "last_seen": "2026-10-16T20:26:00.560456",
       "match": {
         "source": "espn",
         "event_id": "401843466",
@@ -189,7 +226,7 @@
       "id": "espn:401860392",
       "league": "Бразилия Серия Б",
       "first_seen": "2026-10-15T10:45:46.426136",
-      "last_seen": "2026-10-16T10:33:23.426311",
+      "last_seen": "2026-10-16T20:26:00.560456",
       "match": {
         "source": "espn",
         "event_id": "401860392",
@@ -226,7 +263,7 @@
       "id": "espn:401892159",
       "league": "Австралия А-Лига",
       "first_seen": "2026-10-15T10:45:46.426136",
-      "last_seen": "2026-10-16T10:33:23.426311",
+      "last_seen": "2026-10-16T20:26:00.560456",
       "match": {
         "source": "espn",
         "event_id": "401892159",
@@ -236,8 +273,8 @@
         "season": null,
         "home": "Central Coast Mariners",
         "away": "Newcastle Jets",
-        "home_pos": 4,
-        "away_pos": 8,
+        "home_pos": 6,
+        "away_pos": 10,
         "home_pts": 0,
         "away_pts": 0,
         "home_form": "LWDLD",
@@ -250,7 +287,7 @@
         "value_team": "Central Coast Mariners",
         "value_side": "home",
         "value_odds": 3.9,
-        "value_pos": 4,
+        "value_pos": 6,
         "pos_diff": 4,
         "settlement": {
           "status": "pending",
@@ -263,7 +300,7 @@
       "id": "espn:401876946",
       "league": "Мексика Лига MX",
       "first_seen": "2026-10-14T11:02:48.210872",
-      "last_seen": "2026-10-16T10:33:23.426311",
+      "last_seen": "2026-10-16T20:26:00.560456",
       "match": {
         "source": "espn",
         "event_id": "401876946",
@@ -279,14 +316,14 @@
         "away_pts": 18,
         "home_form": "DLLLD",
         "away_form": "DWDLD",
-        "home_odds": 2.43,
+        "home_odds": 2.5,
         "draw_odds": 3.4,
-        "away_odds": 2.65,
+        "away_odds": 2.55,
         "bookmaker": "Unibet (SE)",
         "time": "2026-10-17T01:00Z",
         "value_team": "Atlas",
         "value_side": "away",
-        "value_odds": 2.65,
+        "value_odds": 2.55,
         "value_pos": 6,
         "pos_diff": 11,
         "settlement": {
@@ -3269,5 +3306,5 @@
       }
     }
   ],
-  "generated_at": "2026-10-16T10:33:23.426311"
+  "generated_at": "2026-10-16T20:26:00.560456"
 }
