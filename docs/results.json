@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-16T20:26:00.560456",
+  "generated_at": "2026-10-17T10:02:58.161450",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
     "leagues_checked": 25,
-    "fixtures_found": 190,
-    "with_odds": 75,
+    "fixtures_found": 176,
+    "with_odds": 67,
     "leagues_detail": [
       [
         "bra.1",
@@ -293,38 +293,38 @@
       }
     },
     {
-      "league": "Мексика Лига MX",
+      "league": "Аргентина Примера",
       "match": {
         "source": "espn",
-        "event_id": "401876946",
+        "event_id": "401841619",
         "fixture_id": null,
-        "league_slug": "mex.1",
+        "league_slug": "arg.1",
         "league_id": null,
         "season": null,
-        "home": "Necaxa",
-        "away": "Atlas",
-        "home_pos": 17,
-        "away_pos": 6,
-        "home_pts": 9,
-        "away_pts": 18,
-        "home_form": "DLLLD",
-        "away_form": "DWDLD",
-        "home_odds": 2.5,
-        "draw_odds": 3.4,
-        "away_odds": 2.55,
-        "bookmaker": "Unibet (SE)",
-        "time": "2026-10-17T01:00Z",
-        "value_team": "Atlas",
+        "home": "Platense",
+        "away": "Lanús",
+        "home_pos": 13,
+        "away_pos": 5,
+        "home_pts": 11,
+        "away_pts": 20,
+        "home_form": "DDWLW",
+        "away_form": "DDWWW",
+        "home_odds": 2.6,
+        "draw_odds": 2.8,
+        "away_odds": 2.65,
+        "bookmaker": "Winamax (FR)",
+        "time": "2026-10-17T20:30Z",
+        "value_team": "Lanús",
         "value_side": "away",
-        "value_odds": 2.55,
-        "value_pos": 6,
-        "pos_diff": 11,
+        "value_odds": 2.65,
+        "value_pos": 5,
+        "pos_diff": 8,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
           "label": "матч не завершен"
         },
-        "signal_id": "espn:401876946"
+        "signal_id": "espn:401841619"
       }
     },
     {
@@ -468,38 +468,38 @@
       }
     },
     {
-      "league": "Австралия А-Лига",
+      "league": "Бразилия Серия А",
       "match": {
         "source": "espn",
-        "event_id": "401892159",
+        "event_id": "401841272",
         "fixture_id": null,
-        "league_slug": "aus.1",
+        "league_slug": "bra.1",
         "league_id": null,
         "season": null,
-        "home": "Central Coast Mariners",
-        "away": "Newcastle Jets",
-        "home_pos": 6,
-        "away_pos": 10,
-        "home_pts": 0,
-        "away_pts": 0,
-        "home_form": "LWDLD",
-        "away_form": "DLLDW",
-        "home_odds": 3.9,
-        "draw_odds": 3.9,
-        "away_odds": 1.62,
-        "bookmaker": "Unibet (FR)",
-        "time": "2026-10-17T08:40Z",
-        "value_team": "Central Coast Mariners",
-        "value_side": "home",
-        "value_odds": 3.9,
-        "value_pos": 6,
+        "home": "Corinthians",
+        "away": "Vitória",
+        "home_pos": 16,
+        "away_pos": 12,
+        "home_pts": 32,
+        "away_pts": 36,
+        "home_form": "LLLLL",
+        "away_form": "DWLDW",
+        "home_odds": 1.68,
+        "draw_odds": 3.83,
+        "away_odds": 5.36,
+        "bookmaker": "1xBet",
+        "time": "2026-10-19T23:00Z",
+        "value_team": "Vitória",
+        "value_side": "away",
+        "value_odds": 5.36,
+        "value_pos": 12,
         "pos_diff": 4,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
           "label": "матч не завершен"
         },
-        "signal_id": "espn:401892159"
+        "signal_id": "espn:401841272"
       }
     },
     {
@@ -538,5 +538,5 @@
       }
     }
   ],
-  "history_count": 80
+  "history_count": 82
 }
