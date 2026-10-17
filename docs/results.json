@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-17T10:02:58.161450",
+  "generated_at": "2026-10-17T20:00:37.866404",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 25,
-    "fixtures_found": 176,
-    "with_odds": 67,
+    "leagues_checked": 24,
+    "fixtures_found": 136,
+    "with_odds": 54,
     "leagues_detail": [
       [
         "bra.1",
@@ -202,7 +202,7 @@
       [
         "sco.2",
         "Шотландия Чемпионшип",
-        "ok"
+        "no_matches"
       ],
       [
         "irl.1",
@@ -258,38 +258,38 @@
   },
   "results": [
     {
-      "league": "Бразилия Серия Б",
+      "league": "США MLS",
       "match": {
         "source": "espn",
-        "event_id": "401860392",
+        "event_id": "761876",
         "fixture_id": null,
-        "league_slug": "bra.2",
+        "league_slug": "usa.1",
         "league_id": null,
         "season": null,
-        "home": "Ceará",
-        "away": "Juventude",
-        "home_pos": 15,
-        "away_pos": 3,
-        "home_pts": 42,
-        "away_pts": 60,
-        "home_form": "DWWDW",
-        "away_form": "DWWWL",
-        "home_odds": 2.6,
-        "draw_odds": 3.05,
-        "away_odds": 2.75,
-        "bookmaker": "Unibet (SE)",
-        "time": "2026-10-17T19:30Z",
-        "value_team": "Juventude",
+        "home": "Minnesota United FC",
+        "away": "St. Louis CITY SC",
+        "home_pos": 13,
+        "away_pos": 2,
+        "home_pts": 31,
+        "away_pts": 51,
+        "home_form": "DDLLL",
+        "away_form": "DWWWW",
+        "home_odds": 2.23,
+        "draw_odds": 3.6,
+        "away_odds": 2.55,
+        "bookmaker": "PMU (FR)",
+        "time": "2026-10-17T20:30Z",
+        "value_team": "St. Louis CITY SC",
         "value_side": "away",
-        "value_odds": 2.75,
-        "value_pos": 3,
-        "pos_diff": 12,
+        "value_odds": 2.55,
+        "value_pos": 2,
+        "pos_diff": 11,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
           "label": "матч не завершен"
         },
-        "signal_id": "espn:401860392"
+        "signal_id": "espn:761876"
       }
     },
     {
@@ -328,41 +328,6 @@
       }
     },
     {
-      "league": "Аргентина Примера",
-      "match": {
-        "source": "espn",
-        "event_id": "401841628",
-        "fixture_id": null,
-        "league_slug": "arg.1",
-        "league_id": null,
-        "season": null,
-        "home": "Belgrano (Córdoba)",
-        "away": "River Plate",
-        "home_pos": 2,
-        "away_pos": 9,
-        "home_pts": 22,
-        "away_pts": 17,
-        "home_form": "DWWDD",
-        "away_form": "DWLWW",
-        "home_odds": 3.1,
-        "draw_odds": 2.95,
-        "away_odds": 2.15,
-        "bookmaker": "Winamax (DE)",
-        "time": "2026-10-18T23:15Z",
-        "value_team": "Belgrano (Córdoba)",
-        "value_side": "home",
-        "value_odds": 3.1,
-        "value_pos": 2,
-        "pos_diff": 7,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401841628"
-      }
-    },
-    {
       "league": "Турция Суперлига",
       "match": {
         "source": "espn",
@@ -373,7 +338,7 @@
         "season": null,
         "home": "Kocaelispor",
         "away": "Goztepe",
-        "home_pos": 8,
+        "home_pos": 7,
         "away_pos": 15,
         "home_pts": 12,
         "away_pts": 6,
@@ -387,14 +352,49 @@
         "value_team": "Kocaelispor",
         "value_side": "home",
         "value_odds": 2.93,
-        "value_pos": 8,
-        "pos_diff": 7,
+        "value_pos": 7,
+        "pos_diff": 8,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
           "label": "матч не завершен"
         },
         "signal_id": "espn:401888272"
+      }
+    },
+    {
+      "league": "Норвегия Элитесерен",
+      "match": {
+        "source": "espn",
+        "event_id": "401843466",
+        "fixture_id": null,
+        "league_slug": "nor.1",
+        "league_id": null,
+        "season": null,
+        "home": "Vålerenga",
+        "away": "SK Brann",
+        "home_pos": 14,
+        "away_pos": 7,
+        "home_pts": 23,
+        "away_pts": 29,
+        "home_form": "DDLDL",
+        "away_form": "DLWLL",
+        "home_odds": 2.4,
+        "draw_odds": 3.8,
+        "away_odds": 2.55,
+        "bookmaker": "Unibet (NL)",
+        "time": "2026-10-18T15:00Z",
+        "value_team": "SK Brann",
+        "value_side": "away",
+        "value_odds": 2.55,
+        "value_pos": 7,
+        "pos_diff": 7,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401843466"
       }
     },
     {
@@ -433,38 +433,38 @@
       }
     },
     {
-      "league": "Норвегия Элитесерен",
+      "league": "Аргентина Примера",
       "match": {
         "source": "espn",
-        "event_id": "401843466",
+        "event_id": "401841628",
         "fixture_id": null,
-        "league_slug": "nor.1",
+        "league_slug": "arg.1",
         "league_id": null,
         "season": null,
-        "home": "Vålerenga",
-        "away": "SK Brann",
-        "home_pos": 13,
-        "away_pos": 7,
-        "home_pts": 23,
-        "away_pts": 29,
-        "home_form": "DDLDL",
-        "away_form": "DLWLL",
-        "home_odds": 2.4,
-        "draw_odds": 3.8,
-        "away_odds": 2.55,
-        "bookmaker": "Unibet (NL)",
-        "time": "2026-10-18T15:00Z",
-        "value_team": "SK Brann",
-        "value_side": "away",
-        "value_odds": 2.55,
-        "value_pos": 7,
+        "home": "Belgrano (Córdoba)",
+        "away": "River Plate",
+        "home_pos": 3,
+        "away_pos": 9,
+        "home_pts": 22,
+        "away_pts": 17,
+        "home_form": "DWWDD",
+        "away_form": "DWLWW",
+        "home_odds": 3.2,
+        "draw_odds": 3.0,
+        "away_odds": 2.15,
+        "bookmaker": "Winamax (DE)",
+        "time": "2026-10-18T23:15Z",
+        "value_team": "Belgrano (Córdoba)",
+        "value_side": "home",
+        "value_odds": 3.2,
+        "value_pos": 3,
         "pos_diff": 6,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
           "label": "матч не завершен"
         },
-        "signal_id": "espn:401843466"
+        "signal_id": "espn:401841628"
       }
     },
     {
