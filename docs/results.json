@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-17T20:00:37.866404",
+  "generated_at": "2026-10-18T10:16:41.907198",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 24,
-    "fixtures_found": 136,
-    "with_odds": 54,
+    "leagues_checked": 23,
+    "fixtures_found": 97,
+    "with_odds": 34,
     "leagues_detail": [
       [
         "bra.1",
@@ -97,7 +97,7 @@
       [
         "jpn.1",
         "Япония J-League",
-        "ok"
+        "no_matches"
       ],
       [
         "jpn.2",
@@ -132,7 +132,7 @@
       [
         "aus.1",
         "Австралия А-Лига",
-        "ok"
+        "no_matches"
       ],
       [
         "nga.1",
@@ -202,7 +202,7 @@
       [
         "sco.2",
         "Шотландия Чемпионшип",
-        "no_matches"
+        "ok"
       ],
       [
         "irl.1",
@@ -258,73 +258,38 @@
   },
   "results": [
     {
-      "league": "США MLS",
+      "league": "Мексика Лига MX",
       "match": {
         "source": "espn",
-        "event_id": "761876",
+        "event_id": "401876937",
         "fixture_id": null,
-        "league_slug": "usa.1",
+        "league_slug": "mex.1",
         "league_id": null,
         "season": null,
-        "home": "Minnesota United FC",
-        "away": "St. Louis CITY SC",
-        "home_pos": 13,
-        "away_pos": 2,
-        "home_pts": 31,
-        "away_pts": 51,
-        "home_form": "DDLLL",
-        "away_form": "DWWWW",
-        "home_odds": 2.23,
-        "draw_odds": 3.6,
-        "away_odds": 2.55,
-        "bookmaker": "PMU (FR)",
-        "time": "2026-10-17T20:30Z",
-        "value_team": "St. Louis CITY SC",
-        "value_side": "away",
-        "value_odds": 2.55,
-        "value_pos": 2,
-        "pos_diff": 11,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:761876"
-      }
-    },
-    {
-      "league": "Аргентина Примера",
-      "match": {
-        "source": "espn",
-        "event_id": "401841619",
-        "fixture_id": null,
-        "league_slug": "arg.1",
-        "league_id": null,
-        "season": null,
-        "home": "Platense",
-        "away": "Lanús",
-        "home_pos": 13,
-        "away_pos": 5,
-        "home_pts": 11,
+        "home": "Atlético de San Luis",
+        "away": "Querétaro",
+        "home_pos": 15,
+        "away_pos": 6,
+        "home_pts": 13,
         "away_pts": 20,
-        "home_form": "DDWLW",
-        "away_form": "DDWWW",
-        "home_odds": 2.6,
-        "draw_odds": 2.8,
-        "away_odds": 2.65,
-        "bookmaker": "Winamax (FR)",
-        "time": "2026-10-17T20:30Z",
-        "value_team": "Lanús",
+        "home_form": "DLWWL",
+        "away_form": "DWWDW",
+        "home_odds": 2.25,
+        "draw_odds": 3.4,
+        "away_odds": 2.88,
+        "bookmaker": "Unibet (NL)",
+        "time": "2026-10-21T01:00Z",
+        "value_team": "Querétaro",
         "value_side": "away",
-        "value_odds": 2.65,
-        "value_pos": 5,
-        "pos_diff": 8,
+        "value_odds": 2.88,
+        "value_pos": 6,
+        "pos_diff": 9,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
           "label": "матч не завершен"
         },
-        "signal_id": "espn:401841619"
+        "signal_id": "espn:401876937"
       }
     },
     {
@@ -344,14 +309,14 @@
         "away_pts": 6,
         "home_form": "DWLWW",
         "away_form": "DDDLL",
-        "home_odds": 2.93,
-        "draw_odds": 3.33,
-        "away_odds": 2.28,
+        "home_odds": 2.84,
+        "draw_odds": 3.16,
+        "away_odds": 2.43,
         "bookmaker": "Nordic Bet",
         "time": "2026-10-18T13:00Z",
         "value_team": "Kocaelispor",
         "value_side": "home",
-        "value_odds": 2.93,
+        "value_odds": 2.84,
         "value_pos": 7,
         "pos_diff": 8,
         "settlement": {
@@ -379,14 +344,14 @@
         "away_pts": 29,
         "home_form": "DDLDL",
         "away_form": "DLWLL",
-        "home_odds": 2.4,
+        "home_odds": 2.3,
         "draw_odds": 3.8,
-        "away_odds": 2.55,
+        "away_odds": 2.7,
         "bookmaker": "Unibet (NL)",
         "time": "2026-10-18T15:00Z",
         "value_team": "SK Brann",
         "value_side": "away",
-        "value_odds": 2.55,
+        "value_odds": 2.7,
         "value_pos": 7,
         "pos_diff": 7,
         "settlement": {
@@ -414,14 +379,14 @@
         "away_pts": 18,
         "home_form": "DWLWL",
         "away_form": "DLWDW",
-        "home_odds": 2.0,
+        "home_odds": 2.1,
         "draw_odds": 3.0,
-        "away_odds": 3.35,
+        "away_odds": 3.25,
         "bookmaker": "Winamax (FR)",
         "time": "2026-10-18T17:45Z",
         "value_team": "Independiente",
         "value_side": "away",
-        "value_odds": 3.35,
+        "value_odds": 3.25,
         "value_pos": 7,
         "pos_diff": 6,
         "settlement": {
@@ -468,41 +433,6 @@
       }
     },
     {
-      "league": "Бразилия Серия А",
-      "match": {
-        "source": "espn",
-        "event_id": "401841272",
-        "fixture_id": null,
-        "league_slug": "bra.1",
-        "league_id": null,
-        "season": null,
-        "home": "Corinthians",
-        "away": "Vitória",
-        "home_pos": 16,
-        "away_pos": 12,
-        "home_pts": 32,
-        "away_pts": 36,
-        "home_form": "LLLLL",
-        "away_form": "DWLDW",
-        "home_odds": 1.68,
-        "draw_odds": 3.83,
-        "away_odds": 5.36,
-        "bookmaker": "1xBet",
-        "time": "2026-10-19T23:00Z",
-        "value_team": "Vitória",
-        "value_side": "away",
-        "value_odds": 5.36,
-        "value_pos": 12,
-        "pos_diff": 4,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401841272"
-      }
-    },
-    {
       "league": "Норвегия Элитесерен",
       "match": {
         "source": "espn",
@@ -520,7 +450,7 @@
         "home_form": "DLDDD",
         "away_form": "DWWWL",
         "home_odds": 2.2,
-        "draw_odds": 3.55,
+        "draw_odds": 3.5,
         "away_odds": 2.55,
         "bookmaker": "PMU (FR)",
         "time": "2026-10-18T12:30Z",
@@ -538,5 +468,5 @@
       }
     }
   ],
-  "history_count": 82
+  "history_count": 83
 }
