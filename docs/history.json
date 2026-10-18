@@ -4,7 +4,7 @@
       "id": "espn:401876937",
       "league": "Мексика Лига MX",
       "first_seen": "2026-10-18T10:16:41.907198",
-      "last_seen": "2026-10-18T10:16:41.907198",
+      "last_seen": "2026-10-18T19:59:28.781914",
       "match": {
         "source": "espn",
         "event_id": "401876937",
@@ -147,9 +147,14 @@
         "value_pos": 5,
         "pos_diff": 4,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 0,
+          "away_score": 3,
+          "score": "0:3",
+          "outcome": "win",
+          "icon": "🟢",
+          "label": "прогноз сработал",
+          "roi": 1.55
         }
       }
     },
@@ -226,9 +231,14 @@
         "value_pos": 7,
         "pos_diff": 8,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 1,
+          "away_score": 2,
+          "score": "1:2",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -236,7 +246,7 @@
       "id": "espn:401841628",
       "league": "Аргентина Примера",
       "first_seen": "2026-10-16T10:33:23.426311",
-      "last_seen": "2026-10-18T10:16:41.907198",
+      "last_seen": "2026-10-18T19:59:28.781914",
       "match": {
         "source": "espn",
         "event_id": "401841628",
@@ -300,9 +310,14 @@
         "value_pos": 7,
         "pos_diff": 6,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 1,
+          "away_score": 1,
+          "score": "1:1",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -337,9 +352,14 @@
         "value_pos": 7,
         "pos_diff": 7,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 3,
+          "away_score": 1,
+          "score": "3:1",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -3442,5 +3462,5 @@
       }
     }
   ],
-  "generated_at": "2026-10-18T10:16:41.907198"
+  "generated_at": "2026-10-18T19:59:28.781914"
 }

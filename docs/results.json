@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-18T10:16:41.907198",
+  "generated_at": "2026-10-18T19:59:28.781914",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 23,
-    "fixtures_found": 97,
-    "with_odds": 34,
+    "leagues_checked": 16,
+    "fixtures_found": 46,
+    "with_odds": 15,
     "leagues_detail": [
       [
         "bra.1",
@@ -72,7 +72,7 @@
       [
         "ven.1",
         "Венесуэла Примера",
-        "ok"
+        "no_matches"
       ],
       [
         "mex.1",
@@ -82,7 +82,7 @@
       [
         "mex.2",
         "Мексика Лига Экспансьон",
-        "ok"
+        "no_matches"
       ],
       [
         "usa.1",
@@ -107,7 +107,7 @@
       [
         "chn.1",
         "Китай Суперлига",
-        "ok"
+        "no_matches"
       ],
       [
         "ind.1",
@@ -162,7 +162,7 @@
       [
         "nor.1",
         "Норвегия Элитесерен",
-        "ok"
+        "no_matches"
       ],
       [
         "nor.2",
@@ -197,7 +197,7 @@
       [
         "sco.1",
         "Шотландия Премьершип",
-        "ok"
+        "no_matches"
       ],
       [
         "sco.2",
@@ -227,7 +227,7 @@
       [
         "gre.1",
         "Греция Суперлига",
-        "ok"
+        "no_matches"
       ],
       [
         "rou.1",
@@ -237,7 +237,7 @@
       [
         "aut.1",
         "Австрия Бундеслига",
-        "ok"
+        "no_matches"
       ],
       [
         "bel.1",
@@ -293,111 +293,6 @@
       }
     },
     {
-      "league": "Турция Суперлига",
-      "match": {
-        "source": "espn",
-        "event_id": "401888272",
-        "fixture_id": null,
-        "league_slug": "tur.1",
-        "league_id": null,
-        "season": null,
-        "home": "Kocaelispor",
-        "away": "Goztepe",
-        "home_pos": 7,
-        "away_pos": 15,
-        "home_pts": 12,
-        "away_pts": 6,
-        "home_form": "DWLWW",
-        "away_form": "DDDLL",
-        "home_odds": 2.84,
-        "draw_odds": 3.16,
-        "away_odds": 2.43,
-        "bookmaker": "Nordic Bet",
-        "time": "2026-10-18T13:00Z",
-        "value_team": "Kocaelispor",
-        "value_side": "home",
-        "value_odds": 2.84,
-        "value_pos": 7,
-        "pos_diff": 8,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401888272"
-      }
-    },
-    {
-      "league": "Норвегия Элитесерен",
-      "match": {
-        "source": "espn",
-        "event_id": "401843466",
-        "fixture_id": null,
-        "league_slug": "nor.1",
-        "league_id": null,
-        "season": null,
-        "home": "Vålerenga",
-        "away": "SK Brann",
-        "home_pos": 14,
-        "away_pos": 7,
-        "home_pts": 23,
-        "away_pts": 29,
-        "home_form": "DDLDL",
-        "away_form": "DLWLL",
-        "home_odds": 2.3,
-        "draw_odds": 3.8,
-        "away_odds": 2.7,
-        "bookmaker": "Unibet (NL)",
-        "time": "2026-10-18T15:00Z",
-        "value_team": "SK Brann",
-        "value_side": "away",
-        "value_odds": 2.7,
-        "value_pos": 7,
-        "pos_diff": 7,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401843466"
-      }
-    },
-    {
-      "league": "Аргентина Примера",
-      "match": {
-        "source": "espn",
-        "event_id": "401841618",
-        "fixture_id": null,
-        "league_slug": "arg.1",
-        "league_id": null,
-        "season": null,
-        "home": "Racing Club",
-        "away": "Independiente",
-        "home_pos": 13,
-        "away_pos": 7,
-        "home_pts": 11,
-        "away_pts": 18,
-        "home_form": "DWLWL",
-        "away_form": "DLWDW",
-        "home_odds": 2.1,
-        "draw_odds": 3.0,
-        "away_odds": 3.25,
-        "bookmaker": "Winamax (FR)",
-        "time": "2026-10-18T17:45Z",
-        "value_team": "Independiente",
-        "value_side": "away",
-        "value_odds": 3.25,
-        "value_pos": 7,
-        "pos_diff": 6,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401841618"
-      }
-    },
-    {
       "league": "Аргентина Примера",
       "match": {
         "source": "espn",
@@ -430,41 +325,6 @@
           "label": "матч не завершен"
         },
         "signal_id": "espn:401841628"
-      }
-    },
-    {
-      "league": "Норвегия Элитесерен",
-      "match": {
-        "source": "espn",
-        "event_id": "401843461",
-        "fixture_id": null,
-        "league_slug": "nor.1",
-        "league_id": null,
-        "season": null,
-        "home": "Sarpsborg FK",
-        "away": "Rosenborg",
-        "home_pos": 9,
-        "away_pos": 5,
-        "home_pts": 28,
-        "away_pts": 34,
-        "home_form": "DLDDD",
-        "away_form": "DWWWL",
-        "home_odds": 2.2,
-        "draw_odds": 3.5,
-        "away_odds": 2.55,
-        "bookmaker": "PMU (FR)",
-        "time": "2026-10-18T12:30Z",
-        "value_team": "Rosenborg",
-        "value_side": "away",
-        "value_odds": 2.55,
-        "value_pos": 5,
-        "pos_diff": 4,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401843461"
       }
     }
   ],
