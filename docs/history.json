@@ -4,7 +4,7 @@
       "id": "espn:401876937",
       "league": "Мексика Лига MX",
       "first_seen": "2026-10-18T10:16:41.907198",
-      "last_seen": "2026-10-18T19:59:28.781914",
+      "last_seen": "2026-10-19T11:56:01.103231",
       "match": {
         "source": "espn",
         "event_id": "401876937",
@@ -22,12 +22,12 @@
         "away_form": "DWWDW",
         "home_odds": 2.25,
         "draw_odds": 3.4,
-        "away_odds": 2.88,
+        "away_odds": 2.85,
         "bookmaker": "Unibet (NL)",
         "time": "2026-10-21T01:00Z",
         "value_team": "Querétaro",
         "value_side": "away",
-        "value_odds": 2.88,
+        "value_odds": 2.85,
         "value_pos": 6,
         "pos_diff": 9,
         "settlement": {
@@ -273,9 +273,14 @@
         "value_pos": 3,
         "pos_diff": 6,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 0,
+          "away_score": 3,
+          "score": "0:3",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -3462,5 +3467,5 @@
       }
     }
   ],
-  "generated_at": "2026-10-18T19:59:28.781914"
+  "generated_at": "2026-10-19T11:56:01.103231"
 }

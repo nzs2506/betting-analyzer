@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-18T19:59:28.781914",
+  "generated_at": "2026-10-19T11:56:01.103231",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 16,
-    "fixtures_found": 46,
-    "with_odds": 15,
+    "leagues_checked": 14,
+    "fixtures_found": 40,
+    "with_odds": 23,
     "leagues_detail": [
       [
         "bra.1",
@@ -57,17 +57,17 @@
       [
         "bol.1",
         "Боливия Лига",
-        "ok"
+        "no_matches"
       ],
       [
         "par.1",
         "Парагвай Примера",
-        "ok"
+        "no_matches"
       ],
       [
         "per.1",
         "Перу Лига 1",
-        "ok"
+        "no_matches"
       ],
       [
         "ven.1",
@@ -97,7 +97,7 @@
       [
         "jpn.1",
         "Япония J-League",
-        "no_matches"
+        "ok"
       ],
       [
         "jpn.2",
@@ -276,12 +276,12 @@
         "away_form": "DWWDW",
         "home_odds": 2.25,
         "draw_odds": 3.4,
-        "away_odds": 2.88,
+        "away_odds": 2.85,
         "bookmaker": "Unibet (NL)",
         "time": "2026-10-21T01:00Z",
         "value_team": "Querétaro",
         "value_side": "away",
-        "value_odds": 2.88,
+        "value_odds": 2.85,
         "value_pos": 6,
         "pos_diff": 9,
         "settlement": {
@@ -290,41 +290,6 @@
           "label": "матч не завершен"
         },
         "signal_id": "espn:401876937"
-      }
-    },
-    {
-      "league": "Аргентина Примера",
-      "match": {
-        "source": "espn",
-        "event_id": "401841628",
-        "fixture_id": null,
-        "league_slug": "arg.1",
-        "league_id": null,
-        "season": null,
-        "home": "Belgrano (Córdoba)",
-        "away": "River Plate",
-        "home_pos": 3,
-        "away_pos": 9,
-        "home_pts": 22,
-        "away_pts": 17,
-        "home_form": "DWWDD",
-        "away_form": "DWLWW",
-        "home_odds": 3.2,
-        "draw_odds": 3.0,
-        "away_odds": 2.15,
-        "bookmaker": "Winamax (DE)",
-        "time": "2026-10-18T23:15Z",
-        "value_team": "Belgrano (Córdoba)",
-        "value_side": "home",
-        "value_odds": 3.2,
-        "value_pos": 3,
-        "pos_diff": 6,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401841628"
       }
     }
   ],
