@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-19T11:56:01.103231",
+  "generated_at": "2026-10-19T21:56:51.908869",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 14,
-    "fixtures_found": 40,
-    "with_odds": 23,
+    "leagues_checked": 9,
+    "fixtures_found": 35,
+    "with_odds": 20,
     "leagues_detail": [
       [
         "bra.1",
@@ -32,7 +32,7 @@
       [
         "arg.2",
         "Аргентина Насьональ Б",
-        "ok"
+        "no_matches"
       ],
       [
         "chi.1",
@@ -112,7 +112,7 @@
       [
         "ind.1",
         "Индия Суперлига",
-        "ok"
+        "no_matches"
       ],
       [
         "idn.1",
@@ -172,7 +172,7 @@
       [
         "swe.1",
         "Швеция Алльсвенскан",
-        "ok"
+        "no_matches"
       ],
       [
         "swe.2",
@@ -182,7 +182,7 @@
       [
         "den.1",
         "Дания Суперлига",
-        "ok"
+        "no_matches"
       ],
       [
         "den.2",
@@ -217,7 +217,7 @@
       [
         "tur.1",
         "Турция Суперлига",
-        "ok"
+        "no_matches"
       ],
       [
         "tur.2",
@@ -274,7 +274,7 @@
         "away_pts": 20,
         "home_form": "DLWWL",
         "away_form": "DWWDW",
-        "home_odds": 2.25,
+        "home_odds": 2.28,
         "draw_odds": 3.4,
         "away_odds": 2.85,
         "bookmaker": "Unibet (NL)",

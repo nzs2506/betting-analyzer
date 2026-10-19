@@ -4,7 +4,7 @@
       "id": "espn:401876937",
       "league": "Мексика Лига MX",
       "first_seen": "2026-10-18T10:16:41.907198",
-      "last_seen": "2026-10-19T11:56:01.103231",
+      "last_seen": "2026-10-19T21:56:51.908869",
       "match": {
         "source": "espn",
         "event_id": "401876937",
@@ -20,7 +20,7 @@
         "away_pts": 20,
         "home_form": "DLWWL",
         "away_form": "DWWDW",
-        "home_odds": 2.25,
+        "home_odds": 2.28,
         "draw_odds": 3.4,
         "away_odds": 2.85,
         "bookmaker": "Unibet (NL)",
@@ -3467,5 +3467,5 @@
       }
     }
   ],
-  "generated_at": "2026-10-19T11:56:01.103231"
+  "generated_at": "2026-10-19T21:56:51.908869"
 }
