@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-20T10:50:56.431141",
+  "generated_at": "2026-10-20T21:10:16.008711",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 7,
-    "fixtures_found": 30,
+    "leagues_checked": 6,
+    "fixtures_found": 29,
     "with_odds": 17,
     "leagues_detail": [
       [
@@ -72,7 +72,7 @@
       [
         "ven.1",
         "Венесуэла Примера",
-        "no_data"
+        "no_matches"
       ],
       [
         "mex.1",
@@ -202,7 +202,7 @@
       [
         "sco.2",
         "Шотландия Чемпионшип",
-        "ok"
+        "no_matches"
       ],
       [
         "irl.1",
