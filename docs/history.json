@@ -4,7 +4,7 @@
       "id": "espn:401876937",
       "league": "Мексика Лига MX",
       "first_seen": "2026-10-18T10:16:41.907198",
-      "last_seen": "2026-10-19T21:56:51.908869",
+      "last_seen": "2026-10-20T10:50:56.431141",
       "match": {
         "source": "espn",
         "event_id": "401876937",
@@ -110,9 +110,14 @@
         "value_pos": 12,
         "pos_diff": 4,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 1,
+          "away_score": 1,
+          "score": "1:1",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -3467,5 +3472,5 @@
       }
     }
   ],
-  "generated_at": "2026-10-19T21:56:51.908869"
+  "generated_at": "2026-10-20T10:50:56.431141"
 }

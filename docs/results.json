@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-19T21:56:51.908869",
+  "generated_at": "2026-10-20T10:50:56.431141",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 9,
-    "fixtures_found": 35,
-    "with_odds": 20,
+    "leagues_checked": 7,
+    "fixtures_found": 30,
+    "with_odds": 17,
     "leagues_detail": [
       [
         "bra.1",
         "Бразилия Серия А",
-        "ok"
+        "no_matches"
       ],
       [
         "bra.2",
@@ -27,7 +27,7 @@
       [
         "arg.1",
         "Аргентина Примера",
-        "ok"
+        "no_matches"
       ],
       [
         "arg.2",
@@ -47,7 +47,7 @@
       [
         "uru.1",
         "Уругвай Лига",
-        "ok"
+        "no_matches"
       ],
       [
         "ecu.1",
@@ -72,7 +72,7 @@
       [
         "ven.1",
         "Венесуэла Примера",
-        "no_matches"
+        "no_data"
       ],
       [
         "mex.1",
@@ -82,7 +82,7 @@
       [
         "mex.2",
         "Мексика Лига Экспансьон",
-        "no_matches"
+        "ok"
       ],
       [
         "usa.1",
