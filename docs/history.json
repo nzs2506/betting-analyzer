@@ -1,6 +1,43 @@
 {
   "signals": [
     {
+      "id": "espn:401850668",
+      "league": "Чили Примера",
+      "first_seen": "2026-10-21T11:02:56.616931",
+      "last_seen": "2026-10-21T11:02:56.616931",
+      "match": {
+        "source": "espn",
+        "event_id": "401850668",
+        "fixture_id": null,
+        "league_slug": "chi.1",
+        "league_id": null,
+        "season": null,
+        "home": "Audax Italiano",
+        "away": "Huachipato",
+        "home_pos": 12,
+        "away_pos": 7,
+        "home_pts": 28,
+        "away_pts": 34,
+        "home_form": "LDWWL",
+        "away_form": "DWWDL",
+        "home_odds": 2.0,
+        "draw_odds": 3.2,
+        "away_odds": 3.25,
+        "bookmaker": "888sport",
+        "time": "2026-10-23T23:00Z",
+        "value_team": "Huachipato",
+        "value_side": "away",
+        "value_odds": 3.25,
+        "value_pos": 7,
+        "pos_diff": 5,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
       "id": "espn:401876937",
       "league": "Мексика Лига MX",
       "first_seen": "2026-10-18T10:16:41.907198",
@@ -31,9 +68,14 @@
         "value_pos": 6,
         "pos_diff": 9,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 2,
+          "away_score": 1,
+          "score": "2:1",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -3472,5 +3514,5 @@
       }
     }
   ],
-  "generated_at": "2026-10-20T21:10:16.008711"
+  "generated_at": "2026-10-21T11:02:56.616931"
 }

@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-20T21:10:16.008711",
+  "generated_at": "2026-10-21T11:02:56.616931",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 6,
-    "fixtures_found": 29,
+    "leagues_checked": 18,
+    "fixtures_found": 35,
     "with_odds": 17,
     "leagues_detail": [
       [
         "bra.1",
         "Бразилия Серия А",
-        "no_matches"
+        "ok"
       ],
       [
         "bra.2",
@@ -27,7 +27,7 @@
       [
         "arg.1",
         "Аргентина Примера",
-        "no_matches"
+        "ok"
       ],
       [
         "arg.2",
@@ -37,7 +37,7 @@
       [
         "chi.1",
         "Чили Примера",
-        "no_matches"
+        "ok"
       ],
       [
         "col.1",
@@ -47,7 +47,7 @@
       [
         "uru.1",
         "Уругвай Лига",
-        "no_matches"
+        "ok"
       ],
       [
         "ecu.1",
@@ -62,12 +62,12 @@
       [
         "par.1",
         "Парагвай Примера",
-        "no_matches"
+        "ok"
       ],
       [
         "per.1",
         "Перу Лига 1",
-        "no_matches"
+        "ok"
       ],
       [
         "ven.1",
@@ -97,7 +97,7 @@
       [
         "jpn.1",
         "Япония J-League",
-        "ok"
+        "no_matches"
       ],
       [
         "jpn.2",
@@ -112,7 +112,7 @@
       [
         "ind.1",
         "Индия Суперлига",
-        "no_matches"
+        "ok"
       ],
       [
         "idn.1",
@@ -132,7 +132,7 @@
       [
         "aus.1",
         "Австралия А-Лига",
-        "no_matches"
+        "ok"
       ],
       [
         "nga.1",
@@ -172,7 +172,7 @@
       [
         "swe.1",
         "Швеция Алльсвенскан",
-        "no_matches"
+        "ok"
       ],
       [
         "swe.2",
@@ -182,7 +182,7 @@
       [
         "den.1",
         "Дания Суперлига",
-        "no_matches"
+        "ok"
       ],
       [
         "den.2",
@@ -217,7 +217,7 @@
       [
         "tur.1",
         "Турция Суперлига",
-        "no_matches"
+        "ok"
       ],
       [
         "tur.2",
@@ -237,12 +237,12 @@
       [
         "aut.1",
         "Австрия Бундеслига",
-        "no_matches"
+        "ok"
       ],
       [
         "bel.1",
         "Бельгия Про Лига",
-        "no_matches"
+        "ok"
       ],
       [
         "api-football",
@@ -258,40 +258,40 @@
   },
   "results": [
     {
-      "league": "Мексика Лига MX",
+      "league": "Чили Примера",
       "match": {
         "source": "espn",
-        "event_id": "401876937",
+        "event_id": "401850668",
         "fixture_id": null,
-        "league_slug": "mex.1",
+        "league_slug": "chi.1",
         "league_id": null,
         "season": null,
-        "home": "Atlético de San Luis",
-        "away": "Querétaro",
-        "home_pos": 15,
-        "away_pos": 6,
-        "home_pts": 13,
-        "away_pts": 20,
-        "home_form": "DLWWL",
-        "away_form": "DWWDW",
-        "home_odds": 2.28,
-        "draw_odds": 3.4,
-        "away_odds": 2.85,
-        "bookmaker": "Unibet (NL)",
-        "time": "2026-10-21T01:00Z",
-        "value_team": "Querétaro",
+        "home": "Audax Italiano",
+        "away": "Huachipato",
+        "home_pos": 12,
+        "away_pos": 7,
+        "home_pts": 28,
+        "away_pts": 34,
+        "home_form": "LDWWL",
+        "away_form": "DWWDL",
+        "home_odds": 2.0,
+        "draw_odds": 3.2,
+        "away_odds": 3.25,
+        "bookmaker": "888sport",
+        "time": "2026-10-23T23:00Z",
+        "value_team": "Huachipato",
         "value_side": "away",
-        "value_odds": 2.85,
-        "value_pos": 6,
-        "pos_diff": 9,
+        "value_odds": 3.25,
+        "value_pos": 7,
+        "pos_diff": 5,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
           "label": "матч не завершен"
         },
-        "signal_id": "espn:401876937"
+        "signal_id": "espn:401850668"
       }
     }
   ],
-  "history_count": 83
+  "history_count": 84
 }
