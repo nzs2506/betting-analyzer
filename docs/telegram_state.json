@@ -35,6 +35,7 @@
         "espn:401850604",
         "espn:401850662",
         "espn:401850664",
+        "espn:401850668",
         "espn:401860231",
         "espn:401860247",
         "espn:401860251",
@@ -170,9 +171,10 @@
         "espn:401843461": "completed|win|0:3",
         "espn:401841619": "completed|win|0:1",
         "espn:401841272": "completed|lose|1:1",
-        "espn:401876937": "pending||"
+        "espn:401876937": "completed|lose|2:1",
+        "espn:401850668": "pending||"
       },
-      "last_seen_report": "2026-10-20T21:10:16.008711",
+      "last_seen_report": "2026-10-21T11:02:56.616931",
       "last_heartbeat_slot": "2026-10-21:morning",
       "last_empty_report": "2026-10-04T20:48:11.074857"
     },
@@ -211,6 +213,7 @@
         "espn:401850604",
         "espn:401850662",
         "espn:401850664",
+        "espn:401850668",
         "espn:401860231",
         "espn:401860247",
         "espn:401860251",
@@ -346,9 +349,10 @@
         "espn:401843461": "completed|win|0:3",
         "espn:401841619": "completed|win|0:1",
         "espn:401841272": "completed|lose|1:1",
-        "espn:401876937": "pending||"
+        "espn:401876937": "completed|lose|2:1",
+        "espn:401850668": "pending||"
       },
-      "last_seen_report": "2026-10-20T21:10:16.008711",
+      "last_seen_report": "2026-10-21T11:02:56.616931",
       "last_heartbeat_slot": "2026-06-21:evening",
       "last_empty_report": "2026-06-22T18:58:38.572929",
       "send_error": "403"
@@ -388,6 +392,7 @@
         "espn:401850604",
         "espn:401850662",
         "espn:401850664",
+        "espn:401850668",
         "espn:401860231",
         "espn:401860247",
         "espn:401860251",
@@ -523,9 +528,10 @@
         "espn:401843461": "completed|win|0:3",
         "espn:401841619": "completed|win|0:1",
         "espn:401841272": "completed|lose|1:1",
-        "espn:401876937": "pending||"
+        "espn:401876937": "completed|lose|2:1",
+        "espn:401850668": "pending||"
       },
-      "last_seen_report": "2026-10-20T21:10:16.008711",
+      "last_seen_report": "2026-10-21T11:02:56.616931",
       "send_error": "403"
     },
     "351131518": {
@@ -563,6 +569,7 @@
         "espn:401850604",
         "espn:401850662",
         "espn:401850664",
+        "espn:401850668",
         "espn:401860231",
         "espn:401860247",
         "espn:401860251",
@@ -698,11 +705,12 @@
         "espn:401843461": "completed|win|0:3",
         "espn:401841619": "completed|win|0:1",
         "espn:401841272": "completed|lose|1:1",
-        "espn:401876937": "pending||"
+        "espn:401876937": "completed|lose|2:1",
+        "espn:401850668": "pending||"
       },
-      "last_seen_report": "2026-10-20T21:10:16.008711",
+      "last_seen_report": "2026-10-21T11:02:56.616931",
       "send_error": "403"
     }
   },
-  "last_report": "2026-10-20T21:10:16.008711"
+  "last_report": "2026-10-21T11:02:56.616931"
 }
