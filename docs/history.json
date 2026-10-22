@@ -4,7 +4,7 @@
       "id": "espn:401860407",
       "league": "Бразилия Серия Б",
       "first_seen": "2026-10-22T11:01:46.957534",
-      "last_seen": "2026-10-22T11:01:46.957534",
+      "last_seen": "2026-10-22T21:08:00.707853",
       "match": {
         "source": "espn",
         "event_id": "401860407",
@@ -41,7 +41,7 @@
       "id": "espn:761893",
       "league": "США MLS",
       "first_seen": "2026-10-22T11:01:46.957534",
-      "last_seen": "2026-10-22T11:01:46.957534",
+      "last_seen": "2026-10-22T21:08:00.707853",
       "match": {
         "source": "espn",
         "event_id": "761893",
@@ -78,7 +78,7 @@
       "id": "espn:761898",
       "league": "США MLS",
       "first_seen": "2026-10-22T11:01:46.957534",
-      "last_seen": "2026-10-22T11:01:46.957534",
+      "last_seen": "2026-10-22T21:08:00.707853",
       "match": {
         "source": "espn",
         "event_id": "761898",
@@ -98,7 +98,7 @@
         "draw_odds": 3.5,
         "away_odds": 2.45,
         "bookmaker": "Unibet (FR)",
-        "time": "2026-10-25T00:30Z",
+        "time": "2026-10-25T01:30Z",
         "value_team": "St. Louis CITY SC",
         "value_side": "away",
         "value_odds": 2.45,
@@ -115,7 +115,7 @@
       "id": "espn:401841285",
       "league": "Бразилия Серия А",
       "first_seen": "2026-10-22T11:01:46.957534",
-      "last_seen": "2026-10-22T11:01:46.957534",
+      "last_seen": "2026-10-22T21:08:00.707853",
       "match": {
         "source": "espn",
         "event_id": "401841285",
@@ -131,14 +131,14 @@
         "away_pts": 39,
         "home_form": "DDWLW",
         "away_form": "DDLLW",
-        "home_odds": 1.76,
-        "draw_odds": 3.55,
-        "away_odds": 3.65,
+        "home_odds": 1.86,
+        "draw_odds": 3.45,
+        "away_odds": 3.35,
         "bookmaker": "Winamax (FR)",
         "time": "2026-10-24T19:30Z",
         "value_team": "Botafogo",
         "value_side": "away",
-        "value_odds": 3.65,
+        "value_odds": 3.35,
         "value_pos": 11,
         "pos_diff": 6,
         "settlement": {
@@ -152,7 +152,7 @@
       "id": "espn:761902",
       "league": "США MLS",
       "first_seen": "2026-10-22T11:01:46.957534",
-      "last_seen": "2026-10-22T11:01:46.957534",
+      "last_seen": "2026-10-22T21:08:00.707853",
       "match": {
         "source": "espn",
         "event_id": "761902",
@@ -189,7 +189,7 @@
       "id": "espn:401841284",
       "league": "Бразилия Серия А",
       "first_seen": "2026-10-22T11:01:46.957534",
-      "last_seen": "2026-10-22T11:01:46.957534",
+      "last_seen": "2026-10-22T21:08:00.707853",
       "match": {
         "source": "espn",
         "event_id": "401841284",
@@ -226,7 +226,7 @@
       "id": "espn:761901",
       "league": "США MLS",
       "first_seen": "2026-10-22T11:01:46.957534",
-      "last_seen": "2026-10-22T11:01:46.957534",
+      "last_seen": "2026-10-22T21:08:00.707853",
       "match": {
         "source": "espn",
         "event_id": "761901",
@@ -263,7 +263,7 @@
       "id": "espn:401860403",
       "league": "Бразилия Серия Б",
       "first_seen": "2026-10-22T11:01:46.957534",
-      "last_seen": "2026-10-22T11:01:46.957534",
+      "last_seen": "2026-10-22T21:08:00.707853",
       "match": {
         "source": "espn",
         "event_id": "401860403",
@@ -300,7 +300,7 @@
       "id": "espn:401860404",
       "league": "Бразилия Серия Б",
       "first_seen": "2026-10-22T11:01:46.957534",
-      "last_seen": "2026-10-22T11:01:46.957534",
+      "last_seen": "2026-10-22T21:08:00.707853",
       "match": {
         "source": "espn",
         "event_id": "401860404",
@@ -316,14 +316,14 @@
         "away_pts": 61,
         "home_form": "DDLWW",
         "away_form": "DWWWD",
-        "home_odds": 2.35,
-        "draw_odds": 3.3,
-        "away_odds": 2.95,
+        "home_odds": 2.32,
+        "draw_odds": 3.35,
+        "away_odds": 3.0,
         "bookmaker": "Unibet (NL)",
         "time": "2026-10-24T19:30Z",
         "value_team": "Novorizontino",
         "value_side": "away",
-        "value_odds": 2.95,
+        "value_odds": 3.0,
         "value_pos": 2,
         "pos_diff": 4,
         "settlement": {
@@ -337,7 +337,7 @@
       "id": "espn:401850668",
       "league": "Чили Примера",
       "first_seen": "2026-10-21T11:02:56.616931",
-      "last_seen": "2026-10-22T11:01:46.957534",
+      "last_seen": "2026-10-22T21:08:00.707853",
       "match": {
         "source": "espn",
         "event_id": "401850668",
@@ -3847,5 +3847,5 @@
       }
     }
   ],
-  "generated_at": "2026-10-22T11:01:46.957534"
+  "generated_at": "2026-10-22T21:08:00.707853"
 }

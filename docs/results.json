@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-22T11:01:46.957534",
+  "generated_at": "2026-10-22T21:08:00.707853",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
     "leagues_checked": 27,
-    "fixtures_found": 134,
+    "fixtures_found": 133,
     "with_odds": 59,
     "leagues_detail": [
       [
@@ -348,7 +348,7 @@
         "draw_odds": 3.5,
         "away_odds": 2.45,
         "bookmaker": "Unibet (FR)",
-        "time": "2026-10-25T00:30Z",
+        "time": "2026-10-25T01:30Z",
         "value_team": "St. Louis CITY SC",
         "value_side": "away",
         "value_odds": 2.45,
@@ -379,14 +379,14 @@
         "away_pts": 39,
         "home_form": "DDWLW",
         "away_form": "DDLLW",
-        "home_odds": 1.76,
-        "draw_odds": 3.55,
-        "away_odds": 3.65,
+        "home_odds": 1.86,
+        "draw_odds": 3.45,
+        "away_odds": 3.35,
         "bookmaker": "Winamax (FR)",
         "time": "2026-10-24T19:30Z",
         "value_team": "Botafogo",
         "value_side": "away",
-        "value_odds": 3.65,
+        "value_odds": 3.35,
         "value_pos": 11,
         "pos_diff": 6,
         "settlement": {
@@ -589,14 +589,14 @@
         "away_pts": 61,
         "home_form": "DDLWW",
         "away_form": "DWWWD",
-        "home_odds": 2.35,
-        "draw_odds": 3.3,
-        "away_odds": 2.95,
+        "home_odds": 2.32,
+        "draw_odds": 3.35,
+        "away_odds": 3.0,
         "bookmaker": "Unibet (NL)",
         "time": "2026-10-24T19:30Z",
         "value_team": "Novorizontino",
         "value_side": "away",
-        "value_odds": 2.95,
+        "value_odds": 3.0,
         "value_pos": 2,
         "pos_diff": 4,
         "settlement": {
