@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-23T10:55:11.121837",
+  "generated_at": "2026-10-23T20:54:36.923348",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
     "leagues_checked": 27,
-    "fixtures_found": 209,
-    "with_odds": 85,
+    "fixtures_found": 199,
+    "with_odds": 80,
     "leagues_detail": [
       [
         "bra.1",
@@ -296,41 +296,6 @@
       "league": "США MLS",
       "match": {
         "source": "espn",
-        "event_id": "761893",
-        "fixture_id": null,
-        "league_slug": "usa.1",
-        "league_id": null,
-        "season": null,
-        "home": "Atlanta United FC",
-        "away": "Chicago Fire FC",
-        "home_pos": 14,
-        "away_pos": 4,
-        "home_pts": 30,
-        "away_pts": 48,
-        "home_form": "DWLDW",
-        "away_form": "DLWWW",
-        "home_odds": 2.45,
-        "draw_odds": 3.8,
-        "away_odds": 2.5,
-        "bookmaker": "Unibet (NL)",
-        "time": "2026-10-24T23:30Z",
-        "value_team": "Chicago Fire FC",
-        "value_side": "away",
-        "value_odds": 2.5,
-        "value_pos": 4,
-        "pos_diff": 10,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:761893"
-      }
-    },
-    {
-      "league": "США MLS",
-      "match": {
-        "source": "espn",
         "event_id": "761898",
         "fixture_id": null,
         "league_slug": "usa.1",
@@ -360,41 +325,6 @@
           "label": "матч не завершен"
         },
         "signal_id": "espn:761898"
-      }
-    },
-    {
-      "league": "Турция Суперлига",
-      "match": {
-        "source": "espn",
-        "event_id": "401888376",
-        "fixture_id": null,
-        "league_slug": "tur.1",
-        "league_id": null,
-        "season": null,
-        "home": "Goztepe",
-        "away": "Çorum FK",
-        "home_pos": 13,
-        "away_pos": 6,
-        "home_pts": 9,
-        "away_pts": 13,
-        "home_form": "DWDDL",
-        "away_form": "DWLWW",
-        "home_odds": 2.23,
-        "draw_odds": 3.45,
-        "away_odds": 2.75,
-        "bookmaker": "LeoVegas (SE)",
-        "time": "2026-10-25T16:00Z",
-        "value_team": "Çorum FK",
-        "value_side": "away",
-        "value_odds": 2.75,
-        "value_pos": 6,
-        "pos_diff": 7,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401888376"
       }
     },
     {
@@ -468,6 +398,41 @@
       }
     },
     {
+      "league": "Турция Суперлига",
+      "match": {
+        "source": "espn",
+        "event_id": "401888376",
+        "fixture_id": null,
+        "league_slug": "tur.1",
+        "league_id": null,
+        "season": null,
+        "home": "Goztepe",
+        "away": "Çorum FK",
+        "home_pos": 13,
+        "away_pos": 7,
+        "home_pts": 9,
+        "away_pts": 13,
+        "home_form": "DWDDL",
+        "away_form": "DWLWW",
+        "home_odds": 2.23,
+        "draw_odds": 3.45,
+        "away_odds": 2.75,
+        "bookmaker": "LeoVegas (SE)",
+        "time": "2026-10-25T16:00Z",
+        "value_team": "Çorum FK",
+        "value_side": "away",
+        "value_odds": 2.75,
+        "value_pos": 7,
+        "pos_diff": 6,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401888376"
+      }
+    },
+    {
       "league": "Бразилия Серия А",
       "match": {
         "source": "espn",
@@ -520,13 +485,13 @@
         "home_form": "LDWWL",
         "away_form": "DWWDL",
         "home_odds": 1.95,
-        "draw_odds": 3.25,
-        "away_odds": 3.4,
+        "draw_odds": 3.3,
+        "away_odds": 3.3,
         "bookmaker": "888sport",
         "time": "2026-10-23T23:00Z",
         "value_team": "Huachipato",
         "value_side": "away",
-        "value_odds": 3.4,
+        "value_odds": 3.3,
         "value_pos": 7,
         "pos_diff": 5,
         "settlement": {
@@ -535,6 +500,41 @@
           "label": "матч не завершен"
         },
         "signal_id": "espn:401850668"
+      }
+    },
+    {
+      "league": "Мексика Лига MX",
+      "match": {
+        "source": "espn",
+        "event_id": "401876925",
+        "fixture_id": null,
+        "league_slug": "mex.1",
+        "league_id": null,
+        "season": null,
+        "home": "Monterrey",
+        "away": "Guadalajara",
+        "home_pos": 7,
+        "away_pos": 2,
+        "home_pts": 20,
+        "away_pts": 23,
+        "home_form": "DWDLW",
+        "away_form": "DDDLD",
+        "home_odds": 2.17,
+        "draw_odds": 3.3,
+        "away_odds": 2.7,
+        "bookmaker": "LeoVegas (SE)",
+        "time": "2026-10-25T01:00Z",
+        "value_team": "Guadalajara",
+        "value_side": "away",
+        "value_odds": 2.7,
+        "value_pos": 2,
+        "pos_diff": 5,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401876925"
       }
     },
     {
@@ -591,12 +591,12 @@
         "away_form": "DWWLW",
         "home_odds": 2.3,
         "draw_odds": 3.15,
-        "away_odds": 3.2,
+        "away_odds": 3.15,
         "bookmaker": "Unibet (SE)",
         "time": "2026-10-24T19:00Z",
         "value_team": "Botafogo-SP",
         "value_side": "away",
-        "value_odds": 3.2,
+        "value_odds": 3.15,
         "value_pos": 13,
         "pos_diff": 4,
         "settlement": {
@@ -643,5 +643,5 @@
       }
     }
   ],
-  "history_count": 94
+  "history_count": 95
 }
