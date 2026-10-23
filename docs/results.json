@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-22T21:08:00.707853",
+  "generated_at": "2026-10-23T10:55:11.121837",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
     "leagues_checked": 27,
-    "fixtures_found": 133,
-    "with_odds": 59,
+    "fixtures_found": 209,
+    "with_odds": 85,
     "leagues_detail": [
       [
         "bra.1",
@@ -344,14 +344,14 @@
         "away_pts": 51,
         "home_form": "DDLWL",
         "away_form": "DLDWW",
-        "home_odds": 2.25,
-        "draw_odds": 3.5,
-        "away_odds": 2.45,
+        "home_odds": 2.2,
+        "draw_odds": 3.6,
+        "away_odds": 2.55,
         "bookmaker": "Unibet (FR)",
         "time": "2026-10-25T01:30Z",
         "value_team": "St. Louis CITY SC",
         "value_side": "away",
-        "value_odds": 2.45,
+        "value_odds": 2.55,
         "value_pos": 2,
         "pos_diff": 8,
         "settlement": {
@@ -360,6 +360,41 @@
           "label": "матч не завершен"
         },
         "signal_id": "espn:761898"
+      }
+    },
+    {
+      "league": "Турция Суперлига",
+      "match": {
+        "source": "espn",
+        "event_id": "401888376",
+        "fixture_id": null,
+        "league_slug": "tur.1",
+        "league_id": null,
+        "season": null,
+        "home": "Goztepe",
+        "away": "Çorum FK",
+        "home_pos": 13,
+        "away_pos": 6,
+        "home_pts": 9,
+        "away_pts": 13,
+        "home_form": "DWDDL",
+        "away_form": "DWLWW",
+        "home_odds": 2.23,
+        "draw_odds": 3.45,
+        "away_odds": 2.75,
+        "bookmaker": "LeoVegas (SE)",
+        "time": "2026-10-25T16:00Z",
+        "value_team": "Çorum FK",
+        "value_side": "away",
+        "value_odds": 2.75,
+        "value_pos": 6,
+        "pos_diff": 7,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401888376"
       }
     },
     {
@@ -380,7 +415,7 @@
         "home_form": "DDWLW",
         "away_form": "DDLLW",
         "home_odds": 1.86,
-        "draw_odds": 3.45,
+        "draw_odds": 3.4,
         "away_odds": 3.35,
         "bookmaker": "Winamax (FR)",
         "time": "2026-10-24T19:30Z",
@@ -449,14 +484,14 @@
         "away_pts": 42,
         "home_form": "DLDWD",
         "away_form": "DWLLW",
-        "home_odds": 2.05,
-        "draw_odds": 3.2,
-        "away_odds": 3.0,
+        "home_odds": 2.15,
+        "draw_odds": 3.15,
+        "away_odds": 2.85,
         "bookmaker": "Winamax (FR)",
         "time": "2026-10-24T19:30Z",
         "value_team": "São Paulo",
         "value_side": "away",
-        "value_odds": 3.0,
+        "value_odds": 2.85,
         "value_pos": 9,
         "pos_diff": 5,
         "settlement": {
@@ -484,14 +519,14 @@
         "away_pts": 34,
         "home_form": "LDWWL",
         "away_form": "DWWDL",
-        "home_odds": 2.0,
-        "draw_odds": 3.2,
-        "away_odds": 3.25,
+        "home_odds": 1.95,
+        "draw_odds": 3.25,
+        "away_odds": 3.4,
         "bookmaker": "888sport",
         "time": "2026-10-23T23:00Z",
         "value_team": "Huachipato",
         "value_side": "away",
-        "value_odds": 3.25,
+        "value_odds": 3.4,
         "value_pos": 7,
         "pos_diff": 5,
         "settlement": {
@@ -608,5 +643,5 @@
       }
     }
   ],
-  "history_count": 93
+  "history_count": 94
 }
