@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-23T20:54:36.923348",
+  "generated_at": "2026-10-24T10:09:58.170446",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 27,
-    "fixtures_found": 199,
-    "with_odds": 80,
+    "leagues_checked": 26,
+    "fixtures_found": 187,
+    "with_odds": 69,
     "leagues_detail": [
       [
         "bra.1",
@@ -107,7 +107,7 @@
       [
         "chn.1",
         "Китай Суперлига",
-        "ok"
+        "no_matches"
       ],
       [
         "ind.1",
@@ -309,14 +309,14 @@
         "away_pts": 51,
         "home_form": "DDLWL",
         "away_form": "DLDWW",
-        "home_odds": 2.2,
+        "home_odds": 2.05,
         "draw_odds": 3.6,
-        "away_odds": 2.55,
+        "away_odds": 2.75,
         "bookmaker": "Unibet (FR)",
         "time": "2026-10-25T01:30Z",
         "value_team": "St. Louis CITY SC",
         "value_side": "away",
-        "value_odds": 2.55,
+        "value_odds": 2.75,
         "value_pos": 2,
         "pos_diff": 8,
         "settlement": {
@@ -468,41 +468,6 @@
       }
     },
     {
-      "league": "Чили Примера",
-      "match": {
-        "source": "espn",
-        "event_id": "401850668",
-        "fixture_id": null,
-        "league_slug": "chi.1",
-        "league_id": null,
-        "season": null,
-        "home": "Audax Italiano",
-        "away": "Huachipato",
-        "home_pos": 12,
-        "away_pos": 7,
-        "home_pts": 28,
-        "away_pts": 34,
-        "home_form": "LDWWL",
-        "away_form": "DWWDL",
-        "home_odds": 1.95,
-        "draw_odds": 3.3,
-        "away_odds": 3.3,
-        "bookmaker": "888sport",
-        "time": "2026-10-23T23:00Z",
-        "value_team": "Huachipato",
-        "value_side": "away",
-        "value_odds": 3.3,
-        "value_pos": 7,
-        "pos_diff": 5,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401850668"
-      }
-    },
-    {
       "league": "Мексика Лига MX",
       "match": {
         "source": "espn",
@@ -519,14 +484,14 @@
         "away_pts": 23,
         "home_form": "DWDLW",
         "away_form": "DDDLD",
-        "home_odds": 2.17,
-        "draw_odds": 3.3,
-        "away_odds": 2.7,
+        "home_odds": 2.18,
+        "draw_odds": 3.25,
+        "away_odds": 2.75,
         "bookmaker": "LeoVegas (SE)",
         "time": "2026-10-25T01:00Z",
         "value_team": "Guadalajara",
         "value_side": "away",
-        "value_odds": 2.7,
+        "value_odds": 2.75,
         "value_pos": 2,
         "pos_diff": 5,
         "settlement": {
@@ -556,12 +521,12 @@
         "away_form": "DLWWW",
         "home_odds": 2.23,
         "draw_odds": 4.0,
-        "away_odds": 3.0,
+        "away_odds": 2.95,
         "bookmaker": "LeoVegas (SE)",
         "time": "2026-10-25T02:30Z",
         "value_team": "Seattle Sounders FC",
         "value_side": "away",
-        "value_odds": 3.0,
+        "value_odds": 2.95,
         "value_pos": 7,
         "pos_diff": 5,
         "settlement": {
@@ -624,14 +589,14 @@
         "away_pts": 61,
         "home_form": "DDLWW",
         "away_form": "DWWWD",
-        "home_odds": 2.32,
+        "home_odds": 2.35,
         "draw_odds": 3.35,
-        "away_odds": 3.0,
+        "away_odds": 2.95,
         "bookmaker": "Unibet (NL)",
         "time": "2026-10-24T19:30Z",
         "value_team": "Novorizontino",
         "value_side": "away",
-        "value_odds": 3.0,
+        "value_odds": 2.95,
         "value_pos": 2,
         "pos_diff": 4,
         "settlement": {
