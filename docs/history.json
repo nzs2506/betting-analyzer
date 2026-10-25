@@ -4,7 +4,7 @@
       "id": "espn:401860406",
       "league": "Бразилия Серия Б",
       "first_seen": "2026-10-25T10:35:29.016298",
-      "last_seen": "2026-10-25T10:35:29.016298",
+      "last_seen": "2026-10-25T20:18:45.934687",
       "match": {
         "source": "espn",
         "event_id": "401860406",
@@ -110,9 +110,14 @@
         "value_pos": 9,
         "pos_diff": 4,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 2,
+          "away_score": 0,
+          "score": "2:0",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -4013,5 +4018,5 @@
       }
     }
   ],
-  "generated_at": "2026-10-25T10:35:29.016298"
+  "generated_at": "2026-10-25T20:18:45.934687"
 }

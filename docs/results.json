@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-25T10:35:29.016298",
+  "generated_at": "2026-10-25T20:18:45.934687",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 24,
-    "fixtures_found": 100,
-    "with_odds": 28,
+    "leagues_checked": 19,
+    "fixtures_found": 49,
+    "with_odds": 15,
     "leagues_detail": [
       [
         "bra.1",
@@ -162,7 +162,7 @@
       [
         "nor.1",
         "Норвегия Элитесерен",
-        "ok"
+        "no_matches"
       ],
       [
         "nor.2",
@@ -197,7 +197,7 @@
       [
         "sco.1",
         "Шотландия Премьершип",
-        "ok"
+        "no_matches"
       ],
       [
         "sco.2",
@@ -227,7 +227,7 @@
       [
         "gre.1",
         "Греция Суперлига",
-        "ok"
+        "no_matches"
       ],
       [
         "rou.1",
@@ -237,12 +237,12 @@
       [
         "aut.1",
         "Австрия Бундеслига",
-        "ok"
+        "no_matches"
       ],
       [
         "bel.1",
         "Бельгия Про Лига",
-        "ok"
+        "no_matches"
       ],
       [
         "api-football",
@@ -290,41 +290,6 @@
           "label": "матч не завершен"
         },
         "signal_id": "espn:401860406"
-      }
-    },
-    {
-      "league": "Турция Суперлига",
-      "match": {
-        "source": "espn",
-        "event_id": "401888376",
-        "fixture_id": null,
-        "league_slug": "tur.1",
-        "league_id": null,
-        "season": null,
-        "home": "Goztepe",
-        "away": "Çorum FK",
-        "home_pos": 13,
-        "away_pos": 9,
-        "home_pts": 9,
-        "away_pts": 13,
-        "home_form": "DWDDL",
-        "away_form": "DWLWW",
-        "home_odds": 2.14,
-        "draw_odds": 3.45,
-        "away_odds": 2.85,
-        "bookmaker": "LeoVegas (SE)",
-        "time": "2026-10-25T16:00Z",
-        "value_team": "Çorum FK",
-        "value_side": "away",
-        "value_odds": 2.85,
-        "value_pos": 9,
-        "pos_diff": 4,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401888376"
       }
     }
   ],
