@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-24T20:06:33.103839",
+  "generated_at": "2026-10-25T10:35:29.016298",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 25,
-    "fixtures_found": 140,
-    "with_odds": 51,
+    "leagues_checked": 24,
+    "fixtures_found": 100,
+    "with_odds": 28,
     "leagues_detail": [
       [
         "bra.1",
@@ -97,7 +97,7 @@
       [
         "jpn.1",
         "Япония J-League",
-        "ok"
+        "no_matches"
       ],
       [
         "jpn.2",
@@ -132,7 +132,7 @@
       [
         "aus.1",
         "Австралия А-Лига",
-        "ok"
+        "no_matches"
       ],
       [
         "nga.1",
@@ -202,7 +202,7 @@
       [
         "sco.2",
         "Шотландия Чемпионшип",
-        "no_matches"
+        "ok"
       ],
       [
         "irl.1",
@@ -258,143 +258,38 @@
   },
   "results": [
     {
-      "league": "США MLS",
+      "league": "Бразилия Серия Б",
       "match": {
         "source": "espn",
-        "event_id": "761898",
+        "event_id": "401860406",
         "fixture_id": null,
-        "league_slug": "usa.1",
+        "league_slug": "bra.2",
         "league_id": null,
         "season": null,
-        "home": "Real Salt Lake",
-        "away": "St. Louis CITY SC",
-        "home_pos": 10,
-        "away_pos": 2,
-        "home_pts": 36,
-        "away_pts": 51,
-        "home_form": "DDLWL",
-        "away_form": "DLDWW",
-        "home_odds": 1.85,
-        "draw_odds": 3.7,
-        "away_odds": 3.1,
-        "bookmaker": "Unibet (FR)",
-        "time": "2026-10-25T01:30Z",
-        "value_team": "St. Louis CITY SC",
+        "home": "Ceará",
+        "away": "Goiás",
+        "home_pos": 16,
+        "away_pos": 10,
+        "home_pts": 43,
+        "away_pts": 49,
+        "home_form": "DLWWD",
+        "away_form": "DWWLL",
+        "home_odds": 2.02,
+        "draw_odds": 3.15,
+        "away_odds": 3.55,
+        "bookmaker": "Nordic Bet",
+        "time": "2026-10-27T23:00Z",
+        "value_team": "Goiás",
         "value_side": "away",
-        "value_odds": 3.1,
-        "value_pos": 2,
-        "pos_diff": 8,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:761898"
-      }
-    },
-    {
-      "league": "США MLS",
-      "match": {
-        "source": "espn",
-        "event_id": "761902",
-        "fixture_id": null,
-        "league_slug": "usa.1",
-        "league_id": null,
-        "season": null,
-        "home": "Portland Timbers",
-        "away": "Charlotte FC",
-        "home_pos": 11,
-        "away_pos": 5,
-        "home_pts": 34,
-        "away_pts": 47,
-        "home_form": "DLDLL",
-        "away_form": "DLWLW",
-        "home_odds": 1.7,
-        "draw_odds": 3.9,
-        "away_odds": 3.35,
-        "bookmaker": "PMU (FR)",
-        "time": "2026-10-25T02:30Z",
-        "value_team": "Charlotte FC",
-        "value_side": "away",
-        "value_odds": 3.35,
-        "value_pos": 5,
+        "value_odds": 3.55,
+        "value_pos": 10,
         "pos_diff": 6,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
           "label": "матч не завершен"
         },
-        "signal_id": "espn:761902"
-      }
-    },
-    {
-      "league": "Мексика Лига MX",
-      "match": {
-        "source": "espn",
-        "event_id": "401876925",
-        "fixture_id": null,
-        "league_slug": "mex.1",
-        "league_id": null,
-        "season": null,
-        "home": "Monterrey",
-        "away": "Guadalajara",
-        "home_pos": 7,
-        "away_pos": 2,
-        "home_pts": 20,
-        "away_pts": 23,
-        "home_form": "DWDLW",
-        "away_form": "DDDLD",
-        "home_odds": 2.18,
-        "draw_odds": 3.25,
-        "away_odds": 2.75,
-        "bookmaker": "LeoVegas (SE)",
-        "time": "2026-10-25T01:00Z",
-        "value_team": "Guadalajara",
-        "value_side": "away",
-        "value_odds": 2.75,
-        "value_pos": 2,
-        "pos_diff": 5,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401876925"
-      }
-    },
-    {
-      "league": "США MLS",
-      "match": {
-        "source": "espn",
-        "event_id": "761901",
-        "fixture_id": null,
-        "league_slug": "usa.1",
-        "league_id": null,
-        "season": null,
-        "home": "San Diego FC",
-        "away": "Seattle Sounders FC",
-        "home_pos": 12,
-        "away_pos": 7,
-        "home_pts": 34,
-        "away_pts": 42,
-        "home_form": "DDLDD",
-        "away_form": "DLWWW",
-        "home_odds": 2.23,
-        "draw_odds": 4.0,
-        "away_odds": 2.95,
-        "bookmaker": "LeoVegas (SE)",
-        "time": "2026-10-25T02:30Z",
-        "value_team": "Seattle Sounders FC",
-        "value_side": "away",
-        "value_odds": 2.95,
-        "value_pos": 7,
-        "pos_diff": 5,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:761901"
+        "signal_id": "espn:401860406"
       }
     },
     {
@@ -433,5 +328,5 @@
       }
     }
   ],
-  "history_count": 95
+  "history_count": 96
 }

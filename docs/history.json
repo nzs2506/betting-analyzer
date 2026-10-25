@@ -1,6 +1,43 @@
 {
   "signals": [
     {
+      "id": "espn:401860406",
+      "league": "Бразилия Серия Б",
+      "first_seen": "2026-10-25T10:35:29.016298",
+      "last_seen": "2026-10-25T10:35:29.016298",
+      "match": {
+        "source": "espn",
+        "event_id": "401860406",
+        "fixture_id": null,
+        "league_slug": "bra.2",
+        "league_id": null,
+        "season": null,
+        "home": "Ceará",
+        "away": "Goiás",
+        "home_pos": 16,
+        "away_pos": 10,
+        "home_pts": 43,
+        "away_pts": 49,
+        "home_form": "DLWWD",
+        "away_form": "DWWLL",
+        "home_odds": 2.02,
+        "draw_odds": 3.15,
+        "away_odds": 3.55,
+        "bookmaker": "Nordic Bet",
+        "time": "2026-10-27T23:00Z",
+        "value_team": "Goiás",
+        "value_side": "away",
+        "value_odds": 3.55,
+        "value_pos": 10,
+        "pos_diff": 6,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
       "id": "espn:401876925",
       "league": "Мексика Лига MX",
       "first_seen": "2026-10-23T20:54:36.923348",
@@ -31,9 +68,14 @@
         "value_pos": 2,
         "pos_diff": 5,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 0,
+          "away_score": 1,
+          "score": "0:1",
+          "outcome": "win",
+          "icon": "🟢",
+          "label": "прогноз сработал",
+          "roi": 1.75
         }
       }
     },
@@ -41,7 +83,7 @@
       "id": "espn:401888376",
       "league": "Турция Суперлига",
       "first_seen": "2026-10-23T10:55:11.121837",
-      "last_seen": "2026-10-24T20:06:33.103839",
+      "last_seen": "2026-10-25T10:35:29.016298",
       "match": {
         "source": "espn",
         "event_id": "401888376",
@@ -105,9 +147,14 @@
         "value_pos": 1,
         "pos_diff": 11,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 3,
+          "away_score": 2,
+          "score": "3:2",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -142,9 +189,14 @@
         "value_pos": 4,
         "pos_diff": 10,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 2,
+          "away_score": 3,
+          "score": "2:3",
+          "outcome": "win",
+          "icon": "🟢",
+          "label": "прогноз сработал",
+          "roi": 1.5
         }
       }
     },
@@ -179,9 +231,14 @@
         "value_pos": 2,
         "pos_diff": 8,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 3,
+          "away_score": 0,
+          "score": "3:0",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -216,9 +273,14 @@
         "value_pos": 11,
         "pos_diff": 6,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 3,
+          "away_score": 0,
+          "score": "3:0",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -253,9 +315,14 @@
         "value_pos": 5,
         "pos_diff": 6,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 3,
+          "away_score": 2,
+          "score": "3:2",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -290,9 +357,14 @@
         "value_pos": 9,
         "pos_diff": 5,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 1,
+          "away_score": 1,
+          "score": "1:1",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -327,9 +399,14 @@
         "value_pos": 7,
         "pos_diff": 5,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 2,
+          "away_score": 2,
+          "score": "2:2",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -364,9 +441,14 @@
         "value_pos": 13,
         "pos_diff": 4,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 0,
+          "away_score": 2,
+          "score": "0:2",
+          "outcome": "win",
+          "icon": "🟢",
+          "label": "прогноз сработал",
+          "roi": 2.15
         }
       }
     },
@@ -401,9 +483,14 @@
         "value_pos": 2,
         "pos_diff": 4,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 0,
+          "away_score": 1,
+          "score": "0:1",
+          "outcome": "win",
+          "icon": "🟢",
+          "label": "прогноз сработал",
+          "roi": 1.95
         }
       }
     },
@@ -3926,5 +4013,5 @@
       }
     }
   ],
-  "generated_at": "2026-10-24T20:06:33.103839"
+  "generated_at": "2026-10-25T10:35:29.016298"
 }
