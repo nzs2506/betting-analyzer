@@ -1,10 +1,84 @@
 {
   "signals": [
     {
+      "id": "espn:401842863",
+      "league": "Швеция Алльсвенскан",
+      "first_seen": "2026-10-26T12:08:30.383300",
+      "last_seen": "2026-10-26T12:08:30.383300",
+      "match": {
+        "source": "espn",
+        "event_id": "401842863",
+        "fixture_id": null,
+        "league_slug": "swe.1",
+        "league_id": null,
+        "season": null,
+        "home": "Degerfors IF",
+        "away": "Västerås SK",
+        "home_pos": 14,
+        "away_pos": 6,
+        "home_pts": 20,
+        "away_pts": 38,
+        "home_form": "DLDLL",
+        "away_form": "DWLWW",
+        "home_odds": 2.55,
+        "draw_odds": 3.45,
+        "away_odds": 2.8,
+        "bookmaker": "Unibet (SE)",
+        "time": "2026-10-28T18:00Z",
+        "value_team": "Västerås SK",
+        "value_side": "away",
+        "value_odds": 2.8,
+        "value_pos": 6,
+        "pos_diff": 8,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
+      "id": "espn:761910",
+      "league": "США MLS",
+      "first_seen": "2026-10-26T12:08:30.383300",
+      "last_seen": "2026-10-26T12:08:30.383300",
+      "match": {
+        "source": "espn",
+        "event_id": "761910",
+        "fixture_id": null,
+        "league_slug": "usa.1",
+        "league_id": null,
+        "season": null,
+        "home": "Austin FC",
+        "away": "Real Salt Lake",
+        "home_pos": 14,
+        "away_pos": 10,
+        "home_pts": 34,
+        "away_pts": 39,
+        "home_form": "DLLLD",
+        "away_form": "DWDLW",
+        "home_odds": 2.48,
+        "draw_odds": 3.6,
+        "away_odds": 2.55,
+        "bookmaker": "Unibet (NL)",
+        "time": "2026-10-29T00:30Z",
+        "value_team": "Real Salt Lake",
+        "value_side": "away",
+        "value_odds": 2.55,
+        "value_pos": 10,
+        "pos_diff": 4,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
       "id": "espn:401860406",
       "league": "Бразилия Серия Б",
       "first_seen": "2026-10-25T10:35:29.016298",
-      "last_seen": "2026-10-25T20:18:45.934687",
+      "last_seen": "2026-10-26T12:08:30.383300",
       "match": {
         "source": "espn",
         "event_id": "401860406",
@@ -4018,5 +4092,5 @@
       }
     }
   ],
-  "generated_at": "2026-10-25T20:18:45.934687"
+  "generated_at": "2026-10-26T12:08:30.383300"
 }
