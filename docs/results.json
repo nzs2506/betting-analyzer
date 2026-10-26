@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-26T12:08:30.383300",
+  "generated_at": "2026-10-26T22:13:23.714104",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 17,
-    "fixtures_found": 67,
-    "with_odds": 30,
+    "leagues_checked": 14,
+    "fixtures_found": 57,
+    "with_odds": 28,
     "leagues_detail": [
       [
         "bra.1",
@@ -32,7 +32,7 @@
       [
         "arg.2",
         "Аргентина Насьональ Б",
-        "ok"
+        "no_matches"
       ],
       [
         "chi.1",
@@ -182,7 +182,7 @@
       [
         "den.1",
         "Дания Суперлига",
-        "ok"
+        "no_matches"
       ],
       [
         "den.2",
@@ -217,7 +217,7 @@
       [
         "tur.1",
         "Турция Суперлига",
-        "ok"
+        "no_matches"
       ],
       [
         "tur.2",
@@ -325,41 +325,6 @@
           "label": "матч не завершен"
         },
         "signal_id": "espn:401860406"
-      }
-    },
-    {
-      "league": "США MLS",
-      "match": {
-        "source": "espn",
-        "event_id": "761910",
-        "fixture_id": null,
-        "league_slug": "usa.1",
-        "league_id": null,
-        "season": null,
-        "home": "Austin FC",
-        "away": "Real Salt Lake",
-        "home_pos": 14,
-        "away_pos": 10,
-        "home_pts": 34,
-        "away_pts": 39,
-        "home_form": "DLLLD",
-        "away_form": "DWDLW",
-        "home_odds": 2.48,
-        "draw_odds": 3.6,
-        "away_odds": 2.55,
-        "bookmaker": "Unibet (NL)",
-        "time": "2026-10-29T00:30Z",
-        "value_team": "Real Salt Lake",
-        "value_side": "away",
-        "value_odds": 2.55,
-        "value_pos": 10,
-        "pos_diff": 4,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:761910"
       }
     }
   ],
