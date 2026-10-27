@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-27T11:30:08.627949",
+  "generated_at": "2026-10-27T21:44:39.873628",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 14,
-    "fixtures_found": 61,
-    "with_odds": 29,
+    "leagues_checked": 13,
+    "fixtures_found": 57,
+    "with_odds": 28,
     "leagues_detail": [
       [
         "bra.1",
@@ -202,7 +202,7 @@
       [
         "sco.2",
         "Шотландия Чемпионшип",
-        "ok"
+        "no_matches"
       ],
       [
         "irl.1",
@@ -309,14 +309,14 @@
         "away_pts": 49,
         "home_form": "DLWWD",
         "away_form": "DWWLL",
-        "home_odds": 2.05,
-        "draw_odds": 3.25,
-        "away_odds": 3.4,
+        "home_odds": 2.12,
+        "draw_odds": 3.3,
+        "away_odds": 3.2,
         "bookmaker": "Nordic Bet",
         "time": "2026-10-27T23:00Z",
         "value_team": "Goiás",
         "value_side": "away",
-        "value_odds": 3.4,
+        "value_odds": 3.2,
         "value_pos": 10,
         "pos_diff": 5,
         "settlement": {

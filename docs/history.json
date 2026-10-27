@@ -4,7 +4,7 @@
       "id": "espn:401842863",
       "league": "Швеция Алльсвенскан",
       "first_seen": "2026-10-26T12:08:30.383300",
-      "last_seen": "2026-10-27T11:30:08.627949",
+      "last_seen": "2026-10-27T21:44:39.873628",
       "match": {
         "source": "espn",
         "event_id": "401842863",
@@ -78,7 +78,7 @@
       "id": "espn:401860406",
       "league": "Бразилия Серия Б",
       "first_seen": "2026-10-25T10:35:29.016298",
-      "last_seen": "2026-10-27T11:30:08.627949",
+      "last_seen": "2026-10-27T21:44:39.873628",
       "match": {
         "source": "espn",
         "event_id": "401860406",
@@ -94,14 +94,14 @@
         "away_pts": 49,
         "home_form": "DLWWD",
         "away_form": "DWWLL",
-        "home_odds": 2.05,
-        "draw_odds": 3.25,
-        "away_odds": 3.4,
+        "home_odds": 2.12,
+        "draw_odds": 3.3,
+        "away_odds": 3.2,
         "bookmaker": "Nordic Bet",
         "time": "2026-10-27T23:00Z",
         "value_team": "Goiás",
         "value_side": "away",
-        "value_odds": 3.4,
+        "value_odds": 3.2,
         "value_pos": 10,
         "pos_diff": 5,
         "settlement": {
@@ -4092,5 +4092,5 @@
       }
     }
   ],
-  "generated_at": "2026-10-27T11:30:08.627949"
+  "generated_at": "2026-10-27T21:44:39.873628"
 }
