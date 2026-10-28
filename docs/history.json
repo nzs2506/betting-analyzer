@@ -1,6 +1,80 @@
 {
   "signals": [
     {
+      "id": "espn:401841655",
+      "league": "Аргентина Примера",
+      "first_seen": "2026-10-28T11:59:57.685765",
+      "last_seen": "2026-10-28T11:59:57.685765",
+      "match": {
+        "source": "espn",
+        "event_id": "401841655",
+        "fixture_id": null,
+        "league_slug": "arg.1",
+        "league_id": null,
+        "season": null,
+        "home": "Estudiantes de Río Cuarto",
+        "away": "Gimnasia La Plata",
+        "home_pos": 15,
+        "away_pos": 3,
+        "home_pts": 9,
+        "away_pts": 25,
+        "home_form": "DWLLL",
+        "away_form": "DWDDD",
+        "home_odds": 1.12,
+        "draw_odds": 3.5,
+        "away_odds": 1.74,
+        "bookmaker": "Betfair",
+        "time": "2026-10-30T22:00Z",
+        "value_team": "Gimnasia La Plata",
+        "value_side": "away",
+        "value_odds": 1.74,
+        "value_pos": 3,
+        "pos_diff": 12,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
+      "id": "espn:401876919",
+      "league": "Мексика Лига MX",
+      "first_seen": "2026-10-28T11:59:57.685765",
+      "last_seen": "2026-10-28T11:59:57.685765",
+      "match": {
+        "source": "espn",
+        "event_id": "401876919",
+        "fixture_id": null,
+        "league_slug": "mex.1",
+        "league_id": null,
+        "season": null,
+        "home": "Atlético de San Luis",
+        "away": "Atlas",
+        "home_pos": 11,
+        "away_pos": 4,
+        "home_pts": 19,
+        "away_pts": 24,
+        "home_form": "DWDLW",
+        "away_form": "DLWDW",
+        "home_odds": 2.38,
+        "draw_odds": 3.35,
+        "away_odds": 2.75,
+        "bookmaker": "Unibet (SE)",
+        "time": "2026-10-31T01:00Z",
+        "value_team": "Atlas",
+        "value_side": "away",
+        "value_odds": 2.75,
+        "value_pos": 4,
+        "pos_diff": 7,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
       "id": "espn:401842863",
       "league": "Швеция Алльсвенскан",
       "first_seen": "2026-10-26T12:08:30.383300",
@@ -105,9 +179,14 @@
         "value_pos": 10,
         "pos_diff": 5,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 0,
+          "away_score": 2,
+          "score": "0:2",
+          "outcome": "win",
+          "icon": "🟢",
+          "label": "прогноз сработал",
+          "roi": 2.2
         }
       }
     },
@@ -4092,5 +4171,5 @@
       }
     }
   ],
-  "generated_at": "2026-10-27T21:44:39.873628"
+  "generated_at": "2026-10-28T11:59:57.685765"
 }

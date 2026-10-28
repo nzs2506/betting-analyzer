@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-27T21:44:39.873628",
+  "generated_at": "2026-10-28T11:59:57.685765",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 13,
-    "fixtures_found": 57,
+    "leagues_checked": 22,
+    "fixtures_found": 79,
     "with_odds": 28,
     "leagues_detail": [
       [
@@ -57,12 +57,12 @@
       [
         "bol.1",
         "Боливия Лига",
-        "no_matches"
+        "ok"
       ],
       [
         "par.1",
         "Парагвай Примера",
-        "no_matches"
+        "ok"
       ],
       [
         "per.1",
@@ -132,7 +132,7 @@
       [
         "aus.1",
         "Австралия А-Лига",
-        "no_matches"
+        "ok"
       ],
       [
         "nga.1",
@@ -162,7 +162,7 @@
       [
         "nor.1",
         "Норвегия Элитесерен",
-        "no_matches"
+        "ok"
       ],
       [
         "nor.2",
@@ -182,7 +182,7 @@
       [
         "den.1",
         "Дания Суперлига",
-        "no_matches"
+        "ok"
       ],
       [
         "den.2",
@@ -202,7 +202,7 @@
       [
         "sco.2",
         "Шотландия Чемпионшип",
-        "no_matches"
+        "ok"
       ],
       [
         "irl.1",
@@ -217,7 +217,7 @@
       [
         "tur.1",
         "Турция Суперлига",
-        "no_matches"
+        "ok"
       ],
       [
         "tur.2",
@@ -237,12 +237,12 @@
       [
         "aut.1",
         "Австрия Бундеслига",
-        "no_matches"
+        "ok"
       ],
       [
         "bel.1",
         "Бельгия Про Лига",
-        "no_matches"
+        "ok"
       ],
       [
         "api-football",
@@ -258,75 +258,75 @@
   },
   "results": [
     {
-      "league": "Швеция Алльсвенскан",
+      "league": "Аргентина Примера",
       "match": {
         "source": "espn",
-        "event_id": "401842863",
+        "event_id": "401841655",
         "fixture_id": null,
-        "league_slug": "swe.1",
+        "league_slug": "arg.1",
         "league_id": null,
         "season": null,
-        "home": "Degerfors IF",
-        "away": "Västerås SK",
-        "home_pos": 14,
-        "away_pos": 6,
-        "home_pts": 20,
-        "away_pts": 38,
-        "home_form": "DLDLL",
-        "away_form": "DWLWW",
-        "home_odds": 2.45,
-        "draw_odds": 3.45,
-        "away_odds": 2.95,
-        "bookmaker": "Unibet (SE)",
-        "time": "2026-10-28T18:00Z",
-        "value_team": "Västerås SK",
+        "home": "Estudiantes de Río Cuarto",
+        "away": "Gimnasia La Plata",
+        "home_pos": 15,
+        "away_pos": 3,
+        "home_pts": 9,
+        "away_pts": 25,
+        "home_form": "DWLLL",
+        "away_form": "DWDDD",
+        "home_odds": 1.12,
+        "draw_odds": 3.5,
+        "away_odds": 1.74,
+        "bookmaker": "Betfair",
+        "time": "2026-10-30T22:00Z",
+        "value_team": "Gimnasia La Plata",
         "value_side": "away",
-        "value_odds": 2.95,
-        "value_pos": 6,
-        "pos_diff": 8,
+        "value_odds": 1.74,
+        "value_pos": 3,
+        "pos_diff": 12,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
           "label": "матч не завершен"
         },
-        "signal_id": "espn:401842863"
+        "signal_id": "espn:401841655"
       }
     },
     {
-      "league": "Бразилия Серия Б",
+      "league": "Мексика Лига MX",
       "match": {
         "source": "espn",
-        "event_id": "401860406",
+        "event_id": "401876919",
         "fixture_id": null,
-        "league_slug": "bra.2",
+        "league_slug": "mex.1",
         "league_id": null,
         "season": null,
-        "home": "Ceará",
-        "away": "Goiás",
-        "home_pos": 15,
-        "away_pos": 10,
-        "home_pts": 43,
-        "away_pts": 49,
-        "home_form": "DLWWD",
-        "away_form": "DWWLL",
-        "home_odds": 2.12,
-        "draw_odds": 3.3,
-        "away_odds": 3.2,
-        "bookmaker": "Nordic Bet",
-        "time": "2026-10-27T23:00Z",
-        "value_team": "Goiás",
+        "home": "Atlético de San Luis",
+        "away": "Atlas",
+        "home_pos": 11,
+        "away_pos": 4,
+        "home_pts": 19,
+        "away_pts": 24,
+        "home_form": "DWDLW",
+        "away_form": "DLWDW",
+        "home_odds": 2.38,
+        "draw_odds": 3.35,
+        "away_odds": 2.75,
+        "bookmaker": "Unibet (SE)",
+        "time": "2026-10-31T01:00Z",
+        "value_team": "Atlas",
         "value_side": "away",
-        "value_odds": 3.2,
-        "value_pos": 10,
-        "pos_diff": 5,
+        "value_odds": 2.75,
+        "value_pos": 4,
+        "pos_diff": 7,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
           "label": "матч не завершен"
         },
-        "signal_id": "espn:401860406"
+        "signal_id": "espn:401876919"
       }
     }
   ],
-  "history_count": 98
+  "history_count": 100
 }
