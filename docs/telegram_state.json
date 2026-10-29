@@ -202,11 +202,11 @@
         "espn:401876925": "completed|win|0:1",
         "espn:401860406": "completed|win|0:2",
         "espn:401842863": "completed|win|0:3",
-        "espn:761910": "pending||",
+        "espn:761910": "completed|win|1:2",
         "espn:401841655": "pending||",
         "espn:401876919": "pending||"
       },
-      "last_seen_report": "2026-10-28T22:06:58.183811",
+      "last_seen_report": "2026-10-29T12:10:24.931088",
       "last_heartbeat_slot": "2026-10-28:morning",
       "last_empty_report": "2026-10-04T20:48:11.074857"
     },
@@ -412,11 +412,11 @@
         "espn:401876925": "completed|win|0:1",
         "espn:401860406": "completed|win|0:2",
         "espn:401842863": "completed|win|0:3",
-        "espn:761910": "pending||",
+        "espn:761910": "completed|win|1:2",
         "espn:401841655": "pending||",
         "espn:401876919": "pending||"
       },
-      "last_seen_report": "2026-10-28T22:06:58.183811",
+      "last_seen_report": "2026-10-29T12:10:24.931088",
       "last_heartbeat_slot": "2026-06-21:evening",
       "last_empty_report": "2026-06-22T18:58:38.572929",
       "send_error": "403"
@@ -623,11 +623,11 @@
         "espn:401876925": "completed|win|0:1",
         "espn:401860406": "completed|win|0:2",
         "espn:401842863": "completed|win|0:3",
-        "espn:761910": "pending||",
+        "espn:761910": "completed|win|1:2",
         "espn:401841655": "pending||",
         "espn:401876919": "pending||"
       },
-      "last_seen_report": "2026-10-28T22:06:58.183811",
+      "last_seen_report": "2026-10-29T12:10:24.931088",
       "send_error": "403"
     },
     "351131518": {
@@ -832,13 +832,13 @@
         "espn:401876925": "completed|win|0:1",
         "espn:401860406": "completed|win|0:2",
         "espn:401842863": "completed|win|0:3",
-        "espn:761910": "pending||",
+        "espn:761910": "completed|win|1:2",
         "espn:401841655": "pending||",
         "espn:401876919": "pending||"
       },
-      "last_seen_report": "2026-10-28T22:06:58.183811",
+      "last_seen_report": "2026-10-29T12:10:24.931088",
       "send_error": "403"
     }
   },
-  "last_report": "2026-10-28T22:06:58.183811"
+  "last_report": "2026-10-29T12:10:24.931088"
 }
