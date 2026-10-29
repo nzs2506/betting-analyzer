@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-29T12:10:24.931088",
+  "generated_at": "2026-10-29T22:22:01.826978",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 26,
-    "fixtures_found": 123,
+    "leagues_checked": 25,
+    "fixtures_found": 113,
     "with_odds": 0,
     "leagues_detail": [
       [
@@ -172,7 +172,7 @@
       [
         "swe.1",
         "Швеция Алльсвенскан",
-        "ok"
+        "no_matches"
       ],
       [
         "swe.2",
