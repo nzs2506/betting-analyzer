@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-28T22:06:58.183811",
+  "generated_at": "2026-10-29T12:10:24.931088",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 19,
-    "fixtures_found": 50,
+    "leagues_checked": 26,
+    "fixtures_found": 123,
     "with_odds": 0,
     "leagues_detail": [
       [
         "bra.1",
         "Бразилия Серия А",
-        "no_data"
+        "ok"
       ],
       [
         "bra.2",
@@ -32,7 +32,7 @@
       [
         "arg.2",
         "Аргентина Насьональ Б",
-        "no_matches"
+        "ok"
       ],
       [
         "chi.1",
@@ -42,12 +42,12 @@
       [
         "col.1",
         "Колумбия Примера А",
-        "no_data"
+        "ok"
       ],
       [
         "uru.1",
         "Уругвай Лига",
-        "no_matches"
+        "ok"
       ],
       [
         "ecu.1",
@@ -97,7 +97,7 @@
       [
         "jpn.1",
         "Япония J-League",
-        "no_matches"
+        "ok"
       ],
       [
         "jpn.2",
@@ -197,7 +197,7 @@
       [
         "sco.1",
         "Шотландия Премьершип",
-        "no_matches"
+        "ok"
       ],
       [
         "sco.2",
@@ -227,7 +227,7 @@
       [
         "gre.1",
         "Греция Суперлига",
-        "no_matches"
+        "ok"
       ],
       [
         "rou.1",
