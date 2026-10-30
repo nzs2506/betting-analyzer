@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-29T22:22:01.826978",
+  "generated_at": "2026-10-30T12:00:59.822647",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 25,
-    "fixtures_found": 113,
+    "leagues_checked": 27,
+    "fixtures_found": 185,
     "with_odds": 0,
     "leagues_detail": [
       [
@@ -52,7 +52,7 @@
       [
         "ecu.1",
         "Эквадор ЛигаПро",
-        "no_data"
+        "ok"
       ],
       [
         "bol.1",
@@ -172,7 +172,7 @@
       [
         "swe.1",
         "Швеция Алльсвенскан",
-        "no_matches"
+        "ok"
       ],
       [
         "swe.2",
