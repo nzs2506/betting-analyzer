@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-31T11:36:35.522778",
+  "generated_at": "2026-10-31T20:55:01.150148",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
     "leagues_checked": 26,
-    "fixtures_found": 168,
+    "fixtures_found": 127,
     "with_odds": 0,
     "leagues_detail": [
       [
@@ -202,7 +202,7 @@
       [
         "sco.2",
         "Шотландия Чемпионшип",
-        "ok"
+        "no_matches"
       ],
       [
         "irl.1",
@@ -217,7 +217,7 @@
       [
         "tur.1",
         "Турция Суперлига",
-        "no_data"
+        "ok"
       ],
       [
         "tur.2",
