@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-31T20:55:01.150148",
+  "generated_at": "2026-11-01T12:34:00.215264",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 26,
-    "fixtures_found": 127,
-    "with_odds": 0,
+    "leagues_checked": 24,
+    "fixtures_found": 107,
+    "with_odds": 42,
     "leagues_detail": [
       [
         "bra.1",
@@ -97,7 +97,7 @@
       [
         "jpn.1",
         "Япония J-League",
-        "ok"
+        "no_matches"
       ],
       [
         "jpn.2",
@@ -132,7 +132,7 @@
       [
         "aus.1",
         "Австралия А-Лига",
-        "ok"
+        "no_matches"
       ],
       [
         "nga.1",
@@ -256,6 +256,147 @@
       ]
     ]
   },
-  "results": [],
-  "history_count": 100
+  "results": [
+    {
+      "league": "Бразилия Серия А",
+      "match": {
+        "source": "espn",
+        "event_id": "401841301",
+        "fixture_id": null,
+        "league_slug": "bra.1",
+        "league_id": null,
+        "season": null,
+        "home": "Internacional",
+        "away": "Coritiba",
+        "home_pos": 18,
+        "away_pos": 11,
+        "home_pts": 35,
+        "away_pts": 42,
+        "home_form": "DWLDW",
+        "away_form": "WLLDL",
+        "home_odds": 1.56,
+        "draw_odds": 4.0,
+        "away_odds": 5.6,
+        "bookmaker": "Unibet (NL)",
+        "time": "2026-11-04T00:30Z",
+        "value_team": "Coritiba",
+        "value_side": "away",
+        "value_odds": 5.6,
+        "value_pos": 11,
+        "pos_diff": 7,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401841301"
+      }
+    },
+    {
+      "league": "Чили Примера",
+      "match": {
+        "source": "espn",
+        "event_id": "401850679",
+        "fixture_id": null,
+        "league_slug": "chi.1",
+        "league_id": null,
+        "season": null,
+        "home": "Deportes Concepcion",
+        "away": "Palestino",
+        "home_pos": 11,
+        "away_pos": 5,
+        "home_pts": 32,
+        "away_pts": 38,
+        "home_form": "DDLLW",
+        "away_form": "DDLWL",
+        "home_odds": 2.56,
+        "draw_odds": 3.51,
+        "away_odds": 2.65,
+        "bookmaker": "Pinnacle",
+        "time": "2026-11-02T23:30Z",
+        "value_team": "Palestino",
+        "value_side": "away",
+        "value_odds": 2.65,
+        "value_pos": 5,
+        "pos_diff": 6,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401850679"
+      }
+    },
+    {
+      "league": "США MLS",
+      "match": {
+        "source": "espn",
+        "event_id": "761933",
+        "fixture_id": null,
+        "league_slug": "usa.1",
+        "league_id": null,
+        "season": null,
+        "home": "Portland Timbers",
+        "away": "Houston Dynamo FC",
+        "home_pos": 11,
+        "away_pos": 5,
+        "home_pts": 40,
+        "away_pts": 51,
+        "home_form": "DWDLD",
+        "away_form": "DDDDD",
+        "home_odds": 1.76,
+        "draw_odds": 3.95,
+        "away_odds": 3.95,
+        "bookmaker": "Unibet (SE)",
+        "time": "2026-11-02T02:45Z",
+        "value_team": "Houston Dynamo FC",
+        "value_side": "away",
+        "value_odds": 3.95,
+        "value_pos": 5,
+        "pos_diff": 6,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:761933"
+      }
+    },
+    {
+      "league": "Норвегия Элитесерен",
+      "match": {
+        "source": "espn",
+        "event_id": "401843469",
+        "fixture_id": null,
+        "league_slug": "nor.1",
+        "league_id": null,
+        "season": null,
+        "home": "Vålerenga",
+        "away": "Tromso",
+        "home_pos": 10,
+        "away_pos": 5,
+        "home_pts": 29,
+        "away_pts": 40,
+        "home_form": "DWLDL",
+        "away_form": "DDDWL",
+        "home_odds": 2.51,
+        "draw_odds": 3.85,
+        "away_odds": 2.68,
+        "bookmaker": "Pinnacle",
+        "time": "2026-11-01T18:15Z",
+        "value_team": "Tromso",
+        "value_side": "away",
+        "value_odds": 2.68,
+        "value_pos": 5,
+        "pos_diff": 5,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401843469"
+      }
+    }
+  ],
+  "history_count": 104
 }

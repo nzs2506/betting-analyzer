@@ -1,6 +1,154 @@
 {
   "signals": [
     {
+      "id": "espn:401841301",
+      "league": "Бразилия Серия А",
+      "first_seen": "2026-11-01T12:34:00.215264",
+      "last_seen": "2026-11-01T12:34:00.215264",
+      "match": {
+        "source": "espn",
+        "event_id": "401841301",
+        "fixture_id": null,
+        "league_slug": "bra.1",
+        "league_id": null,
+        "season": null,
+        "home": "Internacional",
+        "away": "Coritiba",
+        "home_pos": 18,
+        "away_pos": 11,
+        "home_pts": 35,
+        "away_pts": 42,
+        "home_form": "DWLDW",
+        "away_form": "WLLDL",
+        "home_odds": 1.56,
+        "draw_odds": 4.0,
+        "away_odds": 5.6,
+        "bookmaker": "Unibet (NL)",
+        "time": "2026-11-04T00:30Z",
+        "value_team": "Coritiba",
+        "value_side": "away",
+        "value_odds": 5.6,
+        "value_pos": 11,
+        "pos_diff": 7,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
+      "id": "espn:401850679",
+      "league": "Чили Примера",
+      "first_seen": "2026-11-01T12:34:00.215264",
+      "last_seen": "2026-11-01T12:34:00.215264",
+      "match": {
+        "source": "espn",
+        "event_id": "401850679",
+        "fixture_id": null,
+        "league_slug": "chi.1",
+        "league_id": null,
+        "season": null,
+        "home": "Deportes Concepcion",
+        "away": "Palestino",
+        "home_pos": 11,
+        "away_pos": 5,
+        "home_pts": 32,
+        "away_pts": 38,
+        "home_form": "DDLLW",
+        "away_form": "DDLWL",
+        "home_odds": 2.56,
+        "draw_odds": 3.51,
+        "away_odds": 2.65,
+        "bookmaker": "Pinnacle",
+        "time": "2026-11-02T23:30Z",
+        "value_team": "Palestino",
+        "value_side": "away",
+        "value_odds": 2.65,
+        "value_pos": 5,
+        "pos_diff": 6,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
+      "id": "espn:761933",
+      "league": "США MLS",
+      "first_seen": "2026-11-01T12:34:00.215264",
+      "last_seen": "2026-11-01T12:34:00.215264",
+      "match": {
+        "source": "espn",
+        "event_id": "761933",
+        "fixture_id": null,
+        "league_slug": "usa.1",
+        "league_id": null,
+        "season": null,
+        "home": "Portland Timbers",
+        "away": "Houston Dynamo FC",
+        "home_pos": 11,
+        "away_pos": 5,
+        "home_pts": 40,
+        "away_pts": 51,
+        "home_form": "DWDLD",
+        "away_form": "DDDDD",
+        "home_odds": 1.76,
+        "draw_odds": 3.95,
+        "away_odds": 3.95,
+        "bookmaker": "Unibet (SE)",
+        "time": "2026-11-02T02:45Z",
+        "value_team": "Houston Dynamo FC",
+        "value_side": "away",
+        "value_odds": 3.95,
+        "value_pos": 5,
+        "pos_diff": 6,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
+      "id": "espn:401843469",
+      "league": "Норвегия Элитесерен",
+      "first_seen": "2026-11-01T12:34:00.215264",
+      "last_seen": "2026-11-01T12:34:00.215264",
+      "match": {
+        "source": "espn",
+        "event_id": "401843469",
+        "fixture_id": null,
+        "league_slug": "nor.1",
+        "league_id": null,
+        "season": null,
+        "home": "Vålerenga",
+        "away": "Tromso",
+        "home_pos": 10,
+        "away_pos": 5,
+        "home_pts": 29,
+        "away_pts": 40,
+        "home_form": "DWLDL",
+        "away_form": "DDDWL",
+        "home_odds": 2.51,
+        "draw_odds": 3.85,
+        "away_odds": 2.68,
+        "bookmaker": "Pinnacle",
+        "time": "2026-11-01T18:15Z",
+        "value_team": "Tromso",
+        "value_side": "away",
+        "value_odds": 2.68,
+        "value_pos": 5,
+        "pos_diff": 5,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
       "id": "espn:401841655",
       "league": "Аргентина Примера",
       "first_seen": "2026-10-28T11:59:57.685765",
@@ -4191,5 +4339,5 @@
       }
     }
   ],
-  "generated_at": "2026-10-31T20:55:01.150148"
+  "generated_at": "2026-11-01T12:34:00.215264"
 }
