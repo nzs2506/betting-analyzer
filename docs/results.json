@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-01T12:34:00.215264",
+  "generated_at": "2026-11-01T21:37:28.360065",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 24,
-    "fixtures_found": 107,
-    "with_odds": 42,
+    "leagues_checked": 18,
+    "fixtures_found": 53,
+    "with_odds": 18,
     "leagues_detail": [
       [
         "bra.1",
@@ -82,7 +82,7 @@
       [
         "mex.2",
         "Мексика Лига Экспансьон",
-        "ok"
+        "no_matches"
       ],
       [
         "usa.1",
@@ -112,7 +112,7 @@
       [
         "ind.1",
         "Индия Суперлига",
-        "ok"
+        "no_matches"
       ],
       [
         "idn.1",
@@ -162,7 +162,7 @@
       [
         "nor.1",
         "Норвегия Элитесерен",
-        "ok"
+        "no_matches"
       ],
       [
         "nor.2",
@@ -197,7 +197,7 @@
       [
         "sco.1",
         "Шотландия Премьершип",
-        "ok"
+        "no_matches"
       ],
       [
         "sco.2",
@@ -237,12 +237,12 @@
       [
         "aut.1",
         "Австрия Бундеслига",
-        "ok"
+        "no_matches"
       ],
       [
         "bel.1",
         "Бельгия Про Лига",
-        "ok"
+        "no_matches"
       ],
       [
         "api-football",
@@ -275,7 +275,7 @@
         "home_form": "DWLDW",
         "away_form": "WLLDL",
         "home_odds": 1.56,
-        "draw_odds": 4.0,
+        "draw_odds": 3.95,
         "away_odds": 5.6,
         "bookmaker": "Unibet (NL)",
         "time": "2026-11-04T00:30Z",
@@ -360,41 +360,6 @@
           "label": "матч не завершен"
         },
         "signal_id": "espn:761933"
-      }
-    },
-    {
-      "league": "Норвегия Элитесерен",
-      "match": {
-        "source": "espn",
-        "event_id": "401843469",
-        "fixture_id": null,
-        "league_slug": "nor.1",
-        "league_id": null,
-        "season": null,
-        "home": "Vålerenga",
-        "away": "Tromso",
-        "home_pos": 10,
-        "away_pos": 5,
-        "home_pts": 29,
-        "away_pts": 40,
-        "home_form": "DWLDL",
-        "away_form": "DDDWL",
-        "home_odds": 2.51,
-        "draw_odds": 3.85,
-        "away_odds": 2.68,
-        "bookmaker": "Pinnacle",
-        "time": "2026-11-01T18:15Z",
-        "value_team": "Tromso",
-        "value_side": "away",
-        "value_odds": 2.68,
-        "value_pos": 5,
-        "pos_diff": 5,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401843469"
       }
     }
   ],

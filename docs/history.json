@@ -4,7 +4,7 @@
       "id": "espn:401841301",
       "league": "Бразилия Серия А",
       "first_seen": "2026-11-01T12:34:00.215264",
-      "last_seen": "2026-11-01T12:34:00.215264",
+      "last_seen": "2026-11-01T21:37:28.360065",
       "match": {
         "source": "espn",
         "event_id": "401841301",
@@ -21,7 +21,7 @@
         "home_form": "DWLDW",
         "away_form": "WLLDL",
         "home_odds": 1.56,
-        "draw_odds": 4.0,
+        "draw_odds": 3.95,
         "away_odds": 5.6,
         "bookmaker": "Unibet (NL)",
         "time": "2026-11-04T00:30Z",
@@ -41,7 +41,7 @@
       "id": "espn:401850679",
       "league": "Чили Примера",
       "first_seen": "2026-11-01T12:34:00.215264",
-      "last_seen": "2026-11-01T12:34:00.215264",
+      "last_seen": "2026-11-01T21:37:28.360065",
       "match": {
         "source": "espn",
         "event_id": "401850679",
@@ -78,7 +78,7 @@
       "id": "espn:761933",
       "league": "США MLS",
       "first_seen": "2026-11-01T12:34:00.215264",
-      "last_seen": "2026-11-01T12:34:00.215264",
+      "last_seen": "2026-11-01T21:37:28.360065",
       "match": {
         "source": "espn",
         "event_id": "761933",
@@ -142,9 +142,14 @@
         "value_pos": 5,
         "pos_diff": 5,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 4,
+          "away_score": 0,
+          "score": "4:0",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -4339,5 +4344,5 @@
       }
     }
   ],
-  "generated_at": "2026-11-01T12:34:00.215264"
+  "generated_at": "2026-11-01T21:37:28.360065"
 }
