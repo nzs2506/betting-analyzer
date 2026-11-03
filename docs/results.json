@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-03T13:30:05.747152",
+  "generated_at": "2026-11-03T22:48:56.254437",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 13,
-    "fixtures_found": 38,
-    "with_odds": 10,
+    "leagues_checked": 10,
+    "fixtures_found": 29,
+    "with_odds": 7,
     "leagues_detail": [
       [
         "bra.1",
@@ -37,7 +37,7 @@
       [
         "chi.1",
         "Чили Примера",
-        "ok"
+        "no_matches"
       ],
       [
         "col.1",
@@ -52,7 +52,7 @@
       [
         "ecu.1",
         "Эквадор ЛигаПро",
-        "ok"
+        "no_matches"
       ],
       [
         "bol.1",
@@ -172,7 +172,7 @@
       [
         "swe.1",
         "Швеция Алльсвенскан",
-        "ok"
+        "no_matches"
       ],
       [
         "swe.2",
@@ -274,8 +274,8 @@
         "away_pts": 42,
         "home_form": "DWLDW",
         "away_form": "WLLDL",
-        "home_odds": 1.54,
-        "draw_odds": 4.0,
+        "home_odds": 1.53,
+        "draw_odds": 4.2,
         "away_odds": 5.75,
         "bookmaker": "Unibet (NL)",
         "time": "2026-11-04T00:30Z",

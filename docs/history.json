@@ -46,7 +46,7 @@
       "id": "espn:401841301",
       "league": "Бразилия Серия А",
       "first_seen": "2026-11-01T12:34:00.215264",
-      "last_seen": "2026-11-03T13:30:05.747152",
+      "last_seen": "2026-11-03T22:48:56.254437",
       "match": {
         "source": "espn",
         "event_id": "401841301",
@@ -62,8 +62,8 @@
         "away_pts": 42,
         "home_form": "DWLDW",
         "away_form": "WLLDL",
-        "home_odds": 1.54,
-        "draw_odds": 4.0,
+        "home_odds": 1.53,
+        "draw_odds": 4.2,
         "away_odds": 5.75,
         "bookmaker": "Unibet (NL)",
         "time": "2026-11-04T00:30Z",
@@ -4396,5 +4396,5 @@
       }
     }
   ],
-  "generated_at": "2026-11-03T13:30:05.747152"
+  "generated_at": "2026-11-03T22:48:56.254437"
 }
