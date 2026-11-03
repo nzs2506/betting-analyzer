@@ -31,9 +31,14 @@
         "value_pos": 12,
         "pos_diff": 4,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 5,
+          "away_score": 0,
+          "score": "5:0",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -41,7 +46,7 @@
       "id": "espn:401841301",
       "league": "Бразилия Серия А",
       "first_seen": "2026-11-01T12:34:00.215264",
-      "last_seen": "2026-11-02T14:36:47.518825",
+      "last_seen": "2026-11-03T00:23:52.987624",
       "match": {
         "source": "espn",
         "event_id": "401841301",
@@ -4386,5 +4391,5 @@
       }
     }
   ],
-  "generated_at": "2026-11-02T14:36:47.518825"
+  "generated_at": "2026-11-03T00:23:52.987624"
 }

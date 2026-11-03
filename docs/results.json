@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-02T14:36:47.518825",
+  "generated_at": "2026-11-03T00:23:52.987624",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 18,
-    "fixtures_found": 56,
-    "with_odds": 15,
+    "leagues_checked": 12,
+    "fixtures_found": 36,
+    "with_odds": 9,
     "leagues_detail": [
       [
         "bra.1",
@@ -27,12 +27,12 @@
       [
         "arg.1",
         "Аргентина Примера",
-        "ok"
+        "no_matches"
       ],
       [
         "arg.2",
         "Аргентина Насьональ Б",
-        "ok"
+        "no_matches"
       ],
       [
         "chi.1",
@@ -47,7 +47,7 @@
       [
         "uru.1",
         "Уругвай Лига",
-        "ok"
+        "no_matches"
       ],
       [
         "ecu.1",
@@ -57,7 +57,7 @@
       [
         "bol.1",
         "Боливия Лига",
-        "ok"
+        "no_matches"
       ],
       [
         "par.1",
@@ -112,7 +112,7 @@
       [
         "ind.1",
         "Индия Суперлига",
-        "no_matches"
+        "ok"
       ],
       [
         "idn.1",
@@ -182,7 +182,7 @@
       [
         "den.1",
         "Дания Суперлига",
-        "ok"
+        "no_matches"
       ],
       [
         "den.2",
@@ -217,7 +217,7 @@
       [
         "tur.1",
         "Турция Суперлига",
-        "ok"
+        "no_matches"
       ],
       [
         "tur.2",
@@ -227,7 +227,7 @@
       [
         "gre.1",
         "Греция Суперлига",
-        "ok"
+        "no_matches"
       ],
       [
         "rou.1",
@@ -290,76 +290,6 @@
           "label": "матч не завершен"
         },
         "signal_id": "espn:401841301"
-      }
-    },
-    {
-      "league": "Чили Примера",
-      "match": {
-        "source": "espn",
-        "event_id": "401850679",
-        "fixture_id": null,
-        "league_slug": "chi.1",
-        "league_id": null,
-        "season": null,
-        "home": "Deportes Concepcion",
-        "away": "Palestino",
-        "home_pos": 11,
-        "away_pos": 5,
-        "home_pts": 32,
-        "away_pts": 38,
-        "home_form": "DDLLW",
-        "away_form": "DDLWL",
-        "home_odds": 2.59,
-        "draw_odds": 3.59,
-        "away_odds": 2.7,
-        "bookmaker": "Pinnacle",
-        "time": "2026-11-02T23:30Z",
-        "value_team": "Palestino",
-        "value_side": "away",
-        "value_odds": 2.7,
-        "value_pos": 5,
-        "pos_diff": 6,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401850679"
-      }
-    },
-    {
-      "league": "Турция Суперлига",
-      "match": {
-        "source": "espn",
-        "event_id": "401888260",
-        "fixture_id": null,
-        "league_slug": "tur.1",
-        "league_id": null,
-        "season": null,
-        "home": "Genclerbirligi",
-        "away": "Alanyaspor",
-        "home_pos": 16,
-        "away_pos": 12,
-        "home_pts": 8,
-        "away_pts": 12,
-        "home_form": "DLDLL",
-        "away_form": "DLDWD",
-        "home_odds": 2.47,
-        "draw_odds": 3.15,
-        "away_odds": 2.53,
-        "bookmaker": "Betclic (FR)",
-        "time": "2026-11-02T17:00Z",
-        "value_team": "Alanyaspor",
-        "value_side": "away",
-        "value_odds": 2.53,
-        "value_pos": 12,
-        "pos_diff": 4,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401888260"
       }
     }
   ],
