@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-03T22:48:56.254437",
+  "generated_at": "2026-11-04T13:41:02.271160",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 10,
-    "fixtures_found": 29,
-    "with_odds": 7,
+    "leagues_checked": 19,
+    "fixtures_found": 50,
+    "with_odds": 19,
     "leagues_detail": [
       [
         "bra.1",
@@ -57,7 +57,7 @@
       [
         "bol.1",
         "Боливия Лига",
-        "no_matches"
+        "ok"
       ],
       [
         "par.1",
@@ -77,7 +77,7 @@
       [
         "mex.1",
         "Мексика Лига MX",
-        "no_matches"
+        "ok"
       ],
       [
         "mex.2",
@@ -97,7 +97,7 @@
       [
         "jpn.1",
         "Япония J-League",
-        "no_matches"
+        "ok"
       ],
       [
         "jpn.2",
@@ -132,7 +132,7 @@
       [
         "aus.1",
         "Австралия А-Лига",
-        "no_matches"
+        "ok"
       ],
       [
         "nga.1",
@@ -172,7 +172,7 @@
       [
         "swe.1",
         "Швеция Алльсвенскан",
-        "no_matches"
+        "ok"
       ],
       [
         "swe.2",
@@ -182,7 +182,7 @@
       [
         "den.1",
         "Дания Суперлига",
-        "no_matches"
+        "ok"
       ],
       [
         "den.2",
@@ -202,7 +202,7 @@
       [
         "sco.2",
         "Шотландия Чемпионшип",
-        "no_matches"
+        "ok"
       ],
       [
         "irl.1",
@@ -217,7 +217,7 @@
       [
         "tur.1",
         "Турция Суперлига",
-        "no_matches"
+        "ok"
       ],
       [
         "tur.2",
@@ -237,7 +237,7 @@
       [
         "aut.1",
         "Австрия Бундеслига",
-        "no_matches"
+        "ok"
       ],
       [
         "bel.1",
@@ -258,40 +258,110 @@
   },
   "results": [
     {
-      "league": "Бразилия Серия А",
+      "league": "Мексика Лига MX",
       "match": {
         "source": "espn",
-        "event_id": "401841301",
+        "event_id": "401876909",
         "fixture_id": null,
-        "league_slug": "bra.1",
+        "league_slug": "mex.1",
         "league_id": null,
         "season": null,
-        "home": "Internacional",
-        "away": "Coritiba",
-        "home_pos": 18,
-        "away_pos": 11,
-        "home_pts": 35,
-        "away_pts": 42,
-        "home_form": "DWLDW",
-        "away_form": "WLLDL",
-        "home_odds": 1.53,
-        "draw_odds": 4.2,
-        "away_odds": 5.75,
+        "home": "Necaxa",
+        "away": "Tijuana",
+        "home_pos": 17,
+        "away_pos": 6,
+        "home_pts": 10,
+        "away_pts": 22,
+        "home_form": "LDLLD",
+        "away_form": "DDWDD",
+        "home_odds": 2.2,
+        "draw_odds": 3.5,
+        "away_odds": 2.88,
         "bookmaker": "Unibet (NL)",
-        "time": "2026-11-04T00:30Z",
-        "value_team": "Coritiba",
+        "time": "2026-11-07T01:00Z",
+        "value_team": "Tijuana",
         "value_side": "away",
-        "value_odds": 5.75,
-        "value_pos": 11,
+        "value_odds": 2.88,
+        "value_pos": 6,
+        "pos_diff": 11,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401876909"
+      }
+    },
+    {
+      "league": "Аргентина Примера",
+      "match": {
+        "source": "espn",
+        "event_id": "401841660",
+        "fixture_id": null,
+        "league_slug": "arg.1",
+        "league_id": null,
+        "season": null,
+        "home": "Unión (Santa Fe)",
+        "away": "Vélez Sarsfield",
+        "home_pos": 10,
+        "away_pos": 3,
+        "home_pts": 18,
+        "away_pts": 28,
+        "home_form": "DWDLL",
+        "away_form": "DWWLD",
+        "home_odds": 2.55,
+        "draw_odds": 3.21,
+        "away_odds": 2.83,
+        "bookmaker": "Pinnacle",
+        "time": "2026-11-06T22:15Z",
+        "value_team": "Vélez Sarsfield",
+        "value_side": "away",
+        "value_odds": 2.83,
+        "value_pos": 3,
         "pos_diff": 7,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
           "label": "матч не завершен"
         },
-        "signal_id": "espn:401841301"
+        "signal_id": "espn:401841660"
+      }
+    },
+    {
+      "league": "Австралия А-Лига",
+      "match": {
+        "source": "espn",
+        "event_id": "401892143",
+        "fixture_id": null,
+        "league_slug": "aus.1",
+        "league_id": null,
+        "season": null,
+        "home": "Auckland FC",
+        "away": "Wellington Phoenix",
+        "home_pos": 6,
+        "away_pos": 1,
+        "home_pts": 4,
+        "away_pts": 9,
+        "home_form": "DLWLW",
+        "away_form": "WWWLW",
+        "home_odds": 2.0,
+        "draw_odds": 3.25,
+        "away_odds": 2.85,
+        "bookmaker": "Winamax (FR)",
+        "time": "2026-11-07T04:00Z",
+        "value_team": "Wellington Phoenix",
+        "value_side": "away",
+        "value_odds": 2.85,
+        "value_pos": 1,
+        "pos_diff": 5,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401892143"
       }
     }
   ],
-  "history_count": 105
+  "history_count": 108
 }
