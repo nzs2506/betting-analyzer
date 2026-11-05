@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-04T23:07:22.255791",
+  "generated_at": "2026-11-05T13:53:50.790866",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 19,
-    "fixtures_found": 43,
-    "with_odds": 18,
+    "leagues_checked": 25,
+    "fixtures_found": 119,
+    "with_odds": 55,
     "leagues_detail": [
       [
         "bra.1",
@@ -37,7 +37,7 @@
       [
         "chi.1",
         "Чили Примера",
-        "no_matches"
+        "ok"
       ],
       [
         "col.1",
@@ -52,7 +52,7 @@
       [
         "ecu.1",
         "Эквадор ЛигаПро",
-        "no_matches"
+        "ok"
       ],
       [
         "bol.1",
@@ -87,7 +87,7 @@
       [
         "usa.1",
         "США MLS",
-        "no_matches"
+        "ok"
       ],
       [
         "usa.2",
@@ -162,7 +162,7 @@
       [
         "nor.1",
         "Норвегия Элитесерен",
-        "no_matches"
+        "ok"
       ],
       [
         "nor.2",
@@ -197,7 +197,7 @@
       [
         "sco.1",
         "Шотландия Премьершип",
-        "no_matches"
+        "ok"
       ],
       [
         "sco.2",
@@ -227,7 +227,7 @@
       [
         "gre.1",
         "Греция Суперлига",
-        "no_matches"
+        "ok"
       ],
       [
         "rou.1",
@@ -274,14 +274,14 @@
         "away_pts": 22,
         "home_form": "LDLLD",
         "away_form": "DDWDD",
-        "home_odds": 2.2,
-        "draw_odds": 3.5,
-        "away_odds": 2.88,
+        "home_odds": 2.28,
+        "draw_odds": 3.45,
+        "away_odds": 2.8,
         "bookmaker": "Unibet (NL)",
         "time": "2026-11-07T01:00Z",
         "value_team": "Tijuana",
         "value_side": "away",
-        "value_odds": 2.88,
+        "value_odds": 2.8,
         "value_pos": 6,
         "pos_diff": 11,
         "settlement": {
@@ -290,6 +290,76 @@
           "label": "матч не завершен"
         },
         "signal_id": "espn:401876909"
+      }
+    },
+    {
+      "league": "США MLS",
+      "match": {
+        "source": "espn",
+        "event_id": "761945",
+        "fixture_id": null,
+        "league_slug": "usa.1",
+        "league_id": null,
+        "season": null,
+        "home": "Minnesota United FC",
+        "away": "San Jose Earthquakes",
+        "home_pos": 12,
+        "away_pos": 3,
+        "home_pts": 41,
+        "away_pts": 52,
+        "home_form": "WWDWD",
+        "away_form": "WDLDD",
+        "home_odds": 1.75,
+        "draw_odds": 4.4,
+        "away_odds": 4.25,
+        "bookmaker": "LeoVegas (SE)",
+        "time": "2026-11-08T00:00Z",
+        "value_team": "San Jose Earthquakes",
+        "value_side": "away",
+        "value_odds": 4.25,
+        "value_pos": 3,
+        "pos_diff": 9,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:761945"
+      }
+    },
+    {
+      "league": "Бразилия Серия Б",
+      "match": {
+        "source": "espn",
+        "event_id": "401860423",
+        "fixture_id": null,
+        "league_slug": "bra.2",
+        "league_id": null,
+        "season": null,
+        "home": "Avaí",
+        "away": "São Bernardo",
+        "home_pos": 17,
+        "away_pos": 10,
+        "home_pts": 37,
+        "away_pts": 52,
+        "home_form": "DLDWW",
+        "away_form": "WWLDL",
+        "home_odds": 2.6,
+        "draw_odds": 3.18,
+        "away_odds": 2.77,
+        "bookmaker": "Pinnacle",
+        "time": "2026-11-07T19:00Z",
+        "value_team": "São Bernardo",
+        "value_side": "away",
+        "value_odds": 2.77,
+        "value_pos": 10,
+        "pos_diff": 7,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401860423"
       }
     },
     {
@@ -328,6 +398,111 @@
       }
     },
     {
+      "league": "США MLS",
+      "match": {
+        "source": "espn",
+        "event_id": "761940",
+        "fixture_id": null,
+        "league_slug": "usa.1",
+        "league_id": null,
+        "season": null,
+        "home": "Orlando City SC",
+        "away": "New England Revolution",
+        "home_pos": 9,
+        "away_pos": 3,
+        "home_pts": 43,
+        "away_pts": 58,
+        "home_form": "LDDWD",
+        "away_form": "LWWWW",
+        "home_odds": 1.91,
+        "draw_odds": 4.4,
+        "away_odds": 3.55,
+        "bookmaker": "LeoVegas (SE)",
+        "time": "2026-11-07T21:00Z",
+        "value_team": "New England Revolution",
+        "value_side": "away",
+        "value_odds": 3.55,
+        "value_pos": 3,
+        "pos_diff": 6,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:761940"
+      }
+    },
+    {
+      "league": "Чили Примера",
+      "match": {
+        "source": "espn",
+        "event_id": "401850688",
+        "fixture_id": null,
+        "league_slug": "chi.1",
+        "league_id": null,
+        "season": null,
+        "home": "La Serena",
+        "away": "Palestino",
+        "home_pos": 11,
+        "away_pos": 6,
+        "home_pts": 34,
+        "away_pts": 38,
+        "home_form": "DWLLW",
+        "away_form": "LDDLW",
+        "home_odds": 2.35,
+        "draw_odds": 3.35,
+        "away_odds": 2.8,
+        "bookmaker": "LeoVegas (SE)",
+        "time": "2026-11-07T18:00Z",
+        "value_team": "Palestino",
+        "value_side": "away",
+        "value_odds": 2.8,
+        "value_pos": 6,
+        "pos_diff": 5,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401850688"
+      }
+    },
+    {
+      "league": "Япония J-League",
+      "match": {
+        "source": "espn",
+        "event_id": "401877535",
+        "fixture_id": null,
+        "league_slug": "jpn.1",
+        "league_id": null,
+        "season": null,
+        "home": "Avispa Fukuoka",
+        "away": "V-Varen Nagasaki",
+        "home_pos": 20,
+        "away_pos": 15,
+        "home_pts": 7,
+        "away_pts": 12,
+        "home_form": "LLLLW",
+        "away_form": "DLWLD",
+        "home_odds": 2.08,
+        "draw_odds": 3.4,
+        "away_odds": 3.6,
+        "bookmaker": "Coolbet",
+        "time": "2026-11-07T06:00Z",
+        "value_team": "V-Varen Nagasaki",
+        "value_side": "away",
+        "value_odds": 3.6,
+        "value_pos": 15,
+        "pos_diff": 5,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401877535"
+      }
+    },
+    {
       "league": "Австралия А-Лига",
       "match": {
         "source": "espn",
@@ -361,7 +536,77 @@
         },
         "signal_id": "espn:401892143"
       }
+    },
+    {
+      "league": "Австралия А-Лига",
+      "match": {
+        "source": "espn",
+        "event_id": "401892142",
+        "fixture_id": null,
+        "league_slug": "aus.1",
+        "league_id": null,
+        "season": null,
+        "home": "Melbourne City FC",
+        "away": "Western Sydney Wanderers FC",
+        "home_pos": 7,
+        "away_pos": 2,
+        "home_pts": 4,
+        "away_pts": 5,
+        "home_form": "WDLLL",
+        "away_form": "DWDLL",
+        "home_odds": 2.15,
+        "draw_odds": 3.45,
+        "away_odds": 2.75,
+        "bookmaker": "Winamax (DE)",
+        "time": "2026-11-07T08:40Z",
+        "value_team": "Western Sydney Wanderers FC",
+        "value_side": "away",
+        "value_odds": 2.75,
+        "value_pos": 2,
+        "pos_diff": 5,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401892142"
+      }
+    },
+    {
+      "league": "США MLS",
+      "match": {
+        "source": "espn",
+        "event_id": "761946",
+        "fixture_id": null,
+        "league_slug": "usa.1",
+        "league_id": null,
+        "season": null,
+        "home": "Real Salt Lake",
+        "away": "LA Galaxy",
+        "home_pos": 11,
+        "away_pos": 7,
+        "home_pts": 42,
+        "away_pts": 44,
+        "home_form": "LWWWD",
+        "away_form": "WDDWL",
+        "home_odds": 1.68,
+        "draw_odds": 4.2,
+        "away_odds": 4.2,
+        "bookmaker": "Unibet (NL)",
+        "time": "2026-11-08T00:00Z",
+        "value_team": "LA Galaxy",
+        "value_side": "away",
+        "value_odds": 4.2,
+        "value_pos": 7,
+        "pos_diff": 4,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:761946"
+      }
     }
   ],
-  "history_count": 108
+  "history_count": 115
 }
