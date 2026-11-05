@@ -4,7 +4,7 @@
       "id": "espn:761945",
       "league": "США MLS",
       "first_seen": "2026-11-05T13:53:50.790866",
-      "last_seen": "2026-11-05T13:53:50.790866",
+      "last_seen": "2026-11-05T23:11:47.069363",
       "match": {
         "source": "espn",
         "event_id": "761945",
@@ -78,7 +78,7 @@
       "id": "espn:761940",
       "league": "США MLS",
       "first_seen": "2026-11-05T13:53:50.790866",
-      "last_seen": "2026-11-05T13:53:50.790866",
+      "last_seen": "2026-11-05T23:11:47.069363",
       "match": {
         "source": "espn",
         "event_id": "761940",
@@ -115,7 +115,7 @@
       "id": "espn:401850688",
       "league": "Чили Примера",
       "first_seen": "2026-11-05T13:53:50.790866",
-      "last_seen": "2026-11-05T13:53:50.790866",
+      "last_seen": "2026-11-05T23:11:47.069363",
       "match": {
         "source": "espn",
         "event_id": "401850688",
@@ -152,7 +152,7 @@
       "id": "espn:401877535",
       "league": "Япония J-League",
       "first_seen": "2026-11-05T13:53:50.790866",
-      "last_seen": "2026-11-05T13:53:50.790866",
+      "last_seen": "2026-11-05T23:11:47.069363",
       "match": {
         "source": "espn",
         "event_id": "401877535",
@@ -189,7 +189,7 @@
       "id": "espn:401892142",
       "league": "Австралия А-Лига",
       "first_seen": "2026-11-05T13:53:50.790866",
-      "last_seen": "2026-11-05T13:53:50.790866",
+      "last_seen": "2026-11-05T23:11:47.069363",
       "match": {
         "source": "espn",
         "event_id": "401892142",
@@ -226,7 +226,7 @@
       "id": "espn:761946",
       "league": "США MLS",
       "first_seen": "2026-11-05T13:53:50.790866",
-      "last_seen": "2026-11-05T13:53:50.790866",
+      "last_seen": "2026-11-05T23:11:47.069363",
       "match": {
         "source": "espn",
         "event_id": "761946",
@@ -263,7 +263,7 @@
       "id": "espn:401876909",
       "league": "Мексика Лига MX",
       "first_seen": "2026-11-04T13:41:02.271160",
-      "last_seen": "2026-11-05T13:53:50.790866",
+      "last_seen": "2026-11-05T23:11:47.069363",
       "match": {
         "source": "espn",
         "event_id": "401876909",
@@ -300,7 +300,7 @@
       "id": "espn:401841660",
       "league": "Аргентина Примера",
       "first_seen": "2026-11-04T13:41:02.271160",
-      "last_seen": "2026-11-05T13:53:50.790866",
+      "last_seen": "2026-11-05T23:11:47.069363",
       "match": {
         "source": "espn",
         "event_id": "401841660",
@@ -316,14 +316,14 @@
         "away_pts": 28,
         "home_form": "DWDLL",
         "away_form": "DWWLD",
-        "home_odds": 2.55,
-        "draw_odds": 3.21,
-        "away_odds": 2.83,
+        "home_odds": 2.68,
+        "draw_odds": 3.26,
+        "away_odds": 2.72,
         "bookmaker": "Pinnacle",
         "time": "2026-11-06T22:15Z",
         "value_team": "Vélez Sarsfield",
         "value_side": "away",
-        "value_odds": 2.83,
+        "value_odds": 2.72,
         "value_pos": 3,
         "pos_diff": 7,
         "settlement": {
@@ -337,7 +337,7 @@
       "id": "espn:401892143",
       "league": "Австралия А-Лига",
       "first_seen": "2026-11-04T13:41:02.271160",
-      "last_seen": "2026-11-05T13:53:50.790866",
+      "last_seen": "2026-11-05T23:11:47.069363",
       "match": {
         "source": "espn",
         "event_id": "401892143",
@@ -4771,5 +4771,5 @@
       }
     }
   ],
-  "generated_at": "2026-11-05T13:53:50.790866"
+  "generated_at": "2026-11-05T23:11:47.069363"
 }

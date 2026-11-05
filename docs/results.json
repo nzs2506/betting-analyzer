@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-05T13:53:50.790866",
+  "generated_at": "2026-11-05T23:11:47.069363",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
     "leagues_checked": 25,
-    "fixtures_found": 119,
-    "with_odds": 55,
+    "fixtures_found": 113,
+    "with_odds": 52,
     "leagues_detail": [
       [
         "bra.1",
@@ -328,41 +328,6 @@
       }
     },
     {
-      "league": "Бразилия Серия Б",
-      "match": {
-        "source": "espn",
-        "event_id": "401860423",
-        "fixture_id": null,
-        "league_slug": "bra.2",
-        "league_id": null,
-        "season": null,
-        "home": "Avaí",
-        "away": "São Bernardo",
-        "home_pos": 17,
-        "away_pos": 10,
-        "home_pts": 37,
-        "away_pts": 52,
-        "home_form": "DLDWW",
-        "away_form": "WWLDL",
-        "home_odds": 2.6,
-        "draw_odds": 3.18,
-        "away_odds": 2.77,
-        "bookmaker": "Pinnacle",
-        "time": "2026-11-07T19:00Z",
-        "value_team": "São Bernardo",
-        "value_side": "away",
-        "value_odds": 2.77,
-        "value_pos": 10,
-        "pos_diff": 7,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401860423"
-      }
-    },
-    {
       "league": "Аргентина Примера",
       "match": {
         "source": "espn",
@@ -379,14 +344,14 @@
         "away_pts": 28,
         "home_form": "DWDLL",
         "away_form": "DWWLD",
-        "home_odds": 2.55,
-        "draw_odds": 3.21,
-        "away_odds": 2.83,
+        "home_odds": 2.68,
+        "draw_odds": 3.26,
+        "away_odds": 2.72,
         "bookmaker": "Pinnacle",
         "time": "2026-11-06T22:15Z",
         "value_team": "Vélez Sarsfield",
         "value_side": "away",
-        "value_odds": 2.83,
+        "value_odds": 2.72,
         "value_pos": 3,
         "pos_diff": 7,
         "settlement": {
