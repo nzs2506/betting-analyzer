@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-06T13:39:21.376262",
+  "generated_at": "2026-11-06T22:39:06.999455",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
     "leagues_checked": 26,
-    "fixtures_found": 198,
-    "with_odds": 86,
+    "fixtures_found": 184,
+    "with_odds": 79,
     "leagues_detail": [
       [
         "bra.1",
@@ -274,7 +274,7 @@
         "away_pts": 22,
         "home_form": "LDLLD",
         "away_form": "DDWDD",
-        "home_odds": 2.28,
+        "home_odds": 2.25,
         "draw_odds": 3.4,
         "away_odds": 2.8,
         "bookmaker": "Unibet (NL)",
@@ -345,13 +345,13 @@
         "home_form": "WWDWD",
         "away_form": "WDLDD",
         "home_odds": 1.75,
-        "draw_odds": 4.4,
-        "away_odds": 4.25,
+        "draw_odds": 4.35,
+        "away_odds": 4.35,
         "bookmaker": "LeoVegas (SE)",
         "time": "2026-11-08T00:00Z",
         "value_team": "San Jose Earthquakes",
         "value_side": "away",
-        "value_odds": 4.25,
+        "value_odds": 4.35,
         "value_pos": 3,
         "pos_diff": 9,
         "settlement": {
@@ -360,76 +360,6 @@
           "label": "матч не завершен"
         },
         "signal_id": "espn:761945"
-      }
-    },
-    {
-      "league": "Аргентина Примера",
-      "match": {
-        "source": "espn",
-        "event_id": "401841660",
-        "fixture_id": null,
-        "league_slug": "arg.1",
-        "league_id": null,
-        "season": null,
-        "home": "Unión (Santa Fe)",
-        "away": "Vélez Sarsfield",
-        "home_pos": 10,
-        "away_pos": 3,
-        "home_pts": 18,
-        "away_pts": 28,
-        "home_form": "DWDLL",
-        "away_form": "DWWLD",
-        "home_odds": 2.55,
-        "draw_odds": 3.26,
-        "away_odds": 2.91,
-        "bookmaker": "Pinnacle",
-        "time": "2026-11-06T22:15Z",
-        "value_team": "Vélez Sarsfield",
-        "value_side": "away",
-        "value_odds": 2.91,
-        "value_pos": 3,
-        "pos_diff": 7,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401841660"
-      }
-    },
-    {
-      "league": "Норвегия Элитесерен",
-      "match": {
-        "source": "espn",
-        "event_id": "401843480",
-        "fixture_id": null,
-        "league_slug": "nor.1",
-        "league_id": null,
-        "season": null,
-        "home": "Kristiansund BK",
-        "away": "Vålerenga",
-        "home_pos": 15,
-        "away_pos": 8,
-        "home_pts": 23,
-        "away_pts": 32,
-        "home_form": "WDLLL",
-        "away_form": "WWWLD",
-        "home_odds": 2.23,
-        "draw_odds": 3.7,
-        "away_odds": 2.43,
-        "bookmaker": "PMU (FR)",
-        "time": "2026-11-07T15:00Z",
-        "value_team": "Vålerenga",
-        "value_side": "away",
-        "value_odds": 2.43,
-        "value_pos": 8,
-        "pos_diff": 7,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401843480"
       }
     },
     {
@@ -555,7 +485,7 @@
         "home_form": "DLWLW",
         "away_form": "WWWLW",
         "home_odds": 2.0,
-        "draw_odds": 3.25,
+        "draw_odds": 3.3,
         "away_odds": 2.85,
         "bookmaker": "Winamax (FR)",
         "time": "2026-11-07T04:00Z",
@@ -659,14 +589,14 @@
         "away_pts": 5,
         "home_form": "WDLLL",
         "away_form": "DWDLL",
-        "home_odds": 2.15,
-        "draw_odds": 3.55,
-        "away_odds": 2.8,
+        "home_odds": 2.05,
+        "draw_odds": 3.6,
+        "away_odds": 2.95,
         "bookmaker": "Winamax (DE)",
         "time": "2026-11-07T08:40Z",
         "value_team": "Western Sydney Wanderers FC",
         "value_side": "away",
-        "value_odds": 2.8,
+        "value_odds": 2.95,
         "value_pos": 3,
         "pos_diff": 4,
         "settlement": {
