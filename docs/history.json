@@ -4,7 +4,7 @@
       "id": "espn:401850684",
       "league": "Чили Примера",
       "first_seen": "2026-11-06T13:39:21.376262",
-      "last_seen": "2026-11-06T22:39:06.999455",
+      "last_seen": "2026-11-07T12:20:00.037066",
       "match": {
         "source": "espn",
         "event_id": "401850684",
@@ -20,8 +20,8 @@
         "away_pts": 36,
         "home_form": "LLWDD",
         "away_form": "DDWWW",
-        "home_odds": 1.87,
-        "draw_odds": 3.4,
+        "home_odds": 1.89,
+        "draw_odds": 3.35,
         "away_odds": 3.67,
         "bookmaker": "1xBet",
         "time": "2026-11-08T20:30Z",
@@ -41,7 +41,7 @@
       "id": "espn:401843480",
       "league": "Норвегия Элитесерен",
       "first_seen": "2026-11-06T13:39:21.376262",
-      "last_seen": "2026-11-06T13:39:21.376262",
+      "last_seen": "2026-11-07T12:20:00.037066",
       "match": {
         "source": "espn",
         "event_id": "401843480",
@@ -57,14 +57,14 @@
         "away_pts": 32,
         "home_form": "WDLLL",
         "away_form": "WWWLD",
-        "home_odds": 2.23,
-        "draw_odds": 3.7,
-        "away_odds": 2.43,
-        "bookmaker": "PMU (FR)",
-        "time": "2026-11-07T15:00Z",
+        "home_odds": 2.35,
+        "draw_odds": 4.0,
+        "away_odds": 2.55,
+        "bookmaker": "Unibet (NL)",
+        "time": "2026-11-09T18:00Z",
         "value_team": "Vålerenga",
         "value_side": "away",
-        "value_odds": 2.43,
+        "value_odds": 2.55,
         "value_pos": 8,
         "pos_diff": 7,
         "settlement": {
@@ -78,7 +78,7 @@
       "id": "espn:401877555",
       "league": "Япония J-League",
       "first_seen": "2026-11-06T13:39:21.376262",
-      "last_seen": "2026-11-06T22:39:06.999455",
+      "last_seen": "2026-11-07T12:20:00.037066",
       "match": {
         "source": "espn",
         "event_id": "401877555",
@@ -88,21 +88,21 @@
         "season": null,
         "home": "Gamba Osaka",
         "away": "Cerezo Osaka",
-        "home_pos": 16,
-        "away_pos": 12,
+        "home_pos": 17,
+        "away_pos": 13,
         "home_pts": 12,
         "away_pts": 14,
         "home_form": "DDDDW",
         "away_form": "LDDLD",
-        "home_odds": 2.25,
+        "home_odds": 2.35,
         "draw_odds": 3.6,
-        "away_odds": 3.0,
+        "away_odds": 2.85,
         "bookmaker": "Coolbet",
         "time": "2026-11-08T06:00Z",
         "value_team": "Cerezo Osaka",
         "value_side": "away",
-        "value_odds": 3.0,
-        "value_pos": 12,
+        "value_odds": 2.85,
+        "value_pos": 13,
         "pos_diff": 4,
         "settlement": {
           "status": "pending",
@@ -115,7 +115,7 @@
       "id": "espn:401896812",
       "league": "Греция Суперлига",
       "first_seen": "2026-11-06T13:39:21.376262",
-      "last_seen": "2026-11-06T22:39:06.999455",
+      "last_seen": "2026-11-07T12:20:00.037066",
       "match": {
         "source": "espn",
         "event_id": "401896812",
@@ -131,14 +131,14 @@
         "away_pts": 11,
         "home_form": "LDLWD",
         "away_form": "DLWWL",
-        "home_odds": 2.02,
-        "draw_odds": 3.4,
-        "away_odds": 3.7,
+        "home_odds": 1.95,
+        "draw_odds": 3.5,
+        "away_odds": 3.8,
         "bookmaker": "Betsson",
         "time": "2026-11-08T15:00Z",
         "value_team": "Kalamata",
         "value_side": "away",
-        "value_odds": 3.7,
+        "value_odds": 3.8,
         "value_pos": 8,
         "pos_diff": 4,
         "settlement": {
@@ -152,7 +152,7 @@
       "id": "espn:761945",
       "league": "США MLS",
       "first_seen": "2026-11-05T13:53:50.790866",
-      "last_seen": "2026-11-06T22:39:06.999455",
+      "last_seen": "2026-11-07T12:20:00.037066",
       "match": {
         "source": "espn",
         "event_id": "761945",
@@ -226,7 +226,7 @@
       "id": "espn:761940",
       "league": "США MLS",
       "first_seen": "2026-11-05T13:53:50.790866",
-      "last_seen": "2026-11-06T22:39:06.999455",
+      "last_seen": "2026-11-07T12:20:00.037066",
       "match": {
         "source": "espn",
         "event_id": "761940",
@@ -263,7 +263,7 @@
       "id": "espn:401850688",
       "league": "Чили Примера",
       "first_seen": "2026-11-05T13:53:50.790866",
-      "last_seen": "2026-11-06T22:39:06.999455",
+      "last_seen": "2026-11-07T12:20:00.037066",
       "match": {
         "source": "espn",
         "event_id": "401850688",
@@ -327,9 +327,14 @@
         "value_pos": 15,
         "pos_diff": 5,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 1,
+          "away_score": 1,
+          "score": "1:1",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -364,9 +369,14 @@
         "value_pos": 3,
         "pos_diff": 4,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 2,
+          "away_score": 1,
+          "score": "2:1",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -374,7 +384,7 @@
       "id": "espn:761946",
       "league": "США MLS",
       "first_seen": "2026-11-05T13:53:50.790866",
-      "last_seen": "2026-11-06T22:39:06.999455",
+      "last_seen": "2026-11-07T12:20:00.037066",
       "match": {
         "source": "espn",
         "event_id": "761946",
@@ -438,9 +448,14 @@
         "value_pos": 6,
         "pos_diff": 11,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 1,
+          "away_score": 0,
+          "score": "1:0",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -475,9 +490,14 @@
         "value_pos": 3,
         "pos_diff": 7,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 2,
+          "away_score": 0,
+          "score": "2:0",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -512,9 +532,14 @@
         "value_pos": 1,
         "pos_diff": 5,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 0,
+          "away_score": 0,
+          "score": "0:0",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -4919,5 +4944,5 @@
       }
     }
   ],
-  "generated_at": "2026-11-06T22:39:06.999455"
+  "generated_at": "2026-11-07T12:20:00.037066"
 }
