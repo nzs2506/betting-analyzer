@@ -4,7 +4,7 @@
       "id": "espn:401850684",
       "league": "Чили Примера",
       "first_seen": "2026-11-06T13:39:21.376262",
-      "last_seen": "2026-11-07T12:20:00.037066",
+      "last_seen": "2026-11-07T21:22:06.328029",
       "match": {
         "source": "espn",
         "event_id": "401850684",
@@ -15,12 +15,12 @@
         "home": "Unión La Calera",
         "away": "Huachipato",
         "home_pos": 16,
-        "away_pos": 7,
+        "away_pos": 8,
         "home_pts": 21,
         "away_pts": 36,
         "home_form": "LLWDD",
         "away_form": "DDWWW",
-        "home_odds": 1.89,
+        "home_odds": 1.9,
         "draw_odds": 3.35,
         "away_odds": 3.67,
         "bookmaker": "1xBet",
@@ -28,8 +28,8 @@
         "value_team": "Huachipato",
         "value_side": "away",
         "value_odds": 3.67,
-        "value_pos": 7,
-        "pos_diff": 9,
+        "value_pos": 8,
+        "pos_diff": 8,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
@@ -78,7 +78,7 @@
       "id": "espn:401877555",
       "league": "Япония J-League",
       "first_seen": "2026-11-06T13:39:21.376262",
-      "last_seen": "2026-11-07T12:20:00.037066",
+      "last_seen": "2026-11-07T21:22:06.328029",
       "match": {
         "source": "espn",
         "event_id": "401877555",
@@ -95,7 +95,7 @@
         "home_form": "DDDDW",
         "away_form": "LDDLD",
         "home_odds": 2.35,
-        "draw_odds": 3.6,
+        "draw_odds": 3.75,
         "away_odds": 2.85,
         "bookmaker": "Coolbet",
         "time": "2026-11-08T06:00Z",
@@ -115,7 +115,7 @@
       "id": "espn:401896812",
       "league": "Греция Суперлига",
       "first_seen": "2026-11-06T13:39:21.376262",
-      "last_seen": "2026-11-07T12:20:00.037066",
+      "last_seen": "2026-11-07T21:22:06.328029",
       "match": {
         "source": "espn",
         "event_id": "401896812",
@@ -152,7 +152,7 @@
       "id": "espn:761945",
       "league": "США MLS",
       "first_seen": "2026-11-05T13:53:50.790866",
-      "last_seen": "2026-11-07T12:20:00.037066",
+      "last_seen": "2026-11-07T21:22:06.328029",
       "match": {
         "source": "espn",
         "event_id": "761945",
@@ -168,14 +168,14 @@
         "away_pts": 52,
         "home_form": "WWDWD",
         "away_form": "WDLDD",
-        "home_odds": 1.75,
-        "draw_odds": 4.35,
-        "away_odds": 4.35,
+        "home_odds": 1.71,
+        "draw_odds": 4.4,
+        "away_odds": 4.5,
         "bookmaker": "LeoVegas (SE)",
         "time": "2026-11-08T00:00Z",
         "value_team": "San Jose Earthquakes",
         "value_side": "away",
-        "value_odds": 4.35,
+        "value_odds": 4.5,
         "value_pos": 3,
         "pos_diff": 9,
         "settlement": {
@@ -216,9 +216,14 @@
         "value_pos": 10,
         "pos_diff": 7,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 2,
+          "away_score": 1,
+          "score": "2:1",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -290,9 +295,14 @@
         "value_pos": 6,
         "pos_diff": 5,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 1,
+          "away_score": 0,
+          "score": "1:0",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -384,7 +394,7 @@
       "id": "espn:761946",
       "league": "США MLS",
       "first_seen": "2026-11-05T13:53:50.790866",
-      "last_seen": "2026-11-07T12:20:00.037066",
+      "last_seen": "2026-11-07T21:22:06.328029",
       "match": {
         "source": "espn",
         "event_id": "761946",
@@ -4944,5 +4954,5 @@
       }
     }
   ],
-  "generated_at": "2026-11-07T12:20:00.037066"
+  "generated_at": "2026-11-07T21:22:06.328029"
 }
