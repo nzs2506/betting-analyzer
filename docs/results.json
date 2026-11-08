@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-07T21:22:06.328029",
+  "generated_at": "2026-11-08T12:39:21.478422",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 23,
-    "fixtures_found": 123,
-    "with_odds": 49,
+    "leagues_checked": 19,
+    "fixtures_found": 80,
+    "with_odds": 28,
     "leagues_detail": [
       [
         "bra.1",
@@ -87,7 +87,7 @@
       [
         "usa.1",
         "США MLS",
-        "ok"
+        "no_matches"
       ],
       [
         "usa.2",
@@ -97,7 +97,7 @@
       [
         "jpn.1",
         "Япония J-League",
-        "ok"
+        "no_matches"
       ],
       [
         "jpn.2",
@@ -107,7 +107,7 @@
       [
         "chn.1",
         "Китай Суперлига",
-        "ok"
+        "no_matches"
       ],
       [
         "ind.1",
@@ -132,7 +132,7 @@
       [
         "aus.1",
         "Австралия А-Лига",
-        "ok"
+        "no_matches"
       ],
       [
         "nga.1",
@@ -258,41 +258,6 @@
   },
   "results": [
     {
-      "league": "США MLS",
-      "match": {
-        "source": "espn",
-        "event_id": "761945",
-        "fixture_id": null,
-        "league_slug": "usa.1",
-        "league_id": null,
-        "season": null,
-        "home": "Minnesota United FC",
-        "away": "San Jose Earthquakes",
-        "home_pos": 12,
-        "away_pos": 3,
-        "home_pts": 41,
-        "away_pts": 52,
-        "home_form": "WWDWD",
-        "away_form": "WDLDD",
-        "home_odds": 1.71,
-        "draw_odds": 4.4,
-        "away_odds": 4.5,
-        "bookmaker": "LeoVegas (SE)",
-        "time": "2026-11-08T00:00Z",
-        "value_team": "San Jose Earthquakes",
-        "value_side": "away",
-        "value_odds": 4.5,
-        "value_pos": 3,
-        "pos_diff": 9,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:761945"
-      }
-    },
-    {
       "league": "Чили Примера",
       "match": {
         "source": "espn",
@@ -304,97 +269,27 @@
         "home": "Unión La Calera",
         "away": "Huachipato",
         "home_pos": 16,
-        "away_pos": 8,
+        "away_pos": 9,
         "home_pts": 21,
         "away_pts": 36,
         "home_form": "LLWDD",
         "away_form": "DDWWW",
-        "home_odds": 1.9,
-        "draw_odds": 3.35,
-        "away_odds": 3.67,
+        "home_odds": 1.94,
+        "draw_odds": 3.4,
+        "away_odds": 3.42,
         "bookmaker": "1xBet",
         "time": "2026-11-08T20:30Z",
         "value_team": "Huachipato",
         "value_side": "away",
-        "value_odds": 3.67,
-        "value_pos": 8,
-        "pos_diff": 8,
+        "value_odds": 3.42,
+        "value_pos": 9,
+        "pos_diff": 7,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
           "label": "матч не завершен"
         },
         "signal_id": "espn:401850684"
-      }
-    },
-    {
-      "league": "США MLS",
-      "match": {
-        "source": "espn",
-        "event_id": "761946",
-        "fixture_id": null,
-        "league_slug": "usa.1",
-        "league_id": null,
-        "season": null,
-        "home": "Real Salt Lake",
-        "away": "LA Galaxy",
-        "home_pos": 11,
-        "away_pos": 7,
-        "home_pts": 42,
-        "away_pts": 44,
-        "home_form": "LWWWD",
-        "away_form": "WDDWL",
-        "home_odds": 1.68,
-        "draw_odds": 4.2,
-        "away_odds": 4.2,
-        "bookmaker": "Unibet (NL)",
-        "time": "2026-11-08T00:00Z",
-        "value_team": "LA Galaxy",
-        "value_side": "away",
-        "value_odds": 4.2,
-        "value_pos": 7,
-        "pos_diff": 4,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:761946"
-      }
-    },
-    {
-      "league": "Япония J-League",
-      "match": {
-        "source": "espn",
-        "event_id": "401877555",
-        "fixture_id": null,
-        "league_slug": "jpn.1",
-        "league_id": null,
-        "season": null,
-        "home": "Gamba Osaka",
-        "away": "Cerezo Osaka",
-        "home_pos": 17,
-        "away_pos": 13,
-        "home_pts": 12,
-        "away_pts": 14,
-        "home_form": "DDDDW",
-        "away_form": "LDDLD",
-        "home_odds": 2.35,
-        "draw_odds": 3.75,
-        "away_odds": 2.85,
-        "bookmaker": "Coolbet",
-        "time": "2026-11-08T06:00Z",
-        "value_team": "Cerezo Osaka",
-        "value_side": "away",
-        "value_odds": 2.85,
-        "value_pos": 13,
-        "pos_diff": 4,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401877555"
       }
     },
     {
@@ -414,14 +309,14 @@
         "away_pts": 11,
         "home_form": "LDLWD",
         "away_form": "DLWWL",
-        "home_odds": 1.95,
-        "draw_odds": 3.5,
-        "away_odds": 3.8,
+        "home_odds": 2.08,
+        "draw_odds": 3.3,
+        "away_odds": 3.65,
         "bookmaker": "Betsson",
         "time": "2026-11-08T15:00Z",
         "value_team": "Kalamata",
         "value_side": "away",
-        "value_odds": 3.8,
+        "value_odds": 3.65,
         "value_pos": 8,
         "pos_diff": 4,
         "settlement": {
