@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-08T12:39:21.478422",
+  "generated_at": "2026-11-08T21:37:09.075856",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 19,
-    "fixtures_found": 80,
-    "with_odds": 28,
+    "leagues_checked": 11,
+    "fixtures_found": 30,
+    "with_odds": 6,
     "leagues_detail": [
       [
         "bra.1",
@@ -72,7 +72,7 @@
       [
         "ven.1",
         "Венесуэла Примера",
-        "ok"
+        "no_matches"
       ],
       [
         "mex.1",
@@ -172,7 +172,7 @@
       [
         "swe.1",
         "Швеция Алльсвенскан",
-        "ok"
+        "no_matches"
       ],
       [
         "swe.2",
@@ -182,7 +182,7 @@
       [
         "den.1",
         "Дания Суперлига",
-        "ok"
+        "no_matches"
       ],
       [
         "den.2",
@@ -197,7 +197,7 @@
       [
         "sco.1",
         "Шотландия Премьершип",
-        "ok"
+        "no_matches"
       ],
       [
         "sco.2",
@@ -217,7 +217,7 @@
       [
         "tur.1",
         "Турция Суперлига",
-        "ok"
+        "no_matches"
       ],
       [
         "tur.2",
@@ -227,7 +227,7 @@
       [
         "gre.1",
         "Греция Суперлига",
-        "ok"
+        "no_matches"
       ],
       [
         "rou.1",
@@ -237,12 +237,12 @@
       [
         "aut.1",
         "Австрия Бундеслига",
-        "ok"
+        "no_matches"
       ],
       [
         "bel.1",
         "Бельгия Про Лига",
-        "ok"
+        "no_matches"
       ],
       [
         "api-football",
@@ -256,77 +256,6 @@
       ]
     ]
   },
-  "results": [
-    {
-      "league": "Чили Примера",
-      "match": {
-        "source": "espn",
-        "event_id": "401850684",
-        "fixture_id": null,
-        "league_slug": "chi.1",
-        "league_id": null,
-        "season": null,
-        "home": "Unión La Calera",
-        "away": "Huachipato",
-        "home_pos": 16,
-        "away_pos": 9,
-        "home_pts": 21,
-        "away_pts": 36,
-        "home_form": "LLWDD",
-        "away_form": "DDWWW",
-        "home_odds": 1.94,
-        "draw_odds": 3.4,
-        "away_odds": 3.42,
-        "bookmaker": "1xBet",
-        "time": "2026-11-08T20:30Z",
-        "value_team": "Huachipato",
-        "value_side": "away",
-        "value_odds": 3.42,
-        "value_pos": 9,
-        "pos_diff": 7,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401850684"
-      }
-    },
-    {
-      "league": "Греция Суперлига",
-      "match": {
-        "source": "espn",
-        "event_id": "401896812",
-        "fixture_id": null,
-        "league_slug": "gre.1",
-        "league_id": null,
-        "season": null,
-        "home": "Asteras Tripoli",
-        "away": "Kalamata",
-        "home_pos": 12,
-        "away_pos": 8,
-        "home_pts": 6,
-        "away_pts": 11,
-        "home_form": "LDLWD",
-        "away_form": "DLWWL",
-        "home_odds": 2.08,
-        "draw_odds": 3.3,
-        "away_odds": 3.65,
-        "bookmaker": "Betsson",
-        "time": "2026-11-08T15:00Z",
-        "value_team": "Kalamata",
-        "value_side": "away",
-        "value_odds": 3.65,
-        "value_pos": 8,
-        "pos_diff": 4,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401896812"
-      }
-    }
-  ],
+  "results": [],
   "history_count": 119
 }
