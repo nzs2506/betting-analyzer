@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-10T14:12:11.622735",
+  "generated_at": "2026-11-10T22:45:24.747047",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 3,
-    "fixtures_found": 6,
+    "leagues_checked": 4,
+    "fixtures_found": 8,
     "with_odds": 1,
     "leagues_detail": [
       [
@@ -42,7 +42,7 @@
       [
         "col.1",
         "Колумбия Примера А",
-        "no_matches"
+        "ok"
       ],
       [
         "uru.1",
