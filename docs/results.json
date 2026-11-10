@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-09T14:58:55.449985",
+  "generated_at": "2026-11-10T01:05:58.794808",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 7,
-    "fixtures_found": 10,
-    "with_odds": 1,
+    "leagues_checked": 3,
+    "fixtures_found": 4,
+    "with_odds": 0,
     "leagues_detail": [
       [
         "bra.1",
@@ -42,27 +42,27 @@
       [
         "col.1",
         "Колумбия Примера А",
-        "ok"
+        "no_matches"
       ],
       [
         "uru.1",
         "Уругвай Лига",
-        "no_matches"
+        "ok"
       ],
       [
         "ecu.1",
         "Эквадор ЛигаПро",
-        "ok"
+        "no_matches"
       ],
       [
         "bol.1",
         "Боливия Лига",
-        "ok"
+        "no_matches"
       ],
       [
         "par.1",
         "Парагвай Примера",
-        "ok"
+        "no_matches"
       ],
       [
         "per.1",
@@ -162,7 +162,7 @@
       [
         "nor.1",
         "Норвегия Элитесерен",
-        "ok"
+        "no_matches"
       ],
       [
         "nor.2",
