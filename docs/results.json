@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-12T23:07:39.138929",
+  "generated_at": "2026-11-13T13:49:50.819945",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 8,
-    "fixtures_found": 34,
+    "leagues_checked": 9,
+    "fixtures_found": 40,
     "with_odds": 7,
     "leagues_detail": [
       [
@@ -67,7 +67,7 @@
       [
         "per.1",
         "Перу Лига 1",
-        "no_matches"
+        "ok"
       ],
       [
         "ven.1",
