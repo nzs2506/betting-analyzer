@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-13T13:49:50.819945",
+  "generated_at": "2026-11-13T23:10:20.940287",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
     "leagues_checked": 9,
-    "fixtures_found": 40,
+    "fixtures_found": 39,
     "with_odds": 7,
     "leagues_detail": [
       [
