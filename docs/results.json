@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-14T12:53:07.109722",
+  "generated_at": "2026-11-14T21:54:48.491522",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 9,
-    "fixtures_found": 42,
-    "with_odds": 7,
+    "leagues_checked": 6,
+    "fixtures_found": 18,
+    "with_odds": 2,
     "leagues_detail": [
       [
         "bra.1",
@@ -17,7 +17,7 @@
       [
         "bra.2",
         "Бразилия Серия Б",
-        "ok"
+        "no_matches"
       ],
       [
         "bra.3",
@@ -42,7 +42,7 @@
       [
         "col.1",
         "Колумбия Примера А",
-        "ok"
+        "no_matches"
       ],
       [
         "uru.1",
@@ -202,7 +202,7 @@
       [
         "sco.2",
         "Шотландия Чемпионшип",
-        "ok"
+        "no_matches"
       ],
       [
         "irl.1",
