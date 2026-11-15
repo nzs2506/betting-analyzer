@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-15T13:20:54.623674",
+  "generated_at": "2026-11-15T22:24:53.176951",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 4,
-    "fixtures_found": 12,
+    "leagues_checked": 3,
+    "fixtures_found": 6,
     "with_odds": 0,
     "leagues_detail": [
       [
@@ -82,7 +82,7 @@
       [
         "mex.2",
         "Мексика Лига Экспансьон",
-        "ok"
+        "no_matches"
       ],
       [
         "usa.1",
