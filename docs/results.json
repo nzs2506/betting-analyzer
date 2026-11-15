@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-14T21:54:48.491522",
+  "generated_at": "2026-11-15T13:20:54.623674",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 6,
-    "fixtures_found": 18,
-    "with_odds": 2,
+    "leagues_checked": 4,
+    "fixtures_found": 12,
+    "with_odds": 0,
     "leagues_detail": [
       [
         "bra.1",
         "Бразилия Серия А",
-        "ok"
+        "no_matches"
       ],
       [
         "bra.2",
@@ -77,7 +77,7 @@
       [
         "mex.1",
         "Мексика Лига MX",
-        "ok"
+        "no_matches"
       ],
       [
         "mex.2",
