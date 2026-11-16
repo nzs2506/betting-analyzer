@@ -1,6 +1,80 @@
 {
   "signals": [
     {
+      "id": "espn:401841312",
+      "league": "Бразилия Серия А",
+      "first_seen": "2026-11-16T14:35:36.170703",
+      "last_seen": "2026-11-16T14:35:36.170703",
+      "match": {
+        "source": "espn",
+        "event_id": "401841312",
+        "fixture_id": null,
+        "league_slug": "bra.1",
+        "league_id": null,
+        "season": null,
+        "home": "Grêmio",
+        "away": "Bahia",
+        "home_pos": 18,
+        "away_pos": 6,
+        "home_pts": 37,
+        "away_pts": 53,
+        "home_form": "DLWWW",
+        "away_form": "LWDLW",
+        "home_odds": 2.05,
+        "draw_odds": 3.3,
+        "away_odds": 2.75,
+        "bookmaker": "Winamax (FR)",
+        "time": "2026-11-19T00:30Z",
+        "value_team": "Bahia",
+        "value_side": "away",
+        "value_odds": 2.75,
+        "value_pos": 6,
+        "pos_diff": 12,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
+      "id": "espn:401841316",
+      "league": "Бразилия Серия А",
+      "first_seen": "2026-11-16T14:35:36.170703",
+      "last_seen": "2026-11-16T14:35:36.170703",
+      "match": {
+        "source": "espn",
+        "event_id": "401841316",
+        "fixture_id": null,
+        "league_slug": "bra.1",
+        "league_id": null,
+        "season": null,
+        "home": "Corinthians",
+        "away": "Botafogo",
+        "home_pos": 17,
+        "away_pos": 12,
+        "home_pts": 37,
+        "away_pts": 42,
+        "home_form": "DWLDL",
+        "away_form": "WLLWD",
+        "home_odds": 1.72,
+        "draw_odds": 3.4,
+        "away_odds": 3.65,
+        "bookmaker": "Winamax (FR)",
+        "time": "2026-11-19T00:30Z",
+        "value_team": "Botafogo",
+        "value_side": "away",
+        "value_odds": 3.65,
+        "value_pos": 12,
+        "pos_diff": 5,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
       "id": "espn:401850684",
       "league": "Чили Примера",
       "first_seen": "2026-11-06T13:39:21.376262",
@@ -4989,5 +5063,5 @@
       }
     }
   ],
-  "generated_at": "2026-11-15T22:24:53.176951"
+  "generated_at": "2026-11-16T14:35:36.170703"
 }
