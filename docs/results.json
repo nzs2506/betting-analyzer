@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-16T14:35:36.170703",
+  "generated_at": "2026-11-17T01:28:51.650542",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
     "leagues_checked": 3,
-    "fixtures_found": 11,
-    "with_odds": 5,
+    "fixtures_found": 12,
+    "with_odds": 9,
     "leagues_detail": [
       [
         "bra.1",
@@ -47,7 +47,7 @@
       [
         "uru.1",
         "Уругвай Лига",
-        "ok"
+        "no_matches"
       ],
       [
         "ecu.1",
@@ -87,7 +87,7 @@
       [
         "usa.1",
         "США MLS",
-        "no_matches"
+        "ok"
       ],
       [
         "usa.2",
@@ -296,6 +296,41 @@
       "league": "Бразилия Серия А",
       "match": {
         "source": "espn",
+        "event_id": "401841309",
+        "fixture_id": null,
+        "league_slug": "bra.1",
+        "league_id": null,
+        "season": null,
+        "home": "São Paulo",
+        "away": "Fluminense",
+        "home_pos": 10,
+        "away_pos": 4,
+        "home_pts": 44,
+        "away_pts": 57,
+        "home_form": "DLDWW",
+        "away_form": "WWLWL",
+        "home_odds": 2.15,
+        "draw_odds": 3.0,
+        "away_odds": 2.75,
+        "bookmaker": "Winamax (FR)",
+        "time": "2026-11-20T00:30Z",
+        "value_team": "Fluminense",
+        "value_side": "away",
+        "value_odds": 2.75,
+        "value_pos": 4,
+        "pos_diff": 6,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401841309"
+      }
+    },
+    {
+      "league": "Бразилия Серия А",
+      "match": {
+        "source": "espn",
         "event_id": "401841316",
         "fixture_id": null,
         "league_slug": "bra.1",
@@ -328,5 +363,5 @@
       }
     }
   ],
-  "history_count": 121
+  "history_count": 122
 }
