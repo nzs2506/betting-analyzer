@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T00:25:47.998404",
+  "generated_at": "2026-11-18T14:59:05.988510",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
@@ -274,14 +274,14 @@
         "away_pts": 53,
         "home_form": "DLWWW",
         "away_form": "LWDLW",
-        "home_odds": 2.05,
+        "home_odds": 2.2,
         "draw_odds": 3.3,
-        "away_odds": 2.75,
+        "away_odds": 2.55,
         "bookmaker": "Winamax (FR)",
         "time": "2026-11-19T00:30Z",
         "value_team": "Bahia",
         "value_side": "away",
-        "value_odds": 2.75,
+        "value_odds": 2.55,
         "value_pos": 6,
         "pos_diff": 12,
         "settlement": {
@@ -344,14 +344,14 @@
         "away_pts": 42,
         "home_form": "DWLDL",
         "away_form": "WLLWD",
-        "home_odds": 1.72,
-        "draw_odds": 3.4,
-        "away_odds": 3.65,
+        "home_odds": 1.64,
+        "draw_odds": 3.5,
+        "away_odds": 3.95,
         "bookmaker": "Winamax (FR)",
         "time": "2026-11-19T00:30Z",
         "value_team": "Botafogo",
         "value_side": "away",
-        "value_odds": 3.65,
+        "value_odds": 3.95,
         "value_pos": 12,
         "pos_diff": 5,
         "settlement": {
