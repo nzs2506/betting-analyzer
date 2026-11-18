@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-17T15:24:55.771818",
+  "generated_at": "2026-11-18T00:25:47.998404",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 3,
-    "fixtures_found": 12,
-    "with_odds": 9,
+    "leagues_checked": 16,
+    "fixtures_found": 35,
+    "with_odds": 21,
     "leagues_detail": [
       [
         "bra.1",
@@ -27,7 +27,7 @@
       [
         "arg.1",
         "Аргентина Примера",
-        "no_matches"
+        "ok"
       ],
       [
         "arg.2",
@@ -37,12 +37,12 @@
       [
         "chi.1",
         "Чили Примера",
-        "no_matches"
+        "ok"
       ],
       [
         "col.1",
         "Колумбия Примера А",
-        "no_matches"
+        "ok"
       ],
       [
         "uru.1",
@@ -52,7 +52,7 @@
       [
         "ecu.1",
         "Эквадор ЛигаПро",
-        "no_matches"
+        "ok"
       ],
       [
         "bol.1",
@@ -62,7 +62,7 @@
       [
         "par.1",
         "Парагвай Примера",
-        "no_matches"
+        "ok"
       ],
       [
         "per.1",
@@ -77,7 +77,7 @@
       [
         "mex.1",
         "Мексика Лига MX",
-        "no_matches"
+        "ok"
       ],
       [
         "mex.2",
@@ -97,7 +97,7 @@
       [
         "jpn.1",
         "Япония J-League",
-        "no_matches"
+        "ok"
       ],
       [
         "jpn.2",
@@ -112,7 +112,7 @@
       [
         "ind.1",
         "Индия Суперлига",
-        "no_matches"
+        "ok"
       ],
       [
         "idn.1",
@@ -132,7 +132,7 @@
       [
         "aus.1",
         "Австралия А-Лига",
-        "no_matches"
+        "ok"
       ],
       [
         "nga.1",
@@ -162,7 +162,7 @@
       [
         "nor.1",
         "Норвегия Элитесерен",
-        "no_matches"
+        "ok"
       ],
       [
         "nor.2",
@@ -182,7 +182,7 @@
       [
         "den.1",
         "Дания Суперлига",
-        "no_matches"
+        "ok"
       ],
       [
         "den.2",
@@ -202,7 +202,7 @@
       [
         "sco.2",
         "Шотландия Чемпионшип",
-        "no_matches"
+        "ok"
       ],
       [
         "irl.1",
@@ -242,7 +242,7 @@
       [
         "bel.1",
         "Бельгия Про Лига",
-        "no_matches"
+        "ok"
       ],
       [
         "api-football",
