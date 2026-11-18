@@ -4,7 +4,7 @@
       "id": "espn:401841309",
       "league": "Бразилия Серия А",
       "first_seen": "2026-11-17T01:28:51.650542",
-      "last_seen": "2026-11-18T14:59:05.988510",
+      "last_seen": "2026-11-18T23:49:45.724154",
       "match": {
         "source": "espn",
         "event_id": "401841309",
@@ -20,14 +20,14 @@
         "away_pts": 57,
         "home_form": "DLDWW",
         "away_form": "WWLWL",
-        "home_odds": 2.15,
+        "home_odds": 2.2,
         "draw_odds": 3.0,
-        "away_odds": 2.75,
+        "away_odds": 2.7,
         "bookmaker": "Winamax (FR)",
         "time": "2026-11-20T00:30Z",
         "value_team": "Fluminense",
         "value_side": "away",
-        "value_odds": 2.75,
+        "value_odds": 2.7,
         "value_pos": 4,
         "pos_diff": 6,
         "settlement": {
@@ -41,7 +41,7 @@
       "id": "espn:401841312",
       "league": "Бразилия Серия А",
       "first_seen": "2026-11-16T14:35:36.170703",
-      "last_seen": "2026-11-18T14:59:05.988510",
+      "last_seen": "2026-11-18T23:49:45.724154",
       "match": {
         "source": "espn",
         "event_id": "401841312",
@@ -58,13 +58,13 @@
         "home_form": "DLWWW",
         "away_form": "LWDLW",
         "home_odds": 2.2,
-        "draw_odds": 3.3,
-        "away_odds": 2.55,
+        "draw_odds": 3.35,
+        "away_odds": 2.5,
         "bookmaker": "Winamax (FR)",
         "time": "2026-11-19T00:30Z",
         "value_team": "Bahia",
         "value_side": "away",
-        "value_odds": 2.55,
+        "value_odds": 2.5,
         "value_pos": 6,
         "pos_diff": 12,
         "settlement": {
@@ -78,7 +78,7 @@
       "id": "espn:401841316",
       "league": "Бразилия Серия А",
       "first_seen": "2026-11-16T14:35:36.170703",
-      "last_seen": "2026-11-18T14:59:05.988510",
+      "last_seen": "2026-11-18T23:49:45.724154",
       "match": {
         "source": "espn",
         "event_id": "401841316",
@@ -94,14 +94,14 @@
         "away_pts": 42,
         "home_form": "DWLDL",
         "away_form": "WLLWD",
-        "home_odds": 1.64,
-        "draw_odds": 3.5,
-        "away_odds": 3.95,
+        "home_odds": 1.58,
+        "draw_odds": 3.55,
+        "away_odds": 4.3,
         "bookmaker": "Winamax (FR)",
         "time": "2026-11-19T00:30Z",
         "value_team": "Botafogo",
         "value_side": "away",
-        "value_odds": 3.95,
+        "value_odds": 4.3,
         "value_pos": 12,
         "pos_diff": 5,
         "settlement": {
@@ -5100,5 +5100,5 @@
       }
     }
   ],
-  "generated_at": "2026-11-18T14:59:05.988510"
+  "generated_at": "2026-11-18T23:49:45.724154"
 }
