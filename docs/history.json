@@ -1,10 +1,84 @@
 {
   "signals": [
     {
+      "id": "espn:401877532",
+      "league": "Япония J-League",
+      "first_seen": "2026-11-19T15:07:30.287277",
+      "last_seen": "2026-11-19T15:07:30.287277",
+      "match": {
+        "source": "espn",
+        "event_id": "401877532",
+        "fixture_id": null,
+        "league_slug": "jpn.1",
+        "league_id": null,
+        "season": null,
+        "home": "Gamba Osaka",
+        "away": "Fagiano Okayama",
+        "home_pos": 18,
+        "away_pos": 10,
+        "home_pts": 12,
+        "away_pts": 17,
+        "home_form": "LDDDD",
+        "away_form": "DLLWL",
+        "home_odds": 2.2,
+        "draw_odds": 3.6,
+        "away_odds": 3.15,
+        "bookmaker": "Coolbet",
+        "time": "2026-11-21T07:00Z",
+        "value_team": "Fagiano Okayama",
+        "value_side": "away",
+        "value_odds": 3.15,
+        "value_pos": 10,
+        "pos_diff": 8,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
+      "id": "espn:401850694",
+      "league": "Чили Примера",
+      "first_seen": "2026-11-19T15:07:30.287277",
+      "last_seen": "2026-11-19T15:07:30.287277",
+      "match": {
+        "source": "espn",
+        "event_id": "401850694",
+        "fixture_id": null,
+        "league_slug": "chi.1",
+        "league_id": null,
+        "season": null,
+        "home": "Universidad de Concepción",
+        "away": "Ñublense",
+        "home_pos": 15,
+        "away_pos": 11,
+        "home_pts": 26,
+        "away_pts": 35,
+        "home_form": "DLLDL",
+        "away_form": "LLWLW",
+        "home_odds": 2.58,
+        "draw_odds": 3.5,
+        "away_odds": 2.64,
+        "bookmaker": "Pinnacle",
+        "time": "2026-11-21T23:30Z",
+        "value_team": "Ñublense",
+        "value_side": "away",
+        "value_odds": 2.64,
+        "value_pos": 11,
+        "pos_diff": 4,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
       "id": "espn:401841309",
       "league": "Бразилия Серия А",
       "first_seen": "2026-11-17T01:28:51.650542",
-      "last_seen": "2026-11-18T23:49:45.724154",
+      "last_seen": "2026-11-19T15:07:30.287277",
       "match": {
         "source": "espn",
         "event_id": "401841309",
@@ -20,7 +94,7 @@
         "away_pts": 57,
         "home_form": "DLDWW",
         "away_form": "WWLWL",
-        "home_odds": 2.2,
+        "home_odds": 2.25,
         "draw_odds": 3.0,
         "away_odds": 2.7,
         "bookmaker": "Winamax (FR)",
@@ -68,9 +142,14 @@
         "value_pos": 6,
         "pos_diff": 12,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 0,
+          "away_score": 0,
+          "score": "0:0",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -105,9 +184,14 @@
         "value_pos": 12,
         "pos_diff": 5,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 4,
+          "away_score": 0,
+          "score": "4:0",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -5100,5 +5184,5 @@
       }
     }
   ],
-  "generated_at": "2026-11-18T23:49:45.724154"
+  "generated_at": "2026-11-19T15:07:30.287277"
 }

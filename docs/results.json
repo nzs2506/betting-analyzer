@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-18T23:49:45.724154",
+  "generated_at": "2026-11-19T15:07:30.287277",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 15,
-    "fixtures_found": 30,
-    "with_odds": 18,
+    "leagues_checked": 26,
+    "fixtures_found": 101,
+    "with_odds": 45,
     "leagues_detail": [
       [
         "bra.1",
@@ -32,7 +32,7 @@
       [
         "arg.2",
         "Аргентина Насьональ Б",
-        "no_matches"
+        "ok"
       ],
       [
         "chi.1",
@@ -47,7 +47,7 @@
       [
         "uru.1",
         "Уругвай Лига",
-        "no_matches"
+        "ok"
       ],
       [
         "ecu.1",
@@ -57,7 +57,7 @@
       [
         "bol.1",
         "Боливия Лига",
-        "no_matches"
+        "ok"
       ],
       [
         "par.1",
@@ -67,12 +67,12 @@
       [
         "per.1",
         "Перу Лига 1",
-        "no_matches"
+        "ok"
       ],
       [
         "ven.1",
         "Венесуэла Примера",
-        "no_matches"
+        "ok"
       ],
       [
         "mex.1",
@@ -82,7 +82,7 @@
       [
         "mex.2",
         "Мексика Лига Экспансьон",
-        "no_matches"
+        "ok"
       ],
       [
         "usa.1",
@@ -172,7 +172,7 @@
       [
         "swe.1",
         "Швеция Алльсвенскан",
-        "no_matches"
+        "ok"
       ],
       [
         "swe.2",
@@ -197,7 +197,7 @@
       [
         "sco.1",
         "Шотландия Премьершип",
-        "no_matches"
+        "ok"
       ],
       [
         "sco.2",
@@ -217,7 +217,7 @@
       [
         "tur.1",
         "Турция Суперлига",
-        "no_matches"
+        "ok"
       ],
       [
         "tur.2",
@@ -227,7 +227,7 @@
       [
         "gre.1",
         "Греция Суперлига",
-        "no_matches"
+        "ok"
       ],
       [
         "rou.1",
@@ -237,7 +237,7 @@
       [
         "aut.1",
         "Австрия Бундеслига",
-        "no_matches"
+        "ok"
       ],
       [
         "bel.1",
@@ -258,38 +258,38 @@
   },
   "results": [
     {
-      "league": "Бразилия Серия А",
+      "league": "Япония J-League",
       "match": {
         "source": "espn",
-        "event_id": "401841312",
+        "event_id": "401877532",
         "fixture_id": null,
-        "league_slug": "bra.1",
+        "league_slug": "jpn.1",
         "league_id": null,
         "season": null,
-        "home": "Grêmio",
-        "away": "Bahia",
+        "home": "Gamba Osaka",
+        "away": "Fagiano Okayama",
         "home_pos": 18,
-        "away_pos": 6,
-        "home_pts": 37,
-        "away_pts": 53,
-        "home_form": "DLWWW",
-        "away_form": "LWDLW",
+        "away_pos": 10,
+        "home_pts": 12,
+        "away_pts": 17,
+        "home_form": "LDDDD",
+        "away_form": "DLLWL",
         "home_odds": 2.2,
-        "draw_odds": 3.35,
-        "away_odds": 2.5,
-        "bookmaker": "Winamax (FR)",
-        "time": "2026-11-19T00:30Z",
-        "value_team": "Bahia",
+        "draw_odds": 3.6,
+        "away_odds": 3.15,
+        "bookmaker": "Coolbet",
+        "time": "2026-11-21T07:00Z",
+        "value_team": "Fagiano Okayama",
         "value_side": "away",
-        "value_odds": 2.5,
-        "value_pos": 6,
-        "pos_diff": 12,
+        "value_odds": 3.15,
+        "value_pos": 10,
+        "pos_diff": 8,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
           "label": "матч не завершен"
         },
-        "signal_id": "espn:401841312"
+        "signal_id": "espn:401877532"
       }
     },
     {
@@ -309,7 +309,7 @@
         "away_pts": 57,
         "home_form": "DLDWW",
         "away_form": "WWLWL",
-        "home_odds": 2.2,
+        "home_odds": 2.25,
         "draw_odds": 3.0,
         "away_odds": 2.7,
         "bookmaker": "Winamax (FR)",
@@ -328,40 +328,40 @@
       }
     },
     {
-      "league": "Бразилия Серия А",
+      "league": "Чили Примера",
       "match": {
         "source": "espn",
-        "event_id": "401841316",
+        "event_id": "401850694",
         "fixture_id": null,
-        "league_slug": "bra.1",
+        "league_slug": "chi.1",
         "league_id": null,
         "season": null,
-        "home": "Corinthians",
-        "away": "Botafogo",
-        "home_pos": 17,
-        "away_pos": 12,
-        "home_pts": 37,
-        "away_pts": 42,
-        "home_form": "DWLDL",
-        "away_form": "WLLWD",
-        "home_odds": 1.58,
-        "draw_odds": 3.55,
-        "away_odds": 4.3,
-        "bookmaker": "Winamax (FR)",
-        "time": "2026-11-19T00:30Z",
-        "value_team": "Botafogo",
+        "home": "Universidad de Concepción",
+        "away": "Ñublense",
+        "home_pos": 15,
+        "away_pos": 11,
+        "home_pts": 26,
+        "away_pts": 35,
+        "home_form": "DLLDL",
+        "away_form": "LLWLW",
+        "home_odds": 2.58,
+        "draw_odds": 3.5,
+        "away_odds": 2.64,
+        "bookmaker": "Pinnacle",
+        "time": "2026-11-21T23:30Z",
+        "value_team": "Ñublense",
         "value_side": "away",
-        "value_odds": 4.3,
-        "value_pos": 12,
-        "pos_diff": 5,
+        "value_odds": 2.64,
+        "value_pos": 11,
+        "pos_diff": 4,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
           "label": "матч не завершен"
         },
-        "signal_id": "espn:401841316"
+        "signal_id": "espn:401850694"
       }
     }
   ],
-  "history_count": 122
+  "history_count": 124
 }
