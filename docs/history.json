@@ -4,7 +4,7 @@
       "id": "espn:401843484",
       "league": "Норвегия Элитесерен",
       "first_seen": "2026-11-20T00:12:48.253535",
-      "last_seen": "2026-11-20T14:48:22.234263",
+      "last_seen": "2026-11-20T23:36:33.600049",
       "match": {
         "source": "espn",
         "event_id": "401843484",
@@ -41,7 +41,7 @@
       "id": "espn:401877532",
       "league": "Япония J-League",
       "first_seen": "2026-11-19T15:07:30.287277",
-      "last_seen": "2026-11-20T14:48:22.234263",
+      "last_seen": "2026-11-20T23:36:33.600049",
       "match": {
         "source": "espn",
         "event_id": "401877532",
@@ -78,7 +78,7 @@
       "id": "espn:401850694",
       "league": "Чили Примера",
       "first_seen": "2026-11-19T15:07:30.287277",
-      "last_seen": "2026-11-20T14:48:22.234263",
+      "last_seen": "2026-11-20T23:36:33.600049",
       "match": {
         "source": "espn",
         "event_id": "401850694",
@@ -94,14 +94,14 @@
         "away_pts": 35,
         "home_form": "DLLDL",
         "away_form": "LLWLW",
-        "home_odds": 2.61,
-        "draw_odds": 3.42,
-        "away_odds": 2.66,
+        "home_odds": 2.63,
+        "draw_odds": 3.46,
+        "away_odds": 2.69,
         "bookmaker": "Pinnacle",
         "time": "2026-11-21T23:30Z",
         "value_team": "Ñublense",
         "value_side": "away",
-        "value_odds": 2.66,
+        "value_odds": 2.69,
         "value_pos": 11,
         "pos_diff": 4,
         "settlement": {
@@ -5226,5 +5226,5 @@
       }
     }
   ],
-  "generated_at": "2026-11-20T14:48:22.234263"
+  "generated_at": "2026-11-20T23:36:33.600049"
 }

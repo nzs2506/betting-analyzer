@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-20T14:48:22.234263",
+  "generated_at": "2026-11-20T23:36:33.600049",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 27,
-    "fixtures_found": 144,
-    "with_odds": 63,
+    "leagues_checked": 26,
+    "fixtures_found": 129,
+    "with_odds": 59,
     "leagues_detail": [
       [
         "bra.1",
@@ -47,7 +47,7 @@
       [
         "uru.1",
         "Уругвай Лига",
-        "ok"
+        "no_matches"
       ],
       [
         "ecu.1",
@@ -344,14 +344,14 @@
         "away_pts": 35,
         "home_form": "DLLDL",
         "away_form": "LLWLW",
-        "home_odds": 2.61,
-        "draw_odds": 3.42,
-        "away_odds": 2.66,
+        "home_odds": 2.63,
+        "draw_odds": 3.46,
+        "away_odds": 2.69,
         "bookmaker": "Pinnacle",
         "time": "2026-11-21T23:30Z",
         "value_team": "Ñublense",
         "value_side": "away",
-        "value_odds": 2.66,
+        "value_odds": 2.69,
         "value_pos": 11,
         "pos_diff": 4,
         "settlement": {
