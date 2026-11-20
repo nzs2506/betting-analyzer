@@ -1,10 +1,47 @@
 {
   "signals": [
     {
+      "id": "espn:401843484",
+      "league": "Норвегия Элитесерен",
+      "first_seen": "2026-11-20T00:12:48.253535",
+      "last_seen": "2026-11-20T00:12:48.253535",
+      "match": {
+        "source": "espn",
+        "event_id": "401843484",
+        "fixture_id": null,
+        "league_slug": "nor.1",
+        "league_id": null,
+        "season": null,
+        "home": "Sarpsborg FK",
+        "away": "Lillestrom",
+        "home_pos": 9,
+        "away_pos": 4,
+        "home_pts": 31,
+        "away_pts": 45,
+        "home_form": "LLWLW",
+        "away_form": "WLWWL",
+        "home_odds": 2.1,
+        "draw_odds": 3.8,
+        "away_odds": 2.6,
+        "bookmaker": "Winamax (DE)",
+        "time": "2026-11-22T18:15Z",
+        "value_team": "Lillestrom",
+        "value_side": "away",
+        "value_odds": 2.6,
+        "value_pos": 4,
+        "pos_diff": 5,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
       "id": "espn:401877532",
       "league": "Япония J-League",
       "first_seen": "2026-11-19T15:07:30.287277",
-      "last_seen": "2026-11-19T15:07:30.287277",
+      "last_seen": "2026-11-20T00:12:48.253535",
       "match": {
         "source": "espn",
         "event_id": "401877532",
@@ -41,7 +78,7 @@
       "id": "espn:401850694",
       "league": "Чили Примера",
       "first_seen": "2026-11-19T15:07:30.287277",
-      "last_seen": "2026-11-19T15:07:30.287277",
+      "last_seen": "2026-11-20T00:12:48.253535",
       "match": {
         "source": "espn",
         "event_id": "401850694",
@@ -5184,5 +5221,5 @@
       }
     }
   ],
-  "generated_at": "2026-11-19T15:07:30.287277"
+  "generated_at": "2026-11-20T00:12:48.253535"
 }

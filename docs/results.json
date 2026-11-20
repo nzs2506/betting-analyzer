@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-19T15:07:30.287277",
+  "generated_at": "2026-11-20T00:12:48.253535",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 26,
-    "fixtures_found": 101,
-    "with_odds": 45,
+    "leagues_checked": 27,
+    "fixtures_found": 150,
+    "with_odds": 64,
     "leagues_detail": [
       [
         "bra.1",
@@ -17,7 +17,7 @@
       [
         "bra.2",
         "Бразилия Серия Б",
-        "no_matches"
+        "ok"
       ],
       [
         "bra.3",
@@ -293,38 +293,38 @@
       }
     },
     {
-      "league": "Бразилия Серия А",
+      "league": "Норвегия Элитесерен",
       "match": {
         "source": "espn",
-        "event_id": "401841309",
+        "event_id": "401843484",
         "fixture_id": null,
-        "league_slug": "bra.1",
+        "league_slug": "nor.1",
         "league_id": null,
         "season": null,
-        "home": "São Paulo",
-        "away": "Fluminense",
-        "home_pos": 10,
+        "home": "Sarpsborg FK",
+        "away": "Lillestrom",
+        "home_pos": 9,
         "away_pos": 4,
-        "home_pts": 44,
-        "away_pts": 57,
-        "home_form": "DLDWW",
-        "away_form": "WWLWL",
-        "home_odds": 2.25,
-        "draw_odds": 3.0,
-        "away_odds": 2.7,
-        "bookmaker": "Winamax (FR)",
-        "time": "2026-11-20T00:30Z",
-        "value_team": "Fluminense",
+        "home_pts": 31,
+        "away_pts": 45,
+        "home_form": "LLWLW",
+        "away_form": "WLWWL",
+        "home_odds": 2.1,
+        "draw_odds": 3.8,
+        "away_odds": 2.6,
+        "bookmaker": "Winamax (DE)",
+        "time": "2026-11-22T18:15Z",
+        "value_team": "Lillestrom",
         "value_side": "away",
-        "value_odds": 2.7,
+        "value_odds": 2.6,
         "value_pos": 4,
-        "pos_diff": 6,
+        "pos_diff": 5,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
           "label": "матч не завершен"
         },
-        "signal_id": "espn:401841309"
+        "signal_id": "espn:401843484"
       }
     },
     {
@@ -363,5 +363,5 @@
       }
     }
   ],
-  "history_count": 124
+  "history_count": 125
 }
