@@ -4,7 +4,7 @@
       "id": "espn:401843484",
       "league": "Норвегия Элитесерен",
       "first_seen": "2026-11-20T00:12:48.253535",
-      "last_seen": "2026-11-20T23:36:33.600049",
+      "last_seen": "2026-11-21T14:04:02.551502",
       "match": {
         "source": "espn",
         "event_id": "401843484",
@@ -68,9 +68,14 @@
         "value_pos": 10,
         "pos_diff": 8,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 0,
+          "away_score": 1,
+          "score": "0:1",
+          "outcome": "win",
+          "icon": "🟢",
+          "label": "прогноз сработал",
+          "roi": 2.15
         }
       }
     },
@@ -78,7 +83,7 @@
       "id": "espn:401850694",
       "league": "Чили Примера",
       "first_seen": "2026-11-19T15:07:30.287277",
-      "last_seen": "2026-11-20T23:36:33.600049",
+      "last_seen": "2026-11-21T14:04:02.551502",
       "match": {
         "source": "espn",
         "event_id": "401850694",
@@ -88,22 +93,22 @@
         "season": null,
         "home": "Universidad de Concepción",
         "away": "Ñublense",
-        "home_pos": 15,
+        "home_pos": 16,
         "away_pos": 11,
         "home_pts": 26,
         "away_pts": 35,
         "home_form": "DLLDL",
         "away_form": "LLWLW",
-        "home_odds": 2.63,
-        "draw_odds": 3.46,
-        "away_odds": 2.69,
+        "home_odds": 2.69,
+        "draw_odds": 3.36,
+        "away_odds": 2.74,
         "bookmaker": "Pinnacle",
         "time": "2026-11-21T23:30Z",
         "value_team": "Ñublense",
         "value_side": "away",
-        "value_odds": 2.69,
+        "value_odds": 2.74,
         "value_pos": 11,
-        "pos_diff": 4,
+        "pos_diff": 5,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
@@ -5226,5 +5231,5 @@
       }
     }
   ],
-  "generated_at": "2026-11-20T23:36:33.600049"
+  "generated_at": "2026-11-21T14:04:02.551502"
 }

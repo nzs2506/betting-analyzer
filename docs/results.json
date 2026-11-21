@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-20T23:36:33.600049",
+  "generated_at": "2026-11-21T14:04:02.551502",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
     "leagues_checked": 26,
-    "fixtures_found": 129,
-    "with_odds": 59,
+    "fixtures_found": 122,
+    "with_odds": 50,
     "leagues_detail": [
       [
         "bra.1",
@@ -47,7 +47,7 @@
       [
         "uru.1",
         "Уругвай Лига",
-        "no_matches"
+        "ok"
       ],
       [
         "ecu.1",
@@ -97,7 +97,7 @@
       [
         "jpn.1",
         "Япония J-League",
-        "ok"
+        "no_matches"
       ],
       [
         "jpn.2",
@@ -258,38 +258,38 @@
   },
   "results": [
     {
-      "league": "Япония J-League",
+      "league": "Чили Примера",
       "match": {
         "source": "espn",
-        "event_id": "401877532",
+        "event_id": "401850694",
         "fixture_id": null,
-        "league_slug": "jpn.1",
+        "league_slug": "chi.1",
         "league_id": null,
         "season": null,
-        "home": "Gamba Osaka",
-        "away": "Fagiano Okayama",
-        "home_pos": 18,
-        "away_pos": 10,
-        "home_pts": 12,
-        "away_pts": 17,
-        "home_form": "LDDDD",
-        "away_form": "DLLWL",
-        "home_odds": 2.2,
-        "draw_odds": 3.6,
-        "away_odds": 3.15,
-        "bookmaker": "Coolbet",
-        "time": "2026-11-21T07:00Z",
-        "value_team": "Fagiano Okayama",
+        "home": "Universidad de Concepción",
+        "away": "Ñublense",
+        "home_pos": 16,
+        "away_pos": 11,
+        "home_pts": 26,
+        "away_pts": 35,
+        "home_form": "DLLDL",
+        "away_form": "LLWLW",
+        "home_odds": 2.69,
+        "draw_odds": 3.36,
+        "away_odds": 2.74,
+        "bookmaker": "Pinnacle",
+        "time": "2026-11-21T23:30Z",
+        "value_team": "Ñublense",
         "value_side": "away",
-        "value_odds": 3.15,
-        "value_pos": 10,
-        "pos_diff": 8,
+        "value_odds": 2.74,
+        "value_pos": 11,
+        "pos_diff": 5,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
           "label": "матч не завершен"
         },
-        "signal_id": "espn:401877532"
+        "signal_id": "espn:401850694"
       }
     },
     {
@@ -325,41 +325,6 @@
           "label": "матч не завершен"
         },
         "signal_id": "espn:401843484"
-      }
-    },
-    {
-      "league": "Чили Примера",
-      "match": {
-        "source": "espn",
-        "event_id": "401850694",
-        "fixture_id": null,
-        "league_slug": "chi.1",
-        "league_id": null,
-        "season": null,
-        "home": "Universidad de Concepción",
-        "away": "Ñublense",
-        "home_pos": 15,
-        "away_pos": 11,
-        "home_pts": 26,
-        "away_pts": 35,
-        "home_form": "DLLDL",
-        "away_form": "LLWLW",
-        "home_odds": 2.63,
-        "draw_odds": 3.46,
-        "away_odds": 2.69,
-        "bookmaker": "Pinnacle",
-        "time": "2026-11-21T23:30Z",
-        "value_team": "Ñublense",
-        "value_side": "away",
-        "value_odds": 2.69,
-        "value_pos": 11,
-        "pos_diff": 4,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401850694"
       }
     }
   ],
