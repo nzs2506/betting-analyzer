@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-21T14:04:02.551502",
+  "generated_at": "2026-11-21T22:42:42.753032",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 26,
-    "fixtures_found": 122,
-    "with_odds": 50,
+    "leagues_checked": 24,
+    "fixtures_found": 84,
+    "with_odds": 38,
     "leagues_detail": [
       [
         "bra.1",
@@ -197,12 +197,12 @@
       [
         "sco.1",
         "Шотландия Премьершип",
-        "ok"
+        "no_matches"
       ],
       [
         "sco.2",
         "Шотландия Чемпионшип",
-        "ok"
+        "no_matches"
       ],
       [
         "irl.1",
@@ -274,14 +274,14 @@
         "away_pts": 35,
         "home_form": "DLLDL",
         "away_form": "LLWLW",
-        "home_odds": 2.69,
-        "draw_odds": 3.36,
-        "away_odds": 2.74,
+        "home_odds": 2.22,
+        "draw_odds": 3.37,
+        "away_odds": 3.45,
         "bookmaker": "Pinnacle",
         "time": "2026-11-21T23:30Z",
         "value_team": "Ñublense",
         "value_side": "away",
-        "value_odds": 2.74,
+        "value_odds": 3.45,
         "value_pos": 11,
         "pos_diff": 5,
         "settlement": {
@@ -309,14 +309,14 @@
         "away_pts": 45,
         "home_form": "LLWLW",
         "away_form": "WLWWL",
-        "home_odds": 2.1,
-        "draw_odds": 3.8,
-        "away_odds": 2.6,
+        "home_odds": 2.05,
+        "draw_odds": 3.95,
+        "away_odds": 2.8,
         "bookmaker": "Winamax (DE)",
         "time": "2026-11-22T18:15Z",
         "value_team": "Lillestrom",
         "value_side": "away",
-        "value_odds": 2.6,
+        "value_odds": 2.8,
         "value_pos": 4,
         "pos_diff": 5,
         "settlement": {
