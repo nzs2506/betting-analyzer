@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-22T13:56:58.033692",
+  "generated_at": "2026-11-22T23:08:11.914866",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 23,
-    "fixtures_found": 69,
-    "with_odds": 29,
+    "leagues_checked": 16,
+    "fixtures_found": 31,
+    "with_odds": 14,
     "leagues_detail": [
       [
         "bra.1",
@@ -17,7 +17,7 @@
       [
         "bra.2",
         "Бразилия Серия Б",
-        "ok"
+        "no_matches"
       ],
       [
         "bra.3",
@@ -52,7 +52,7 @@
       [
         "ecu.1",
         "Эквадор ЛигаПро",
-        "ok"
+        "no_matches"
       ],
       [
         "bol.1",
@@ -67,12 +67,12 @@
       [
         "per.1",
         "Перу Лига 1",
-        "ok"
+        "no_matches"
       ],
       [
         "ven.1",
         "Венесуэла Примера",
-        "ok"
+        "no_matches"
       ],
       [
         "mex.1",
@@ -162,7 +162,7 @@
       [
         "nor.1",
         "Норвегия Элитесерен",
-        "ok"
+        "no_matches"
       ],
       [
         "nor.2",
@@ -237,12 +237,12 @@
       [
         "aut.1",
         "Австрия Бундеслига",
-        "ok"
+        "no_matches"
       ],
       [
         "bel.1",
         "Бельгия Про Лига",
-        "ok"
+        "no_matches"
       ],
       [
         "api-football",
@@ -258,40 +258,40 @@
   },
   "results": [
     {
-      "league": "Норвегия Элитесерен",
+      "league": "Дания Суперлига",
       "match": {
         "source": "espn",
-        "event_id": "401843484",
+        "event_id": "401874538",
         "fixture_id": null,
-        "league_slug": "nor.1",
+        "league_slug": "den.1",
         "league_id": null,
         "season": null,
-        "home": "Sarpsborg FK",
-        "away": "Lillestrom",
-        "home_pos": 9,
-        "away_pos": 4,
-        "home_pts": 31,
-        "away_pts": 45,
-        "home_form": "LLWLW",
-        "away_form": "WLWWL",
-        "home_odds": 1.98,
-        "draw_odds": 4.0,
-        "away_odds": 2.9,
-        "bookmaker": "Winamax (DE)",
-        "time": "2026-11-22T18:15Z",
-        "value_team": "Lillestrom",
+        "home": "Brøndby IF",
+        "away": "FC Midtjylland",
+        "home_pos": 5,
+        "away_pos": 1,
+        "home_pts": 22,
+        "away_pts": 32,
+        "home_form": "LWWLW",
+        "away_form": "DLWWL",
+        "home_odds": 2.54,
+        "draw_odds": 3.78,
+        "away_odds": 2.65,
+        "bookmaker": "Pinnacle",
+        "time": "2026-11-23T18:00Z",
+        "value_team": "FC Midtjylland",
         "value_side": "away",
-        "value_odds": 2.9,
-        "value_pos": 4,
-        "pos_diff": 5,
+        "value_odds": 2.65,
+        "value_pos": 1,
+        "pos_diff": 4,
         "settlement": {
           "status": "pending",
           "icon": "⚪",
           "label": "матч не завершен"
         },
-        "signal_id": "espn:401843484"
+        "signal_id": "espn:401874538"
       }
     }
   ],
-  "history_count": 125
+  "history_count": 126
 }
