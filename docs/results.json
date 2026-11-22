@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-21T22:42:42.753032",
+  "generated_at": "2026-11-22T13:56:58.033692",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 24,
-    "fixtures_found": 84,
-    "with_odds": 38,
+    "leagues_checked": 23,
+    "fixtures_found": 69,
+    "with_odds": 29,
     "leagues_detail": [
       [
         "bra.1",
@@ -82,7 +82,7 @@
       [
         "mex.2",
         "Мексика Лига Экспансьон",
-        "ok"
+        "no_matches"
       ],
       [
         "usa.1",
@@ -132,7 +132,7 @@
       [
         "aus.1",
         "Австралия А-Лига",
-        "ok"
+        "no_matches"
       ],
       [
         "nga.1",
@@ -197,7 +197,7 @@
       [
         "sco.1",
         "Шотландия Премьершип",
-        "no_matches"
+        "ok"
       ],
       [
         "sco.2",
@@ -258,41 +258,6 @@
   },
   "results": [
     {
-      "league": "Чили Примера",
-      "match": {
-        "source": "espn",
-        "event_id": "401850694",
-        "fixture_id": null,
-        "league_slug": "chi.1",
-        "league_id": null,
-        "season": null,
-        "home": "Universidad de Concepción",
-        "away": "Ñublense",
-        "home_pos": 16,
-        "away_pos": 11,
-        "home_pts": 26,
-        "away_pts": 35,
-        "home_form": "DLLDL",
-        "away_form": "LLWLW",
-        "home_odds": 2.22,
-        "draw_odds": 3.37,
-        "away_odds": 3.45,
-        "bookmaker": "Pinnacle",
-        "time": "2026-11-21T23:30Z",
-        "value_team": "Ñublense",
-        "value_side": "away",
-        "value_odds": 3.45,
-        "value_pos": 11,
-        "pos_diff": 5,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401850694"
-      }
-    },
-    {
       "league": "Норвегия Элитесерен",
       "match": {
         "source": "espn",
@@ -309,14 +274,14 @@
         "away_pts": 45,
         "home_form": "LLWLW",
         "away_form": "WLWWL",
-        "home_odds": 2.05,
-        "draw_odds": 3.95,
-        "away_odds": 2.8,
+        "home_odds": 1.98,
+        "draw_odds": 4.0,
+        "away_odds": 2.9,
         "bookmaker": "Winamax (DE)",
         "time": "2026-11-22T18:15Z",
         "value_team": "Lillestrom",
         "value_side": "away",
-        "value_odds": 2.8,
+        "value_odds": 2.9,
         "value_pos": 4,
         "pos_diff": 5,
         "settlement": {
