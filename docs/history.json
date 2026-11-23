@@ -1,10 +1,47 @@
 {
   "signals": [
     {
+      "id": "espn:401877527",
+      "league": "Япония J-League",
+      "first_seen": "2026-11-23T17:11:58.126044",
+      "last_seen": "2026-11-23T17:11:58.126044",
+      "match": {
+        "source": "espn",
+        "event_id": "401877527",
+        "fixture_id": null,
+        "league_slug": "jpn.1",
+        "league_id": null,
+        "season": null,
+        "home": "Avispa Fukuoka",
+        "away": "Yokohama F. Marinos",
+        "home_pos": 20,
+        "away_pos": 8,
+        "home_pts": 8,
+        "away_pts": 23,
+        "home_form": "LDLLL",
+        "away_form": "DDWDD",
+        "home_odds": 2.6,
+        "draw_odds": 3.2,
+        "away_odds": 2.63,
+        "bookmaker": "LeoVegas (SE)",
+        "time": "2026-11-25T10:00Z",
+        "value_team": "Yokohama F. Marinos",
+        "value_side": "away",
+        "value_odds": 2.63,
+        "value_pos": 8,
+        "pos_diff": 12,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
       "id": "espn:401874538",
       "league": "Дания Суперлига",
       "first_seen": "2026-11-22T23:08:11.914866",
-      "last_seen": "2026-11-22T23:08:11.914866",
+      "last_seen": "2026-11-23T17:11:58.126044",
       "match": {
         "source": "espn",
         "event_id": "401874538",
@@ -21,13 +58,13 @@
         "home_form": "LWWLW",
         "away_form": "DLWWL",
         "home_odds": 2.54,
-        "draw_odds": 3.78,
-        "away_odds": 2.65,
+        "draw_odds": 3.82,
+        "away_odds": 2.66,
         "bookmaker": "Pinnacle",
         "time": "2026-11-23T18:00Z",
         "value_team": "FC Midtjylland",
         "value_side": "away",
-        "value_odds": 2.65,
+        "value_odds": 2.66,
         "value_pos": 1,
         "pos_diff": 4,
         "settlement": {
@@ -5278,5 +5315,5 @@
       }
     }
   ],
-  "generated_at": "2026-11-22T23:08:11.914866"
+  "generated_at": "2026-11-23T17:11:58.126044"
 }

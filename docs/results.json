@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-22T23:08:11.914866",
+  "generated_at": "2026-11-23T17:11:58.126044",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 16,
-    "fixtures_found": 31,
-    "with_odds": 14,
+    "leagues_checked": 13,
+    "fixtures_found": 39,
+    "with_odds": 16,
     "leagues_detail": [
       [
         "bra.1",
@@ -32,12 +32,12 @@
       [
         "arg.2",
         "Аргентина Насьональ Б",
-        "ok"
+        "no_matches"
       ],
       [
         "chi.1",
         "Чили Примера",
-        "ok"
+        "no_matches"
       ],
       [
         "col.1",
@@ -52,7 +52,7 @@
       [
         "ecu.1",
         "Эквадор ЛигаПро",
-        "no_matches"
+        "ok"
       ],
       [
         "bol.1",
@@ -77,7 +77,7 @@
       [
         "mex.1",
         "Мексика Лига MX",
-        "ok"
+        "no_matches"
       ],
       [
         "mex.2",
@@ -97,7 +97,7 @@
       [
         "jpn.1",
         "Япония J-League",
-        "no_matches"
+        "ok"
       ],
       [
         "jpn.2",
@@ -217,7 +217,7 @@
       [
         "tur.1",
         "Турция Суперлига",
-        "ok"
+        "no_matches"
       ],
       [
         "tur.2",
@@ -227,7 +227,7 @@
       [
         "gre.1",
         "Греция Суперлига",
-        "ok"
+        "no_matches"
       ],
       [
         "rou.1",
@@ -258,6 +258,41 @@
   },
   "results": [
     {
+      "league": "Япония J-League",
+      "match": {
+        "source": "espn",
+        "event_id": "401877527",
+        "fixture_id": null,
+        "league_slug": "jpn.1",
+        "league_id": null,
+        "season": null,
+        "home": "Avispa Fukuoka",
+        "away": "Yokohama F. Marinos",
+        "home_pos": 20,
+        "away_pos": 8,
+        "home_pts": 8,
+        "away_pts": 23,
+        "home_form": "LDLLL",
+        "away_form": "DDWDD",
+        "home_odds": 2.6,
+        "draw_odds": 3.2,
+        "away_odds": 2.63,
+        "bookmaker": "LeoVegas (SE)",
+        "time": "2026-11-25T10:00Z",
+        "value_team": "Yokohama F. Marinos",
+        "value_side": "away",
+        "value_odds": 2.63,
+        "value_pos": 8,
+        "pos_diff": 12,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401877527"
+      }
+    },
+    {
       "league": "Дания Суперлига",
       "match": {
         "source": "espn",
@@ -275,13 +310,13 @@
         "home_form": "LWWLW",
         "away_form": "DLWWL",
         "home_odds": 2.54,
-        "draw_odds": 3.78,
-        "away_odds": 2.65,
+        "draw_odds": 3.82,
+        "away_odds": 2.66,
         "bookmaker": "Pinnacle",
         "time": "2026-11-23T18:00Z",
         "value_team": "FC Midtjylland",
         "value_side": "away",
-        "value_odds": 2.65,
+        "value_odds": 2.66,
         "value_pos": 1,
         "pos_diff": 4,
         "settlement": {
@@ -293,5 +328,5 @@
       }
     }
   ],
-  "history_count": 126
+  "history_count": 127
 }
