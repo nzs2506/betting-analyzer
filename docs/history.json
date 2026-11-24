@@ -4,7 +4,7 @@
       "id": "espn:401877527",
       "league": "Япония J-League",
       "first_seen": "2026-11-23T17:11:58.126044",
-      "last_seen": "2026-11-23T17:11:58.126044",
+      "last_seen": "2026-11-24T03:44:04.531552",
       "match": {
         "source": "espn",
         "event_id": "401877527",
@@ -68,9 +68,14 @@
         "value_pos": 1,
         "pos_diff": 4,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 0,
+          "away_score": 2,
+          "score": "0:2",
+          "outcome": "win",
+          "icon": "🟢",
+          "label": "прогноз сработал",
+          "roi": 1.66
         }
       }
     },
@@ -5315,5 +5320,5 @@
       }
     }
   ],
-  "generated_at": "2026-11-23T17:11:58.126044"
+  "generated_at": "2026-11-24T03:44:04.531552"
 }

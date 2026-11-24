@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-23T17:11:58.126044",
+  "generated_at": "2026-11-24T03:44:04.531552",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 13,
-    "fixtures_found": 39,
-    "with_odds": 16,
+    "leagues_checked": 9,
+    "fixtures_found": 26,
+    "with_odds": 10,
     "leagues_detail": [
       [
         "bra.1",
@@ -47,7 +47,7 @@
       [
         "uru.1",
         "Уругвай Лига",
-        "ok"
+        "no_matches"
       ],
       [
         "ecu.1",
@@ -57,7 +57,7 @@
       [
         "bol.1",
         "Боливия Лига",
-        "ok"
+        "no_matches"
       ],
       [
         "par.1",
@@ -172,7 +172,7 @@
       [
         "swe.1",
         "Швеция Алльсвенскан",
-        "ok"
+        "no_matches"
       ],
       [
         "swe.2",
@@ -182,7 +182,7 @@
       [
         "den.1",
         "Дания Суперлига",
-        "ok"
+        "no_matches"
       ],
       [
         "den.2",
@@ -290,41 +290,6 @@
           "label": "матч не завершен"
         },
         "signal_id": "espn:401877527"
-      }
-    },
-    {
-      "league": "Дания Суперлига",
-      "match": {
-        "source": "espn",
-        "event_id": "401874538",
-        "fixture_id": null,
-        "league_slug": "den.1",
-        "league_id": null,
-        "season": null,
-        "home": "Brøndby IF",
-        "away": "FC Midtjylland",
-        "home_pos": 5,
-        "away_pos": 1,
-        "home_pts": 22,
-        "away_pts": 32,
-        "home_form": "LWWLW",
-        "away_form": "DLWWL",
-        "home_odds": 2.54,
-        "draw_odds": 3.82,
-        "away_odds": 2.66,
-        "bookmaker": "Pinnacle",
-        "time": "2026-11-23T18:00Z",
-        "value_team": "FC Midtjylland",
-        "value_side": "away",
-        "value_odds": 2.66,
-        "value_pos": 1,
-        "pos_diff": 4,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401874538"
       }
     }
   ],
