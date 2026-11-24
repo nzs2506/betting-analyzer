@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-24T03:44:04.531552",
+  "generated_at": "2026-11-24T16:53:07.831447",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 9,
-    "fixtures_found": 26,
-    "with_odds": 10,
+    "leagues_checked": 8,
+    "fixtures_found": 23,
+    "with_odds": 14,
     "leagues_detail": [
       [
         "bra.1",
@@ -62,7 +62,7 @@
       [
         "par.1",
         "Парагвай Примера",
-        "ok"
+        "no_matches"
       ],
       [
         "per.1",
@@ -77,7 +77,7 @@
       [
         "mex.1",
         "Мексика Лига MX",
-        "no_matches"
+        "ok"
       ],
       [
         "mex.2",
@@ -112,7 +112,7 @@
       [
         "ind.1",
         "Индия Суперлига",
-        "ok"
+        "no_matches"
       ],
       [
         "idn.1",
@@ -256,42 +256,6 @@
       ]
     ]
   },
-  "results": [
-    {
-      "league": "Япония J-League",
-      "match": {
-        "source": "espn",
-        "event_id": "401877527",
-        "fixture_id": null,
-        "league_slug": "jpn.1",
-        "league_id": null,
-        "season": null,
-        "home": "Avispa Fukuoka",
-        "away": "Yokohama F. Marinos",
-        "home_pos": 20,
-        "away_pos": 8,
-        "home_pts": 8,
-        "away_pts": 23,
-        "home_form": "LDLLL",
-        "away_form": "DDWDD",
-        "home_odds": 2.6,
-        "draw_odds": 3.2,
-        "away_odds": 2.63,
-        "bookmaker": "LeoVegas (SE)",
-        "time": "2026-11-25T10:00Z",
-        "value_team": "Yokohama F. Marinos",
-        "value_side": "away",
-        "value_odds": 2.63,
-        "value_pos": 8,
-        "pos_diff": 12,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401877527"
-      }
-    }
-  ],
+  "results": [],
   "history_count": 127
 }
