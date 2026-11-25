@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-25T01:51:50.042092",
+  "generated_at": "2026-11-25T16:41:52.006350",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 18,
-    "fixtures_found": 37,
-    "with_odds": 19,
+    "leagues_checked": 17,
+    "fixtures_found": 31,
+    "with_odds": 13,
     "leagues_detail": [
       [
         "bra.1",
@@ -97,7 +97,7 @@
       [
         "jpn.1",
         "Япония J-League",
-        "ok"
+        "no_matches"
       ],
       [
         "jpn.2",
@@ -274,14 +274,14 @@
         "away_pts": 23,
         "home_form": "WWDLL",
         "away_form": "WWDWW",
-        "home_odds": 1.85,
-        "draw_odds": 3.65,
-        "away_odds": 3.8,
+        "home_odds": 1.82,
+        "draw_odds": 3.7,
+        "away_odds": 3.9,
         "bookmaker": "Betsson",
         "time": "2026-11-27T17:00Z",
         "value_team": "Kasimpasa",
         "value_side": "away",
-        "value_odds": 3.8,
+        "value_odds": 3.9,
         "value_pos": 5,
         "pos_diff": 5,
         "settlement": {
