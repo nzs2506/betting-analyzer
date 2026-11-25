@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-24T16:53:07.831447",
+  "generated_at": "2026-11-25T01:51:50.042092",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 8,
-    "fixtures_found": 23,
-    "with_odds": 14,
+    "leagues_checked": 18,
+    "fixtures_found": 37,
+    "with_odds": 19,
     "leagues_detail": [
       [
         "bra.1",
@@ -17,7 +17,7 @@
       [
         "bra.2",
         "Бразилия Серия Б",
-        "no_matches"
+        "ok"
       ],
       [
         "bra.3",
@@ -32,7 +32,7 @@
       [
         "arg.2",
         "Аргентина Насьональ Б",
-        "no_matches"
+        "ok"
       ],
       [
         "chi.1",
@@ -47,7 +47,7 @@
       [
         "uru.1",
         "Уругвай Лига",
-        "no_matches"
+        "ok"
       ],
       [
         "ecu.1",
@@ -57,12 +57,12 @@
       [
         "bol.1",
         "Боливия Лига",
-        "no_matches"
+        "ok"
       ],
       [
         "par.1",
         "Парагвай Примера",
-        "no_matches"
+        "ok"
       ],
       [
         "per.1",
@@ -112,7 +112,7 @@
       [
         "ind.1",
         "Индия Суперлига",
-        "no_matches"
+        "ok"
       ],
       [
         "idn.1",
@@ -132,7 +132,7 @@
       [
         "aus.1",
         "Австралия А-Лига",
-        "no_matches"
+        "ok"
       ],
       [
         "nga.1",
@@ -182,7 +182,7 @@
       [
         "den.1",
         "Дания Суперлига",
-        "no_matches"
+        "ok"
       ],
       [
         "den.2",
@@ -197,7 +197,7 @@
       [
         "sco.1",
         "Шотландия Премьершип",
-        "ok"
+        "no_matches"
       ],
       [
         "sco.2",
@@ -217,7 +217,7 @@
       [
         "tur.1",
         "Турция Суперлига",
-        "no_matches"
+        "ok"
       ],
       [
         "tur.2",
@@ -237,12 +237,12 @@
       [
         "aut.1",
         "Австрия Бундеслига",
-        "no_matches"
+        "ok"
       ],
       [
         "bel.1",
         "Бельгия Про Лига",
-        "no_matches"
+        "ok"
       ],
       [
         "api-football",
@@ -256,6 +256,42 @@
       ]
     ]
   },
-  "results": [],
-  "history_count": 127
+  "results": [
+    {
+      "league": "Турция Суперлига",
+      "match": {
+        "source": "espn",
+        "event_id": "401888240",
+        "fixture_id": null,
+        "league_slug": "tur.1",
+        "league_id": null,
+        "season": null,
+        "home": "Caykur Rizespor",
+        "away": "Kasimpasa",
+        "home_pos": 10,
+        "away_pos": 5,
+        "home_pts": 17,
+        "away_pts": 23,
+        "home_form": "WWDLL",
+        "away_form": "WWDWW",
+        "home_odds": 1.85,
+        "draw_odds": 3.65,
+        "away_odds": 3.8,
+        "bookmaker": "Betsson",
+        "time": "2026-11-27T17:00Z",
+        "value_team": "Kasimpasa",
+        "value_side": "away",
+        "value_odds": 3.8,
+        "value_pos": 5,
+        "pos_diff": 5,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401888240"
+      }
+    }
+  ],
+  "history_count": 128
 }
