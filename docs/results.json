@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-26T01:28:50.633501",
+  "generated_at": "2026-11-26T16:15:56.224421",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 22,
-    "fixtures_found": 71,
-    "with_odds": 28,
+    "leagues_checked": 24,
+    "fixtures_found": 76,
+    "with_odds": 32,
     "leagues_detail": [
       [
         "bra.1",
@@ -27,7 +27,7 @@
       [
         "arg.1",
         "Аргентина Примера",
-        "no_matches"
+        "ok"
       ],
       [
         "arg.2",
@@ -42,7 +42,7 @@
       [
         "col.1",
         "Колумбия Примера А",
-        "no_matches"
+        "ok"
       ],
       [
         "uru.1",
@@ -344,14 +344,14 @@
         "away_pts": 23,
         "home_form": "WWDLL",
         "away_form": "WWDWW",
-        "home_odds": 1.82,
-        "draw_odds": 3.7,
-        "away_odds": 3.9,
+        "home_odds": 1.92,
+        "draw_odds": 3.65,
+        "away_odds": 3.6,
         "bookmaker": "Betsson",
         "time": "2026-11-27T17:00Z",
         "value_team": "Kasimpasa",
         "value_side": "away",
-        "value_odds": 3.9,
+        "value_odds": 3.6,
         "value_pos": 5,
         "pos_diff": 5,
         "settlement": {

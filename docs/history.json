@@ -4,7 +4,7 @@
       "id": "espn:401841336",
       "league": "Бразилия Серия А",
       "first_seen": "2026-11-26T01:28:50.633501",
-      "last_seen": "2026-11-26T01:28:50.633501",
+      "last_seen": "2026-11-26T16:15:56.224421",
       "match": {
         "source": "espn",
         "event_id": "401841336",
@@ -41,7 +41,7 @@
       "id": "espn:401933721",
       "league": "США MLS",
       "first_seen": "2026-11-26T01:28:50.633501",
-      "last_seen": "2026-11-26T01:28:50.633501",
+      "last_seen": "2026-11-26T16:15:56.224421",
       "match": {
         "source": "espn",
         "event_id": "401933721",
@@ -78,7 +78,7 @@
       "id": "espn:401888236",
       "league": "Турция Суперлига",
       "first_seen": "2026-11-26T01:28:50.633501",
-      "last_seen": "2026-11-26T01:28:50.633501",
+      "last_seen": "2026-11-26T16:15:56.224421",
       "match": {
         "source": "espn",
         "event_id": "401888236",
@@ -115,7 +115,7 @@
       "id": "espn:401888240",
       "league": "Турция Суперлига",
       "first_seen": "2026-11-25T01:51:50.042092",
-      "last_seen": "2026-11-26T01:28:50.633501",
+      "last_seen": "2026-11-26T16:15:56.224421",
       "match": {
         "source": "espn",
         "event_id": "401888240",
@@ -131,14 +131,14 @@
         "away_pts": 23,
         "home_form": "WWDLL",
         "away_form": "WWDWW",
-        "home_odds": 1.82,
-        "draw_odds": 3.7,
-        "away_odds": 3.9,
+        "home_odds": 1.92,
+        "draw_odds": 3.65,
+        "away_odds": 3.6,
         "bookmaker": "Betsson",
         "time": "2026-11-27T17:00Z",
         "value_team": "Kasimpasa",
         "value_side": "away",
-        "value_odds": 3.9,
+        "value_odds": 3.6,
         "value_pos": 5,
         "pos_diff": 5,
         "settlement": {
@@ -5473,5 +5473,5 @@
       }
     }
   ],
-  "generated_at": "2026-11-26T01:28:50.633501"
+  "generated_at": "2026-11-26T16:15:56.224421"
 }
