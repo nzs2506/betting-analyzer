@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-25T16:41:52.006350",
+  "generated_at": "2026-11-26T01:28:50.633501",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 17,
-    "fixtures_found": 31,
-    "with_odds": 13,
+    "leagues_checked": 22,
+    "fixtures_found": 71,
+    "with_odds": 28,
     "leagues_detail": [
       [
         "bra.1",
@@ -27,7 +27,7 @@
       [
         "arg.1",
         "Аргентина Примера",
-        "ok"
+        "no_matches"
       ],
       [
         "arg.2",
@@ -37,12 +37,12 @@
       [
         "chi.1",
         "Чили Примера",
-        "no_matches"
+        "ok"
       ],
       [
         "col.1",
         "Колумбия Примера А",
-        "ok"
+        "no_matches"
       ],
       [
         "uru.1",
@@ -67,7 +67,7 @@
       [
         "per.1",
         "Перу Лига 1",
-        "no_matches"
+        "ok"
       ],
       [
         "ven.1",
@@ -82,7 +82,7 @@
       [
         "mex.2",
         "Мексика Лига Экспансьон",
-        "no_matches"
+        "ok"
       ],
       [
         "usa.1",
@@ -97,7 +97,7 @@
       [
         "jpn.1",
         "Япония J-League",
-        "no_matches"
+        "ok"
       ],
       [
         "jpn.2",
@@ -162,7 +162,7 @@
       [
         "nor.1",
         "Норвегия Элитесерен",
-        "no_matches"
+        "ok"
       ],
       [
         "nor.2",
@@ -197,7 +197,7 @@
       [
         "sco.1",
         "Шотландия Премьершип",
-        "no_matches"
+        "ok"
       ],
       [
         "sco.2",
@@ -227,7 +227,7 @@
       [
         "gre.1",
         "Греция Суперлига",
-        "no_matches"
+        "ok"
       ],
       [
         "rou.1",
@@ -257,6 +257,76 @@
     ]
   },
   "results": [
+    {
+      "league": "Бразилия Серия А",
+      "match": {
+        "source": "espn",
+        "event_id": "401841336",
+        "fixture_id": null,
+        "league_slug": "bra.1",
+        "league_id": null,
+        "season": null,
+        "home": "Botafogo",
+        "away": "Bahia",
+        "home_pos": 14,
+        "away_pos": 6,
+        "home_pts": 43,
+        "away_pts": 54,
+        "home_form": "DLWLL",
+        "away_form": "LDLWD",
+        "home_odds": 2.02,
+        "draw_odds": 3.45,
+        "away_odds": 3.05,
+        "bookmaker": "LeoVegas (SE)",
+        "time": "2026-11-29T00:00Z",
+        "value_team": "Bahia",
+        "value_side": "away",
+        "value_odds": 3.05,
+        "value_pos": 6,
+        "pos_diff": 8,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401841336"
+      }
+    },
+    {
+      "league": "США MLS",
+      "match": {
+        "source": "espn",
+        "event_id": "401933721",
+        "fixture_id": null,
+        "league_slug": "usa.1",
+        "league_id": null,
+        "season": null,
+        "home": "Portland Timbers",
+        "away": "FC Dallas",
+        "home_pos": 7,
+        "away_pos": 2,
+        "home_pts": 46,
+        "away_pts": 58,
+        "home_form": "LWWWW",
+        "away_form": "WWDLW",
+        "home_odds": 1.91,
+        "draw_odds": 3.6,
+        "away_odds": 2.95,
+        "bookmaker": "PMU (FR)",
+        "time": "2026-11-29T03:30Z",
+        "value_team": "FC Dallas",
+        "value_side": "away",
+        "value_odds": 2.95,
+        "value_pos": 2,
+        "pos_diff": 5,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401933721"
+      }
+    },
     {
       "league": "Турция Суперлига",
       "match": {
@@ -291,7 +361,42 @@
         },
         "signal_id": "espn:401888240"
       }
+    },
+    {
+      "league": "Турция Суперлига",
+      "match": {
+        "source": "espn",
+        "event_id": "401888236",
+        "fixture_id": null,
+        "league_slug": "tur.1",
+        "league_id": null,
+        "season": null,
+        "home": "Samsunspor",
+        "away": "Genclerbirligi",
+        "home_pos": 17,
+        "away_pos": 12,
+        "home_pts": 7,
+        "away_pts": 14,
+        "home_form": "LWLLL",
+        "away_form": "WLWLL",
+        "home_odds": 1.74,
+        "draw_odds": 3.25,
+        "away_odds": 3.4,
+        "bookmaker": "Winamax (FR)",
+        "time": "2026-11-28T13:00Z",
+        "value_team": "Genclerbirligi",
+        "value_side": "away",
+        "value_odds": 3.4,
+        "value_pos": 12,
+        "pos_diff": 5,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401888236"
+      }
     }
   ],
-  "history_count": 128
+  "history_count": 131
 }

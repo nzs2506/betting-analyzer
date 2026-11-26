@@ -1,10 +1,121 @@
 {
   "signals": [
     {
+      "id": "espn:401841336",
+      "league": "Бразилия Серия А",
+      "first_seen": "2026-11-26T01:28:50.633501",
+      "last_seen": "2026-11-26T01:28:50.633501",
+      "match": {
+        "source": "espn",
+        "event_id": "401841336",
+        "fixture_id": null,
+        "league_slug": "bra.1",
+        "league_id": null,
+        "season": null,
+        "home": "Botafogo",
+        "away": "Bahia",
+        "home_pos": 14,
+        "away_pos": 6,
+        "home_pts": 43,
+        "away_pts": 54,
+        "home_form": "DLWLL",
+        "away_form": "LDLWD",
+        "home_odds": 2.02,
+        "draw_odds": 3.45,
+        "away_odds": 3.05,
+        "bookmaker": "LeoVegas (SE)",
+        "time": "2026-11-29T00:00Z",
+        "value_team": "Bahia",
+        "value_side": "away",
+        "value_odds": 3.05,
+        "value_pos": 6,
+        "pos_diff": 8,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
+      "id": "espn:401933721",
+      "league": "США MLS",
+      "first_seen": "2026-11-26T01:28:50.633501",
+      "last_seen": "2026-11-26T01:28:50.633501",
+      "match": {
+        "source": "espn",
+        "event_id": "401933721",
+        "fixture_id": null,
+        "league_slug": "usa.1",
+        "league_id": null,
+        "season": null,
+        "home": "Portland Timbers",
+        "away": "FC Dallas",
+        "home_pos": 7,
+        "away_pos": 2,
+        "home_pts": 46,
+        "away_pts": 58,
+        "home_form": "LWWWW",
+        "away_form": "WWDLW",
+        "home_odds": 1.91,
+        "draw_odds": 3.6,
+        "away_odds": 2.95,
+        "bookmaker": "PMU (FR)",
+        "time": "2026-11-29T03:30Z",
+        "value_team": "FC Dallas",
+        "value_side": "away",
+        "value_odds": 2.95,
+        "value_pos": 2,
+        "pos_diff": 5,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
+      "id": "espn:401888236",
+      "league": "Турция Суперлига",
+      "first_seen": "2026-11-26T01:28:50.633501",
+      "last_seen": "2026-11-26T01:28:50.633501",
+      "match": {
+        "source": "espn",
+        "event_id": "401888236",
+        "fixture_id": null,
+        "league_slug": "tur.1",
+        "league_id": null,
+        "season": null,
+        "home": "Samsunspor",
+        "away": "Genclerbirligi",
+        "home_pos": 17,
+        "away_pos": 12,
+        "home_pts": 7,
+        "away_pts": 14,
+        "home_form": "LWLLL",
+        "away_form": "WLWLL",
+        "home_odds": 1.74,
+        "draw_odds": 3.25,
+        "away_odds": 3.4,
+        "bookmaker": "Winamax (FR)",
+        "time": "2026-11-28T13:00Z",
+        "value_team": "Genclerbirligi",
+        "value_side": "away",
+        "value_odds": 3.4,
+        "value_pos": 12,
+        "pos_diff": 5,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        }
+      }
+    },
+    {
       "id": "espn:401888240",
       "league": "Турция Суперлига",
       "first_seen": "2026-11-25T01:51:50.042092",
-      "last_seen": "2026-11-25T16:41:52.006350",
+      "last_seen": "2026-11-26T01:28:50.633501",
       "match": {
         "source": "espn",
         "event_id": "401888240",
@@ -5362,5 +5473,5 @@
       }
     }
   ],
-  "generated_at": "2026-11-25T16:41:52.006350"
+  "generated_at": "2026-11-26T01:28:50.633501"
 }
