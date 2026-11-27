@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-26T16:15:56.224421",
+  "generated_at": "2026-11-27T01:25:53.922091",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 24,
-    "fixtures_found": 76,
-    "with_odds": 32,
+    "leagues_checked": 26,
+    "fixtures_found": 136,
+    "with_odds": 61,
     "leagues_detail": [
       [
         "bra.1",
@@ -72,7 +72,7 @@
       [
         "ven.1",
         "Венесуэла Примера",
-        "no_matches"
+        "ok"
       ],
       [
         "mex.1",
@@ -172,7 +172,7 @@
       [
         "swe.1",
         "Швеция Алльсвенскан",
-        "no_matches"
+        "ok"
       ],
       [
         "swe.2",
@@ -293,6 +293,41 @@
       }
     },
     {
+      "league": "Норвегия Элитесерен",
+      "match": {
+        "source": "espn",
+        "event_id": "401843491",
+        "fixture_id": null,
+        "league_slug": "nor.1",
+        "league_id": null,
+        "season": null,
+        "home": "IK Start",
+        "away": "Sarpsborg FK",
+        "home_pos": 16,
+        "away_pos": 9,
+        "home_pts": 22,
+        "away_pts": 31,
+        "home_form": "WLLWL",
+        "away_form": "LLLWL",
+        "home_odds": 2.38,
+        "draw_odds": 3.35,
+        "away_odds": 2.4,
+        "bookmaker": "PMU (FR)",
+        "time": "2026-11-29T16:00Z",
+        "value_team": "Sarpsborg FK",
+        "value_side": "away",
+        "value_odds": 2.4,
+        "value_pos": 9,
+        "pos_diff": 7,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401843491"
+      }
+    },
+    {
       "league": "США MLS",
       "match": {
         "source": "espn",
@@ -396,7 +431,77 @@
         },
         "signal_id": "espn:401888236"
       }
+    },
+    {
+      "league": "Чили Примера",
+      "match": {
+        "source": "espn",
+        "event_id": "401850700",
+        "fixture_id": null,
+        "league_slug": "chi.1",
+        "league_id": null,
+        "season": null,
+        "home": "Audax Italiano",
+        "away": "Palestino",
+        "home_pos": 13,
+        "away_pos": 9,
+        "home_pts": 30,
+        "away_pts": 38,
+        "home_form": "LLLDD",
+        "away_form": "LLLDD",
+        "home_odds": 2.34,
+        "draw_odds": 3.45,
+        "away_odds": 2.98,
+        "bookmaker": "Pinnacle",
+        "time": "2026-11-29T23:30Z",
+        "value_team": "Palestino",
+        "value_side": "away",
+        "value_odds": 2.98,
+        "value_pos": 9,
+        "pos_diff": 4,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401850700"
+      }
+    },
+    {
+      "league": "Швеция Алльсвенскан",
+      "match": {
+        "source": "espn",
+        "event_id": "401842892",
+        "fixture_id": null,
+        "league_slug": "swe.1",
+        "league_id": null,
+        "season": null,
+        "home": "Kalmar FF",
+        "away": "AIK",
+        "home_pos": 13,
+        "away_pos": 9,
+        "home_pts": 26,
+        "away_pts": 42,
+        "home_form": "LWDLL",
+        "away_form": "DWLDW",
+        "home_odds": 1.73,
+        "draw_odds": 3.5,
+        "away_odds": 3.75,
+        "bookmaker": "PMU (FR)",
+        "time": "2026-11-29T14:00Z",
+        "value_team": "AIK",
+        "value_side": "away",
+        "value_odds": 3.75,
+        "value_pos": 9,
+        "pos_diff": 4,
+        "settlement": {
+          "status": "pending",
+          "icon": "⚪",
+          "label": "матч не завершен"
+        },
+        "signal_id": "espn:401842892"
+      }
     }
   ],
-  "history_count": 131
+  "history_count": 134
 }
