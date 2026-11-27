@@ -110,6 +110,7 @@
         "espn:401892159",
         "espn:401896812",
         "espn:401933721",
+        "espn:401933727",
         "espn:761677",
         "espn:761680",
         "espn:761686",
@@ -272,9 +273,10 @@
         "espn:401888236": "pending||",
         "espn:401843491": "pending||",
         "espn:401850700": "pending||",
-        "espn:401842892": "pending||"
+        "espn:401842892": "pending||",
+        "espn:401933727": "pending||"
       },
-      "last_seen_report": "2026-11-27T01:25:53.922091",
+      "last_seen_report": "2026-11-27T16:00:19.283746",
       "last_heartbeat_slot": "2026-11-26:evening",
       "last_empty_report": "2026-11-24T16:53:07.831447"
     },
@@ -388,6 +390,7 @@
         "espn:401892159",
         "espn:401896812",
         "espn:401933721",
+        "espn:401933727",
         "espn:761677",
         "espn:761680",
         "espn:761686",
@@ -550,9 +553,10 @@
         "espn:401888236": "pending||",
         "espn:401843491": "pending||",
         "espn:401850700": "pending||",
-        "espn:401842892": "pending||"
+        "espn:401842892": "pending||",
+        "espn:401933727": "pending||"
       },
-      "last_seen_report": "2026-11-27T01:25:53.922091",
+      "last_seen_report": "2026-11-27T16:00:19.283746",
       "last_heartbeat_slot": "2026-06-21:evening",
       "last_empty_report": "2026-06-22T18:58:38.572929",
       "send_error": "403"
@@ -667,6 +671,7 @@
         "espn:401892159",
         "espn:401896812",
         "espn:401933721",
+        "espn:401933727",
         "espn:761677",
         "espn:761680",
         "espn:761686",
@@ -829,9 +834,10 @@
         "espn:401888236": "pending||",
         "espn:401843491": "pending||",
         "espn:401850700": "pending||",
-        "espn:401842892": "pending||"
+        "espn:401842892": "pending||",
+        "espn:401933727": "pending||"
       },
-      "last_seen_report": "2026-11-27T01:25:53.922091",
+      "last_seen_report": "2026-11-27T16:00:19.283746",
       "send_error": "403"
     },
     "351131518": {
@@ -944,6 +950,7 @@
         "espn:401892159",
         "espn:401896812",
         "espn:401933721",
+        "espn:401933727",
         "espn:761677",
         "espn:761680",
         "espn:761686",
@@ -1106,11 +1113,12 @@
         "espn:401888236": "pending||",
         "espn:401843491": "pending||",
         "espn:401850700": "pending||",
-        "espn:401842892": "pending||"
+        "espn:401842892": "pending||",
+        "espn:401933727": "pending||"
       },
-      "last_seen_report": "2026-11-27T01:25:53.922091",
+      "last_seen_report": "2026-11-27T16:00:19.283746",
       "send_error": "403"
     }
   },
-  "last_report": "2026-11-27T01:25:53.922091"
+  "last_report": "2026-11-27T16:00:19.283746"
 }
