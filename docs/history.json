@@ -41,7 +41,7 @@
       "id": "espn:401843491",
       "league": "Норвегия Элитесерен",
       "first_seen": "2026-11-27T01:25:53.922091",
-      "last_seen": "2026-11-27T16:00:19.283746",
+      "last_seen": "2026-11-28T00:59:23.585593",
       "match": {
         "source": "espn",
         "event_id": "401843491",
@@ -78,7 +78,7 @@
       "id": "espn:401850700",
       "league": "Чили Примера",
       "first_seen": "2026-11-27T01:25:53.922091",
-      "last_seen": "2026-11-27T16:00:19.283746",
+      "last_seen": "2026-11-28T00:59:23.585593",
       "match": {
         "source": "espn",
         "event_id": "401850700",
@@ -115,7 +115,7 @@
       "id": "espn:401842892",
       "league": "Швеция Алльсвенскан",
       "first_seen": "2026-11-27T01:25:53.922091",
-      "last_seen": "2026-11-27T16:00:19.283746",
+      "last_seen": "2026-11-28T00:59:23.585593",
       "match": {
         "source": "espn",
         "event_id": "401842892",
@@ -131,14 +131,14 @@
         "away_pts": 42,
         "home_form": "LWDLL",
         "away_form": "DWLDW",
-        "home_odds": 1.73,
-        "draw_odds": 3.5,
-        "away_odds": 3.75,
+        "home_odds": 1.8,
+        "draw_odds": 3.45,
+        "away_odds": 3.5,
         "bookmaker": "PMU (FR)",
         "time": "2026-11-29T14:00Z",
         "value_team": "AIK",
         "value_side": "away",
-        "value_odds": 3.75,
+        "value_odds": 3.5,
         "value_pos": 9,
         "pos_diff": 4,
         "settlement": {
@@ -152,7 +152,7 @@
       "id": "espn:401841336",
       "league": "Бразилия Серия А",
       "first_seen": "2026-11-26T01:28:50.633501",
-      "last_seen": "2026-11-27T16:00:19.283746",
+      "last_seen": "2026-11-28T00:59:23.585593",
       "match": {
         "source": "espn",
         "event_id": "401841336",
@@ -189,7 +189,7 @@
       "id": "espn:401933721",
       "league": "США MLS",
       "first_seen": "2026-11-26T01:28:50.633501",
-      "last_seen": "2026-11-27T16:00:19.283746",
+      "last_seen": "2026-11-28T00:59:23.585593",
       "match": {
         "source": "espn",
         "event_id": "401933721",
@@ -226,7 +226,7 @@
       "id": "espn:401888236",
       "league": "Турция Суперлига",
       "first_seen": "2026-11-26T01:28:50.633501",
-      "last_seen": "2026-11-27T16:00:19.283746",
+      "last_seen": "2026-11-28T00:59:23.585593",
       "match": {
         "source": "espn",
         "event_id": "401888236",
@@ -290,9 +290,14 @@
         "value_pos": 5,
         "pos_diff": 5,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 3,
+          "away_score": 2,
+          "score": "3:2",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -5621,5 +5626,5 @@
       }
     }
   ],
-  "generated_at": "2026-11-27T16:00:19.283746"
+  "generated_at": "2026-11-28T00:59:23.585593"
 }

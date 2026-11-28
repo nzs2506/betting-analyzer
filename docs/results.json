@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-27T16:00:19.283746",
+  "generated_at": "2026-11-28T00:59:23.585593",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 26,
-    "fixtures_found": 134,
-    "with_odds": 61,
+    "leagues_checked": 25,
+    "fixtures_found": 119,
+    "with_odds": 57,
     "leagues_detail": [
       [
         "bra.1",
@@ -47,7 +47,7 @@
       [
         "uru.1",
         "Уругвай Лига",
-        "ok"
+        "no_matches"
       ],
       [
         "ecu.1",
@@ -331,41 +331,6 @@
       "league": "США MLS",
       "match": {
         "source": "espn",
-        "event_id": "401933727",
-        "fixture_id": null,
-        "league_slug": "usa.1",
-        "league_id": null,
-        "season": null,
-        "home": "Columbus Crew",
-        "away": "Inter Miami CF",
-        "home_pos": 7,
-        "away_pos": 2,
-        "home_pts": 47,
-        "away_pts": 60,
-        "home_form": "WWWWW",
-        "away_form": "LDWDL",
-        "home_odds": 2.38,
-        "draw_odds": 3.8,
-        "away_odds": 2.6,
-        "bookmaker": "Unibet (NL)",
-        "time": "2026-11-28T01:00Z",
-        "value_team": "Inter Miami CF",
-        "value_side": "away",
-        "value_odds": 2.6,
-        "value_pos": 2,
-        "pos_diff": 5,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401933727"
-      }
-    },
-    {
-      "league": "США MLS",
-      "match": {
-        "source": "espn",
         "event_id": "401933721",
         "fixture_id": null,
         "league_slug": "usa.1",
@@ -395,41 +360,6 @@
           "label": "матч не завершен"
         },
         "signal_id": "espn:401933721"
-      }
-    },
-    {
-      "league": "Турция Суперлига",
-      "match": {
-        "source": "espn",
-        "event_id": "401888240",
-        "fixture_id": null,
-        "league_slug": "tur.1",
-        "league_id": null,
-        "season": null,
-        "home": "Caykur Rizespor",
-        "away": "Kasimpasa",
-        "home_pos": 10,
-        "away_pos": 5,
-        "home_pts": 17,
-        "away_pts": 23,
-        "home_form": "WWDLL",
-        "away_form": "WWDWW",
-        "home_odds": 1.85,
-        "draw_odds": 3.65,
-        "away_odds": 3.8,
-        "bookmaker": "Betsson",
-        "time": "2026-11-27T17:00Z",
-        "value_team": "Kasimpasa",
-        "value_side": "away",
-        "value_odds": 3.8,
-        "value_pos": 5,
-        "pos_diff": 5,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401888240"
       }
     },
     {
@@ -519,14 +449,14 @@
         "away_pts": 42,
         "home_form": "LWDLL",
         "away_form": "DWLDW",
-        "home_odds": 1.73,
-        "draw_odds": 3.5,
-        "away_odds": 3.75,
+        "home_odds": 1.8,
+        "draw_odds": 3.45,
+        "away_odds": 3.5,
         "bookmaker": "PMU (FR)",
         "time": "2026-11-29T14:00Z",
         "value_team": "AIK",
         "value_side": "away",
-        "value_odds": 3.75,
+        "value_odds": 3.5,
         "value_pos": 9,
         "pos_diff": 4,
         "settlement": {
