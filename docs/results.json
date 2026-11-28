@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-28T00:59:23.585593",
+  "generated_at": "2026-11-28T14:57:07.415551",
   "settings": {
     "days_ahead": 2,
     "min_position_diff": 4
   },
   "stats": {
-    "leagues_checked": 25,
-    "fixtures_found": 119,
-    "with_odds": 57,
+    "leagues_checked": 24,
+    "fixtures_found": 111,
+    "with_odds": 52,
     "leagues_detail": [
       [
         "bra.1",
@@ -132,7 +132,7 @@
       [
         "aus.1",
         "Австралия А-Лига",
-        "ok"
+        "no_matches"
       ],
       [
         "nga.1",
@@ -344,8 +344,8 @@
         "away_pts": 58,
         "home_form": "LWWWW",
         "away_form": "WWDLW",
-        "home_odds": 1.91,
-        "draw_odds": 3.6,
+        "home_odds": 1.92,
+        "draw_odds": 3.55,
         "away_odds": 2.95,
         "bookmaker": "PMU (FR)",
         "time": "2026-11-29T03:30Z",
@@ -360,41 +360,6 @@
           "label": "матч не завершен"
         },
         "signal_id": "espn:401933721"
-      }
-    },
-    {
-      "league": "Турция Суперлига",
-      "match": {
-        "source": "espn",
-        "event_id": "401888236",
-        "fixture_id": null,
-        "league_slug": "tur.1",
-        "league_id": null,
-        "season": null,
-        "home": "Samsunspor",
-        "away": "Genclerbirligi",
-        "home_pos": 17,
-        "away_pos": 12,
-        "home_pts": 7,
-        "away_pts": 14,
-        "home_form": "LWLLL",
-        "away_form": "WLWLL",
-        "home_odds": 1.74,
-        "draw_odds": 3.25,
-        "away_odds": 3.4,
-        "bookmaker": "Winamax (FR)",
-        "time": "2026-11-28T13:00Z",
-        "value_team": "Genclerbirligi",
-        "value_side": "away",
-        "value_odds": 3.4,
-        "value_pos": 12,
-        "pos_diff": 5,
-        "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
-        },
-        "signal_id": "espn:401888236"
       }
     },
     {
@@ -414,14 +379,14 @@
         "away_pts": 38,
         "home_form": "LLLDD",
         "away_form": "LLLDD",
-        "home_odds": 2.34,
+        "home_odds": 2.35,
         "draw_odds": 3.45,
-        "away_odds": 2.98,
+        "away_odds": 2.97,
         "bookmaker": "Pinnacle",
         "time": "2026-11-29T23:30Z",
         "value_team": "Palestino",
         "value_side": "away",
-        "value_odds": 2.98,
+        "value_odds": 2.97,
         "value_pos": 9,
         "pos_diff": 4,
         "settlement": {
@@ -449,14 +414,14 @@
         "away_pts": 42,
         "home_form": "LWDLL",
         "away_form": "DWLDW",
-        "home_odds": 1.8,
-        "draw_odds": 3.45,
-        "away_odds": 3.5,
+        "home_odds": 1.73,
+        "draw_odds": 3.5,
+        "away_odds": 3.75,
         "bookmaker": "PMU (FR)",
         "time": "2026-11-29T14:00Z",
         "value_team": "AIK",
         "value_side": "away",
-        "value_odds": 3.5,
+        "value_odds": 3.75,
         "value_pos": 9,
         "pos_diff": 4,
         "settlement": {

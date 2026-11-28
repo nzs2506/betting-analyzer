@@ -31,9 +31,14 @@
         "value_pos": 2,
         "pos_diff": 5,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 1,
+          "away_score": 0,
+          "score": "1:0",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -41,7 +46,7 @@
       "id": "espn:401843491",
       "league": "Норвегия Элитесерен",
       "first_seen": "2026-11-27T01:25:53.922091",
-      "last_seen": "2026-11-28T00:59:23.585593",
+      "last_seen": "2026-11-28T14:57:07.415551",
       "match": {
         "source": "espn",
         "event_id": "401843491",
@@ -78,7 +83,7 @@
       "id": "espn:401850700",
       "league": "Чили Примера",
       "first_seen": "2026-11-27T01:25:53.922091",
-      "last_seen": "2026-11-28T00:59:23.585593",
+      "last_seen": "2026-11-28T14:57:07.415551",
       "match": {
         "source": "espn",
         "event_id": "401850700",
@@ -94,14 +99,14 @@
         "away_pts": 38,
         "home_form": "LLLDD",
         "away_form": "LLLDD",
-        "home_odds": 2.34,
+        "home_odds": 2.35,
         "draw_odds": 3.45,
-        "away_odds": 2.98,
+        "away_odds": 2.97,
         "bookmaker": "Pinnacle",
         "time": "2026-11-29T23:30Z",
         "value_team": "Palestino",
         "value_side": "away",
-        "value_odds": 2.98,
+        "value_odds": 2.97,
         "value_pos": 9,
         "pos_diff": 4,
         "settlement": {
@@ -115,7 +120,7 @@
       "id": "espn:401842892",
       "league": "Швеция Алльсвенскан",
       "first_seen": "2026-11-27T01:25:53.922091",
-      "last_seen": "2026-11-28T00:59:23.585593",
+      "last_seen": "2026-11-28T14:57:07.415551",
       "match": {
         "source": "espn",
         "event_id": "401842892",
@@ -131,14 +136,14 @@
         "away_pts": 42,
         "home_form": "LWDLL",
         "away_form": "DWLDW",
-        "home_odds": 1.8,
-        "draw_odds": 3.45,
-        "away_odds": 3.5,
+        "home_odds": 1.73,
+        "draw_odds": 3.5,
+        "away_odds": 3.75,
         "bookmaker": "PMU (FR)",
         "time": "2026-11-29T14:00Z",
         "value_team": "AIK",
         "value_side": "away",
-        "value_odds": 3.5,
+        "value_odds": 3.75,
         "value_pos": 9,
         "pos_diff": 4,
         "settlement": {
@@ -152,7 +157,7 @@
       "id": "espn:401841336",
       "league": "Бразилия Серия А",
       "first_seen": "2026-11-26T01:28:50.633501",
-      "last_seen": "2026-11-28T00:59:23.585593",
+      "last_seen": "2026-11-28T14:57:07.415551",
       "match": {
         "source": "espn",
         "event_id": "401841336",
@@ -189,7 +194,7 @@
       "id": "espn:401933721",
       "league": "США MLS",
       "first_seen": "2026-11-26T01:28:50.633501",
-      "last_seen": "2026-11-28T00:59:23.585593",
+      "last_seen": "2026-11-28T14:57:07.415551",
       "match": {
         "source": "espn",
         "event_id": "401933721",
@@ -205,8 +210,8 @@
         "away_pts": 58,
         "home_form": "LWWWW",
         "away_form": "WWDLW",
-        "home_odds": 1.91,
-        "draw_odds": 3.6,
+        "home_odds": 1.92,
+        "draw_odds": 3.55,
         "away_odds": 2.95,
         "bookmaker": "PMU (FR)",
         "time": "2026-11-29T03:30Z",
@@ -253,9 +258,14 @@
         "value_pos": 12,
         "pos_diff": 5,
         "settlement": {
-          "status": "pending",
-          "icon": "⚪",
-          "label": "матч не завершен"
+          "status": "completed",
+          "home_score": 3,
+          "away_score": 1,
+          "score": "3:1",
+          "outcome": "lose",
+          "icon": "🔴",
+          "label": "прогноз не сработал",
+          "roi": -1
         }
       }
     },
@@ -5626,5 +5636,5 @@
       }
     }
   ],
-  "generated_at": "2026-11-28T00:59:23.585593"
+  "generated_at": "2026-11-28T14:57:07.415551"
 }
